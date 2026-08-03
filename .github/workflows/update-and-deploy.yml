@@ -66,7 +66,7 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             MODE="${{ inputs.mode }}"
           elif [ "${{ github.event_name }}" = "push" ]; then
-            MODE="all"
+            MODE="publish"
           elif [ "${{ github.event.schedule }}" = "0 0 * * *" ]; then
             MODE="messages"
           elif [ "${{ github.event.schedule }}" = "0 9 * * 1-5" ]; then
@@ -88,12 +88,13 @@ jobs:
           echo "Selected mode: $MODE"
 
       - name: Fetch and cache public data
-        if: steps.select.outputs.mode != 'messages'
+        if: steps.select.outputs.mode != 'messages' && steps.select.outputs.mode != 'publish'
         continue-on-error: true
         timeout-minutes: 35
         run: python scripts/update_data.py --mode "${{ steps.select.outputs.mode }}"
 
       - name: Refresh information feed
+        if: steps.select.outputs.mode != 'publish'
         continue-on-error: true
         timeout-minutes: 15
         run: python scripts/update_messages.py
@@ -105,6 +106,7 @@ jobs:
         run: python scripts/update_ashare_daily.py --days 95
 
       - name: Refresh market tracking model
+        if: steps.select.outputs.mode != 'publish'
         continue-on-error: true
         timeout-minutes: 10
         run: python scripts/update_market_tracking.py
