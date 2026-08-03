@@ -90,19 +90,23 @@ jobs:
       - name: Fetch and cache public data
         if: steps.select.outputs.mode != 'messages'
         continue-on-error: true
+        timeout-minutes: 35
         run: python scripts/update_data.py --mode "${{ steps.select.outputs.mode }}"
 
       - name: Refresh information feed
         continue-on-error: true
+        timeout-minutes: 15
         run: python scripts/update_messages.py
 
       - name: Refresh A-share three-month daily series
         if: steps.select.outputs.mode == 'all' || steps.select.outputs.mode == 'close'
         continue-on-error: true
+        timeout-minutes: 25
         run: python scripts/update_ashare_daily.py --days 95
 
       - name: Refresh market tracking model
         continue-on-error: true
+        timeout-minutes: 10
         run: python scripts/update_market_tracking.py
 
       - name: Build static website
