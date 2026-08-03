@@ -1,0 +1,168 @@
+name: Update data and deploy public dashboard
+
+on:
+  push:
+    branches: ["main"]
+    paths-ignore:
+      - "data/**"
+      - "public/**"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "选择更新范围"
+        required: true
+        default: "all"
+        type: choice
+        options: [all, macro, global, close, fund, evening, messages]
+  schedule:
+    - cron: "0 0 * * *"
+    - cron: "0 9 * * 1-5"
+    - cron: "20 22 * * *"
+    - cron: "10 2 * * *"
+    - cron: "40 8 * * 1-5"
+    - cron: "40 10 * * *"
+    - cron: "10 11 * * 1-5"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# All workflows that write data/public must use this exact same group.
+concurrency:
+  group: macroscope-main-writer
+  cancel-in-progress: false
+
+jobs:
+  update-build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Ensure every data file exists
+        run: python scripts/ensure_data_files.py
+
+      - name: Select update mode
+        id: select
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MODE="${{ inputs.mode }}"
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            MODE="all"
+          elif [ "${{ github.event.schedule }}" = "0 0 * * *" ]; then
+            MODE="messages"
+          elif [ "${{ github.event.schedule }}" = "0 9 * * 1-5" ]; then
+            MODE="messages"
+          elif [ "${{ github.event.schedule }}" = "20 22 * * *" ]; then
+            MODE="global"
+          elif [ "${{ github.event.schedule }}" = "10 2 * * *" ]; then
+            MODE="macro"
+          elif [ "${{ github.event.schedule }}" = "40 8 * * 1-5" ]; then
+            MODE="close"
+          elif [ "${{ github.event.schedule }}" = "40 10 * * *" ]; then
+            MODE="evening"
+          elif [ "${{ github.event.schedule }}" = "10 11 * * 1-5" ]; then
+            MODE="all"
+          else
+            MODE="all"
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "Selected mode: $MODE"
+
+      - name: Fetch and cache public data
+        if: steps.select.outputs.mode != 'messages'
+        continue-on-error: true
+        run: python scripts/update_data.py --mode "${{ steps.select.outputs.mode }}"
+
+      - name: Refresh information feed
+        continue-on-error: true
+        run: python scripts/update_messages.py
+
+      - name: Refresh A-share three-month daily series
+        if: steps.select.outputs.mode == 'all' || steps.select.outputs.mode == 'close'
+        continue-on-error: true
+        run: python scripts/update_ashare_daily.py --days 95
+
+      - name: Refresh market tracking model
+        continue-on-error: true
+        run: python scripts/update_market_tracking.py
+
+      - name: Build static website
+        run: python scripts/build_site.py
+
+      - name: Validate complete project
+        run: python scripts/validate_project.py
+
+      - name: Persist refreshed cache and website
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data public
+
+          if git diff --cached --quiet; then
+            echo "No refreshed files to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh public dashboard data [skip ci]"
+
+          push_with_rebase() {
+            for attempt in 1 2 3; do
+              echo "Sync and push attempt ${attempt}/3"
+
+              git fetch origin main
+
+              if ! git rebase origin/main; then
+                echo "::error::Automatic rebase failed because the remote changes conflict with generated files."
+                git rebase --abort || true
+                return 1
+              fi
+
+              if git push origin HEAD:main; then
+                echo "Push succeeded."
+                return 0
+              fi
+
+              echo "Remote changed again before push; retrying..."
+              sleep $((attempt * 10))
+            done
+
+            echo "::error::Push failed after 3 attempts."
+            return 1
+          }
+
+          push_with_rebase
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

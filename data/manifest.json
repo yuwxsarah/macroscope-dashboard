@@ -1,0 +1,222 @@
+{
+  "ok": true,
+  "deployment_allowed": true,
+  "errors": [],
+  "warnings": [
+    "data/macro.csv missing columns: ['source']"
+  ],
+  "data": {
+    "macro.csv": {
+      "rows": 169,
+      "columns": [
+        "month",
+        "m1_trillion",
+        "m1_yoy_pct",
+        "m2_trillion",
+        "m2_yoy_pct",
+        "sf_increment_trillion",
+        "sf_increment_yoy_pct",
+        "sf_12m_trillion",
+        "sf_12m_yoy_pct",
+        "sf_stock_trillion",
+        "sf_stock_yoy_pct",
+        "pmi_manufacturing",
+        "pmi_non_manufacturing",
+        "cpi_yoy_pct",
+        "cpi_mom_pct",
+        "m1_m2_gap_pp",
+        "m1_m2_mechanical_sum_trillion",
+        "updated_at"
+      ],
+      "status": "ok"
+    },
+    "liquidity.csv": {
+      "rows": 4985,
+      "columns": [
+        "trade_date",
+        "dr001_pct",
+        "dr007_pct",
+        "shibor_on_pct",
+        "source"
+      ],
+      "status": "ok"
+    },
+    "market.csv": {
+      "rows": 32589,
+      "columns": [
+        "trade_date",
+        "symbol",
+        "name",
+        "market",
+        "close",
+        "pct_change",
+        "volume",
+        "amount",
+        "source",
+        "currency",
+        "asset_group"
+      ],
+      "status": "ok"
+    },
+    "global_macro.csv": {
+      "rows": 29982,
+      "columns": [
+        "trade_date",
+        "series",
+        "name",
+        "value_pct",
+        "unit",
+        "source"
+      ],
+      "status": "ok"
+    },
+    "valuation.csv": {
+      "rows": 23293,
+      "columns": [
+        "trade_date",
+        "index_code",
+        "index_name",
+        "pe_ttm",
+        "pb",
+        "source"
+      ],
+      "status": "ok"
+    },
+    "crowding.csv": {
+      "rows": 66,
+      "columns": [
+        "trade_date",
+        "top_fraction",
+        "stock_count",
+        "top_count",
+        "top_amount_trillion",
+        "total_amount_trillion",
+        "crowding_pct",
+        "source",
+        "snapshot_kind"
+      ],
+      "status": "ok"
+    },
+    "breadth.csv": {
+      "rows": 66,
+      "columns": [
+        "trade_date",
+        "up_count",
+        "down_count",
+        "flat_count",
+        "total_count",
+        "total_amount_trillion",
+        "total_market_cap_trillion",
+        "broad_turnover_pct",
+        "source",
+        "market_cap_source",
+        "snapshot_kind"
+      ],
+      "status": "ok"
+    },
+    "leverage.csv": {
+      "rows": 65,
+      "columns": [
+        "trade_date",
+        "margin_balance_trillion",
+        "total_market_cap_trillion",
+        "margin_to_market_cap_pct",
+        "source",
+        "note"
+      ],
+      "status": "ok"
+    },
+    "deviation.csv": {
+      "rows": 2080,
+      "columns": [
+        "trade_date",
+        "symbol",
+        "name",
+        "period",
+        "period_label",
+        "close",
+        "ma20",
+        "ma30",
+        "dev20_pct",
+        "dev30_pct",
+        "source"
+      ],
+      "status": "ok"
+    },
+    "bull_deviation_reference.csv": {
+      "rows": 23,
+      "columns": [
+        "symbol",
+        "index_name",
+        "bull_round",
+        "high",
+        "week20_ratio",
+        "week30_ratio",
+        "month20_ratio",
+        "month30_ratio",
+        "week20_dev_pct",
+        "week30_dev_pct",
+        "month20_dev_pct",
+        "month30_dev_pct"
+      ],
+      "status": "ok"
+    },
+    "fund_subscription.csv": {
+      "rows": 300,
+      "columns": [
+        "founded_date",
+        "fund_code",
+        "fund_name",
+        "fund_type",
+        "fund_company",
+        "raised_shares_100m",
+        "estimated_raised_amount_100m",
+        "source",
+        "method_note"
+      ],
+      "status": "ok"
+    },
+    "a_share_universe.csv": {
+      "rows": 5544,
+      "columns": [
+        "code",
+        "exchange",
+        "source",
+        "updated_at"
+      ],
+      "status": "ok"
+    },
+    "market_messages.csv": {
+      "rows": 70177,
+      "columns": [
+        "published_at",
+        "category",
+        "title",
+        "summary",
+        "source",
+        "source_url",
+        "symbol",
+        "stock_name",
+        "importance",
+        "status",
+        "source_type",
+        "item_id"
+      ],
+      "status": "ok"
+    },
+    "market_tracking.csv": {
+      "rows": 66,
+      "columns": [
+        "trade_date",
+        "market_score",
+        "risk_score",
+        "suggested_position_pct",
+        "risk_level",
+        "market_phase",
+        "style_signal",
+        "source"
+      ],
+      "status": "ok"
+    }
+  }
+}

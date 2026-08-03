@@ -1,0 +1,13 @@
+pandas>=2.2,<3
+numpy>=2.0,<3
+plotly>=5.24,<7
+akshare>=1.18.64,<2
+yfinance>=0.2.54,<1
+requests>=2.32,<3
+PyYAML>=6.0,<7
+tenacity>=9.0,<10
+jinja2>=3.1,<4
+beautifulsoup4>=4.12,<5
+openpyxl>=3.1,<4
+xlrd>=2.0,<3
+efinance==0.5.8

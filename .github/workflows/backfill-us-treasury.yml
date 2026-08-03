@@ -1,0 +1,101 @@
+name: Update U.S. Treasury yield history
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Must match the main and crowding workflows.
+concurrency:
+  group: macroscope-main-writer
+  cancel-in-progress: false
+
+jobs:
+  update-build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Ensure every data file exists
+        run: python scripts/ensure_data_files.py
+
+      - name: Update DGS2 and DGS10 history
+        run: python scripts/backfill_us_treasury.py
+
+      - name: Build static website
+        run: python scripts/build_site.py
+
+      - name: Commit Treasury history and website
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/global_macro.csv data/status.json public
+
+          if git diff --cached --quiet; then
+            echo "No Treasury history changes."
+            exit 0
+          fi
+
+          git commit -m "data: update U.S. Treasury yield history [skip ci]"
+
+          push_with_rebase() {
+            for attempt in 1 2 3; do
+              echo "Sync and push attempt ${attempt}/3"
+
+              git fetch origin main
+
+              if ! git rebase origin/main; then
+                echo "::error::Automatic rebase failed because the remote changes conflict with generated files."
+                git rebase --abort || true
+                return 1
+              fi
+
+              if git push origin HEAD:main; then
+                echo "Push succeeded."
+                return 0
+              fi
+
+              echo "Remote changed again before push; retrying..."
+              sleep $((attempt * 10))
+            done
+
+            echo "::error::Push failed after 3 attempts."
+            return 1
+          }
+
+          push_with_rebase
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+.local_refresh.lock
+data/local_refresh_status.json
+data/涓よ瀺浣欓.xlsx
+data/闈欐€佸競鐩堢巼.xlsx
+__pycache__/
+.pytest_cache/
+.pnpm-store/
+node_modules/
+dist/
+*.zip
+*.tar.gz

@@ -1,0 +1,838 @@
+{
+  "updated_at": "2026-08-02 19:28:25+08:00",
+  "timezone": "Asia/Shanghai",
+  "schedule": [
+    "08:00",
+    "17:00"
+  ],
+  "method_note": "公众号更新发布优先采用公众号主体的公开网页、授权转载页或同一财经媒体官网文章；公司公告优先追踪交易所、巨潮资讯、公司官网投资者关系页。",
+  "watchlist_defaults": [
+    "601138.SH",
+    "300750.SZ",
+    "600519.SH",
+    "688825.SH",
+    "688981.SH"
+  ],
+  "sources": [
+    {
+      "category": "公告",
+      "type": "法定披露平台",
+      "name": "巨潮资讯网",
+      "url": "https://www.cninfo.com.cn/",
+      "use": "深市公告、互动易、定期报告与临时公告入口"
+    },
+    {
+      "category": "公告",
+      "type": "交易所官网",
+      "name": "上海证券交易所上市公司公告",
+      "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/",
+      "use": "沪市、科创板公司公告与监管披露"
+    },
+    {
+      "category": "公告",
+      "type": "交易所官网",
+      "name": "深圳证券交易所上市公司公告",
+      "url": "https://www.szse.cn/disclosure/listed/notice/index.html",
+      "use": "深市主板、创业板公司公告与监管披露"
+    },
+    {
+      "category": "公司官网",
+      "type": "投资者关系",
+      "name": "宁德时代投资者关系",
+      "url": "https://www.catl.com/inverelations/",
+      "use": "公司官网、公告及通函、治理与投资者联络"
+    },
+    {
+      "category": "公司官网",
+      "type": "公司新闻",
+      "name": "宁德时代新闻中心",
+      "url": "https://www.catl.com/news/",
+      "use": "公司官网新闻、合作与产品发布"
+    },
+    {
+      "category": "公司官网",
+      "type": "投资者关系",
+      "name": "贵州茅台公司公告",
+      "url": "https://www.moutaichina.com/mtgf/tzzgx/gsgg/index.html",
+      "use": "贵州茅台官网公告、财报、权益分派与重大事项"
+    },
+    {
+      "category": "重大新闻",
+      "type": "财经网站",
+      "name": "第一财经 A股",
+      "url": "https://www.yicai.com/news/gushi/",
+      "use": "盘中、收盘、政策与市场新闻"
+    },
+    {
+      "category": "重大新闻",
+      "type": "财经网站",
+      "name": "上海证券报·中国证券网",
+      "url": "https://www.cnstock.com/",
+      "use": "证券报新闻、行业跟踪、法定披露辅助入口"
+    },
+    {
+      "category": "重大新闻",
+      "type": "财经网站",
+      "name": "证券时报·数据宝",
+      "url": "https://www.stcn.com/",
+      "use": "盘面统计、行业涨跌、资金与公司动态"
+    },
+    {
+      "category": "重大新闻",
+      "type": "财经网站",
+      "name": "每日经济新闻",
+      "url": "https://www.nbd.com.cn/",
+      "use": "公司事件、资本市场热点与行业新闻"
+    },
+    {
+      "category": "公众号更新发布",
+      "type": "公众号/媒体号公开转载",
+      "name": "券商中国",
+      "url": "https://fund.eastmoney.com/a/202607283822548279.html",
+      "use": "券商中国文章公开转载页，跟踪机构资金与资本市场事件"
+    },
+    {
+      "category": "公众号更新发布",
+      "type": "公众号/媒体号公开网页",
+      "name": "上海证券报微信公众号",
+      "url": "https://www.cnstock.com/commonDetail/751050",
+      "use": "上证报公众号文章公开网页，跟踪A股重要事件"
+    },
+    {
+      "category": "新研究报告或点评",
+      "type": "研报与点评",
+      "name": "新浪财经研报中心",
+      "url": "https://vip.stock.finance.sina.com.cn/q/go.php/vReport_List/kind/lastest/index.phtml",
+      "use": "券商策略、行业周报、个股点评的标准化入口"
+    }
+  ],
+  "items": [
+    {
+      "id": "auto-yicai-0b81e498d30200ac",
+      "category": "重大新闻",
+      "title": "IPO周报：宇树科技将于8月5日询价，韬盛科技陷侵害技术秘密纠纷 宇树科技正式进入发行程序，将于8月10日进行网上网下申购。 IPO周报 13分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103302014.html",
+      "published_at": "2026-08-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1f4aff1e06be66c0",
+      "category": "重大新闻",
+      "title": "晚间公告丨8月2日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 1044 26分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103302007.html",
+      "published_at": "2026-08-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3a0c4324ebb46de8",
+      "category": "重大新闻",
+      "title": "华侨系案追踪：余增云亲属被警方控制，“二号人物”杨宇潇被美移民局拘留 不少境内投资人仍在漫长等待中 独家调查 1261 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301988.html",
+      "published_at": "2026-08-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fff3f6c5a790d8aa",
+      "category": "重大新闻",
+      "title": "机构论后市丨调整基本结束，8月修复可期 A股后市怎么走？看看机构怎么说。 1416 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301987.html",
+      "published_at": "2026-08-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6bfd4dfd344e4f0d",
+      "category": "重大新闻",
+      "title": "7月431只A股跌超40%，科技调整后何时再回主线？ 从极致抱团到结构重塑，7月份累计跌幅超过40%的431只A股，电子行业占185只，通信行业24只。 热点追",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301900.html",
+      "published_at": "2026-08-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-ff7ad7de009f8d96",
+      "category": "重大新闻",
+      "title": "晓数点丨券商8月金股出炉，涉及医药、信息技术、消费等领域 药明康德最受青睐，共获得7家券商推荐。 6 15242 7小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301639.html",
+      "published_at": "2026-08-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-601487032eb41d5f",
+      "category": "重大新闻",
+      "title": "A股7月收官，科技退潮消费逆势，资金避险还是风格切换？ 7月A股市场呈现极致分化格局，资金从拥挤的科技赛道向消费等低位板块进行阶段性再平衡，但市场风格切换仍需时",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301418.html",
+      "published_at": "2026-08-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-190db0c0a2dbcd23",
+      "category": "重大新闻",
+      "title": "晚间公告｜7月31日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 6 45405 昨天 19:25",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301136.html",
+      "published_at": "2026-08-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-048d44fe01bcc77a",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这28股，卖出德明利4.3亿元 共42只个股出现了机构的身影。 8 10313 昨天 18:46",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301070.html",
+      "published_at": "2026-08-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f807607d57d5f6d4",
+      "category": "重大新闻",
+      "title": "仓位下降 4361 昨天 17:59",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103300983.html",
+      "published_at": "2026-08-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-048d44fe01bcc77a",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这28股，卖出德明利4.3亿元 共42只个股出现了机构的身影。 1261 38分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301070.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f807607d57d5f6d4",
+      "category": "重大新闻",
+      "title": "仓位下降 1106 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103300983.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0b63c7eac44cf38c",
+      "category": "重大新闻",
+      "title": "晓数点｜8月财经日历请查收！ 一图速览>> 1230 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103300893.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fa55f2b7c8ffcfac",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共103只个股涨停 这只家居股9连板 教育板块传智教育5连板。一图速览今日连板股>> 1540 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103300871.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6dff51eb9bfaf621",
+      "category": "重大新闻",
+      "title": "收盘｜创业板指涨3.06% 多模态AI概念股爆发 市场近4700股上涨。 5 10282 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103300708.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6dff51eb9bfaf621",
+      "category": "重大新闻",
+      "title": "收盘｜创业板指涨3.06% 多模态AI概念股爆发 市场近4700股上涨。 12分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103300708.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5d843c7536a8a335",
+      "category": "重大新闻",
+      "title": "从“授权”到“共建”：中国创新药出海模式升级，板块估值迎修复 中国药企在价值链中的位置从“供应商”向“合作方”迁移。 3152 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103300498.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-618093adccc20b28",
+      "category": "重大新闻",
+      "title": "盘前必读丨日韩股市高开SK海力士大涨18%；宇树科技8月10日申购 机构认为，科技板块短线仍有调整压力，可关注红利等防御品种。 37531 7小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299771.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d79e41319ab4a893",
+      "category": "重大新闻",
+      "title": "财务造假、隐瞒股权代持，渔翁信息IPO欺诈发行被罚 撤回IPO申请两年多后，渔翁信息因欺诈发行被罚400万元。 7 6655 昨天 21:34",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299499.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-83d1fe5896cf8fb7",
+      "category": "重大新闻",
+      "title": "公募量化上半年扩容，市场剧震拷问超额收益持续性 7月的大幅回撤甚至迅速侵蚀了部分产品前期积累的超额收益，导致上半年的收益“打水漂” 8 11677 昨天 19:",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299343.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5f164b904ee37cf6",
+      "category": "重大新闻",
+      "title": "A股四大指数多数高开，短剧游戏概念股表现活跃 盘面上，CRO、网络安全、短剧游戏概念股活跃。 2129 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103296221.html",
+      "published_at": "2026-07-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-367fecd3dee30ee5",
+      "category": "重大新闻",
+      "title": "盘前必读丨日韩股市高开SK海力士涨逾2%；中际旭创拟最高80亿元回购股份 机构认为，指数近期震荡整固，建议投资者以降低波动为配置核心。 34927 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103296078.html",
+      "published_at": "2026-07-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1629484bb96e5da7",
+      "category": "重大新闻",
+      "title": "晚间公告｜7月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 63044 昨天 21:37",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103295531.html",
+      "published_at": "2026-07-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e9d7bfe9bc837be0",
+      "category": "重大新闻",
+      "title": "上交所协议回购出资人展示名单扩容，券商资管成第二批主力军 首次对展示信息进行集中更新。 6438 昨天 20:46",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103295738.html",
+      "published_at": "2026-07-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-358db80c57286eac",
+      "category": "重大新闻",
+      "title": "暑期档票房预测破60亿难掩寒意，影视公司业绩复苏前景承压 票房不及预期、避免激烈竞争等成“撤档潮”出现主因 13661 昨天 20:43",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103295734.html",
+      "published_at": "2026-07-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-59a6a5bb35897c6c",
+      "category": "重大新闻",
+      "title": "“双创”大跌、银行白酒领涨蓝筹，“跷跷板”效应延续｜市场观察 增量资金有限，存量博弈格局有望维持。 12分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103295287.html",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-73b67f906035515c",
+      "category": "重大新闻",
+      "title": "收盘｜创业板指跌超7%，半导体、算力硬件产业链深度调整 全市场超2700只个股下跌。 13165 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103295138.html",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a10a6aa4b77bc9f1",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，长鑫科技低开超7% 算力硬件产业链下挫，存储器、CPO、PCB方向领跌。 6 11274 7小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103294448.html",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-8999b573a8cb4da5",
+      "category": "重大新闻",
+      "title": "盘前必读丨东方证券与上海证券重组草案出炉；又一波增持回购潮来了 机构认为，市场底区间有望确立，景气度验证仍是主线。 8 33191 8小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103294290.html",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-57e367dcbfe79086",
+      "category": "重大新闻",
+      "title": "从化肥到高端制冷剂+超纯PFA：一家浙江老牌国企的创新突围之路 巨化股份既是浙江老牌国企转型升级标杆，更是我国氟化工产业实现自主可控、破解上游关键材料 “卡脖子",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103294066.html",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-59a6a5bb35897c6c",
+      "category": "重大新闻",
+      "title": "“双创”大跌、银行白酒领涨蓝筹，“跷跷板”效应延续｜市场观察 增量资金有限，存量博弈格局有望维持。 7分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103295287.html",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "20260728-ann-601138",
+      "category": "公告",
+      "title": "工业富联披露集中竞价回购报告书",
+      "summary": "工业富联披露回购方案，预计回购金额为10亿元至20亿元，资金来源为自有资金，主要目的为维护公司价值及股东权益。该条对AI服务器、算力硬件链条和大市值科技股情绪有直接观察价值。",
+      "source": "新浪财经公司公告",
+      "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12463455&stockid=601138",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "601138.SH",
+        "AI服务器",
+        "算力硬件"
+      ],
+      "importance": "high",
+      "status": "已入库"
+    },
+    {
+      "id": "20260728-news-yicai-close",
+      "category": "重大新闻",
+      "title": "A股四大股指集体收跌，创业板指跌超7%",
+      "summary": "第一财经收盘报道显示，2026年7月28日沪指、深成指、创业板指、科创综指集体下跌，半导体、算力硬件、CPO、存储器、PCB方向领跌，两市成交额约2.03万亿元。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103295138.html",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "A股",
+        "半导体",
+        "CPO",
+        "存储器",
+        "PCB"
+      ],
+      "importance": "high",
+      "status": "已入库"
+    },
+    {
+      "id": "20260728-news-cxmtop",
+      "category": "重大新闻",
+      "title": "长鑫科技上市首日市值登顶A股，存储产业链关注度升温",
+      "summary": "上海证券报报道，长鑫科技上市首日总市值超过3万亿元，并创下极高成交额。该事件直接影响科创板、国产DRAM、半导体设备材料和存储链条的资金关注。",
+      "source": "上海证券报",
+      "source_url": "https://paper.cnstock.com/html/2026-07/28/content_2249077.htm",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "688825.SH",
+        "688981.SH",
+        "半导体",
+        "存储器"
+      ],
+      "importance": "high",
+      "status": "已入库"
+    },
+    {
+      "id": "20260728-news-ifeng-stcn",
+      "category": "重大新闻",
+      "title": "盘中通信、电子等行业调整，市场成交额仍处高位",
+      "summary": "证券时报·数据宝盘中统计显示，2026年7月28日上午A股成交金额接近万亿元，通信、电子、建筑材料等行业跌幅居前，社会服务、商贸零售、房地产相对强势。",
+      "source": "证券时报·数据宝",
+      "source_url": "https://finance.ifeng.com/c/8v7jpDCB6Xr",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "A股",
+        "通信",
+        "电子",
+        "房地产",
+        "商贸零售"
+      ],
+      "importance": "medium",
+      "status": "已入库"
+    },
+    {
+      "id": "20260728-wechat-qszg",
+      "category": "公众号更新发布",
+      "title": "券商中国：公募打新长鑫科技浮盈超过500亿元",
+      "summary": "券商中国公开转载文章关注长鑫科技上市后网下配售机构浮盈情况，提示公募、ETF、打新策略与科创板新股对资金面的影响。",
+      "source": "券商中国 / 天天基金转载",
+      "source_url": "https://fund.eastmoney.com/a/202607283822548279.html",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "688825.SH",
+        "公募基金",
+        "ETF",
+        "科创板"
+      ],
+      "importance": "medium",
+      "status": "已入库"
+    },
+    {
+      "id": "20260728-industry-aihw",
+      "category": "行业重要事项",
+      "title": "半导体、算力硬件、CPO链条出现集中调整",
+      "summary": "多家财经媒体收盘报道均指向半导体和算力硬件产业链调整，CPO、存储、PCB等方向跌幅靠前。讯息页后续会把这类板块事件与自选股标签绑定。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103295138.html",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "半导体",
+        "CPO",
+        "存储器",
+        "PCB",
+        "AI服务器"
+      ],
+      "importance": "high",
+      "status": "已入库"
+    },
+    {
+      "id": "20260728-industry-memory",
+      "category": "行业重要事项",
+      "title": "国产DRAM龙头登陆科创板，存储产业链进入资本市场验证窗口",
+      "summary": "长鑫科技上市后，存储芯片、设备材料、封测、模组及下游终端链条成为行业跟踪重点。这个事件适合与中芯国际、北方华创、中微公司等半导体核心资产一起观察。",
+      "source": "中国经济网 / 证券日报",
+      "source_url": "https://finance.ce.cn/stock/gsgdbd/202607/t20260728_3111573.shtml",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "688825.SH",
+        "688981.SH",
+        "半导体设备",
+        "存储器"
+      ],
+      "importance": "high",
+      "status": "已入库"
+    },
+    {
+      "id": "20260728-report-cicc-ai",
+      "category": "新研究报告或点评",
+      "title": "中金公司点评：AI仍是当前关注的核心主题",
+      "summary": "金融界收评摘引中金公司观点，关注存储扩产、国产芯片订单、PCB迭代、光模块与AI Infra需求。讯息页将该类点评按机构、主题、核心观点、相关代码字段标准化。",
+      "source": "金融界",
+      "source_url": "https://stock.jrj.com.cn/2026/07/28150357923375.shtml",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "AI",
+        "半导体",
+        "PCB",
+        "光模块",
+        "688981.SH"
+      ],
+      "importance": "medium",
+      "status": "已入库"
+    },
+    {
+      "id": "20260728-report-citic-electronics",
+      "category": "新研究报告或点评",
+      "title": "中信证券点评：看好调整后的电子板块机会",
+      "summary": "金融界收评摘引中信证券观点，认为电子行业配置比例仍处高位，7月以来板块调整后部分标的估值回落，后续关注业绩兑现与估值修复。",
+      "source": "金融界",
+      "source_url": "https://stock.jrj.com.cn/2026/07/28150357923375.shtml",
+      "published_at": "2026-07-28",
+      "symbols": [
+        "电子",
+        "半导体",
+        "AI服务器",
+        "PCB"
+      ],
+      "importance": "medium",
+      "status": "已入库"
+    },
+    {
+      "id": "20260727-wechat-cnstock",
+      "category": "公众号更新发布",
+      "title": "上海证券报微信公众号：长鑫科技成交额刷新A股纪录",
+      "summary": "上海证券报微信公众号文章跟踪长鑫科技上市首日交易热度，强调其单日成交额对A股历史纪录和存储链条热度的影响。",
+      "source": "上海证券报微信公众号",
+      "source_url": "https://www.cnstock.com/commonDetail/751050",
+      "published_at": "2026-07-27",
+      "symbols": [
+        "688825.SH",
+        "半导体",
+        "存储器"
+      ],
+      "importance": "medium",
+      "status": "已入库"
+    },
+    {
+      "id": "20260726-ann-300750-ir",
+      "category": "公告",
+      "title": "宁德时代发布2026年7月24日投资者关系活动记录表",
+      "summary": "宁德时代投资者关系活动记录表披露，公司2026年上半年收入和归母净利润保持增长，并对动力电池、储能电池销量结构进行说明。适合放入自选后跟踪新能源与储能链条变化。",
+      "source": "新浪财经公司公告",
+      "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12462960&stockid=300750",
+      "published_at": "2026-07-26",
+      "symbols": [
+        "300750.SZ",
+        "新能源",
+        "储能"
+      ],
+      "importance": "high",
+      "status": "已入库"
+    },
+    {
+      "id": "20260725-ann-300750-halfyear",
+      "category": "公告",
+      "title": "宁德时代披露2026年半年度报告",
+      "summary": "宁德时代2026年半年度报告已披露，后续可在讯息页继续追加利润率、现金流、海外业务、储能占比等关键字段，作为新能源核心持仓的定期跟踪材料。",
+      "source": "新浪财经公司公告",
+      "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12462543&stockid=300750",
+      "published_at": "2026-07-25",
+      "symbols": [
+        "300750.SZ",
+        "新能源",
+        "储能"
+      ],
+      "importance": "high",
+      "status": "已入库"
+    },
+    {
+      "id": "20260718-ann-600519-price",
+      "category": "公告",
+      "title": "贵州茅台发布重大事项公告，调整部分飞天茅台价格",
+      "summary": "贵州茅台公告调整部分飞天53%vol 500ml产品在i茅台平台零售价和销售合同价。该事项会影响高端白酒价格体系、渠道预期和公司经营业绩判断。",
+      "source": "新浪财经公司公告",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=10000351&gather=1&id=12453221",
+      "published_at": "2026-07-18",
+      "symbols": [
+        "600519.SH",
+        "白酒",
+        "消费"
+      ],
+      "importance": "high",
+      "status": "已入库"
+    },
+    {
+      "id": "20260706-report-galaxy-semi",
+      "category": "新研究报告或点评",
+      "title": "中国银河证券研究：半导体行业周点评",
+      "summary": "中国银河证券研究发布半导体行业周点评，跟踪模拟芯片、半导体设备、材料、数字芯片、制造、封测等子行业表现，并讨论算力芯片板块回调原因。",
+      "source": "新浪财经 / 中国银河证券研究",
+      "source_url": "https://finance.sina.com.cn/wm/2026-07-06/doc-inifwfpv8677269.shtml",
+      "published_at": "2026-07-06",
+      "symbols": [
+        "半导体",
+        "芯片设计",
+        "半导体设备",
+        "封测"
+      ],
+      "importance": "normal",
+      "status": "已入库"
+    }
+  ],
+  "report_templates": [
+    {
+      "module": "新研究报告",
+      "fields": [
+        "股票代码",
+        "公司名称",
+        "报告标题",
+        "机构",
+        "研究员",
+        "发布日期",
+        "评级",
+        "目标价",
+        "核心观点",
+        "盈利预测",
+        "估值方法",
+        "风险提示",
+        "原文链接"
+      ],
+      "example": "用于个股深度、行业周报、策略月报"
+    },
+    {
+      "module": "快速点评",
+      "fields": [
+        "股票代码/主题",
+        "触发事件",
+        "影响方向",
+        "受益或受损链条",
+        "需要验证的数据",
+        "跟踪窗口",
+        "来源链接"
+      ],
+      "example": "适合公告、突发新闻、盘中板块异动"
+    },
+    {
+      "module": "公众号更新",
+      "fields": [
+        "公众号名称",
+        "发布时间",
+        "文章标题",
+        "涉及代码",
+        "核心结论",
+        "是否需人工复核",
+        "公开链接"
+      ],
+      "example": "优先记录可公开访问或授权转载内容"
+    }
+  ],
+  "last_checked_at": "2026-08-02 19:28:25+08:00",
+  "market_feed": {
+    "days": 31,
+    "rows": 70177,
+    "covered_stocks": 5544,
+    "notice_rows": 31215,
+    "stock_news_rows": 38962,
+    "source": "东方财富公告大全、东方财富个股新闻"
+  }
+}
