@@ -13,12 +13,17 @@ on:
         required: true
         default: "all"
         type: choice
-        options: [all, macro, global, close, fund, evening, messages]
+        options: [all, macro, global, close, snapshot, fund, evening, messages]
   schedule:
     - cron: "0 0 * * *"
     - cron: "0 9 * * 1-5"
     - cron: "20 22 * * *"
     - cron: "10 2 * * *"
+    # A-share midday snapshot: 11:40 Asia/Shanghai (UTC+8).
+    - cron: "40 3 * * 1-5"
+    # A-share first closing snapshot: 15:20 Asia/Shanghai (UTC+8).
+    - cron: "20 7 * * 1-5"
+    # A-share closing retry after public sources have settled: 16:40 Asia/Shanghai.
     - cron: "40 8 * * 1-5"
     - cron: "40 10 * * *"
     - cron: "10 11 * * 1-5"
@@ -75,6 +80,10 @@ jobs:
             MODE="global"
           elif [ "${{ github.event.schedule }}" = "10 2 * * *" ]; then
             MODE="macro"
+          elif [ "${{ github.event.schedule }}" = "40 3 * * 1-5" ]; then
+            MODE="snapshot"
+          elif [ "${{ github.event.schedule }}" = "20 7 * * 1-5" ]; then
+            MODE="close"
           elif [ "${{ github.event.schedule }}" = "40 8 * * 1-5" ]; then
             MODE="close"
           elif [ "${{ github.event.schedule }}" = "40 10 * * *" ]; then

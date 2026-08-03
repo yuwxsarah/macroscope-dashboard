@@ -11,19 +11,58 @@ if (-not (Test-Path -LiteralPath $runner -PathType Leaf)) {
     throw "Daily update runner not found: $runner"
 }
 
-$action = New-ScheduledTaskAction `
-    -Execute "cmd.exe" `
-    -Argument ('/d /c "' + $runner + '"') `
-    -WorkingDirectory $resolvedRoot
-$trigger = New-ScheduledTaskTrigger -Daily -At "19:20"
 $settings = New-ScheduledTaskSettingsSet `
     -StartWhenAvailable `
+    -MultipleInstances IgnoreNew `
     -ExecutionTimeLimit (New-TimeSpan -Hours 2)
 
-Register-ScheduledTask `
+function Register-MacroScopeTask {
+    param(
+        [string]$TaskName,
+        [string]$At,
+        [string]$Mode,
+        [string]$Description
+    )
+
+    $action = New-ScheduledTaskAction `
+        -Execute "cmd.exe" `
+        -Argument ('/d /c ""' + $runner + '" --refresh-mode ' + $Mode + '"') `
+        -WorkingDirectory $resolvedRoot
+    $trigger = New-ScheduledTaskTrigger `
+        -Weekly `
+        -WeeksInterval 1 `
+        -DaysOfWeek Monday, Tuesday, Wednesday, Thursday, Friday `
+        -At $At
+
+    Register-ScheduledTask `
+        -TaskName $TaskName `
+        -Action $action `
+        -Trigger $trigger `
+        -Settings $settings `
+        -Description $Description `
+        -Force | Out-Null
+}
+
+Register-MacroScopeTask `
+    -TaskName "MacroScope Midday Snapshot" `
+    -At "11:40" `
+    -Mode "snapshot" `
+    -Description "Capture a lightweight A-share midday snapshot and rebuild MacroScope."
+
+Register-MacroScopeTask `
+    -TaskName "MacroScope Close Data Refresh" `
+    -At "15:20" `
+    -Mode "close" `
+    -Description "Capture A-share closing data and rebuild MacroScope after market close."
+
+Register-MacroScopeTask `
+    -TaskName "MacroScope Close Data Retry" `
+    -At "16:40" `
+    -Mode "close" `
+    -Description "Retry A-share closing data after public sources have settled."
+
+Register-MacroScopeTask `
     -TaskName "MacroScope Daily Data Refresh" `
-    -Action $action `
-    -Trigger $trigger `
-    -Settings $settings `
-    -Description "Refresh MacroScope public market data and rebuild the local dashboard every day." `
-    -Force | Out-Null
+    -At "19:20" `
+    -Mode "all" `
+    -Description "Refresh all MacroScope public datasets and rebuild the local dashboard."

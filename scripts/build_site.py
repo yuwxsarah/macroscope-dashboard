@@ -14,6 +14,8 @@ sys.path.insert(0, str(ROOT))
 
 from src.utils import DATA_DIR, PUBLIC_DIR, dataframe_to_records, ensure_dirs, load_settings, read_csv_safe  # noqa: E402
 
+MESSAGE_SCHEDULE = ["06:20", "08:00", "10:10", "11:40", "15:20", "16:40", "17:00", "18:40", "19:10"]
+
 
 def read_status() -> dict[str, Any]:
     path = DATA_DIR / "status.json"
@@ -31,7 +33,7 @@ def read_messages() -> dict[str, Any]:
     fallback = {
         "updated_at": None,
         "timezone": "Asia/Shanghai",
-        "schedule": ["08:00", "17:00"],
+        "schedule": MESSAGE_SCHEDULE,
         "watchlist_defaults": [],
         "sources": [],
         "items": [],
@@ -43,7 +45,7 @@ def read_messages() -> dict[str, Any]:
         payload = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(payload, dict):
             return fallback
-        return {**fallback, **payload}
+        return {**fallback, **payload, "schedule": MESSAGE_SCHEDULE}
     except Exception:
         return fallback
 
@@ -902,8 +904,8 @@ function renderMessages(){
     document.getElementById('messageReportTemplate').innerHTML=`<table><thead><tr><th>类型</th><th>字段</th><th>示例口径</th></tr></thead><tbody>${rows||'<tr><td colspan="3">暂无模板</td></tr>'}</tbody></table>`;
   }
   watchlist=readWatchlist();
-  const schedule=(msg.schedule||['08:00','17:00']).join('、');
-  document.getElementById('messageUpdateNote').innerHTML=`北京时间 ${schedule} 两次更新；最新入库：${cnDate(msg.updated_at)}。已接入近一个月全市场个股资讯库；点击任意讯息卡片可直接打开原文。`;
+  const schedule=(msg.schedule||['06:20','08:00','10:10','11:40','15:20','16:40','17:00','18:40','19:10']).join('、');
+  document.getElementById('messageUpdateNote').innerHTML=`北京时间 ${schedule} 自动更新；最新入库：${cnDate(msg.updated_at)}。已接入近一个月全市场个股资讯库；点击任意讯息卡片可直接打开原文。`;
   renderKpis();
   renderWatchlist();
   renderCategories();

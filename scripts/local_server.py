@@ -181,7 +181,7 @@ def configure_ascii_ca_bundle(environment: dict[str, str]) -> None:
         environment[key] = str(destination)
 
 
-def run_refresh(reason: str) -> bool:
+def run_refresh(reason: str, mode: str = "all") -> bool:
     refresh_lock = RefreshLock()
     if not refresh_lock.acquire():
         print("[本地刷新] 另一个刷新任务正在运行，本次不重复启动。", flush=True)
@@ -189,13 +189,17 @@ def run_refresh(reason: str) -> bool:
 
     steps = [
         ("检查数据文件", ["scripts/ensure_data_files.py"], 5 * 60, True),
-        ("更新宏观与市场数据", ["scripts/update_data.py", "--mode", "all"], 45 * 60, False),
+        ("更新宏观与市场数据", ["scripts/update_data.py", "--mode", mode], 45 * 60, False),
         ("更新市场资讯", ["scripts/update_messages.py"], 20 * 60, False),
-        ("更新A股日频指标", ["scripts/update_ashare_daily.py", "--days", "95"], 60 * 60, False),
         ("重算大盘跟踪模型", ["scripts/update_market_tracking.py"], 15 * 60, False),
         ("重建本地网页", ["scripts/build_site.py"], 15 * 60, True),
         ("校验更新结果", ["scripts/validate_project.py"], 10 * 60, True),
     ]
+    if mode in {"all", "close"}:
+        steps.insert(
+            3,
+            ("更新A股日频指标", ["scripts/update_ashare_daily.py", "--days", "95"], 60 * 60, False),
+        )
     failed_steps: list[str] = []
     required_failure = False
     started_at = now_iso()
@@ -370,11 +374,17 @@ def main() -> int:
     parser.add_argument("--open-browser", action="store_true")
     parser.add_argument("--skip-startup-refresh", action="store_true")
     parser.add_argument("--refresh-only", action="store_true")
+    parser.add_argument(
+        "--refresh-mode",
+        choices=["all", "macro", "global", "close", "snapshot", "deviation", "fund", "evening"],
+        default="all",
+        help="刷新范围；计划任务可使用 snapshot、close 或 all。",
+    )
     parser.add_argument("--daily-time", default=DEFAULT_DAILY_TIME)
     args = parser.parse_args()
 
     if args.refresh_only:
-        return 0 if run_refresh("scheduled") else 1
+        return 0 if run_refresh("scheduled", args.refresh_mode) else 1
 
     persisted = read_persisted_state()
     if persisted:

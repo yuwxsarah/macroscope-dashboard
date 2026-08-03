@@ -29,6 +29,7 @@ MESSAGE_PATH = DATA_DIR / "messages.json"
 MARKET_MESSAGES_PATH = DATA_DIR / "market_messages.csv"
 UNIVERSE_PATH = DATA_DIR / "a_share_universe.csv"
 BEIJING = ZoneInfo("Asia/Shanghai")
+MESSAGE_SCHEDULE = ["06:20", "08:00", "10:10", "11:40", "15:20", "16:40", "17:00", "18:40", "19:10"]
 COLUMNS = [
     "published_at", "category", "title", "summary", "source", "source_url",
     "symbol", "stock_name", "importance", "status", "source_type", "item_id",
@@ -81,7 +82,7 @@ def load_messages() -> dict:
     if not MESSAGE_PATH.exists():
         return {
             "timezone": "Asia/Shanghai",
-            "schedule": ["08:00", "17:00"],
+            "schedule": MESSAGE_SCHEDULE,
             "watchlist_defaults": [],
             "sources": [],
             "items": [],
@@ -345,7 +346,7 @@ def main() -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     payload = load_messages()
     payload.setdefault("timezone", "Asia/Shanghai")
-    payload.setdefault("schedule", ["08:00", "17:00"])
+    payload["schedule"] = MESSAGE_SCHEDULE
     payload.setdefault("items", [])
     existing_market = read_csv_safe(MARKET_MESSAGES_PATH, columns=COLUMNS)
 

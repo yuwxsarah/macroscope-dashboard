@@ -415,6 +415,9 @@ def update_selected(mode: str = "all") -> dict[str, Any]:
             ("sentiment", lambda: update_sentiment(settings)),
             ("deviation", lambda: update_deviation(settings)),
         ],
+        "snapshot": [
+            ("sentiment", lambda: update_sentiment(settings)),
+        ],
         "deviation": [("deviation", lambda: update_deviation(settings))],
         "fund": [("fund_subscription", lambda: update_fund(settings))],
         "evening": [
