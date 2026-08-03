@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-03T21:26:27+08:00",
-      "finished_at": "2026-08-03T21:26:53+08:00",
+      "started_at": "2026-08-04T01:36:12+08:00",
+      "finished_at": "2026-08-04T01:36:35+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4950,
-      "started_at": "2026-08-03T21:26:53+08:00",
-      "finished_at": "2026-08-03T21:27:12+08:00",
+      "started_at": "2026-08-04T01:36:35+08:00",
+      "finished_at": "2026-08-04T01:36:51+08:00",
       "latest_date": "20260803",
       "total_cached_rows": 4986,
       "source_details": {
@@ -67,8 +67,8 @@
     "market": {
       "status": "success",
       "rows": 32645,
-      "started_at": "2026-08-04T01:02:35+08:00",
-      "finished_at": "2026-08-04T01:02:44+08:00",
+      "started_at": "2026-08-04T01:36:51+08:00",
+      "finished_at": "2026-08-04T01:37:02+08:00",
       "latest_date": "20260803",
       "total_cached_rows": 32646,
       "symbols": {
@@ -177,38 +177,35 @@
     },
     "global_macro": {
       "status": "success",
-      "rows": 29874,
-      "started_at": "2026-08-02T19:21:10+08:00",
-      "finished_at": "2026-08-02T19:21:36+08:00",
+      "rows": 2,
+      "started_at": "2026-08-04T01:37:02+08:00",
+      "finished_at": "2026-08-04T01:48:35+08:00",
       "latest_date": "20260730",
       "total_cached_rows": 29982,
       "source_details": {
         "DGS2": {
           "status": "success",
-          "rows": 12537,
+          "rows": 1,
           "latest_date": "20260730",
-          "source": "美联储H.15 / FRED CSV",
-          "fallback_errors": []
+          "source": "美联储H.15当前发布页",
+          "fallback_errors": [
+            "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
+            "FRED TXT: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))"
+          ]
         },
         "DGS10": {
           "status": "success",
-          "rows": 16129,
+          "rows": 1,
           "latest_date": "20260730",
-          "source": "美联储H.15 / FRED CSV",
-          "fallback_errors": []
+          "source": "美联储H.15当前发布页",
+          "fallback_errors": [
+            "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
+            "FRED TXT: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))"
+          ]
         },
         "USD_LIQUIDITY": {
-          "status": "success",
-          "rows": 1208,
-          "latest_date": "20260729",
-          "source": "FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD",
-          "formula": "SOMA口径=WSHOSHO-WDTGAL-RRPONTSYD；总资产口径=WALCL-WDTGAL-RRPONTSYD；统一换算为万亿美元",
-          "input_latest_dates": {
-            "WSHOSHO": "20260729",
-            "WALCL": "20260729",
-            "WDTGAL": "20260729",
-            "RRPONTSYD": "20260731"
-          }
+          "status": "failed",
+          "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))"
         }
       },
       "latest_by_series": {
@@ -223,8 +220,8 @@
     "valuation": {
       "status": "success",
       "rows": 23298,
-      "started_at": "2026-08-04T01:02:44+08:00",
-      "finished_at": "2026-08-04T01:03:07+08:00",
+      "started_at": "2026-08-04T01:48:35+08:00",
+      "finished_at": "2026-08-04T01:48:58+08:00",
       "latest_date": "20260803",
       "total_cached_rows": 23298,
       "indices": {
@@ -324,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2090,
-      "started_at": "2026-08-04T01:03:07+08:00",
-      "finished_at": "2026-08-04T01:03:08+08:00",
+      "started_at": "2026-08-04T01:48:58+08:00",
+      "finished_at": "2026-08-04T01:48:58+08:00",
       "latest_date": "20260803",
       "total_cached_rows": 2090,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -366,9 +363,9 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-02T19:21:52+08:00",
-      "finished_at": "2026-08-02T19:21:59+08:00",
-      "latest_date": "20260728",
+      "started_at": "2026-08-04T01:48:58+08:00",
+      "finished_at": "2026-08-04T01:49:03+08:00",
+      "latest_date": "20260729",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
@@ -376,8 +373,8 @@
     "sentiment": {
       "status": "partial",
       "rows": 0,
-      "started_at": "2026-08-04T01:03:07+08:00",
-      "finished_at": "2026-08-04T01:03:07+08:00",
+      "started_at": "2026-08-04T01:48:58+08:00",
+      "finished_at": "2026-08-04T01:48:58+08:00",
       "latest_date": "20260731",
       "total_cached_rows": 66,
       "skipped": true,
@@ -408,7 +405,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-04T01:19:25+08:00",
+  "updated_at": "2026-08-04T02:05:20+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "all"
 }
