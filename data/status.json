@@ -264,9 +264,9 @@
     "crowding": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 67,
+      "cached_rows": 68,
       "total_cached_rows": 64,
-      "latest_date": "20260804",
+      "latest_date": "20260805",
       "source_details": {
         "crowding_history": {
           "status": "success",
@@ -282,9 +282,9 @@
     "breadth": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 67,
+      "cached_rows": 68,
       "total_cached_rows": 64,
-      "latest_date": "20260804",
+      "latest_date": "20260805",
       "source_details": {
         "breadth_counts": {
           "status": "success",
@@ -304,9 +304,9 @@
     "leverage": {
       "status": "success",
       "rows": 63,
-      "cached_rows": 66,
+      "cached_rows": 67,
       "total_cached_rows": 63,
-      "latest_date": "20260803",
+      "latest_date": "20260804",
       "source_details": {
         "margin_balance": {
           "status": "success",
@@ -371,14 +371,21 @@
       "cached_rows": 300
     },
     "sentiment": {
-      "status": "partial",
-      "rows": 0,
-      "started_at": "2026-08-05T00:26:30+08:00",
-      "finished_at": "2026-08-05T00:26:30+08:00",
-      "latest_date": "20260804",
-      "total_cached_rows": 67,
-      "skipped": true,
-      "note": "非A股交易时段，继续展示上一次成功快照。"
+      "status": "success",
+      "rows": 2,
+      "started_at": "2026-08-05T19:39:00+08:00",
+      "finished_at": "2026-08-05T19:40:34+08:00",
+      "latest_date": "20260805",
+      "crowding_cached_rows": 68,
+      "breadth_cached_rows": 68,
+      "leverage": {
+        "status": "success",
+        "rows": 1,
+        "latest_date": "20260804",
+        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
+      },
+      "source": "新浪沪深京A股实时行情 / AKShare",
+      "snapshot_kind": "收盘后快照"
     },
     "a_share_universe": {
       "status": "success",
@@ -398,14 +405,14 @@
     },
     "market_tracking": {
       "status": "success",
-      "latest_date": "20260804",
-      "rows": 67,
-      "cached_rows": 67,
+      "latest_date": "20260805",
+      "rows": 68,
+      "cached_rows": 68,
       "source": "由宏观、流动性、估值、A股情绪、两融、全球市场公开数据自动评分",
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-05T19:24:00+08:00",
+  "updated_at": "2026-08-05T19:56:00+08:00",
   "overall_status": "success",
-  "last_update_mode": "macro"
+  "last_update_mode": "snapshot"
 }
