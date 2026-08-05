@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05 01:28:49+08:00",
+  "updated_at": "2026-08-05 16:31:56+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,7 +357,7 @@
     "summary": {
       "market_score": 45.0,
       "market_score_before_gate": 45.0,
-      "risk_score": 60.6,
+      "risk_score": 60.3,
       "risk_level": "红色",
       "market_phase": "防御期 / 红色预警",
       "base_position_pct": 30.0,
@@ -566,12 +566,12 @@
       {
         "name": "跨资产压力",
         "weight": 10,
-        "risk": 8.0,
-        "raw_risk": 79.9,
+        "risk": 7.7,
+        "raw_risk": 77.0,
         "level": "高",
         "basis": [
-          "美国10年期国债 4.75%",
-          "纳斯达克20日动量 2.51%",
+          "美国10年期国债 4.70%",
+          "纳斯达克20日动量 2.97%",
           "美元净流动性 5.48万亿美元"
         ]
       },
@@ -605,7 +605,7 @@
       "crowding_pct": 49.14,
       "margin_to_market_cap_pct": 2.34,
       "index_momentum_20d_pct": -9.56,
-      "dgs10_pct": 4.75
+      "dgs10_pct": 4.7
     }
   },
   "method_note": "大盘机会评分按七大模块0-5原始分折算为100分；风险领先预警分越高越需要降仓。该模型用于仓位管理与风控，不直接预测指数点位，不构成投资建议。"
