@@ -214,6 +214,7 @@ HTML = r'''<!doctype html>
 *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#eef3fb 0,#f7f9fc 320px);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink)}
 .wrap{max-width:1500px;margin:0 auto;padding:24px}.hero{background:radial-gradient(circle at 80% 0,#345ea8 0,transparent 30%),linear-gradient(135deg,#102243,#1c3b72 62%,#235b83);color:white;border-radius:24px;padding:28px 30px;box-shadow:var(--shadow);position:relative;overflow:hidden}.hero h1{margin:0;font-size:30px;letter-spacing:.5px}.hero p{margin:8px 0 0;color:#cbd8ee}.hero-meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.badge{padding:7px 11px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.09);border-radius:999px;font-size:12px;color:#e8eef9}
 .tabs{display:flex;gap:8px;overflow:auto;padding:18px 0 12px}.tab{border:0;background:#e8edf6;color:#55627a;padding:10px 15px;border-radius:11px;font-weight:700;cursor:pointer;white-space:nowrap}.tab.active{background:var(--navy);color:#fff}.panel{display:none}.panel.active{display:block}.grid{display:grid;gap:16px}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g4{grid-template-columns:repeat(4,minmax(0,1fr))}.kpis{grid-template-columns:repeat(6,minmax(0,1fr));margin-bottom:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:17px;min-width:0}.card h3{margin:0 0 12px;font-size:16px}.card h3 small{font-weight:400;color:var(--muted);margin-left:6px}.chart{height:380px}.chart.tall{height:470px}.chart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.market-chart-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:var(--shadow);min-width:0}.market-chart-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:4px}.market-chart-title{font-size:15px;font-weight:800}.market-chart-meta{font-size:11px;color:var(--muted);margin-top:3px}.market-chart-latest{text-align:right;font-size:13px;font-weight:800;white-space:nowrap}.market-single-chart{height:315px}.chart-placeholder{height:100%;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px;background:#f8faff;border-radius:10px;border:1px dashed var(--line);padding:18px;text-align:center}.kpi{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:15px;box-shadow:var(--shadow);min-height:112px}.kpi-label{font-size:12px;color:var(--muted);font-weight:700}.kpi-value{font-size:25px;font-weight:800;margin-top:8px;line-height:1}.kpi-note{font-size:11px;color:#8a94a8;margin-top:10px}.positive,.up{color:var(--up)!important}.negative,.down{color:var(--down)!important}.neutral{color:var(--muted)!important}.kpi-value,.asset-price,.asset-metrics b,.multiple{transition:color .25s ease}.asset-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;align-items:stretch}.asset{border:1px solid var(--line);border-radius:15px;padding:14px;background:linear-gradient(180deg,#fff,#fbfcff);min-width:0;overflow:hidden}.asset-top{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:8px}.asset-top>div{min-width:0}.asset-top>b{font-size:13px;line-height:1.35;white-space:nowrap}.asset-name{font-weight:800;font-size:14px;line-height:1.35;word-break:keep-all;overflow-wrap:break-word}.asset-symbol{font-size:11px;color:var(--muted);margin-top:3px;line-height:1.35;overflow-wrap:anywhere}.asset-price{font-size:24px;font-weight:800;line-height:1.15;margin:12px 0;overflow-wrap:anywhere}.asset-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(74px,1fr));gap:6px}.asset-metrics div{background:#f4f6fa;border-radius:9px;padding:7px;min-width:0}.asset-metrics span{display:block;font-size:10px;color:var(--muted);white-space:nowrap}.asset-metrics b{display:block;font-size:11px;line-height:1.25;white-space:nowrap}.hint{background:#f6f8fc;border:1px solid var(--line);border-radius:12px;padding:11px 13px;color:#66738a;font-size:12px;line-height:1.6;margin:12px 0}.valuation-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.valuation-card{border:1px solid var(--line);border-radius:14px;padding:13px;cursor:pointer}.valuation-card.selected{border-color:var(--blue);box-shadow:0 0 0 2px rgba(49,103,227,.10)}.multiple{font-size:25px;font-weight:800;margin:9px 0}.stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}.stat{background:#f5f7fb;border-radius:7px;padding:6px;font-size:10px;color:var(--muted)}.stat b{display:block;color:var(--ink);font-size:11px;margin-top:2px}.bar{height:5px;background:#edf0f5;border-radius:5px;margin-top:10px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--down),var(--amber),var(--up))}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:13px}table{width:100%;border-collapse:collapse;font-size:12px;min-width:760px}th{background:#f3f6fb;color:#59667d;text-align:left;padding:10px;position:sticky;top:0}td{border-top:1px solid var(--line);padding:9px 10px}tr:hover td{background:#fafcff}.source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.source-card{border:1px solid var(--line);border-radius:14px;padding:13px;background:#fff}.source-status{font-weight:800}.source-status.success,.source-status.cached{color:var(--down)}.source-status.failed{color:var(--up)}.source-status.partial{color:var(--amber)}.message-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}.message-input{height:38px;border:1px solid var(--line);border-radius:10px;padding:0 11px;font:inherit;min-width:240px;background:#fff}.message-button{height:38px;border:0;border-radius:10px;background:var(--navy);color:#fff;font-weight:800;padding:0 13px;cursor:pointer}.message-button.secondary{background:#e9eef7;color:#4d5a72}.message-chipbar,.message-categorybar{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 12px}.message-chip,.message-category{border:1px solid var(--line);background:#f6f8fc;color:#56627a;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700}.message-chip button{border:0;background:transparent;color:#7a8598;margin-left:5px;cursor:pointer;font-weight:900}.message-category{cursor:pointer}.message-category.active{background:var(--navy);border-color:var(--navy);color:#fff}.message-list{display:grid;gap:10px}.message-item{border:1px solid var(--line);border-radius:14px;padding:13px;background:#fff;min-width:0}.message-item.watch-hit{border-color:rgba(49,103,227,.55);box-shadow:0 0 0 2px rgba(49,103,227,.08)}.message-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.message-title{font-weight:850;line-height:1.45}.message-meta{color:var(--muted);font-size:11px;line-height:1.5;margin-top:4px}.message-summary{font-size:12px;line-height:1.65;margin-top:8px;color:#364157}.message-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.source-pill{display:inline-flex;align-items:center;gap:4px;border-radius:999px;padding:5px 8px;background:#f2f5fa;color:#5d687d;font-size:11px;text-decoration:none}.message-priority{font-size:11px;font-weight:800;border-radius:999px;padding:4px 8px;white-space:nowrap}.message-priority.high{background:#fff0f0;color:var(--up)}.message-priority.medium{background:#fff7e6;color:var(--amber)}.message-priority.normal{background:#eef8f4;color:var(--down)}.message-source-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}.message-source{border:1px solid var(--line);border-radius:12px;padding:11px;background:#fff}.message-source a{color:var(--blue);font-weight:800;text-decoration:none}.message-source div{font-size:11px;color:var(--muted);line-height:1.5;margin-top:5px}.message-check{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:12px;font-weight:700}.message-subhead{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin:14px 0 8px}.message-subhead b{font-size:14px}.message-subhead span{font-size:11px;color:var(--muted);line-height:1.5}.message-watch-table{margin-bottom:14px}.message-watch-table table{min-width:980px}.message-watch-table a{color:var(--blue);font-weight:800;text-decoration:none}.message-watch-action{border:0;border-radius:999px;background:#eef3ff;color:var(--blue);font-weight:900;font-size:11px;padding:6px 10px;cursor:pointer}.message-watch-action:hover{background:#dfe8ff}.empty{display:none;padding:28px;text-align:center;color:var(--muted)}.footer{padding:25px 0;color:var(--muted);font-size:11px;line-height:1.7}
+.watchlist-manager{border:1px solid #dce5f5;border-radius:15px;background:linear-gradient(180deg,#f8faff,#fff);padding:14px;margin:12px 0 16px}.watchlist-manager-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:10px}.watchlist-manager-head b{font-size:14px;color:var(--navy)}.watchlist-manager-head span{font-size:11px;color:var(--muted);line-height:1.5;text-align:right}.watchlist-manager-form{display:flex;flex-wrap:wrap;gap:9px;align-items:center}.watchlist-manager .message-chip{display:inline-flex;align-items:center;gap:5px}.watchlist-manager .message-chip button{background:#fff0f0;color:#b84040;border-radius:999px;padding:3px 7px;margin-left:2px}.watchlist-sync-status[data-state="shared"]{color:var(--down)}.watchlist-sync-status[data-state="error"]{color:var(--amber)}.message-button:disabled{opacity:.6;cursor:wait}
 .tracking-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:16px;margin-bottom:16px}.tracking-score{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.score-tile{border:1px solid var(--line);border-radius:14px;background:#f7f9fd;padding:12px;min-width:0}.score-tile span{display:block;color:var(--muted);font-size:11px;font-weight:800}.score-tile b{display:block;margin-top:8px;font-size:26px;line-height:1}.risk-pill{display:inline-flex;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:900}.risk-green{background:#eaf8f1;color:var(--down)}.risk-yellow{background:#fff8df;color:#9f7112}.risk-orange{background:#fff0e6;color:#bc6816}.risk-red{background:#fff0f0;color:var(--up)}.module-list{display:grid;gap:9px}.module-row{border:1px solid var(--line);border-radius:12px;padding:10px;background:#fff}.module-head{display:flex;justify-content:space-between;gap:10px;font-size:12px;font-weight:900}.module-basis{margin-top:6px;color:var(--muted);font-size:11px;line-height:1.55}.framework-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.framework-card{border:1px solid var(--line);border-radius:14px;padding:13px;background:#fff}.framework-card b{display:block;margin-bottom:6px}.framework-card p{margin:0 0 9px;color:#59667d;font-size:12px;line-height:1.55}.framework-card ul{margin:0;padding-left:18px;color:#364157;font-size:12px;line-height:1.75}.process-strip{display:flex;flex-wrap:wrap;gap:8px}.process-step{border:1px solid var(--line);background:#f6f8fc;border-radius:999px;padding:8px 11px;font-size:12px;font-weight:800;color:#55627a}
 @media(max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}.asset-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.valuation-grid{grid-template-columns:repeat(2,1fr)}.g2,.g3,.g4,.tracking-hero{grid-template-columns:1fr}.source-grid{grid-template-columns:1fr 1fr}.chart-grid{grid-template-columns:1fr}}
 @media(max-width:650px){.wrap{padding:12px}.hero{padding:22px 18px;border-radius:18px}.hero h1{font-size:23px}.kpis,.tracking-score{grid-template-columns:repeat(2,1fr)}.asset-grid,.valuation-grid,.source-grid{grid-template-columns:1fr}.asset-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.chart{height:330px}.market-single-chart{height:290px}}
@@ -281,12 +282,20 @@ HTML = r'''<!doctype html>
     <div class="message-toolbar">
       <input id="messageSearchInput" class="message-input" placeholder="搜索代码/公司/关键词">
       <button id="messageClearSearch" class="message-button secondary">清空搜索</button>
-      <input id="messageCodeInput" class="message-input" placeholder="输入股票代码加入自选，如 300750">
-      <button id="messageAddCode" class="message-button">加入</button>
-      <button id="messageResetCodes" class="message-button secondary">重置</button>
       <label class="message-check"><input type="checkbox" id="messageOnlyWatch"> 只看自选相关</label>
     </div>
-    <div id="messageWatchlist" class="message-chipbar"></div>
+    <div class="watchlist-manager" aria-label="共享自选股管理">
+      <div class="watchlist-manager-head">
+        <b>共享自选股管理</b>
+        <span id="watchlistSyncStatus" class="watchlist-sync-status" data-state="loading">正在同步共享自选股…</span>
+      </div>
+      <div class="watchlist-manager-form">
+      <input id="messageCodeInput" class="message-input" placeholder="输入股票代码加入自选，如 300750">
+        <button id="messageAddCode" class="message-button">新增自选股</button>
+        <span class="asset-symbol">新增或删除后会立即同步，所有打开共享链接的人都能看到，并长期保留。</span>
+      </div>
+      <div id="messageWatchlist" class="message-chipbar"></div>
+    </div>
     <div class="message-subhead">
       <b>自选股讯息汇总</b>
       <span>每只自选股单独汇总近一个月资讯；点击标题打开原文，点击筛选查看明细。</span>
@@ -736,7 +745,7 @@ function renderValuation(){
 }
 function renderFund(){const f=DATA.fund;if(!f.length)return;const sorted=[...f].sort((a,b)=>String(a.founded_date).localeCompare(String(b.founded_date)));const recent=sorted.slice(-30).sort((a,b)=>Number(b.estimated_raised_amount_100m)-Number(a.estimated_raised_amount_100m)).slice(0,15);Plotly.newPlot('fundChart',[{x:recent.map(x=>x.fund_name),y:recent.map(x=>x.estimated_raised_amount_100m),type:'bar',marker:{color:'rgba(116,86,216,.65)'},name:'估算募集规模'}],layout({margin:{l:50,r:20,t:15,b:120},yaxis:{title:'亿元',gridcolor:C.grid},xaxis:{tickangle:-35}}),CONFIG);const last=sorted[sorted.length-1],largest=recent[0];document.getElementById('fundKpis').innerHTML=[kpi('最新成立基金',last.fund_name,'',`${cnDate(last.founded_date)} · ${fmt(last.raised_shares_100m)}亿份`),kpi('近30条最大募集',largest?.fund_name||'—','',largest?`${fmt(largest.estimated_raised_amount_100m)}亿元（估算）`:'' )].join('');document.getElementById('fundTable').innerHTML=sorted.slice(-80).reverse().map(x=>`<tr><td>${cnDate(x.founded_date)}</td><td>${x.fund_code}</td><td>${x.fund_name}</td><td>${x.fund_type||''}</td><td>${x.fund_company||''}</td><td>${fmt(x.raised_shares_100m)}</td><td>${fmt(x.estimated_raised_amount_100m)}</td></tr>`).join('')}
 
-function renderMessages(){
+async function renderMessages(){
   const msg=DATA.messages||{};
   const manualItems=msg.items||[];
   const marketItems=msg.market_items||[];
@@ -746,17 +755,67 @@ function renderMessages(){
   const categories=['全部',...categoryOrder.filter(cat=>presentCategories.has(cat))];
   const storageKey='macroscope-message-watchlist-v1';
   const defaults=(msg.watchlist_defaults||[]).map(normalizeStockCode).filter(Boolean);
-  let watchlist=[];
+  const watchlistApi='/api/watchlist';
+  let watchlist=[...defaults];
+  let watchlistMode='loading';
   let activeCategory='全部';
-  function readWatchlist(){
+  function readLocalWatchlist(){
     try{
       const stored=JSON.parse(localStorage.getItem(storageKey)||'[]');
-      if(Array.isArray(stored)&&stored.length)return stored.map(normalizeStockCode).filter(Boolean);
+      if(Array.isArray(stored))return stored.map(normalizeStockCode).filter(Boolean);
     }catch(error){}
     return defaults;
   }
-  function saveWatchlist(){
+  function saveLocalWatchlist(){
     try{localStorage.setItem(storageKey,JSON.stringify(watchlist))}catch(error){}
+  }
+  function setWatchlistStatus(text,state='loading'){
+    const node=document.getElementById('watchlistSyncStatus');
+    if(!node)return;
+    node.textContent=text;
+    node.dataset.state=state;
+  }
+  function watchlistFromPayload(payload){
+    const rows=Array.isArray(payload?.watchlist)?payload.watchlist:[];
+    return [...new Set(rows.map(row=>normalizeStockCode(typeof row==='string'?row:row?.code)).filter(Boolean))];
+  }
+  async function loadSharedWatchlist(){
+    try{
+      const response=await fetch(watchlistApi,{headers:{Accept:'application/json'},cache:'no-store'});
+      if(!response.ok)throw new Error(`watchlist ${response.status}`);
+      const payload=await response.json();
+      watchlist=watchlistFromPayload(payload);
+      watchlistMode='shared';
+      setWatchlistStatus('共享同步已开启 · 所有人看到同一份自选股','shared');
+    }catch(error){
+      watchlist=readLocalWatchlist();
+      watchlistMode='local';
+      setWatchlistStatus('当前地址不支持共享数据库，暂按本机保存','error');
+    }
+  }
+  async function persistSharedWatchlist(method,code){
+    const normalized=normalizeStockCode(code);
+    if(!normalized)return false;
+    setWatchlistStatus(method==='POST'?'正在新增并同步…':'正在删除并同步…','loading');
+    if(watchlistMode==='shared'){
+      const url=new URL(watchlistApi,window.location.href);
+      if(method==='DELETE')url.searchParams.set('code',normalized);
+      const response=await fetch(url.href,{
+        method,
+        cache:'no-store',
+        headers:{Accept:'application/json','Content-Type':'application/json'},
+        body:method==='POST'?JSON.stringify({code:normalized}):undefined
+      });
+      const payload=await response.json().catch(()=>({}));
+      if(!response.ok)throw new Error(payload.error||`watchlist ${response.status}`);
+      watchlist=watchlistFromPayload(payload);
+      setWatchlistStatus('已同步 · 其他访问者刷新后即可看到','shared');
+      return true;
+    }
+    watchlist=method==='POST'?[...new Set([...watchlist,normalized])]:watchlist.filter(item=>item!==normalized);
+    saveLocalWatchlist();
+    setWatchlistStatus('已保存到本机；使用共享版链接可跨设备同步','error');
+    return true;
   }
   function itemSymbols(item){
     const raw=item.symbols??item.symbol??'';
@@ -812,17 +871,24 @@ function renderMessages(){
       kpi('公告',countBy('公告'),'条',`最近更新 ${cnDate(msg.updated_at)}`),
       kpi('个股资讯',countBy('个股资讯'),'条','东方财富个股新闻'),
       kpi('精选讯息',manualItems.length,'条','重大新闻、公众号、行业事项、研报点评'),
-      kpi('自选代码',watchlist.length,'个','本机保存，可随时增删')
+      kpi('共享自选代码',watchlist.length,'个',watchlistMode==='shared'?'云端长期保存，所有访问者同步':'本机保存，共享服务暂不可用')
     ].join('');
   }
   function renderWatchlist(){
-    document.getElementById('messageWatchlist').innerHTML=watchlist.length?watchlist.map(code=>`<span class="message-chip">${esc(code)}<button data-code="${esc(code)}" title="移除">×</button></span>`).join(''):'<span class="asset-symbol">暂未加入自选，输入股票代码后会优先标记相关消息。</span>';
-    document.querySelectorAll('#messageWatchlist button').forEach(btn=>btn.onclick=()=>{
-      watchlist=watchlist.filter(code=>code!==btn.dataset.code);
-      saveWatchlist();
-      renderKpis();
-      renderWatchlist();
-      renderRows();
+    document.getElementById('messageWatchlist').innerHTML=watchlist.length?watchlist.map(code=>`<span class="message-chip">${esc(code)}<button data-code="${esc(code)}" title="删除 ${esc(code)}">删除</button></span>`).join(''):'<span class="asset-symbol">共享自选股目前为空，可在上方输入6位股票代码新增。</span>';
+    document.querySelectorAll('#messageWatchlist button').forEach(btn=>btn.onclick=async()=>{
+      const code=btn.dataset.code||'';
+      if(!window.confirm(`确认从共享自选股中删除 ${code}？`))return;
+      btn.disabled=true;
+      try{
+        await persistSharedWatchlist('DELETE',code);
+        renderKpis();
+        renderWatchlist();
+        renderRows();
+      }catch(error){
+        setWatchlistStatus(error?.message||'删除失败，请稍后重试','error');
+        btn.disabled=false;
+      }
     });
     renderWatchSummary();
   }
@@ -903,7 +969,6 @@ function renderMessages(){
     const rows=(msg.report_templates||[]).map(row=>`<tr><td>${esc(row.module)}</td><td>${esc((row.fields||[]).join(' / '))}</td><td>${esc(row.example||'')}</td></tr>`).join('');
     document.getElementById('messageReportTemplate').innerHTML=`<table><thead><tr><th>类型</th><th>字段</th><th>示例口径</th></tr></thead><tbody>${rows||'<tr><td colspan="3">暂无模板</td></tr>'}</tbody></table>`;
   }
-  watchlist=readWatchlist();
   const schedule=(msg.schedule||['06:20','08:00','10:10','11:40','15:20','16:40','17:00','18:40','19:10']).join('、');
   document.getElementById('messageUpdateNote').innerHTML=`北京时间 ${schedule} 自动更新；最新入库：${cnDate(msg.updated_at)}。已接入近一个月全市场个股资讯库；点击任意讯息卡片可直接打开原文。`;
   renderKpis();
@@ -912,23 +977,31 @@ function renderMessages(){
   renderSources();
   renderTemplate();
   renderRows();
-  document.getElementById('messageAddCode').onclick=()=>{
+  await loadSharedWatchlist();
+  renderKpis();
+  renderWatchlist();
+  renderRows();
+  document.getElementById('messageAddCode').onclick=async()=>{
     const input=document.getElementById('messageCodeInput');
     const code=normalizeStockCode(input.value);
-    if(!code)return;
-    if(!watchlist.includes(code))watchlist=[...watchlist,code];
-    input.value='';
-    saveWatchlist();
-    renderKpis();
-    renderWatchlist();
-    renderRows();
-  };
-  document.getElementById('messageResetCodes').onclick=()=>{
-    watchlist=defaults;
-    saveWatchlist();
-    renderKpis();
-    renderWatchlist();
-    renderRows();
+    if(!code){
+      setWatchlistStatus('请输入有效的6位A股代码，例如 600353','error');
+      input.focus();
+      return;
+    }
+    const button=document.getElementById('messageAddCode');
+    button.disabled=true;
+    try{
+      await persistSharedWatchlist('POST',code);
+      input.value='';
+      renderKpis();
+      renderWatchlist();
+      renderRows();
+    }catch(error){
+      setWatchlistStatus(error?.message||'新增失败，请稍后重试','error');
+    }finally{
+      button.disabled=false;
+    }
   };
   document.getElementById('messageOnlyWatch').onchange=renderRows;
   document.getElementById('messageSearchInput').oninput=renderRows;
