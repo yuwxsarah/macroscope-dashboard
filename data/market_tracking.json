@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07 18:48:15+08:00",
+  "updated_at": "2026-08-07 19:55:09+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,7 +357,7 @@
     "summary": {
       "market_score": 43.0,
       "market_score_before_gate": 43.0,
-      "risk_score": 66.5,
+      "risk_score": 66.8,
       "risk_level": "红色",
       "market_phase": "防御期 / 红色预警",
       "base_position_pct": 30.0,
@@ -485,7 +485,7 @@
         "status": "中性偏弱",
         "basis": [
           "上涨家数占比 51.33%",
-          "A股成交额/总市值 2.33%",
+          "A股成交额/总市值 2.34%",
           "交易拥挤度 50.64%"
         ],
         "blueprint": [
@@ -555,11 +555,11 @@
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 11.1,
-        "raw_risk": 74.1,
+        "risk": 11.4,
+        "raw_risk": 76.3,
         "level": "高",
         "basis": [
-          "两融/总市值 2.30%，历史分位 80%",
+          "两融/总市值 2.31%，历史分位 84%",
           "交易拥挤度历史分位 69%"
         ]
       },
@@ -601,9 +601,9 @@
     "signals": {
       "up_ratio_pct": 51.33,
       "total_amount_trillion": 2.663,
-      "broad_turnover_pct": 2.328,
+      "broad_turnover_pct": 2.342,
       "crowding_pct": 50.64,
-      "margin_to_market_cap_pct": 2.3,
+      "margin_to_market_cap_pct": 2.314,
       "index_momentum_20d_pct": -6.51,
       "dgs10_pct": 4.63
     }
