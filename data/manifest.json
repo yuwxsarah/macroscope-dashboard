@@ -3,7 +3,8 @@
   "deployment_allowed": true,
   "errors": [],
   "warnings": [
-    "data/macro.csv missing columns: ['source']"
+    "data/macro.csv missing columns: ['source']",
+    "data/a_share_universe.csv missing columns: ['name']"
   ],
   "data": {
     "macro.csv": {
@@ -83,7 +84,7 @@
       "status": "ok"
     },
     "crowding.csv": {
-      "rows": 69,
+      "rows": 70,
       "columns": [
         "trade_date",
         "top_fraction",
@@ -98,7 +99,7 @@
       "status": "ok"
     },
     "breadth.csv": {
-      "rows": 69,
+      "rows": 70,
       "columns": [
         "trade_date",
         "up_count",
@@ -115,7 +116,7 @@
       "status": "ok"
     },
     "leverage.csv": {
-      "rows": 68,
+      "rows": 69,
       "columns": [
         "trade_date",
         "margin_balance_trillion",
@@ -187,7 +188,7 @@
       "status": "ok"
     },
     "market_messages.csv": {
-      "rows": 70177,
+      "rows": 72350,
       "columns": [
         "published_at",
         "category",
@@ -205,7 +206,7 @@
       "status": "ok"
     },
     "market_tracking.csv": {
-      "rows": 69,
+      "rows": 70,
       "columns": [
         "trade_date",
         "market_score",
