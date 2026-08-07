@@ -21,10 +21,18 @@ CREATE TABLE IF NOT EXISTS shared_watchlist_meta (
 )
 `;
 
+const CORS_HEADERS = {
+  "access-control-allow-origin": "*",
+  "access-control-allow-methods": "GET, POST, DELETE, OPTIONS",
+  "access-control-allow-headers": "Accept, Content-Type",
+  "access-control-max-age": "86400",
+};
+
 function json(payload, status = 200) {
   return Response.json(payload, {
     status,
     headers: {
+      ...CORS_HEADERS,
       "cache-control": "no-store",
       "x-content-type-options": "nosniff",
     },
@@ -137,6 +145,9 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === "/api/watchlist") {
+      if (request.method === "OPTIONS") {
+        return new Response(null, { status: 204, headers: CORS_HEADERS });
+      }
       try {
         return await handleWatchlist(request, env);
       } catch (error) {

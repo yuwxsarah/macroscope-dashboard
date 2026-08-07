@@ -80,7 +80,13 @@ const env = {
 };
 
 async function request(method = "GET", code) {
-  const options = { method, headers: { "content-type": "application/json" } };
+  const options = {
+    method,
+    headers: {
+      "content-type": "application/json",
+      origin: "https://yuwxsarah.github.io",
+    },
+  };
   if (method === "POST") options.body = JSON.stringify({ code });
   const url = new URL("https://example.test/api/watchlist");
   if (method === "DELETE" && Array.isArray(code)) {
@@ -94,8 +100,24 @@ async function request(method = "GET", code) {
 
 const initial = await request();
 assert.equal(initial.response.status, 200);
+assert.equal(initial.response.headers.get("access-control-allow-origin"), "*");
 assert.equal(initial.payload.watchlist.length, 6);
 assert.ok(initial.payload.watchlist.some((row) => row.code === "600353.SH"));
+
+const preflight = await worker.fetch(
+  new Request("https://example.test/api/watchlist", {
+    method: "OPTIONS",
+    headers: {
+      origin: "https://yuwxsarah.github.io",
+      "access-control-request-method": "POST",
+      "access-control-request-headers": "content-type",
+    },
+  }),
+  env
+);
+assert.equal(preflight.status, 204);
+assert.equal(preflight.headers.get("access-control-allow-origin"), "*");
+assert.match(preflight.headers.get("access-control-allow-methods"), /POST/);
 
 const added = await request("POST", "600000");
 assert.equal(added.response.status, 201);

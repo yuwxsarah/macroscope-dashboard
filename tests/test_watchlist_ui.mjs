@@ -7,6 +7,7 @@ for (const expected of [
   'id="watchlistActionToggle"',
   'id="watchlistDeleteSelect"',
   "新增 / 删除自选股",
+  "https://macroscope-shared-dashboard.yuwxsarah.chatgpt.site/api/watchlist",
 ]) {
   assert.ok(html.includes(expected), `missing watchlist UI marker: ${expected}`);
 }

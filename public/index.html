@@ -566,7 +566,7 @@ async function renderMessages(){
   const categories=['全部',...categoryOrder.filter(cat=>presentCategories.has(cat))];
   const storageKey='macroscope-message-watchlist-v1';
   const defaults=(msg.watchlist_defaults||[]).map(normalizeStockCode).filter(Boolean);
-  const watchlistApi='/api/watchlist';
+  const watchlistApi='https://macroscope-shared-dashboard.yuwxsarah.chatgpt.site/api/watchlist';
   let watchlist=[...defaults];
   let watchlistMode='loading';
   let activeCategory='全部';
