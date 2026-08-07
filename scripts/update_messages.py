@@ -109,7 +109,7 @@ def read_universe(limit: int = 0) -> list[dict]:
             "code": symbol.split(".")[0],
             "exchange": symbol.split(".")[1],
             "symbol": symbol,
-            "name": name_map.get(symbol, ""),
+            "name": simple_text(row.get("name")) or name_map.get(symbol, ""),
         })
     return rows[:limit] if limit and limit > 0 else rows
 

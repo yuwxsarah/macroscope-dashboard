@@ -83,7 +83,11 @@ async function request(method = "GET", code) {
   const options = { method, headers: { "content-type": "application/json" } };
   if (method === "POST") options.body = JSON.stringify({ code });
   const url = new URL("https://example.test/api/watchlist");
-  if (method === "DELETE") url.searchParams.set("code", code);
+  if (method === "DELETE" && Array.isArray(code)) {
+    options.body = JSON.stringify({ codes: code });
+  } else if (method === "DELETE") {
+    url.searchParams.set("code", code);
+  }
   const response = await worker.fetch(new Request(url, options), env);
   return { response, payload: await response.json() };
 }
@@ -104,7 +108,13 @@ const removed = await request("DELETE", "600000.SH");
 assert.equal(removed.response.status, 200);
 assert.ok(!removed.payload.watchlist.some((row) => row.code === "600000.SH"));
 
-for (const row of removed.payload.watchlist) {
+await request("POST", "000001");
+await request("POST", "000002");
+const batchRemoved = await request("DELETE", ["000001.SZ", "000002.SZ"]);
+assert.equal(batchRemoved.response.status, 200);
+assert.ok(!batchRemoved.payload.watchlist.some((row) => ["000001.SZ", "000002.SZ"].includes(row.code)));
+
+for (const row of batchRemoved.payload.watchlist) {
   await request("DELETE", row.code);
 }
 const empty = await request();

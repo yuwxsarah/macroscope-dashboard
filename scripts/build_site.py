@@ -69,6 +69,58 @@ def read_market_messages() -> list[dict[str, Any]]:
     return records
 
 
+def normalize_a_share_symbol(code: Any, exchange: Any = "") -> str:
+    raw = str(code or "").strip().upper()
+    suffix = raw.rsplit(".", 1)[1] if "." in raw else ""
+    digits = "".join(char for char in raw.split(".", 1)[0] if char.isdigit())
+    if len(digits) != 6:
+        return ""
+    market = str(exchange or suffix).strip().upper()
+    if market not in {"SH", "SZ", "BJ"}:
+        market = "SH" if digits.startswith("6") else "BJ" if digits.startswith(("4", "8")) else "SZ"
+    return f"{digits}.{market}"
+
+
+def clean_stock_name(value: Any) -> str:
+    if value is None or pd.isna(value):
+        return ""
+    text = str(value).strip()
+    return "" if not text or text.lower() in {"nan", "none", "null"} else text
+
+
+def read_stock_name_map() -> dict[str, str]:
+    """Build a stable A-share code/name map before the message feed is truncated."""
+    output: dict[str, str] = {}
+
+    message_frame = read_csv_safe(DATA_DIR / "market_messages.csv")
+    if not message_frame.empty and {"symbol", "stock_name"}.issubset(message_frame.columns):
+        named = message_frame.dropna(subset=["symbol", "stock_name"])
+        for row in named.to_dict(orient="records"):
+            symbol = normalize_a_share_symbol(row.get("symbol"))
+            name = clean_stock_name(row.get("stock_name"))
+            if symbol and name:
+                output[symbol] = name
+
+    market_frame = read_csv_safe(DATA_DIR / "market.csv")
+    if not market_frame.empty and {"symbol", "name"}.issubset(market_frame.columns):
+        named = market_frame.dropna(subset=["symbol", "name"]).drop_duplicates("symbol", keep="last")
+        for row in named.to_dict(orient="records"):
+            symbol = normalize_a_share_symbol(row.get("symbol"))
+            name = clean_stock_name(row.get("name"))
+            if symbol and name:
+                output[symbol] = name
+
+    universe = read_csv_safe(DATA_DIR / "a_share_universe.csv")
+    if not universe.empty and {"code", "name"}.issubset(universe.columns):
+        for row in universe.to_dict(orient="records"):
+            symbol = normalize_a_share_symbol(row.get("code"), row.get("exchange"))
+            name = clean_stock_name(row.get("name"))
+            if symbol and name:
+                output[symbol] = name
+
+    return dict(sorted(output.items()))
+
+
 def read_market_tracking() -> dict[str, Any]:
     path = DATA_DIR / "market_tracking.json"
     fallback = {
@@ -215,7 +267,7 @@ HTML = r'''<!doctype html>
 *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#eef3fb 0,#f7f9fc 320px);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink)}
 .wrap{max-width:1500px;margin:0 auto;padding:24px}.hero{background:radial-gradient(circle at 80% 0,#345ea8 0,transparent 30%),linear-gradient(135deg,#102243,#1c3b72 62%,#235b83);color:white;border-radius:24px;padding:28px 30px;box-shadow:var(--shadow);position:relative;overflow:hidden}.hero h1{margin:0;font-size:30px;letter-spacing:.5px}.hero p{margin:8px 0 0;color:#cbd8ee}.hero-meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.badge{padding:7px 11px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.09);border-radius:999px;font-size:12px;color:#e8eef9}
 .tabs{display:flex;gap:8px;overflow:auto;padding:18px 0 12px}.tab{border:0;background:#e8edf6;color:#55627a;padding:10px 15px;border-radius:11px;font-weight:700;cursor:pointer;white-space:nowrap}.tab.active{background:var(--navy);color:#fff}.panel{display:none}.panel.active{display:block}.grid{display:grid;gap:16px}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g4{grid-template-columns:repeat(4,minmax(0,1fr))}.kpis{grid-template-columns:repeat(6,minmax(0,1fr));margin-bottom:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:17px;min-width:0}.card h3{margin:0 0 12px;font-size:16px}.card h3 small{font-weight:400;color:var(--muted);margin-left:6px}.chart{height:380px}.chart.tall{height:470px}.chart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.market-chart-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:var(--shadow);min-width:0}.market-chart-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:4px}.market-chart-title{font-size:15px;font-weight:800}.market-chart-meta{font-size:11px;color:var(--muted);margin-top:3px}.market-chart-latest{text-align:right;font-size:13px;font-weight:800;white-space:nowrap}.market-single-chart{height:315px}.chart-placeholder{height:100%;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px;background:#f8faff;border-radius:10px;border:1px dashed var(--line);padding:18px;text-align:center}.kpi{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:15px;box-shadow:var(--shadow);min-height:112px}.kpi-label{font-size:12px;color:var(--muted);font-weight:700}.kpi-value{font-size:25px;font-weight:800;margin-top:8px;line-height:1}.kpi-note{font-size:11px;color:#8a94a8;margin-top:10px}.positive,.up{color:var(--up)!important}.negative,.down{color:var(--down)!important}.neutral{color:var(--muted)!important}.kpi-value,.asset-price,.asset-metrics b,.multiple{transition:color .25s ease}.asset-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;align-items:stretch}.asset{border:1px solid var(--line);border-radius:15px;padding:14px;background:linear-gradient(180deg,#fff,#fbfcff);min-width:0;overflow:hidden}.asset-top{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:8px}.asset-top>div{min-width:0}.asset-top>b{font-size:13px;line-height:1.35;white-space:nowrap}.asset-name{font-weight:800;font-size:14px;line-height:1.35;word-break:keep-all;overflow-wrap:break-word}.asset-symbol{font-size:11px;color:var(--muted);margin-top:3px;line-height:1.35;overflow-wrap:anywhere}.asset-price{font-size:24px;font-weight:800;line-height:1.15;margin:12px 0;overflow-wrap:anywhere}.asset-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(74px,1fr));gap:6px}.asset-metrics div{background:#f4f6fa;border-radius:9px;padding:7px;min-width:0}.asset-metrics span{display:block;font-size:10px;color:var(--muted);white-space:nowrap}.asset-metrics b{display:block;font-size:11px;line-height:1.25;white-space:nowrap}.hint{background:#f6f8fc;border:1px solid var(--line);border-radius:12px;padding:11px 13px;color:#66738a;font-size:12px;line-height:1.6;margin:12px 0}.valuation-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.valuation-card{border:1px solid var(--line);border-radius:14px;padding:13px;cursor:pointer}.valuation-card.selected{border-color:var(--blue);box-shadow:0 0 0 2px rgba(49,103,227,.10)}.multiple{font-size:25px;font-weight:800;margin:9px 0}.stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}.stat{background:#f5f7fb;border-radius:7px;padding:6px;font-size:10px;color:var(--muted)}.stat b{display:block;color:var(--ink);font-size:11px;margin-top:2px}.bar{height:5px;background:#edf0f5;border-radius:5px;margin-top:10px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--down),var(--amber),var(--up))}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:13px}table{width:100%;border-collapse:collapse;font-size:12px;min-width:760px}th{background:#f3f6fb;color:#59667d;text-align:left;padding:10px;position:sticky;top:0}td{border-top:1px solid var(--line);padding:9px 10px}tr:hover td{background:#fafcff}.source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.source-card{border:1px solid var(--line);border-radius:14px;padding:13px;background:#fff}.source-status{font-weight:800}.source-status.success,.source-status.cached{color:var(--down)}.source-status.failed{color:var(--up)}.source-status.partial{color:var(--amber)}.message-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}.message-input{height:38px;border:1px solid var(--line);border-radius:10px;padding:0 11px;font:inherit;min-width:240px;background:#fff}.message-button{height:38px;border:0;border-radius:10px;background:var(--navy);color:#fff;font-weight:800;padding:0 13px;cursor:pointer}.message-button.secondary{background:#e9eef7;color:#4d5a72}.message-chipbar,.message-categorybar{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 12px}.message-chip,.message-category{border:1px solid var(--line);background:#f6f8fc;color:#56627a;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700}.message-chip button{border:0;background:transparent;color:#7a8598;margin-left:5px;cursor:pointer;font-weight:900}.message-category{cursor:pointer}.message-category.active{background:var(--navy);border-color:var(--navy);color:#fff}.message-list{display:grid;gap:10px}.message-item{border:1px solid var(--line);border-radius:14px;padding:13px;background:#fff;min-width:0}.message-item.watch-hit{border-color:rgba(49,103,227,.55);box-shadow:0 0 0 2px rgba(49,103,227,.08)}.message-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.message-title{font-weight:850;line-height:1.45}.message-meta{color:var(--muted);font-size:11px;line-height:1.5;margin-top:4px}.message-summary{font-size:12px;line-height:1.65;margin-top:8px;color:#364157}.message-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.source-pill{display:inline-flex;align-items:center;gap:4px;border-radius:999px;padding:5px 8px;background:#f2f5fa;color:#5d687d;font-size:11px;text-decoration:none}.message-priority{font-size:11px;font-weight:800;border-radius:999px;padding:4px 8px;white-space:nowrap}.message-priority.high{background:#fff0f0;color:var(--up)}.message-priority.medium{background:#fff7e6;color:var(--amber)}.message-priority.normal{background:#eef8f4;color:var(--down)}.message-source-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}.message-source{border:1px solid var(--line);border-radius:12px;padding:11px;background:#fff}.message-source a{color:var(--blue);font-weight:800;text-decoration:none}.message-source div{font-size:11px;color:var(--muted);line-height:1.5;margin-top:5px}.message-check{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:12px;font-weight:700}.message-subhead{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin:14px 0 8px}.message-subhead b{font-size:14px}.message-subhead span{font-size:11px;color:var(--muted);line-height:1.5}.message-watch-table{margin-bottom:14px}.message-watch-table table{min-width:980px}.message-watch-table a{color:var(--blue);font-weight:800;text-decoration:none}.message-watch-action{border:0;border-radius:999px;background:#eef3ff;color:var(--blue);font-weight:900;font-size:11px;padding:6px 10px;cursor:pointer}.message-watch-action:hover{background:#dfe8ff}.empty{display:none;padding:28px;text-align:center;color:var(--muted)}.footer{padding:25px 0;color:var(--muted);font-size:11px;line-height:1.7}
-.watchlist-manager{border:1px solid #dce5f5;border-radius:15px;background:linear-gradient(180deg,#f8faff,#fff);padding:14px;margin:12px 0 16px}.watchlist-manager-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:10px}.watchlist-manager-head b{font-size:14px;color:var(--navy)}.watchlist-manager-head span{font-size:11px;color:var(--muted);line-height:1.5;text-align:right}.watchlist-manager-form{display:flex;flex-wrap:wrap;gap:9px;align-items:center}.watchlist-manager .message-chip{display:inline-flex;align-items:center;gap:5px}.watchlist-manager .message-chip button{background:#fff0f0;color:#b84040;border-radius:999px;padding:3px 7px;margin-left:2px}.watchlist-sync-status[data-state="shared"]{color:var(--down)}.watchlist-sync-status[data-state="error"]{color:var(--amber)}.message-button:disabled{opacity:.6;cursor:wait}
+.watchlist-manager{border:1px solid #dce5f5;border-radius:15px;background:linear-gradient(180deg,#f8faff,#fff);padding:14px;margin:12px 0 16px}.watchlist-manager-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:10px}.watchlist-manager-head b{font-size:14px;color:var(--navy)}.watchlist-manager-head span{font-size:11px;color:var(--muted);line-height:1.5;text-align:right}.watchlist-manager-form{display:flex;flex-wrap:wrap;gap:9px;align-items:center}.watchlist-sync-status[data-state="shared"]{color:var(--down)}.watchlist-sync-status[data-state="error"]{color:var(--amber)}.message-button:disabled{opacity:.6;cursor:wait}.watchlist-dropdown{position:relative;margin-top:11px;max-width:520px}.watchlist-dropdown>summary{list-style:none;display:inline-flex;align-items:center;gap:7px;border:1px solid #cfd9ea;background:#fff;color:var(--navy);border-radius:10px;padding:9px 12px;font-size:12px;font-weight:850;cursor:pointer;user-select:none}.watchlist-dropdown>summary::-webkit-details-marker{display:none}.watchlist-dropdown>summary:after{content:'▾';font-size:11px;color:var(--muted);transition:transform .18s ease}.watchlist-dropdown[open]>summary:after{transform:rotate(180deg)}.watchlist-count{display:inline-flex;align-items:center;justify-content:center;min-width:23px;height:21px;padding:0 6px;border-radius:999px;background:#eaf0ff;color:var(--blue);font-size:11px}.watchlist-dropdown-panel{position:absolute;z-index:30;top:calc(100% + 7px);left:0;width:min(440px,calc(100vw - 52px));padding:12px;border:1px solid var(--line);border-radius:13px;background:#fff;box-shadow:0 18px 42px rgba(25,42,80,.18)}.watchlist-manage-tools{display:flex;gap:8px;align-items:center;margin-bottom:9px}.watchlist-manage-tools .message-input{min-width:0;flex:1}.watchlist-selectbar{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:11px;color:var(--muted);margin-bottom:7px}.watchlist-selectbar label{display:flex;align-items:center;gap:6px;cursor:pointer}.watchlist-scroll{max-height:260px;overflow:auto;border:1px solid var(--line);border-radius:10px;background:#fbfcff;padding:5px}.watchlist-option{display:flex;align-items:center;gap:9px;padding:8px 9px;border-radius:8px;font-size:12px;font-weight:750;cursor:pointer}.watchlist-option:hover{background:#eef3ff}.watchlist-option input{margin:0}.watchlist-dropdown-footer{display:flex;justify-content:flex-end;gap:8px;margin-top:9px}.watchlist-dropdown-footer .message-button{height:34px}.watchlist-empty{padding:18px 10px;text-align:center;color:var(--muted);font-size:12px}
 .tracking-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:16px;margin-bottom:16px}.tracking-score{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.score-tile{border:1px solid var(--line);border-radius:14px;background:#f7f9fd;padding:12px;min-width:0}.score-tile span{display:block;color:var(--muted);font-size:11px;font-weight:800}.score-tile b{display:block;margin-top:8px;font-size:26px;line-height:1}.risk-pill{display:inline-flex;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:900}.risk-green{background:#eaf8f1;color:var(--down)}.risk-yellow{background:#fff8df;color:#9f7112}.risk-orange{background:#fff0e6;color:#bc6816}.risk-red{background:#fff0f0;color:var(--up)}.module-list{display:grid;gap:9px}.module-row{border:1px solid var(--line);border-radius:12px;padding:10px;background:#fff}.module-head{display:flex;justify-content:space-between;gap:10px;font-size:12px;font-weight:900}.module-basis{margin-top:6px;color:var(--muted);font-size:11px;line-height:1.55}.framework-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.framework-card{border:1px solid var(--line);border-radius:14px;padding:13px;background:#fff}.framework-card b{display:block;margin-bottom:6px}.framework-card p{margin:0 0 9px;color:#59667d;font-size:12px;line-height:1.55}.framework-card ul{margin:0;padding-left:18px;color:#364157;font-size:12px;line-height:1.75}.process-strip{display:flex;flex-wrap:wrap;gap:8px}.process-step{border:1px solid var(--line);background:#f6f8fc;border-radius:999px;padding:8px 11px;font-size:12px;font-weight:800;color:#55627a}
 @media(max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}.asset-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.valuation-grid{grid-template-columns:repeat(2,1fr)}.g2,.g3,.g4,.tracking-hero{grid-template-columns:1fr}.source-grid{grid-template-columns:1fr 1fr}.chart-grid{grid-template-columns:1fr}}
 @media(max-width:650px){.wrap{padding:12px}.hero{padding:22px 18px;border-radius:18px}.hero h1{font-size:23px}.kpis,.tracking-score{grid-template-columns:repeat(2,1fr)}.asset-grid,.valuation-grid,.source-grid{grid-template-columns:1fr}.asset-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.chart{height:330px}.market-single-chart{height:290px}}
@@ -295,7 +347,22 @@ HTML = r'''<!doctype html>
         <button id="messageAddCode" class="message-button">新增自选股</button>
         <span class="asset-symbol">新增或删除后会立即同步，所有打开共享链接的人都能看到，并长期保留。</span>
       </div>
-      <div id="messageWatchlist" class="message-chipbar"></div>
+      <details id="watchlistManagerDropdown" class="watchlist-dropdown">
+        <summary>管理已有自选股 <span id="watchlistManageCount" class="watchlist-count">0</span></summary>
+        <div class="watchlist-dropdown-panel">
+          <div class="watchlist-manage-tools">
+            <input id="watchlistManageSearch" class="message-input" placeholder="搜索自选股代码">
+          </div>
+          <div class="watchlist-selectbar">
+            <label><input id="watchlistSelectAll" type="checkbox"> 选择当前搜索结果</label>
+            <span id="watchlistSelectionStatus">已选 0 只</span>
+          </div>
+          <div id="messageWatchlist" class="watchlist-scroll"></div>
+          <div class="watchlist-dropdown-footer">
+            <button id="watchlistDeleteSelected" class="message-button secondary" type="button" disabled>删除选中</button>
+          </div>
+        </div>
+      </details>
     </div>
     <div class="message-subhead">
       <b>自选股讯息汇总</b>
@@ -749,6 +816,7 @@ function renderFund(){const f=DATA.fund;if(!f.length)return;const sorted=[...f].
 
 async function renderMessages(){
   const msg=DATA.messages||{};
+  const stockNames=DATA.stock_names||{};
   const manualItems=msg.items||[];
   const marketItems=msg.market_items||[];
   const items=[...manualItems,...marketItems].sort((a,b)=>String(b.published_at||'').localeCompare(String(a.published_at||'')));
@@ -761,6 +829,8 @@ async function renderMessages(){
   let watchlist=[...defaults];
   let watchlistMode='loading';
   let activeCategory='全部';
+  let watchlistManageQuery='';
+  const selectedWatchCodes=new Set();
   function readLocalWatchlist(){
     try{
       const stored=JSON.parse(localStorage.getItem(storageKey)||'[]');
@@ -796,17 +866,17 @@ async function renderMessages(){
     }
   }
   async function persistSharedWatchlist(method,code){
-    const normalized=normalizeStockCode(code);
-    if(!normalized)return false;
+    const normalizedCodes=[...new Set((Array.isArray(code)?code:[code]).map(normalizeStockCode).filter(Boolean))];
+    if(!normalizedCodes.length)return false;
     setWatchlistStatus(method==='POST'?'正在新增并同步…':'正在删除并同步…','loading');
     if(watchlistMode==='shared'){
       const url=new URL(watchlistApi,window.location.href);
-      if(method==='DELETE')url.searchParams.set('code',normalized);
+      if(method==='DELETE'&&normalizedCodes.length===1)url.searchParams.set('code',normalizedCodes[0]);
       const response=await fetch(url.href,{
         method,
         cache:'no-store',
         headers:{Accept:'application/json','Content-Type':'application/json'},
-        body:method==='POST'?JSON.stringify({code:normalized}):undefined
+        body:method==='POST'?JSON.stringify({code:normalizedCodes[0]}):method==='DELETE'&&normalizedCodes.length>1?JSON.stringify({codes:normalizedCodes}):undefined
       });
       const payload=await response.json().catch(()=>({}));
       if(!response.ok)throw new Error(payload.error||`watchlist ${response.status}`);
@@ -814,7 +884,8 @@ async function renderMessages(){
       setWatchlistStatus('已同步 · 其他访问者刷新后即可看到','shared');
       return true;
     }
-    watchlist=method==='POST'?[...new Set([...watchlist,normalized])]:watchlist.filter(item=>item!==normalized);
+    const deleting=new Set(normalizedCodes);
+    watchlist=method==='POST'?[...new Set([...watchlist,normalizedCodes[0]])]:watchlist.filter(item=>!deleting.has(item));
     saveLocalWatchlist();
     setWatchlistStatus('已保存到本机；使用共享版链接可跨设备同步','error');
     return true;
@@ -860,7 +931,7 @@ async function renderMessages(){
   }
   function watchDisplayName(code,rows){
     const named=rows.find(row=>row.stock_name);
-    return named?.stock_name||code;
+    return stockNames[normalizeStockCode(code)]||named?.stock_name||code;
   }
   function renderKpis(){
     const countBy=cat=>cat==='全部'?items.length:items.filter(x=>x.category===cat).length;
@@ -876,23 +947,42 @@ async function renderMessages(){
       kpi('共享自选代码',watchlist.length,'个',watchlistMode==='shared'?'云端长期保存，所有访问者同步':'本机保存，共享服务暂不可用')
     ].join('');
   }
-  function renderWatchlist(){
-    document.getElementById('messageWatchlist').innerHTML=watchlist.length?watchlist.map(code=>`<span class="message-chip">${esc(code)}<button data-code="${esc(code)}" title="删除 ${esc(code)}">删除</button></span>`).join(''):'<span class="asset-symbol">共享自选股目前为空，可在上方输入6位股票代码新增。</span>';
-    document.querySelectorAll('#messageWatchlist button').forEach(btn=>btn.onclick=async()=>{
-      const code=btn.dataset.code||'';
-      if(!window.confirm(`确认从共享自选股中删除 ${code}？`))return;
-      btn.disabled=true;
-      try{
-        await persistSharedWatchlist('DELETE',code);
-        renderKpis();
-        renderWatchlist();
-        renderRows();
-      }catch(error){
-        setWatchlistStatus(error?.message||'删除失败，请稍后重试','error');
-        btn.disabled=false;
-      }
+  function managedWatchlistCodes(){
+    const query=String(watchlistManageQuery||'').trim().toUpperCase();
+    return query?watchlist.filter(code=>code.includes(query)):watchlist;
+  }
+  function updateWatchlistSelectionControls(){
+    const visible=managedWatchlistCodes();
+    const selected=[...selectedWatchCodes].filter(code=>watchlist.includes(code));
+    const selectAll=document.getElementById('watchlistSelectAll');
+    const deleteButton=document.getElementById('watchlistDeleteSelected');
+    const status=document.getElementById('watchlistSelectionStatus');
+    if(status)status.textContent=`已选 ${selected.length} 只`;
+    if(deleteButton){
+      deleteButton.disabled=!selected.length;
+      deleteButton.textContent=selected.length?`删除选中（${selected.length}）`:'删除选中';
+    }
+    if(selectAll){
+      const visibleSelected=visible.filter(code=>selectedWatchCodes.has(code)).length;
+      selectAll.checked=visible.length>0&&visibleSelected===visible.length;
+      selectAll.indeterminate=visibleSelected>0&&visibleSelected<visible.length;
+      selectAll.disabled=!visible.length;
+    }
+  }
+  function renderWatchlist(updateSummary=true){
+    const count=document.getElementById('watchlistManageCount');
+    if(count)count.textContent=watchlist.length;
+    [...selectedWatchCodes].forEach(code=>{if(!watchlist.includes(code))selectedWatchCodes.delete(code)});
+    const visible=managedWatchlistCodes();
+    const target=document.getElementById('messageWatchlist');
+    target.innerHTML=visible.length?visible.map(code=>{const name=stockNames[code]||'';return `<label class="watchlist-option"><input type="checkbox" data-manage-code="${esc(code)}" ${selectedWatchCodes.has(code)?'checked':''}><span>${esc(code)}${name?` · ${esc(name)}`:''}</span></label>`}).join(''):`<div class="watchlist-empty">${watchlist.length?'没有匹配的自选股代码':'共享自选股目前为空，可在上方新增。'}</div>`;
+    target.querySelectorAll('[data-manage-code]').forEach(input=>input.onchange=()=>{
+      const code=input.dataset.manageCode||'';
+      if(input.checked)selectedWatchCodes.add(code);else selectedWatchCodes.delete(code);
+      updateWatchlistSelectionControls();
     });
-    renderWatchSummary();
+    updateWatchlistSelectionControls();
+    if(updateSummary)renderWatchSummary();
   }
   function renderWatchSummary(){
     const target=document.getElementById('messageWatchSummary');
@@ -983,6 +1073,35 @@ async function renderMessages(){
   renderKpis();
   renderWatchlist();
   renderRows();
+  document.getElementById('watchlistManageSearch').oninput=event=>{
+    watchlistManageQuery=event.target.value||'';
+    renderWatchlist(false);
+  };
+  document.getElementById('watchlistSelectAll').onchange=event=>{
+    const checked=event.target.checked;
+    managedWatchlistCodes().forEach(code=>{
+      if(checked)selectedWatchCodes.add(code);else selectedWatchCodes.delete(code);
+    });
+    document.querySelectorAll('#messageWatchlist [data-manage-code]').forEach(input=>{input.checked=checked});
+    updateWatchlistSelectionControls();
+  };
+  document.getElementById('watchlistDeleteSelected').onclick=async()=>{
+    const codes=[...selectedWatchCodes].filter(code=>watchlist.includes(code));
+    if(!codes.length)return;
+    if(!window.confirm(`确认从共享自选股中删除选中的 ${codes.length} 只股票？`))return;
+    const button=document.getElementById('watchlistDeleteSelected');
+    button.disabled=true;
+    try{
+      await persistSharedWatchlist('DELETE',codes);
+      selectedWatchCodes.clear();
+      renderKpis();
+      renderWatchlist();
+      renderRows();
+    }catch(error){
+      setWatchlistStatus(error?.message||'批量删除失败，请稍后重试','error');
+      updateWatchlistSelectionControls();
+    }
+  };
   document.getElementById('messageAddCode').onclick=async()=>{
     const input=document.getElementById('messageCodeInput');
     const code=normalizeStockCode(input.value);
@@ -1092,6 +1211,7 @@ def main() -> None:
         "market": grouped_tail_records(data["market"], "symbol", rows_per_group=520),
         "market_cards": latest_market_cards(data["market"]),
         "messages": messages,
+        "stock_names": read_stock_name_map(),
         "market_tracking": market_tracking,
         "market_tracking_history": dataframe_to_records(data["market_tracking_history"], max_rows=300),
         "global_macro": grouped_tail_records(data["global_macro"], "series", rows_per_group=20000),

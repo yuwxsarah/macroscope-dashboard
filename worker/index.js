@@ -108,20 +108,25 @@ async function handleWatchlist(request, env) {
   }
 
   if (request.method === "DELETE") {
-    let requestedCode = url.searchParams.get("code") || "";
-    if (!requestedCode) {
+    let requestedCodes = url.searchParams.getAll("code");
+    if (!requestedCodes.length) {
       try {
-        requestedCode = (await request.json())?.code || "";
+        const payload = await request.json();
+        requestedCodes = Array.isArray(payload?.codes) ? payload.codes : [payload?.code];
       } catch {
-        requestedCode = "";
+        requestedCodes = [];
       }
     }
-    const code = normalizeStockCode(requestedCode);
-    if (!code) {
+    const codes = [...new Set(requestedCodes.map(normalizeStockCode).filter(Boolean))].slice(0, 100);
+    if (!codes.length) {
       return json({ error: "缺少有效的自选股代码" }, 400);
     }
 
-    await env.DB.prepare("DELETE FROM shared_watchlist WHERE code = ?").bind(code).run();
+    await env.DB.batch(
+      codes.map((code) =>
+        env.DB.prepare("DELETE FROM shared_watchlist WHERE code = ?").bind(code)
+      )
+    );
     return json({ watchlist: await listWatchlist(env.DB), shared: true });
   }
 

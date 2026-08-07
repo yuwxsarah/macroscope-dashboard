@@ -690,6 +690,7 @@ def refresh_ashare_daily(days: int, max_workers: int) -> dict[str, Any]:
     pd.DataFrame({
         "code": [item["code"] for item in universe],
         "exchange": [item["exchange"] for item in universe],
+        "name": [item["name"] for item in universe],
         "source": "东方财富行情中心代码列表",
         "updated_at": now_iso(),
     }).to_csv(UNIVERSE_PATH, index=False, encoding="utf-8-sig")

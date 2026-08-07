@@ -23,7 +23,7 @@ SCHEMAS = {
     "deviation.csv": ["trade_date","symbol","name","period","period_label","close","ma20","ma30","dev20_pct","dev30_pct","source"],
     "bull_deviation_reference.csv": ["symbol","index_name","bull_round","high","week20_ratio","week30_ratio","month20_ratio","month30_ratio","week20_dev_pct","week30_dev_pct","month20_dev_pct","month30_dev_pct"],
     "fund_subscription.csv": ["founded_date","fund_code","fund_name","fund_type","fund_company","raised_shares_100m","estimated_raised_amount_100m","source","method_note"],
-    "a_share_universe.csv": ["code","exchange","source","updated_at"],
+    "a_share_universe.csv": ["code","exchange","name","source","updated_at"],
     "market_messages.csv": ["published_at","category","title","summary","source","source_url","symbol","stock_name","importance","status","source_type","item_id"],
     "market_tracking.csv": ["trade_date","market_score","risk_score","suggested_position_pct","risk_level","market_phase","style_signal","source"],
 }
