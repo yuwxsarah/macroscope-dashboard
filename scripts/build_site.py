@@ -209,6 +209,7 @@ HTML = r'''<!doctype html>
 <title>{{ title }}</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%23172c58%27/%3E%3Cpath d=%27M13 43V21h7l12 14 12-14h7v22h-7V31L32 45 20 31v12z%27 fill=%27white%27/%3E%3C/svg%3E">
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<script src="market-messages-data.js"></script>
 <style>
 :root{--bg:#f3f6fb;--panel:#fff;--ink:#172033;--muted:#6d7890;--line:#e4e9f2;--blue:#3167e3;--navy:#172c58;--cyan:#1e9ca5;--purple:#7456d8;--amber:#c98a18;--up:#d64242;--down:#159567;--shadow:0 14px 36px rgba(25,42,80,.08)}
 *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#eef3fb 0,#f7f9fc 320px);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink)}
@@ -325,6 +326,7 @@ HTML = r'''<!doctype html>
 </div>
 <script>
 const DATA={{ payload|safe }};
+if(Array.isArray(window.MACROSCOPE_MARKET_ITEMS)){DATA.messages.market_items=window.MACROSCOPE_MARKET_ITEMS}
 const C={blue:'#3167e3',navy:'#172c58',cyan:'#1e9ca5',purple:'#7456d8',amber:'#c98a18',up:'#d64242',down:'#159567',muted:'#78849a',grid:'#e8ecf3'};
 const CONFIG={responsive:true,displaylogo:false,modeBarButtonsToRemove:['lasso2d','select2d']};
 const baseLayout={paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{family:'-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Microsoft YaHei',color:'#536078',size:11},margin:{l:48,r:30,t:18,b:42},legend:{orientation:'h',y:1.13},hovermode:'x unified'};
@@ -1078,7 +1080,10 @@ def main() -> None:
             sort_cols = [x for x in ["symbol", "index_code", "series", "trade_date"] if x in data[key].columns]
             data[key] = data[key].sort_values(sort_cols) if sort_cols else data[key]
     messages = read_messages()
-    messages["market_items"] = read_market_messages()
+    market_items = read_market_messages()
+    # Keep the large message feed in its own static asset. This preserves every
+    # record while keeping index.html below hosting platforms' per-file limit.
+    messages["market_items"] = []
     market_tracking = read_market_tracking()
     payload = {
         "status": read_status(),
@@ -1111,6 +1116,12 @@ def main() -> None:
     )
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
     (PUBLIC_DIR / "index.html").write_text(html, encoding="utf-8")
+    (PUBLIC_DIR / "market-messages-data.js").write_text(
+        "window.MACROSCOPE_MARKET_ITEMS="
+        + json.dumps(market_items, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+        + ";",
+        encoding="utf-8",
+    )
     (PUBLIC_DIR / ".nojekyll").write_text("", encoding="utf-8")
     nested_public_dir = PUBLIC_DIR / "public"
     nested_public_dir.mkdir(parents=True, exist_ok=True)
