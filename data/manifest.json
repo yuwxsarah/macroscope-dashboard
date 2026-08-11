@@ -84,7 +84,7 @@
       "status": "ok"
     },
     "crowding.csv": {
-      "rows": 71,
+      "rows": 72,
       "columns": [
         "trade_date",
         "top_fraction",
@@ -99,7 +99,7 @@
       "status": "ok"
     },
     "breadth.csv": {
-      "rows": 71,
+      "rows": 72,
       "columns": [
         "trade_date",
         "up_count",
@@ -116,7 +116,7 @@
       "status": "ok"
     },
     "leverage.csv": {
-      "rows": 70,
+      "rows": 71,
       "columns": [
         "trade_date",
         "margin_balance_trillion",
@@ -206,7 +206,7 @@
       "status": "ok"
     },
     "market_tracking.csv": {
-      "rows": 71,
+      "rows": 72,
       "columns": [
         "trade_date",
         "market_score",
