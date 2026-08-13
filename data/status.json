@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-12T22:39:26+08:00",
-      "finished_at": "2026-08-12T22:39:46+08:00",
+      "started_at": "2026-08-13T15:03:21+08:00",
+      "finished_at": "2026-08-13T15:03:39+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -21,9 +21,8 @@
             "source": "商务数据中心 / AKShare"
           },
           "social_financing_stock": {
-            "status": "success",
-            "rows": 6,
-            "source": "中国人民银行官方社会融资规模存量统计表"
+            "status": "failed",
+            "error": "DataFetchError(\"人民银行社融存量表抓取失败: 2023: HTTPError('403 Client Error: Forbidden for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2023ntjsj/shrzgm/index.html') | 2024: HTTPError('403 Client Error: Forbidden for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2024ntjsj/shrzgm/index.html') | 2025: HTTPError('403 Client Error: Forbidden for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2025ntjsj/shrzgm/index.html') | 2026: HTTPError('403 Client Error: Forbidden for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2026ntjsj/shrzgm/index.html')\")"
           },
           "pmi": {
             "status": "success",
@@ -37,22 +36,22 @@
           }
         },
         "messages": [
-          "人民银行社融存量部分年份失败: 2022: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2022ntjsj/shrzgm/index.html') | 2023: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2023ntjsj/shrzgm/index.html') | 2024: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2024ntjsj/shrzgm/index.html') | 2025: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2025ntjsj/shrzgm/index.html')"
+          "社融存量官方表: DataFetchError(\"人民银行社融存量表抓取失败: 2023: HTTPError('403 Client Error: Forbidden for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2023ntjsj/shrzgm/index.html') | 2024: HTTPError('403 Client Error: Forbidden for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2024ntjsj/shrzgm/index.html') | 2025: HTTPError('403 Client Error: Forbidden for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2025ntjsj/shrzgm/index.html') | 2026: HTTPError('403 Client Error: Forbidden for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2026ntjsj/shrzgm/index.html')\")"
         ]
       },
       "cached_rows": 169
     },
     "liquidity": {
       "status": "success",
-      "rows": 4957,
-      "started_at": "2026-08-12T22:39:46+08:00",
-      "finished_at": "2026-08-12T22:40:04+08:00",
-      "latest_date": "20260812",
-      "total_cached_rows": 4993,
+      "rows": 4958,
+      "started_at": "2026-08-13T15:03:39+08:00",
+      "finished_at": "2026-08-13T15:03:55+08:00",
+      "latest_date": "20260813",
+      "total_cached_rows": 4994,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4957,
+          "rows": 4958,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,7 +61,7 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 4993
+      "cached_rows": 4994
     },
     "market": {
       "status": "success",
@@ -412,7 +411,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-13T14:05:55+08:00",
+  "updated_at": "2026-08-13T15:19:21+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
