@@ -65,9 +65,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 32796,
-      "started_at": "2026-08-13T18:46:29+08:00",
-      "finished_at": "2026-08-13T18:46:39+08:00",
+      "rows": 32784,
+      "started_at": "2026-08-13T19:26:04+08:00",
+      "finished_at": "2026-08-13T19:26:13+08:00",
       "latest_date": "20260813",
       "total_cached_rows": 32798,
       "symbols": {
@@ -103,22 +103,22 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1661,
+          "rows": 1658,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1661,
+          "rows": 1658,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1661,
+          "rows": 1658,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1664,
+          "rows": 1661,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -219,8 +219,8 @@
     "valuation": {
       "status": "success",
       "rows": 23338,
-      "started_at": "2026-08-13T18:46:39+08:00",
-      "finished_at": "2026-08-13T18:47:11+08:00",
+      "started_at": "2026-08-13T19:26:13+08:00",
+      "finished_at": "2026-08-13T19:26:35+08:00",
       "latest_date": "20260813",
       "total_cached_rows": 23338,
       "indices": {
@@ -320,8 +320,8 @@
     "deviation": {
       "status": "success",
       "rows": 2095,
-      "started_at": "2026-08-13T18:48:54+08:00",
-      "finished_at": "2026-08-13T18:48:54+08:00",
+      "started_at": "2026-08-13T19:28:06+08:00",
+      "finished_at": "2026-08-13T19:28:06+08:00",
       "latest_date": "20260813",
       "total_cached_rows": 2095,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -372,8 +372,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-13T18:47:11+08:00",
-      "finished_at": "2026-08-13T18:48:54+08:00",
+      "started_at": "2026-08-13T19:26:35+08:00",
+      "finished_at": "2026-08-13T19:28:06+08:00",
       "latest_date": "20260813",
       "crowding_cached_rows": 74,
       "breadth_cached_rows": 74,
@@ -381,7 +381,7 @@
         "status": "success",
         "rows": 1,
         "latest_date": "20260812",
-        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
+        "source": "深交所融资融券汇总 + 上海两融历史公开表"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
       "snapshot_kind": "收盘后快照"
@@ -411,7 +411,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-13T19:05:12+08:00",
+  "updated_at": "2026-08-13T19:44:36+08:00",
   "overall_status": "success",
   "last_update_mode": "close"
 }
