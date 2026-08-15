@@ -66,9 +66,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 32817,
-      "started_at": "2026-08-15T07:01:52+08:00",
-      "finished_at": "2026-08-15T07:02:00+08:00",
+      "rows": 32827,
+      "started_at": "2026-08-16T06:58:52+08:00",
+      "finished_at": "2026-08-16T06:59:04+08:00",
       "latest_date": "20260814",
       "total_cached_rows": 32829,
       "symbols": {
@@ -104,17 +104,17 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1660,
+          "rows": 1663,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1660,
+          "rows": 1663,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1660,
+          "rows": 1663,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
@@ -164,7 +164,7 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1621,
+          "rows": 1622,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
@@ -178,8 +178,8 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-15T07:02:00+08:00",
-      "finished_at": "2026-08-15T07:13:32+08:00",
+      "started_at": "2026-08-16T06:59:04+08:00",
+      "finished_at": "2026-08-16T07:10:37+08:00",
       "latest_date": "20260813",
       "total_cached_rows": 30000,
       "source_details": {
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2095,
-      "started_at": "2026-08-15T07:13:32+08:00",
-      "finished_at": "2026-08-15T07:13:32+08:00",
+      "started_at": "2026-08-16T07:10:37+08:00",
+      "finished_at": "2026-08-16T07:10:37+08:00",
       "latest_date": "20260814",
       "total_cached_rows": 2095,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-15T19:19:11+08:00",
+  "updated_at": "2026-08-16T07:26:02+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
