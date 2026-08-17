@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07 11:50:14+08:00",
+  "updated_at": "2026-08-17 11:31:06+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -114,6 +114,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-3511ed41a50a2835",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，大消费低迷，白酒股领跌 盘面上，OCS、光芯片、CPO概念涨幅居前，贵金属、造纸板块活跃。 7244 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103320283.html",
+      "published_at": "2026-08-17",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3769b9c3f7648bed",
+      "category": "重大新闻",
+      "title": "盘前必读丨“年内最贵新股”明日上市；贵州茅台上半年业绩出炉 机构认为，资金博弈与分歧状态下，行情运行过程中仍将伴随节奏波动与反复，板块轮动与结构性分化或将延续。",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103320108.html",
+      "published_at": "2026-08-17",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7e60cfc00df3da56",
+      "category": "重大新闻",
+      "title": "25年来最贵美债横空出世，黄金后劲不足了？ 美债收益率刷新纪录导致黄金价格在短暂冲高后回落，但央行购金等托底力量使其仍具备配置价值。 29440 昨天 20:1",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103320021.html",
+      "published_at": "2026-08-17",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-af63596141d5228e",
+      "category": "重大新闻",
+      "title": "两融余额重获连增、半月增超730亿，市场回暖信号渐强？ 近半个月，31个申万所属一级行业中，九成行业获融资资金净买入。 26061 昨天 19:30",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103320007.html",
+      "published_at": "2026-08-17",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c9a286a2eadc5fdf",
+      "category": "重大新闻",
+      "title": "晚间公告｜8月16日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 47203 昨天 19:10",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103320008.html",
+      "published_at": "2026-08-17",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-d7d54d76d50ff2ca",
       "category": "重大新闻",
@@ -903,13 +973,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-07 11:50:14+08:00",
+  "last_checked_at": "2026-08-17 11:31:06+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 72350,
+    "rows": 66919,
     "covered_stocks": 5544,
-    "notice_rows": 32366,
-    "stock_news_rows": 39984,
+    "notice_rows": 29462,
+    "stock_news_rows": 37457,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
