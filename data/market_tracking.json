@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17 20:03:20+08:00",
+  "updated_at": "2026-08-18 07:28:54+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,9 +355,9 @@
   "tracking": {
     "trade_date": "20260817",
     "summary": {
-      "market_score": 39.9,
-      "market_score_before_gate": 39.9,
-      "risk_score": 39.9,
+      "market_score": 40.9,
+      "market_score_before_gate": 40.9,
+      "risk_score": 40.2,
       "risk_level": "橙色",
       "market_phase": "防御期 / 橙色降风险",
       "base_position_pct": 30.0,
@@ -372,8 +372,8 @@
       "risk_action": "提前降风险",
       "liquidity_gate": "流动性原始分<=2.0，按框架规则不建议重仓进攻。",
       "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
-      "style_signal": "均衡轮动",
-      "style_reason": "成长/科技20日动量均值 5.26%；宽基20日动量均值 4.01%；风格差 1.26%",
+      "style_signal": "成长科技占优",
+      "style_reason": "成长/科技20日动量均值 7.01%；宽基20日动量均值 4.01%；风格差 3.00%",
       "formula": "实际仓位 = 大盘建议仓位 × 风险折扣"
     },
     "modules": [
@@ -499,14 +499,14 @@
       {
         "name": "风格结构",
         "weight": 10,
-        "score": 56.3,
-        "raw_score": 2.8,
-        "weighted_score": 5.6,
-        "status": "中性偏弱",
+        "score": 65.0,
+        "raw_score": 3.3,
+        "weighted_score": 6.6,
+        "status": "中性偏强",
         "basis": [
-          "成长/科技20日动量均值 5.26%",
+          "成长/科技20日动量均值 7.01%",
           "宽基20日动量均值 4.01%",
-          "风格差 1.26%"
+          "风格差 3.00%"
         ],
         "blueprint": [
           "大小盘风格 25%",
@@ -566,12 +566,12 @@
       {
         "name": "跨资产压力",
         "weight": 10,
-        "risk": 6.6,
-        "raw_risk": 66.2,
+        "risk": 6.9,
+        "raw_risk": 68.8,
         "level": "偏高",
         "basis": [
-          "美国10年期国债 4.63%",
-          "纳斯达克20日动量 4.74%",
+          "美国10年期国债 4.68%",
+          "纳斯达克20日动量 4.46%",
           "美元净流动性 5.48万亿美元"
         ]
       },
@@ -605,7 +605,7 @@
       "crowding_pct": 49.72,
       "margin_to_market_cap_pct": 2.276,
       "index_momentum_20d_pct": 5.18,
-      "dgs10_pct": 4.63
+      "dgs10_pct": 4.68
     }
   },
   "method_note": "大盘机会评分按七大模块0-5原始分折算为100分；风险领先预警分越高越需要降仓。该模型用于仓位管理与风控，不直接预测指数点位，不构成投资建议。"
