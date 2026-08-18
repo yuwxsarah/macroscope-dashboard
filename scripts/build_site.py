@@ -298,7 +298,7 @@ HTML = r'''<!doctype html>
     </div>
   </div>
   <div class="grid g2">
-    <div class="card"><h3>大盘评分与风险预警历史</h3><div id="trackingHistoryChart" class="chart"></div></div>
+    <div class="card"><h3>大盘评分与风险预警历史 <small>沪深300点位使用右轴</small></h3><div id="trackingHistoryChart" class="chart"></div></div>
     <div class="card"><h3>七大模块评分</h3><div id="trackingModuleChart" class="chart"></div></div>
     <div class="card"><h3>风险领先预警模型</h3><div id="trackingRiskChart" class="chart"></div></div>
     <div class="card"><h3>模块依据</h3><div id="trackingModuleList" class="module-list"></div></div>
@@ -639,11 +639,38 @@ function renderTracking(){
     <tr><td>美国10年期国债</td><td>${fmt(signals.dgs10_pct,3)}%</td></tr>
   </tbody></table>`;
   if(history.length){
-    Plotly.newPlot('trackingHistoryChart',[
-      {x:history.map(x=>cnDate(x.trade_date)),y:history.map(x=>x.market_score),name:'大盘评分',mode:'lines',line:{color:C.blue,width:2.4}},
-      {x:history.map(x=>cnDate(x.trade_date)),y:history.map(x=>x.risk_score),name:'风险分数',mode:'lines',line:{color:C.up,width:2.1}},
-      {x:history.map(x=>cnDate(x.trade_date)),y:history.map(x=>x.suggested_position_pct),name:'建议仓位',mode:'lines',line:{color:C.amber,width:2,dash:'dot'}}
-    ],layout({yaxis:{title:'分数 / %',gridcolor:C.grid,range:[0,100]},shapes:[{type:'line',x0:0,x1:1,xref:'paper',y0:55,y1:55,line:{color:C.muted,dash:'dot'}},{type:'line',x0:0,x1:1,xref:'paper',y0:75,y1:75,line:{color:C.up,dash:'dot'}}]}),CONFIG);
+    const historyDates=history.map(x=>cnDate(x.trade_date));
+    const csi300ByDate=new Map(marketRows('000300.SH',520).map(x=>[
+      String(x.trade_date??'').replace(/\D/g,''),
+      Number(x.close)
+    ]));
+    const csi300Values=history.map(x=>{
+      const value=csi300ByDate.get(String(x.trade_date??'').replace(/\D/g,''));
+      return Number.isFinite(value)?value:null;
+    });
+    const historyTraces=[
+      {x:historyDates,y:history.map(x=>x.market_score),name:'大盘评分',mode:'lines',line:{color:C.blue,width:2.4}},
+      {x:historyDates,y:history.map(x=>x.risk_score),name:'风险分数',mode:'lines',line:{color:C.up,width:2.1}},
+      {x:historyDates,y:history.map(x=>x.suggested_position_pct),name:'建议仓位',mode:'lines',line:{color:C.amber,width:2,dash:'dot'}}
+    ];
+    if(csi300Values.some(value=>Number.isFinite(value))){
+      historyTraces.push({
+        x:historyDates,
+        y:csi300Values,
+        name:'沪深300',
+        mode:'lines',
+        yaxis:'y2',
+        connectgaps:false,
+        line:{color:C.navy,width:2.3,dash:'dash'},
+        hovertemplate:'沪深300<br>%{x}<br>%{y:,.2f} 点<extra></extra>'
+      });
+    }
+    Plotly.newPlot('trackingHistoryChart',historyTraces,layout({
+      margin:{l:48,r:66,t:18,b:42},
+      yaxis:{title:'分数 / %',gridcolor:C.grid,range:[0,100]},
+      yaxis2:{title:'沪深300点位',overlaying:'y',side:'right',showgrid:false,tickformat:',.0f',color:C.navy},
+      shapes:[{type:'line',x0:0,x1:1,xref:'paper',y0:55,y1:55,line:{color:C.muted,dash:'dot'}},{type:'line',x0:0,x1:1,xref:'paper',y0:75,y1:75,line:{color:C.up,dash:'dot'}}]
+    }),CONFIG);
   }
   if(modules.length){
     Plotly.newPlot('trackingModuleChart',[{x:modules.map(x=>x.name),y:modules.map(x=>x.raw_score),type:'bar',marker:{color:modules.map(x=>Number(x.raw_score)>=3?'rgba(49,103,227,.68)':Number(x.raw_score)>=2?'rgba(201,138,24,.65)':'rgba(214,66,66,.62)')},text:modules.map(x=>`${fmt(x.raw_score,1)}/5 · 加权${fmt(x.weighted_score,1)}`),textposition:'auto',name:'原始评分'}],layout({margin:{l:44,r:20,t:16,b:90},yaxis:{title:'原始分 / 5',gridcolor:C.grid,range:[0,5]},xaxis:{tickangle:-25}}),CONFIG);
