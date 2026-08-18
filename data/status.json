@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-18T12:20:59+08:00",
-      "finished_at": "2026-08-18T12:21:15+08:00",
+      "started_at": "2026-08-18T19:46:45+08:00",
+      "finished_at": "2026-08-18T19:47:04+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -16,9 +16,8 @@
             "source": "东方财富 / AKShare"
           },
           "social_financing": {
-            "status": "success",
-            "rows": 103,
-            "source": "商务数据中心 / AKShare"
+            "status": "failed",
+            "error": "公开社融源失败"
           },
           "social_financing_stock": {
             "status": "success",
@@ -37,6 +36,7 @@
           }
         },
         "messages": [
+          "社会融资规模: SSLError(MaxRetryError(\"HTTPSConnectionPool(host='data.mofcom.gov.cn', port=443): Max retries exceeded with url: /datamofcom/front/gnmy/shrzgmQuery (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))\"))",
           "人民银行社融存量部分年份失败: 2022: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2022ntjsj/shrzgm/index.html') | 2023: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2023ntjsj/shrzgm/index.html') | 2024: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2024ntjsj/shrzgm/index.html') | 2025: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2025ntjsj/shrzgm/index.html')"
         ]
       },
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4961,
-      "started_at": "2026-08-18T12:21:15+08:00",
-      "finished_at": "2026-08-18T12:21:31+08:00",
+      "started_at": "2026-08-18T19:47:04+08:00",
+      "finished_at": "2026-08-18T19:47:30+08:00",
       "latest_date": "20260818",
       "total_cached_rows": 4997,
       "source_details": {
@@ -363,9 +363,9 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-17T19:47:07+08:00",
-      "finished_at": "2026-08-17T19:47:53+08:00",
-      "latest_date": "20260806",
+      "started_at": "2026-08-18T19:47:30+08:00",
+      "finished_at": "2026-08-18T19:47:35+08:00",
+      "latest_date": "20260814",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-18T18:20:42+08:00",
+  "updated_at": "2026-08-18T20:02:59+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
