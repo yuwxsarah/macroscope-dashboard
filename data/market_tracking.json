@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 13:23:04+08:00",
+  "updated_at": "2026-08-18 17:24:33+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,21 +355,21 @@
   "tracking": {
     "trade_date": "20260818",
     "summary": {
-      "market_score": 37.7,
-      "market_score_before_gate": 37.7,
-      "risk_score": 56.0,
-      "risk_level": "红色",
-      "market_phase": "防御期 / 红色预警",
+      "market_score": 37.6,
+      "market_score_before_gate": 37.6,
+      "risk_score": 48.0,
+      "risk_level": "橙色",
+      "market_phase": "防御期 / 橙色降风险",
       "base_position_pct": 30.0,
       "base_position_range": "20%-40%",
-      "risk_discount": 0.6,
-      "risk_discount_range": "50%-70%",
-      "suggested_position_pct": 19.0,
-      "suggested_position_range": "10%-28%",
+      "risk_discount": 0.8,
+      "risk_discount_range": "75%-85%",
+      "suggested_position_pct": 24.5,
+      "suggested_position_range": "15%-34%",
       "single_stock_limit": "10%",
       "industry_limit": "25%",
       "theme_limit": "15%",
-      "risk_action": "系统性降仓",
+      "risk_action": "提前降风险",
       "liquidity_gate": "流动性原始分<=2.0，按框架规则不建议重仓进攻。",
       "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
       "style_signal": "成长科技占优",
@@ -459,15 +459,15 @@
       {
         "name": "估值水平",
         "weight": 15,
-        "score": 21.7,
-        "raw_score": 1.1,
-        "weighted_score": 3.3,
+        "score": 19.1,
+        "raw_score": 1.0,
+        "weighted_score": 3.0,
         "status": "偏弱",
         "basis": [
-          "指数PE历史分位均值 78%",
-          "上证综指 PE历史分位 73%",
-          "上证50 PE历史分位 78%",
-          "沪深300 PE历史分位 78%"
+          "指数PE历史分位均值 81%",
+          "上证综指 PE历史分位 77%",
+          "上证50 PE历史分位 79%",
+          "沪深300 PE历史分位 81%"
         ],
         "blueprint": [
           "宽基指数估值 30%",
@@ -479,14 +479,14 @@
       {
         "name": "市场情绪",
         "weight": 10,
-        "score": 49.5,
-        "raw_score": 2.5,
-        "weighted_score": 5.0,
+        "score": 51.9,
+        "raw_score": 2.6,
+        "weighted_score": 5.2,
         "status": "中性偏弱",
         "basis": [
-          "上涨家数占比 23.70%",
-          "A股成交额/总市值 1.44%",
-          "交易拥挤度 49.47%"
+          "上涨家数占比 35.32%",
+          "A股成交额/总市值 5.19%",
+          "交易拥挤度 48.13%"
         ],
         "blueprint": [
           "成交活跃度 25%",
@@ -520,47 +520,47 @@
       {
         "name": "市场广度恶化",
         "weight": 20,
-        "risk": 17.0,
-        "raw_risk": 85.2,
-        "level": "高",
+        "risk": 13.1,
+        "raw_risk": 65.7,
+        "level": "偏高",
         "basis": [
-          "上涨家数占比 23.70%",
-          "近5期上涨家数变化 -325只"
+          "上涨家数占比 35.32%",
+          "近5期上涨家数变化 280只"
         ]
       },
       {
         "name": "量价质量恶化",
         "weight": 20,
-        "risk": 9.2,
-        "raw_risk": 45.9,
-        "level": "中",
+        "risk": 5.3,
+        "raw_risk": 26.6,
+        "level": "偏低",
         "basis": [
           "主要指数20日动量均值 5.18%",
           "主要指数相对20日均线均值 3.70%",
-          "成交额近5期变化 -0.63万亿元"
+          "成交额近5期变化 0.08万亿元"
         ]
       },
       {
         "name": "主线健康度下降",
         "weight": 20,
-        "risk": 4.4,
-        "raw_risk": 22.1,
+        "risk": 4.1,
+        "raw_risk": 20.3,
         "level": "偏低",
         "basis": [
           "创业板20日动量 8.63%",
           "科创50 20日动量 4.08%",
-          "交易拥挤度 49.47%"
+          "交易拥挤度 48.13%"
         ]
       },
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
         "risk": 9.4,
-        "raw_risk": 62.8,
+        "raw_risk": 62.9,
         "level": "偏高",
         "basis": [
-          "两融/总市值 2.29%，历史分位 71%",
-          "交易拥挤度历史分位 55%"
+          "两融/总市值 5.80%，历史分位 92%",
+          "交易拥挤度历史分位 34%"
         ]
       },
       {
@@ -578,11 +578,11 @@
       {
         "name": "估值盈利背离",
         "weight": 10,
-        "risk": 6.7,
-        "raw_risk": 66.7,
+        "risk": 6.8,
+        "raw_risk": 68.0,
         "level": "偏高",
         "basis": [
-          "指数PE历史分位均值 78%",
+          "指数PE历史分位均值 81%",
           "盈利周期原始分 2.2/5"
         ]
       },
@@ -599,11 +599,11 @@
       }
     ],
     "signals": {
-      "up_ratio_pct": 23.7,
-      "total_amount_trillion": 1.69,
-      "broad_turnover_pct": 1.443,
-      "crowding_pct": 49.47,
-      "margin_to_market_cap_pct": 2.291,
+      "up_ratio_pct": 35.32,
+      "total_amount_trillion": 2.4,
+      "broad_turnover_pct": 5.188,
+      "crowding_pct": 48.13,
+      "margin_to_market_cap_pct": 5.802,
       "index_momentum_20d_pct": 5.18,
       "dgs10_pct": 4.68
     }
