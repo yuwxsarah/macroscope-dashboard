@@ -101,8 +101,7 @@ async function request(method = "GET", code) {
 const initial = await request();
 assert.equal(initial.response.status, 200);
 assert.equal(initial.response.headers.get("access-control-allow-origin"), "*");
-assert.equal(initial.payload.watchlist.length, 6);
-assert.ok(initial.payload.watchlist.some((row) => row.code === "600353.SH"));
+assert.deepEqual(initial.payload.watchlist, []);
 
 const preflight = await worker.fetch(
   new Request("https://example.test/api/watchlist", {

@@ -9,6 +9,7 @@ class StockNameMapTests(unittest.TestCase):
 
         self.assertEqual(names["600519.SH"], "贵州茅台")
         self.assertEqual(names["300750.SZ"], "宁德时代")
+        self.assertEqual(names["300398.SZ"], "飞凯材料")
 
 
 if __name__ == "__main__":

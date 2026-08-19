@@ -104,8 +104,7 @@ jobs:
 
       - name: Refresh information feed
         if: steps.select.outputs.mode != 'publish'
-        continue-on-error: true
-        timeout-minutes: 15
+        timeout-minutes: 35
         run: python scripts/update_messages.py
 
       - name: Refresh A-share three-month daily series
@@ -129,46 +128,7 @@ jobs:
       - name: Persist refreshed cache and website
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add data public
-
-          if git diff --cached --quiet; then
-            echo "No refreshed files to commit."
-            exit 0
-          fi
-
-          git commit -m "chore: refresh public dashboard data [skip ci]"
-
-          push_with_rebase() {
-            for attempt in 1 2 3; do
-              echo "Sync and push attempt ${attempt}/3"
-
-              git fetch origin main
-
-              if ! git rebase origin/main; then
-                echo "::error::Automatic rebase failed because the remote changes conflict with generated files."
-                git rebase --abort || true
-                return 1
-              fi
-
-              if git push origin HEAD:main; then
-                echo "Push succeeded."
-                return 0
-              fi
-
-              echo "Remote changed again before push; retrying..."
-              sleep $((attempt * 10))
-            done
-
-            echo "::error::Push failed after 3 attempts."
-            return 1
-          }
-
-          push_with_rebase
+        run: bash scripts/persist_generated.sh
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

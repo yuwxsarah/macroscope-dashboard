@@ -1,23 +1,7 @@
-const DEFAULT_WATCHLIST = [
-  "601138.SH",
-  "300750.SZ",
-  "600519.SH",
-  "688825.SH",
-  "688981.SH",
-  "600353.SH",
-];
-
 const WATCHLIST_SCHEMA = `
 CREATE TABLE IF NOT EXISTS shared_watchlist (
   code TEXT PRIMARY KEY NOT NULL,
   added_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
-)
-`;
-
-const WATCHLIST_META_SCHEMA = `
-CREATE TABLE IF NOT EXISTS shared_watchlist_meta (
-  key TEXT PRIMARY KEY NOT NULL,
-  value TEXT NOT NULL
 )
 `;
 
@@ -49,26 +33,7 @@ function normalizeStockCode(value) {
 }
 
 async function ensureWatchlist(db) {
-  await db.batch([
-    db.prepare(WATCHLIST_SCHEMA),
-    db.prepare(WATCHLIST_META_SCHEMA),
-  ]);
-
-  const seeded = await db
-    .prepare("SELECT value FROM shared_watchlist_meta WHERE key = ?")
-    .bind("defaults_seeded")
-    .first();
-
-  if (!seeded) {
-    await db.batch([
-      ...DEFAULT_WATCHLIST.map((code) =>
-        db.prepare("INSERT OR IGNORE INTO shared_watchlist (code) VALUES (?)").bind(code)
-      ),
-      db
-        .prepare("INSERT OR REPLACE INTO shared_watchlist_meta (key, value) VALUES (?, ?)")
-        .bind("defaults_seeded", "1"),
-    ]);
-  }
+  await db.batch([db.prepare(WATCHLIST_SCHEMA)]);
 }
 
 async function listWatchlist(db) {

@@ -45,7 +45,14 @@ def read_messages() -> dict[str, Any]:
         payload = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(payload, dict):
             return fallback
-        return {**fallback, **payload, "schedule": MESSAGE_SCHEDULE}
+        return {
+            **fallback,
+            **payload,
+            "schedule": MESSAGE_SCHEDULE,
+            # The shared database is the only source of truth for the watchlist.
+            # Never embed the historical starter symbols into a new page load.
+            "watchlist_defaults": [],
+        }
     except Exception:
         return fallback
 
@@ -847,21 +854,25 @@ async function renderMessages(){
   const categoryOrder=['公告','个股资讯','重大新闻','公众号更新发布','行业重要事项','新研究报告或点评'];
   const presentCategories=new Set(items.map(item=>item.category).filter(Boolean));
   const categories=['全部',...categoryOrder.filter(cat=>presentCategories.has(cat))];
-  const storageKey='macroscope-message-watchlist-v1';
-  const defaults=(msg.watchlist_defaults||[]).map(normalizeStockCode).filter(Boolean);
+  const storageKey='macroscope-message-watchlist-v2-shared-snapshot';
+  const legacyStorageKey='macroscope-message-watchlist-v1';
   const watchlistApi='https://macroscope-shared-dashboard.yuwxsarah.chatgpt.site/api/watchlist';
-  let watchlist=[...defaults];
+  let watchlist=[];
   let watchlistMode='loading';
   let activeCategory='全部';
   function readLocalWatchlist(){
     try{
-      const stored=JSON.parse(localStorage.getItem(storageKey)||'[]');
-      if(Array.isArray(stored))return stored.map(normalizeStockCode).filter(Boolean);
+      const stored=JSON.parse(localStorage.getItem(storageKey)||'{}');
+      const rows=Array.isArray(stored)?stored:stored?.watchlist;
+      if(Array.isArray(rows))return [...new Set(rows.map(normalizeStockCode).filter(Boolean))];
     }catch(error){}
-    return defaults;
+    return [];
   }
   function saveLocalWatchlist(){
-    try{localStorage.setItem(storageKey,JSON.stringify(watchlist))}catch(error){}
+    try{
+      localStorage.setItem(storageKey,JSON.stringify({watchlist,synced_at:new Date().toISOString()}));
+      localStorage.removeItem(legacyStorageKey);
+    }catch(error){}
   }
   function setWatchlistStatus(text,state='loading'){
     const node=document.getElementById('watchlistSyncStatus');
@@ -880,11 +891,12 @@ async function renderMessages(){
       const payload=await response.json();
       watchlist=watchlistFromPayload(payload);
       watchlistMode='shared';
+      saveLocalWatchlist();
       setWatchlistStatus('共享同步已开启 · 所有人看到同一份自选股','shared');
     }catch(error){
       watchlist=readLocalWatchlist();
       watchlistMode='local';
-      setWatchlistStatus('当前地址不支持共享数据库，暂按本机保存','error');
+      setWatchlistStatus(watchlist.length?'共享服务暂不可用 · 显示上次成功同步的名单':'共享服务暂不可用 · 暂无已同步名单','error');
     }
   }
   async function persistSharedWatchlist(method,code){
@@ -903,6 +915,7 @@ async function renderMessages(){
       const payload=await response.json().catch(()=>({}));
       if(!response.ok)throw new Error(payload.error||`watchlist ${response.status}`);
       watchlist=watchlistFromPayload(payload);
+      saveLocalWatchlist();
       setWatchlistStatus('已同步 · 其他访问者刷新后即可看到','shared');
       return true;
     }
@@ -966,7 +979,7 @@ async function renderMessages(){
       kpi('公告',countBy('公告'),'条',`最近更新 ${cnDate(msg.updated_at)}`),
       kpi('个股资讯',countBy('个股资讯'),'条','东方财富个股新闻'),
       kpi('精选讯息',manualItems.length,'条','重大新闻、公众号、行业事项、研报点评'),
-      kpi('共享自选代码',watchlist.length,'个',watchlistMode==='shared'?'云端长期保存，所有访问者同步':'本机保存，共享服务暂不可用')
+      kpi('共享自选代码',watchlistMode==='loading'&&!watchlist.length?'—':watchlist.length,watchlistMode==='loading'&&!watchlist.length?'':'个',watchlistMode==='loading'?'正在读取最新共享名单':watchlistMode==='shared'?'云端长期保存，所有访问者同步':'显示上次成功同步的名单')
     ].join('');
   }
   function closeWatchlistMenu(){
@@ -978,7 +991,7 @@ async function renderMessages(){
   function renderWatchlist(){
     const select=document.getElementById('watchlistDeleteSelect');
     const count=document.getElementById('watchlistInlineCount');
-    if(count)count.textContent=watchlist.length;
+    if(count)count.textContent=watchlistMode==='loading'&&!watchlist.length?'…':watchlist.length;
     if(select){
       const current=select.value;
       const placeholder=watchlist.length?'请选择要删除的自选股':'当前没有自选股';
@@ -987,13 +1000,17 @@ async function renderMessages(){
         return `<option value="${esc(code)}">${esc(code)}${name?` · ${esc(name)}`:''}</option>`;
       }).join('');
       if(watchlist.includes(current))select.value=current;
-      select.disabled=!watchlist.length;
+      select.disabled=watchlistMode==='loading'||!watchlist.length;
     }
     renderWatchSummary();
   }
   function renderWatchSummary(){
     const target=document.getElementById('messageWatchSummary');
     if(!target)return;
+    if(watchlistMode==='loading'&&!watchlist.length){
+      target.innerHTML='<div class="hint">正在同步最新共享自选股，请稍候…</div>';
+      return;
+    }
     if(!watchlist.length){
       target.innerHTML='<div class="hint">暂未加入自选股，添加后这里会按股票单独列出资讯汇总。</div>';
       return;
@@ -1070,6 +1087,8 @@ async function renderMessages(){
   }
   const schedule=(msg.schedule||['06:20','08:00','10:10','11:40','15:20','16:40','17:00','18:40','19:10']).join('、');
   document.getElementById('messageUpdateNote').innerHTML=`北京时间 ${schedule} 自动更新；最新入库：${cnDate(msg.updated_at)}。已接入近一个月全市场个股资讯库；点击任意讯息卡片可直接打开原文。`;
+  try{localStorage.removeItem(legacyStorageKey)}catch(error){}
+  watchlist=readLocalWatchlist();
   renderKpis();
   renderWatchlist();
   renderCategories();

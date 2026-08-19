@@ -114,6 +114,75 @@ def read_universe(limit: int = 0) -> list[dict]:
     return rows[:limit] if limit and limit > 0 else rows
 
 
+def fetch_current_universe_names() -> list[dict]:
+    """Fetch a current code/name list with an independent fallback source."""
+    failures: list[str] = []
+    if ak is not None and hasattr(ak, "stock_info_a_code_name"):
+        try:
+            frame = quiet_akshare_call(ak.stock_info_a_code_name)
+            if frame is not None and not frame.empty and {"code", "name"}.issubset(frame.columns):
+                rows = []
+                for item in frame.to_dict(orient="records"):
+                    symbol = code_symbol(item.get("code"))
+                    name = simple_text(item.get("name"))
+                    if symbol and name:
+                        rows.append({
+                            "code": symbol.split(".")[0],
+                            "exchange": symbol.split(".")[1],
+                            "name": name,
+                            "source": "AKShare A股代码名称表",
+                        })
+                if rows:
+                    return rows
+        except Exception as exc:
+            failures.append(f"AKShare代码名称表: {exc!r}")
+
+    try:
+        from scripts.update_ashare_daily import fetch_universe
+
+        return list(fetch_universe())
+    except Exception as exc:
+        failures.append(f"东方财富行情代码表: {exc!r}")
+    raise RuntimeError("；".join(failures) or "没有可用的A股代码名称来源")
+
+
+def ensure_universe_names(fetcher=None, min_rows: int = 4500, force: bool = False) -> tuple[int, str | None]:
+    """Ensure the cached A-share universe contains a name for every stock.
+
+    Older caches only contained code/exchange, which made the dashboard fall
+    back to displaying symbols such as ``300398.SZ``.  A lightweight universe
+    refresh repairs the cache before the much slower per-stock news crawl.
+    """
+    current = read_csv_safe(UNIVERSE_PATH)
+    if not force and not current.empty and {"code", "exchange", "name"}.issubset(current.columns):
+        names = current["name"].map(simple_text)
+        if len(current) >= min_rows and bool((names != "").all()):
+            return int(len(current)), None
+
+    try:
+        if fetcher is None:
+            fetcher = fetch_current_universe_names
+        fetched = list(fetcher())
+        refreshed = pd.DataFrame([
+            {
+                "code": str(item.get("code", "")).strip().zfill(6),
+                "exchange": simple_text(item.get("exchange")),
+                "name": simple_text(item.get("name")),
+                "source": simple_text(item.get("source")) or "A股公开代码名称表",
+                "updated_at": datetime.now(BEIJING).isoformat(timespec="seconds"),
+            }
+            for item in fetched
+            if str(item.get("code", "")).strip() and simple_text(item.get("name"))
+        ])
+        refreshed = refreshed.drop_duplicates(subset=["code"], keep="last").sort_values("code")
+        if len(refreshed) < min_rows or bool((refreshed["name"] == "").any()):
+            raise RuntimeError(f"A股代码名称表过小或名称不完整：{len(refreshed)}")
+        write_csv_atomic(refreshed, UNIVERSE_PATH)
+        return int(len(refreshed)), None
+    except Exception as exc:
+        return int(len(current)), f"A股名称表刷新失败: {exc!r}"
+
+
 def quiet_akshare_call(func, *args, **kwargs):
     buffer = io.StringIO()
     with contextlib.redirect_stdout(buffer), contextlib.redirect_stderr(buffer):
@@ -347,10 +416,16 @@ def main() -> None:
     payload = load_messages()
     payload.setdefault("timezone", "Asia/Shanghai")
     payload["schedule"] = MESSAGE_SCHEDULE
+    # Shared D1 storage owns the watchlist. Scrub the legacy starter symbols so
+    # generated pages can never flash them before the shared request finishes.
+    payload["watchlist_defaults"] = []
     payload.setdefault("items", [])
+    errors: list[str] = []
+    _, universe_name_error = ensure_universe_names()
+    if universe_name_error:
+        errors.append(universe_name_error)
     existing_market = read_csv_safe(MARKET_MESSAGES_PATH, columns=COLUMNS)
 
-    errors: list[str] = []
     notice_rows, notice_errors = fetch_notices(args.days)
     errors.extend(notice_errors)
     stock_rows: list[dict] = []
