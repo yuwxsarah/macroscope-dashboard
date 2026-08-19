@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 17:30:47+08:00",
+  "updated_at": "2026-08-19 18:21:35+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-ba4af43bf77e350e",
+      "category": "重大新闻",
+      "title": "逆势抄底 18分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103324962.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-35171344f5cf412c",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共38只个股涨停 金健米业3连板 一图速览今日连板股>> 3245 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103324673.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c0b9146fb8315d51",
+      "category": "重大新闻",
+      "title": "收盘｜上证指数跌2.4% 科创次新股走弱 全市场超5000只个股下跌，逾百股跌停。 10902 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103324654.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-47c53551f457987e",
+      "category": "重大新闻",
+      "title": "滚动更新丨创业板指低开低走跌超6%，市场逾5000股下跌 盘面上，半导体、算力硬件产业链深度回调，PCB、存储器、CPO方向领跌。 11 27580 8小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103323800.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1fddf211820fd9da",
+      "category": "重大新闻",
+      "title": "盘前必读丨日韩股市低开SK海力士跌超5%；爱丽家居部分投资者被暂停账户交易 机构认为，大盘延续震荡反弹格局，三季度是较好投资窗口。 8 31331 10小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103323639.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-35171344f5cf412c",
       "category": "重大新闻",
@@ -1261,13 +1331,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-19 17:30:47+08:00",
+  "last_checked_at": "2026-08-19 18:21:35+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 66799,
+    "rows": 74274,
     "covered_stocks": 5545,
-    "notice_rows": 24838,
-    "stock_news_rows": 41961,
+    "notice_rows": 32140,
+    "stock_news_rows": 42134,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }

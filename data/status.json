@@ -66,15 +66,15 @@
     },
     "market": {
       "status": "success",
-      "rows": 32868,
-      "started_at": "2026-08-19T17:09:09+08:00",
-      "finished_at": "2026-08-19T17:09:21+08:00",
+      "rows": 32862,
+      "started_at": "2026-08-19T18:01:51+08:00",
+      "finished_at": "2026-08-19T18:01:58+08:00",
       "latest_date": "20260819",
-      "total_cached_rows": 32871,
+      "total_cached_rows": 32874,
       "symbols": {
         "000001.SH": {
           "status": "success",
-          "rows": 1606,
+          "rows": 1607,
           "source": "新浪财经 / AKShare"
         },
         "399001.SZ": {
@@ -89,12 +89,12 @@
         },
         "000300.SH": {
           "status": "success",
-          "rows": 1606,
+          "rows": 1607,
           "source": "新浪财经 / AKShare"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1606,
+          "rows": 1607,
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
@@ -104,17 +104,17 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1662,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1662,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1662,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
@@ -173,7 +173,7 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32871
+      "cached_rows": 32874
     },
     "global_macro": {
       "status": "success",
@@ -220,8 +220,8 @@
     "valuation": {
       "status": "success",
       "rows": 23353,
-      "started_at": "2026-08-19T17:09:21+08:00",
-      "finished_at": "2026-08-19T17:09:56+08:00",
+      "started_at": "2026-08-19T18:01:58+08:00",
+      "finished_at": "2026-08-19T18:02:22+08:00",
       "latest_date": "20260818",
       "total_cached_rows": 23353,
       "indices": {
@@ -321,17 +321,17 @@
     "deviation": {
       "status": "success",
       "rows": 2100,
-      "started_at": "2026-08-19T17:11:22+08:00",
-      "finished_at": "2026-08-19T17:11:22+08:00",
-      "latest_date": "20260818",
+      "started_at": "2026-08-19T18:03:47+08:00",
+      "finished_at": "2026-08-19T18:03:47+08:00",
+      "latest_date": "20260819",
       "total_cached_rows": 2100,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
       "indices": {
         "000001.SH": {
           "status": "success",
           "rows": 420,
-          "latest_week_date": "20260818",
-          "latest_month_date": "20260818"
+          "latest_week_date": "20260819",
+          "latest_month_date": "20260819"
         },
         "399001.SZ": {
           "status": "success",
@@ -348,14 +348,14 @@
         "000688.SH": {
           "status": "success",
           "rows": 420,
-          "latest_week_date": "20260818",
-          "latest_month_date": "20260818"
+          "latest_week_date": "20260819",
+          "latest_month_date": "20260819"
         },
         "000300.SH": {
           "status": "success",
           "rows": 420,
-          "latest_week_date": "20260818",
-          "latest_month_date": "20260818"
+          "latest_week_date": "20260819",
+          "latest_month_date": "20260819"
         }
       },
       "cached_rows": 2100
@@ -373,8 +373,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-19T17:09:56+08:00",
-      "finished_at": "2026-08-19T17:11:22+08:00",
+      "started_at": "2026-08-19T18:02:22+08:00",
+      "finished_at": "2026-08-19T18:03:47+08:00",
       "latest_date": "20260819",
       "crowding_cached_rows": 78,
       "breadth_cached_rows": 78,
@@ -382,7 +382,7 @@
         "status": "success",
         "rows": 1,
         "latest_date": "20260818",
-        "source": "深交所融资融券汇总 + 上海两融历史公开表"
+        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
       "snapshot_kind": "收盘后快照"
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260819",
-      "rows": 66799,
-      "cached_rows": 66799,
+      "rows": 74274,
+      "cached_rows": 74274,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "920175.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920176.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920177.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "688657.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688658.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688660.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-19T17:31:51+08:00",
+  "updated_at": "2026-08-19T18:23:07+08:00",
   "overall_status": "success",
   "last_update_mode": "close"
 }
