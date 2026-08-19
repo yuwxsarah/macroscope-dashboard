@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 20:46:06+08:00",
+  "updated_at": "2026-08-20 07:33:59+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,25 +355,25 @@
   "tracking": {
     "trade_date": "20260819",
     "summary": {
-      "market_score": 33.9,
-      "market_score_before_gate": 33.9,
-      "risk_score": 70.3,
-      "risk_level": "深红",
-      "market_phase": "风险期 / 深红防御优先",
+      "market_score": 34.7,
+      "market_score_before_gate": 34.7,
+      "risk_score": 69.8,
+      "risk_level": "红色",
+      "market_phase": "风险期 / 红色预警",
       "base_position_pct": 10.0,
       "base_position_range": "0%-20%",
-      "risk_discount": 0.4,
-      "risk_discount_range": "30%-50%",
-      "suggested_position_pct": 5.0,
-      "suggested_position_range": "0%-10%",
+      "risk_discount": 0.6,
+      "risk_discount_range": "50%-70%",
+      "suggested_position_pct": 7.0,
+      "suggested_position_range": "0%-14%",
       "single_stock_limit": "5%",
       "industry_limit": "15%",
       "theme_limit": "10%",
-      "risk_action": "防御优先",
+      "risk_action": "系统性降仓",
       "liquidity_gate": "流动性原始分<=2.0，按框架规则不建议重仓进攻。",
       "concentration_note": "防御或风险期，单股上限5%，单行业上限15%，单主题上限10%。",
       "style_signal": "大盘价值占优",
-      "style_reason": "成长/科技20日动量均值 -4.89%；宽基20日动量均值 -1.01%；风格差 -3.88%",
+      "style_reason": "成长/科技20日动量均值 -6.68%；宽基20日动量均值 -1.01%；风格差 -5.67%",
       "formula": "实际仓位 = 大盘建议仓位 × 风险折扣"
     },
     "modules": [
@@ -499,14 +499,14 @@
       {
         "name": "风格结构",
         "weight": 10,
-        "score": 69.4,
-        "raw_score": 3.5,
-        "weighted_score": 7.0,
+        "score": 78.4,
+        "raw_score": 3.9,
+        "weighted_score": 7.8,
         "status": "中性偏强",
         "basis": [
-          "成长/科技20日动量均值 -4.89%",
+          "成长/科技20日动量均值 -6.68%",
           "宽基20日动量均值 -1.01%",
-          "风格差 -3.88%"
+          "风格差 -5.67%"
         ],
         "blueprint": [
           "大小盘风格 25%",
@@ -566,12 +566,12 @@
       {
         "name": "跨资产压力",
         "weight": 10,
-        "risk": 7.7,
-        "raw_risk": 76.6,
+        "risk": 7.2,
+        "raw_risk": 72.3,
         "level": "高",
         "basis": [
-          "美国10年期国债 4.72%",
-          "纳斯达克20日动量 1.75%",
+          "美国10年期国债 4.71%",
+          "纳斯达克20日动量 2.49%",
           "美元净流动性 5.48万亿美元"
         ]
       },
@@ -605,7 +605,7 @@
       "crowding_pct": 48.38,
       "margin_to_market_cap_pct": 2.376,
       "index_momentum_20d_pct": -3.75,
-      "dgs10_pct": 4.72
+      "dgs10_pct": 4.71
     }
   },
   "method_note": "大盘机会评分按七大模块0-5原始分折算为100分；风险领先预警分越高越需要降仓。该模型用于仓位管理与风控，不直接预测指数点位，不构成投资建议。"
