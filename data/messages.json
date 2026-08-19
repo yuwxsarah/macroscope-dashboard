@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 09:30:21+08:00",
+  "updated_at": "2026-08-19 11:32:32+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -109,9 +109,23 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-47c53551f457987e",
+      "category": "重大新闻",
+      "title": "滚动更新丨A股四大指数集体低开，宇树科技上市首日高开超629% 盘面上，半导体、算力硬件产业链回调，存储器、PCB、CPO方向领跌。 5 10003 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103323800.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-1fddf211820fd9da",
       "category": "重大新闻",
-      "title": "盘前必读丨日韩股市低开SK海力士跌超5%；爱丽家居部分投资者被暂停账户交易 机构认为，大盘延续震荡反弹格局，三季度是较好投资窗口。 23767 1小时前",
+      "title": "盘前必读丨日韩股市低开SK海力士跌超5%；爱丽家居部分投资者被暂停账户交易 机构认为，大盘延续震荡反弹格局，三季度是较好投资窗口。 7 27859 3小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103323639.html",
@@ -129,6 +143,48 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103323211.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-67ab64cfb6defc0d",
+      "category": "重大新闻",
+      "title": "芯原股份上半年增收不增利，百亿在手订单何时兑现利润 上市六年累计亏损35亿 6 4547 昨天 20:29",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103323212.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-db749eb3f97e669a",
+      "category": "重大新闻",
+      "title": "一批ST公司爆雷，月内4家被罚超7000万、3家遭立案 “押注ST股，一定程度上是在‘雷区’行走。” 8 8081 昨天 19:24",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103323192.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1fddf211820fd9da",
+      "category": "重大新闻",
+      "title": "盘前必读丨日韩股市低开SK海力士跌超5%；爱丽家居部分投资者被暂停账户交易 机构认为，大盘延续震荡反弹格局，三季度是较好投资窗口。 23767 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103323639.html",
       "published_at": "2026-08-19",
       "symbols": [
         "A股"
@@ -1037,13 +1093,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-19 09:30:21+08:00",
+  "last_checked_at": "2026-08-19 11:32:32+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 73805,
+    "rows": 74002,
     "covered_stocks": 5545,
-    "notice_rows": 32003,
-    "stock_news_rows": 41802,
+    "notice_rows": 32005,
+    "stock_news_rows": 41997,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
