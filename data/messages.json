@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17 11:31:06+08:00",
+  "updated_at": "2026-08-19 09:30:21+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -13,13 +13,7 @@
     "19:10"
   ],
   "method_note": "公众号更新发布优先采用公众号主体的公开网页、授权转载页或同一财经媒体官网文章；公司公告优先追踪交易所、巨潮资讯、公司官网投资者关系页。",
-  "watchlist_defaults": [
-    "601138.SH",
-    "300750.SZ",
-    "600519.SH",
-    "688825.SH",
-    "688981.SH"
-  ],
+  "watchlist_defaults": [],
   "sources": [
     {
       "category": "公告",
@@ -114,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-1fddf211820fd9da",
+      "category": "重大新闻",
+      "title": "盘前必读丨日韩股市低开SK海力士跌超5%；爱丽家居部分投资者被暂停账户交易 机构认为，大盘延续震荡反弹格局，三季度是较好投资窗口。 23767 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103323639.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-eaba9a3aac530ca6",
+      "category": "重大新闻",
+      "title": "百亿私募二季度调仓路径：睿郡加仓乐鑫科技，三家同步重仓鸿仕达 睿郡资产旗下基金经理董承非认为，6月AI基金的高点可能长达几年的高点，后续要显著突破有相当大的难度",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103323211.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-67ab64cfb6defc0d",
+      "category": "重大新闻",
+      "title": "芯原股份上半年增收不增利，百亿在手订单何时兑现利润 上市六年累计亏损35亿 6 3989 昨天 20:29",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103323212.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-db749eb3f97e669a",
+      "category": "重大新闻",
+      "title": "一批ST公司爆雷，月内4家被罚超7000万、3家遭立案 “押注ST股，一定程度上是在‘雷区’行走。” 8 7554 昨天 19:24",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103323192.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f159bf69e24f147a",
+      "category": "重大新闻",
+      "title": "满仓率上涨 2749 昨天 19:22",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103323052.html",
+      "published_at": "2026-08-19",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-3511ed41a50a2835",
       "category": "重大新闻",
@@ -973,13 +1037,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-17 11:31:06+08:00",
+  "last_checked_at": "2026-08-19 09:30:21+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 66919,
-    "covered_stocks": 5544,
-    "notice_rows": 29462,
-    "stock_news_rows": 37457,
+    "rows": 73805,
+    "covered_stocks": 5545,
+    "notice_rows": 32003,
+    "stock_news_rows": 41802,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }

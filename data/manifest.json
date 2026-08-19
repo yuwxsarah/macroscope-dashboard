@@ -3,8 +3,7 @@
   "deployment_allowed": true,
   "errors": [],
   "warnings": [
-    "data/macro.csv missing columns: ['source']",
-    "data/a_share_universe.csv missing columns: ['name']"
+    "data/macro.csv missing columns: ['source']"
   ],
   "data": {
     "macro.csv": {
@@ -178,17 +177,18 @@
       "status": "ok"
     },
     "a_share_universe.csv": {
-      "rows": 5544,
+      "rows": 5545,
       "columns": [
         "code",
         "exchange",
+        "name",
         "source",
         "updated_at"
       ],
       "status": "ok"
     },
     "market_messages.csv": {
-      "rows": 66919,
+      "rows": 73805,
       "columns": [
         "published_at",
         "category",
