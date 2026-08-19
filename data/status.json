@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-19T12:21:52+08:00",
-      "finished_at": "2026-08-19T12:22:08+08:00",
+      "started_at": "2026-08-19T19:46:04+08:00",
+      "finished_at": "2026-08-19T19:46:26+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -16,8 +16,9 @@
             "source": "东方财富 / AKShare"
           },
           "social_financing": {
-            "status": "failed",
-            "error": "公开社融源失败"
+            "status": "success",
+            "rows": 103,
+            "source": "商务数据中心 / AKShare"
           },
           "social_financing_stock": {
             "status": "success",
@@ -36,7 +37,6 @@
           }
         },
         "messages": [
-          "社会融资规模: SSLError(MaxRetryError(\"HTTPSConnectionPool(host='data.mofcom.gov.cn', port=443): Max retries exceeded with url: /datamofcom/front/gnmy/shrzgmQuery (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))\"))",
           "人民银行社融存量部分年份失败: 2022: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2022ntjsj/shrzgm/index.html') | 2023: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2023ntjsj/shrzgm/index.html') | 2024: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2024ntjsj/shrzgm/index.html') | 2025: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2025ntjsj/shrzgm/index.html')"
         ]
       },
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4962,
-      "started_at": "2026-08-19T12:22:08+08:00",
-      "finished_at": "2026-08-19T12:22:23+08:00",
+      "started_at": "2026-08-19T19:46:26+08:00",
+      "finished_at": "2026-08-19T19:46:42+08:00",
       "latest_date": "20260819",
       "total_cached_rows": 4998,
       "source_details": {
@@ -363,8 +363,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-18T19:47:30+08:00",
-      "finished_at": "2026-08-18T19:47:35+08:00",
+      "started_at": "2026-08-19T19:46:42+08:00",
+      "finished_at": "2026-08-19T19:47:44+08:00",
       "latest_date": "20260814",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260819",
-      "rows": 74538,
-      "cached_rows": 74538,
+      "rows": 74732,
+      "cached_rows": 74732,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "301171.SZ: Timeout('Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688768.SH: Timeout('Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688785.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "300943.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；605298.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；605333.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-19T18:42:17+08:00",
+  "updated_at": "2026-08-19T20:08:14+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
