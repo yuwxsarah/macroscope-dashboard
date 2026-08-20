@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20 13:29:05+08:00",
+  "updated_at": "2026-08-20 17:32:22+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,7 +357,7 @@
     "summary": {
       "market_score": 38.3,
       "market_score_before_gate": 38.3,
-      "risk_score": 53.8,
+      "risk_score": 53.3,
       "risk_level": "红色",
       "market_phase": "防御期 / 红色预警",
       "base_position_pct": 30.0,
@@ -479,14 +479,14 @@
       {
         "name": "市场情绪",
         "weight": 10,
-        "score": 67.7,
+        "score": 68.5,
         "raw_score": 3.4,
         "weighted_score": 6.8,
         "status": "中性偏强",
         "basis": [
-          "上涨家数占比 77.96%",
-          "A股成交额/总市值 1.27%",
-          "交易拥挤度 47.18%"
+          "上涨家数占比 75.16%",
+          "A股成交额/总市值 1.83%",
+          "交易拥挤度 46.61%"
         ],
         "blueprint": [
           "成交活跃度 25%",
@@ -524,43 +524,43 @@
         "raw_risk": 0.0,
         "level": "低",
         "basis": [
-          "上涨家数占比 77.96%",
-          "近5期上涨家数变化 2977只"
+          "上涨家数占比 75.16%",
+          "近5期上涨家数变化 2831只"
         ]
       },
       {
         "name": "量价质量恶化",
         "weight": 20,
-        "risk": 15.5,
-        "raw_risk": 77.6,
+        "risk": 15.3,
+        "raw_risk": 76.6,
         "level": "高",
         "basis": [
           "主要指数20日动量均值 -3.75%",
           "主要指数相对20日均线均值 -1.12%",
-          "成交额近5期变化 -1.11万亿元"
+          "成交额近5期变化 -0.47万亿元"
         ]
       },
       {
         "name": "主线健康度下降",
         "weight": 20,
-        "risk": 12.3,
-        "raw_risk": 61.3,
+        "risk": 12.1,
+        "raw_risk": 60.5,
         "level": "偏高",
         "basis": [
           "创业板20日动量 -2.61%",
           "科创50 20日动量 -10.35%",
-          "交易拥挤度 47.18%"
+          "交易拥挤度 46.61%"
         ]
       },
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 8.4,
-        "raw_risk": 56.3,
+        "risk": 8.3,
+        "raw_risk": 55.6,
         "level": "偏高",
         "basis": [
-          "两融/总市值 2.35%，历史分位 88%",
-          "交易拥挤度历史分位 24%"
+          "两融/总市值 2.34%，历史分位 88%",
+          "交易拥挤度历史分位 23%"
         ]
       },
       {
@@ -599,11 +599,11 @@
       }
     ],
     "signals": {
-      "up_ratio_pct": 77.96,
-      "total_amount_trillion": 1.438,
-      "broad_turnover_pct": 1.27,
-      "crowding_pct": 47.18,
-      "margin_to_market_cap_pct": 2.349,
+      "up_ratio_pct": 75.16,
+      "total_amount_trillion": 2.079,
+      "broad_turnover_pct": 1.829,
+      "crowding_pct": 46.61,
+      "margin_to_market_cap_pct": 2.341,
       "index_momentum_20d_pct": -3.75,
       "dgs10_pct": 4.71
     }

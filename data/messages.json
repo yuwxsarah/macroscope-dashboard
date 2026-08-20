@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20 13:28:50+08:00",
+  "updated_at": "2026-08-20 17:30:58+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-f24b615b76bf3505",
+      "category": "重大新闻",
+      "title": "公私募打新宇树科技浮盈超100亿，易方达以11亿居首 一共有220余家机构参与 1633 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103326531.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b8fa1a928a92db4e",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共84只个股涨停 金健米业4连板 粮食概念股金健米业4连板，创新药板块汉森制药2连板。一图速览今日连板股>> 1881 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103326611.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d9465965ba73d15a",
+      "category": "重大新闻",
+      "title": "收盘｜创业板指涨0.64% 医药生物板块集体爆发 全市场近4100只个股上涨。 10375 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103326562.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-481147e943fad6b2",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，生物医药板块爆发 盘面上，生物医药板块爆发，创新药、ADC、基因检测、CRO方向领涨。 10 12576 7小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103325750.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-65d90f4f8a225408",
+      "category": "重大新闻",
+      "title": "盘前必读丨美财政部宣布扩大长债回购规模；中微公司上半年净利增长三倍 机构认为，修复前期高点尚需时日，短期科技与红利之间或呈现拉锯格局。 9 35764 9小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103325591.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-481147e943fad6b2",
       "category": "重大新闻",
@@ -1639,13 +1709,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-20 13:28:50+08:00",
+  "last_checked_at": "2026-08-20 17:30:58+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 75862,
+    "rows": 76155,
     "covered_stocks": 5545,
-    "notice_rows": 33735,
-    "stock_news_rows": 42127,
+    "notice_rows": 33763,
+    "stock_news_rows": 42394,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
