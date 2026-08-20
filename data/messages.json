@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20 12:40:46+08:00",
+  "updated_at": "2026-08-20 13:28:50+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-481147e943fad6b2",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，生物医药板块爆发 盘面上，生物医药板块爆发，创新药、ADC、基因检测、CRO方向领涨。 9 10685 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103325750.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-65d90f4f8a225408",
+      "category": "重大新闻",
+      "title": "盘前必读丨美财政部宣布扩大长债回购规模；中微公司上半年净利增长三倍 机构认为，修复前期高点尚需时日，短期科技与红利之间或呈现拉锯格局。 9 34989 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103325591.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0cae19c752e75cc7",
+      "category": "重大新闻",
+      "title": "沪市主板公司护盘“踊跃” 今晚首次回购、增持计划“接力” 主板公司的回购增持主动性日益凸显。 6748 昨天 21:30",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103325323.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3700750721054d36",
+      "category": "重大新闻",
+      "title": "宇树科技暴涨超4倍，王兴兴身家超千亿，美团、红杉持股市值超200亿 美团系、红杉中国持股市值超200亿元。 25286 昨天 20:42",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103325248.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-ae879bce9c847007",
+      "category": "重大新闻",
+      "title": "30年期美债收益率创19年新高，全球资产被迫重估 美债利率飙升引发全球资产抛售与定价逻辑重构，促使资本加速从长债向权益、信用及大宗商品等多元化资产配置转移。 2",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103325245.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-481147e943fad6b2",
       "category": "重大新闻",
@@ -1569,13 +1639,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-20 12:40:46+08:00",
+  "last_checked_at": "2026-08-20 13:28:50+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 75668,
+    "rows": 75862,
     "covered_stocks": 5545,
     "notice_rows": 33735,
-    "stock_news_rows": 41933,
+    "stock_news_rows": 42127,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
