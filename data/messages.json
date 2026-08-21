@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20 20:54:31+08:00",
+  "updated_at": "2026-08-21 08:14:49+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-28cb383b10605fa7",
+      "category": "重大新闻",
+      "title": "盘前必读丨日韩股市集体低开超1%；拓荆科技上半年净利暴涨13倍 机构认为，前期过于拥挤赛道集中度释放还需要时间。 5分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327543.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-186bf1dcdd2da884",
+      "category": "重大新闻",
+      "title": "海特高新官微回应“抢公章”：系依法维权，列举原董事长“7宗罪” 6903 昨天 22:23",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327328.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d64519be08c9f9cc",
+      "category": "重大新闻",
+      "title": "美债SOS！美出台双向政策维稳，全球金融市场遭遇极限拉扯 短暂喘息后，全球资产定价压力仍存。 13227 昨天 21:39",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327319.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2489be640c174291",
+      "category": "重大新闻",
+      "title": "量化业绩、分红等目标，10余家沪市公司“提质增效重回报”2.0方案出炉 10余家沪市公司围绕营收、盈利、研发、产量、回购、分红等核心指标设定量化目标，披露了具体",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327283.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b2703c8dcb13f3e6",
+      "category": "重大新闻",
+      "title": "组织百人抢公章？海特高新、华芯科技控制权纠纷再升级 7771 昨天 21:10",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327264.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-7d9e26be4e30de4d",
       "category": "重大新闻",
@@ -1751,55 +1821,6 @@
       ],
       "importance": "high",
       "status": "已入库"
-    },
-    {
-      "id": "20260725-ann-300750-halfyear",
-      "category": "公告",
-      "title": "宁德时代披露2026年半年度报告",
-      "summary": "宁德时代2026年半年度报告已披露，后续可在讯息页继续追加利润率、现金流、海外业务、储能占比等关键字段，作为新能源核心持仓的定期跟踪材料。",
-      "source": "新浪财经公司公告",
-      "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12462543&stockid=300750",
-      "published_at": "2026-07-25",
-      "symbols": [
-        "300750.SZ",
-        "新能源",
-        "储能"
-      ],
-      "importance": "high",
-      "status": "已入库"
-    },
-    {
-      "id": "20260718-ann-600519-price",
-      "category": "公告",
-      "title": "贵州茅台发布重大事项公告，调整部分飞天茅台价格",
-      "summary": "贵州茅台公告调整部分飞天53%vol 500ml产品在i茅台平台零售价和销售合同价。该事项会影响高端白酒价格体系、渠道预期和公司经营业绩判断。",
-      "source": "新浪财经公司公告",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=10000351&gather=1&id=12453221",
-      "published_at": "2026-07-18",
-      "symbols": [
-        "600519.SH",
-        "白酒",
-        "消费"
-      ],
-      "importance": "high",
-      "status": "已入库"
-    },
-    {
-      "id": "20260706-report-galaxy-semi",
-      "category": "新研究报告或点评",
-      "title": "中国银河证券研究：半导体行业周点评",
-      "summary": "中国银河证券研究发布半导体行业周点评，跟踪模拟芯片、半导体设备、材料、数字芯片、制造、封测等子行业表现，并讨论算力芯片板块回调原因。",
-      "source": "新浪财经 / 中国银河证券研究",
-      "source_url": "https://finance.sina.com.cn/wm/2026-07-06/doc-inifwfpv8677269.shtml",
-      "published_at": "2026-07-06",
-      "symbols": [
-        "半导体",
-        "芯片设计",
-        "半导体设备",
-        "封测"
-      ],
-      "importance": "normal",
-      "status": "已入库"
     }
   ],
   "report_templates": [
@@ -1849,13 +1870,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-20 20:54:31+08:00",
+  "last_checked_at": "2026-08-21 08:14:49+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 76807,
+    "rows": 77480,
     "covered_stocks": 5545,
-    "notice_rows": 34233,
-    "stock_news_rows": 42574,
+    "notice_rows": 35505,
+    "stock_news_rows": 41975,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
