@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21 13:40:21+08:00",
+  "updated_at": "2026-08-21 17:46:47+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -109,12 +109,68 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-f64697e19f675e99",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨0.04% 贵金属板块涨幅居前 全市场超2800只个股下跌。 1974 58分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328406.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3513c2e4b6fbe679",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共58只个股涨停 这只创新药概念股3连板 机器人板块宇环数控2连板。一图速览今日连板股>> 3276 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328421.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-3c526fd25f880961",
       "category": "重大新闻",
       "title": "三重隐秘关联遭问询，优邦科技IPO背后有何利益安排？ 富士康与优邦科技之间，\"客户+股东+关键人脉\"三重关系交织，成为监管审核问询反复追问的焦点：订单增长与刘扬",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103328078.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e84f9d24d6f33225",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，创新药概念大面积下挫 黄金、数字货币题材走强。市场近4000股下跌。 6 9104 8小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327663.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-28cb383b10605fa7",
+      "category": "重大新闻",
+      "title": "盘前必读丨日韩股市集体低开超1%；拓荆科技上半年净利暴涨13倍 机构认为，前期过于拥挤赛道集中度释放还需要时间。 10 34028 9小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327543.html",
       "published_at": "2026-08-21",
       "symbols": [
         "A股"
@@ -1731,62 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-59a6a5bb35897c6c",
-      "category": "重大新闻",
-      "title": "“双创”大跌、银行白酒领涨蓝筹，“跷跷板”效应延续｜市场观察 增量资金有限，存量博弈格局有望维持。 12分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103295287.html",
-      "published_at": "2026-07-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-73b67f906035515c",
-      "category": "重大新闻",
-      "title": "收盘｜创业板指跌超7%，半导体、算力硬件产业链深度调整 全市场超2700只个股下跌。 13165 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103295138.html",
-      "published_at": "2026-07-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a10a6aa4b77bc9f1",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，长鑫科技低开超7% 算力硬件产业链下挫，存储器、CPO、PCB方向领跌。 6 11274 7小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103294448.html",
-      "published_at": "2026-07-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8999b573a8cb4da5",
-      "category": "重大新闻",
-      "title": "盘前必读丨东方证券与上海证券重组草案出炉；又一波增持回购潮来了 机构认为，市场底区间有望确立，景气度验证仍是主线。 8 33191 8小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103294290.html",
-      "published_at": "2026-07-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,13 +1836,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-21 13:40:21+08:00",
+  "last_checked_at": "2026-08-21 17:46:47+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 77931,
+    "rows": 46647,
     "covered_stocks": 5545,
-    "notice_rows": 35611,
-    "stock_news_rows": 42320,
+    "notice_rows": 4058,
+    "stock_news_rows": 42589,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }

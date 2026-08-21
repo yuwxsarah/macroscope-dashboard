@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21 13:40:35+08:00",
+  "updated_at": "2026-08-21 17:47:59+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,23 +355,23 @@
   "tracking": {
     "trade_date": "20260821",
     "summary": {
-      "market_score": 34.4,
-      "market_score_before_gate": 34.4,
-      "risk_score": 72.6,
-      "risk_level": "深红",
-      "market_phase": "风险期 / 深红防御优先",
-      "base_position_pct": 10.0,
-      "base_position_range": "0%-20%",
-      "risk_discount": 0.4,
-      "risk_discount_range": "30%-50%",
-      "suggested_position_pct": 5.0,
-      "suggested_position_range": "0%-10%",
-      "single_stock_limit": "5%",
-      "industry_limit": "15%",
-      "theme_limit": "10%",
-      "risk_action": "防御优先",
+      "market_score": 35.8,
+      "market_score_before_gate": 35.8,
+      "risk_score": 61.9,
+      "risk_level": "红色",
+      "market_phase": "防御期 / 红色预警",
+      "base_position_pct": 30.0,
+      "base_position_range": "20%-40%",
+      "risk_discount": 0.6,
+      "risk_discount_range": "50%-70%",
+      "suggested_position_pct": 19.0,
+      "suggested_position_range": "10%-28%",
+      "single_stock_limit": "10%",
+      "industry_limit": "25%",
+      "theme_limit": "15%",
+      "risk_action": "系统性降仓",
       "liquidity_gate": "流动性原始分<=2.0，按框架规则不建议重仓进攻。",
-      "concentration_note": "防御或风险期，单股上限5%，单行业上限15%，单主题上限10%。",
+      "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
       "style_signal": "大盘价值占优",
       "style_reason": "成长/科技20日动量均值 -5.07%；宽基20日动量均值 -1.08%；风格差 -3.98%",
       "formula": "实际仓位 = 大盘建议仓位 × 风险折扣"
@@ -479,14 +479,14 @@
       {
         "name": "市场情绪",
         "weight": 10,
-        "score": 34.6,
-        "raw_score": 1.7,
-        "weighted_score": 3.4,
-        "status": "偏弱",
+        "score": 48.2,
+        "raw_score": 2.4,
+        "weighted_score": 4.8,
+        "status": "中性偏弱",
         "basis": [
-          "上涨家数占比 31.85%",
-          "A股成交额/总市值 3.05%",
-          "交易拥挤度 48.04%"
+          "上涨家数占比 46.21%",
+          "A股成交额/总市值 4.21%",
+          "交易拥挤度 47.28%"
         ],
         "blueprint": [
           "成交活跃度 25%",
@@ -520,47 +520,47 @@
       {
         "name": "市场广度恶化",
         "weight": 20,
-        "risk": 19.1,
-        "raw_risk": 95.7,
-        "level": "高",
+        "risk": 10.7,
+        "raw_risk": 53.6,
+        "level": "偏高",
         "basis": [
-          "上涨家数占比 31.85%",
-          "近5期上涨家数变化 -662只"
+          "上涨家数占比 46.21%",
+          "近5期上涨家数变化 86只"
         ]
       },
       {
         "name": "量价质量恶化",
         "weight": 20,
-        "risk": 15.1,
-        "raw_risk": 75.5,
-        "level": "高",
+        "risk": 13.5,
+        "raw_risk": 67.6,
+        "level": "偏高",
         "basis": [
           "主要指数20日动量均值 -3.01%",
           "主要指数相对20日均线均值 -0.94%",
-          "成交额近5期变化 -0.79万亿元"
+          "成交额近5期变化 -0.26万亿元"
         ]
       },
       {
         "name": "主线健康度下降",
         "weight": 20,
-        "risk": 11.6,
-        "raw_risk": 57.8,
+        "risk": 11.4,
+        "raw_risk": 56.8,
         "level": "偏高",
         "basis": [
           "创业板20日动量 -2.24%",
           "科创50 20日动量 -7.64%",
-          "交易拥挤度 48.04%"
+          "交易拥挤度 47.28%"
         ]
       },
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 10.0,
-        "raw_risk": 66.9,
+        "risk": 9.5,
+        "raw_risk": 63.1,
         "level": "偏高",
         "basis": [
-          "两融/总市值 5.99%，历史分位 100%",
-          "交易拥挤度历史分位 34%"
+          "两融/总市值 5.96%，历史分位 100%",
+          "交易拥挤度历史分位 26%"
         ]
       },
       {
@@ -599,11 +599,11 @@
       }
     ],
     "signals": {
-      "up_ratio_pct": 31.85,
-      "total_amount_trillion": 1.352,
-      "broad_turnover_pct": 3.048,
-      "crowding_pct": 48.04,
-      "margin_to_market_cap_pct": 5.992,
+      "up_ratio_pct": 46.21,
+      "total_amount_trillion": 1.879,
+      "broad_turnover_pct": 4.215,
+      "crowding_pct": 47.28,
+      "margin_to_market_cap_pct": 5.963,
       "index_momentum_20d_pct": -3.01,
       "dgs10_pct": 4.65
     }
