@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21 11:50:06+08:00",
+  "updated_at": "2026-08-21 12:44:40+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-3c526fd25f880961",
+      "category": "重大新闻",
+      "title": "三重隐秘关联遭问询，优邦科技IPO背后有何利益安排？ 富士康与优邦科技之间，\"客户+股东+关键人脉\"三重关系交织，成为监管审核问询反复追问的焦点：订单增长与刘扬",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328078.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e84f9d24d6f33225",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，创新药概念大面积下挫 黄金、数字货币题材走强。市场近4000股下跌。 6 5818 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327663.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-28cb383b10605fa7",
+      "category": "重大新闻",
+      "title": "盘前必读丨日韩股市集体低开超1%；拓荆科技上半年净利暴涨13倍 机构认为，前期过于拥挤赛道集中度释放还需要时间。 10 32664 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327543.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-186bf1dcdd2da884",
+      "category": "重大新闻",
+      "title": "海特高新官微回应“抢公章”：系依法维权，列举原董事长“7宗罪” 13537 昨天 22:23",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327328.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d64519be08c9f9cc",
+      "category": "重大新闻",
+      "title": "美债SOS！美出台双向政策维稳，全球金融市场遭遇极限拉扯 短暂喘息后，全球资产定价压力仍存。 21597 昨天 21:39",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327319.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-e84f9d24d6f33225",
       "category": "重大新闻",
@@ -1723,93 +1793,6 @@
       ],
       "importance": "high",
       "status": "已入库"
-    },
-    {
-      "id": "20260728-news-cxmtop",
-      "category": "重大新闻",
-      "title": "长鑫科技上市首日市值登顶A股，存储产业链关注度升温",
-      "summary": "上海证券报报道，长鑫科技上市首日总市值超过3万亿元，并创下极高成交额。该事件直接影响科创板、国产DRAM、半导体设备材料和存储链条的资金关注。",
-      "source": "上海证券报",
-      "source_url": "https://paper.cnstock.com/html/2026-07/28/content_2249077.htm",
-      "published_at": "2026-07-28",
-      "symbols": [
-        "688825.SH",
-        "688981.SH",
-        "半导体",
-        "存储器"
-      ],
-      "importance": "high",
-      "status": "已入库"
-    },
-    {
-      "id": "20260728-news-ifeng-stcn",
-      "category": "重大新闻",
-      "title": "盘中通信、电子等行业调整，市场成交额仍处高位",
-      "summary": "证券时报·数据宝盘中统计显示，2026年7月28日上午A股成交金额接近万亿元，通信、电子、建筑材料等行业跌幅居前，社会服务、商贸零售、房地产相对强势。",
-      "source": "证券时报·数据宝",
-      "source_url": "https://finance.ifeng.com/c/8v7jpDCB6Xr",
-      "published_at": "2026-07-28",
-      "symbols": [
-        "A股",
-        "通信",
-        "电子",
-        "房地产",
-        "商贸零售"
-      ],
-      "importance": "medium",
-      "status": "已入库"
-    },
-    {
-      "id": "20260728-wechat-qszg",
-      "category": "公众号更新发布",
-      "title": "券商中国：公募打新长鑫科技浮盈超过500亿元",
-      "summary": "券商中国公开转载文章关注长鑫科技上市后网下配售机构浮盈情况，提示公募、ETF、打新策略与科创板新股对资金面的影响。",
-      "source": "券商中国 / 天天基金转载",
-      "source_url": "https://fund.eastmoney.com/a/202607283822548279.html",
-      "published_at": "2026-07-28",
-      "symbols": [
-        "688825.SH",
-        "公募基金",
-        "ETF",
-        "科创板"
-      ],
-      "importance": "medium",
-      "status": "已入库"
-    },
-    {
-      "id": "20260728-industry-aihw",
-      "category": "行业重要事项",
-      "title": "半导体、算力硬件、CPO链条出现集中调整",
-      "summary": "多家财经媒体收盘报道均指向半导体和算力硬件产业链调整，CPO、存储、PCB等方向跌幅靠前。讯息页后续会把这类板块事件与自选股标签绑定。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103295138.html",
-      "published_at": "2026-07-28",
-      "symbols": [
-        "半导体",
-        "CPO",
-        "存储器",
-        "PCB",
-        "AI服务器"
-      ],
-      "importance": "high",
-      "status": "已入库"
-    },
-    {
-      "id": "20260728-industry-memory",
-      "category": "行业重要事项",
-      "title": "国产DRAM龙头登陆科创板，存储产业链进入资本市场验证窗口",
-      "summary": "长鑫科技上市后，存储芯片、设备材料、封测、模组及下游终端链条成为行业跟踪重点。这个事件适合与中芯国际、北方华创、中微公司等半导体核心资产一起观察。",
-      "source": "中国经济网 / 证券日报",
-      "source_url": "https://finance.ce.cn/stock/gsgdbd/202607/t20260728_3111573.shtml",
-      "published_at": "2026-07-28",
-      "symbols": [
-        "688825.SH",
-        "688981.SH",
-        "半导体设备",
-        "存储器"
-      ],
-      "importance": "high",
-      "status": "已入库"
     }
   ],
   "report_templates": [
@@ -1859,13 +1842,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-21 11:50:06+08:00",
+  "last_checked_at": "2026-08-21 12:44:40+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 77667,
+    "rows": 77846,
     "covered_stocks": 5545,
-    "notice_rows": 35607,
-    "stock_news_rows": 42060,
+    "notice_rows": 35611,
+    "stock_news_rows": 42235,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }

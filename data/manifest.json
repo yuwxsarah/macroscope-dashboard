@@ -31,7 +31,7 @@
       "status": "ok"
     },
     "liquidity.csv": {
-      "rows": 4999,
+      "rows": 5000,
       "columns": [
         "trade_date",
         "dr001_pct",
@@ -188,7 +188,7 @@
       "status": "ok"
     },
     "market_messages.csv": {
-      "rows": 77667,
+      "rows": 77846,
       "columns": [
         "published_at",
         "category",
