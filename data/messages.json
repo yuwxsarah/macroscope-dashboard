@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21 19:05:32+08:00",
+  "updated_at": "2026-08-21 20:20:04+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-fe4719dfb51b17ae",
+      "category": "重大新闻",
+      "title": "晚间公告｜8月21日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 13103 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328752.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6cc2846eceb88b47",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这18股，卖出键凯科技9762万元 共33只个股出现了机构的身影。 3152 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328725.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-dbcc54e978e4e026",
+      "category": "重大新闻",
+      "title": "越跌越买？私募证券投资基金单月扩容超1万亿，总规模突破9万亿大关 私募基金总规模连续第十个月刷新历史新高 1354 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328693.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6d6909c1276b2dde",
+      "category": "重大新闻",
+      "title": "止盈？ 982 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328689.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f64697e19f675e99",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨0.04% 贵金属板块涨幅居前 全市场超2800只个股下跌。 4578 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328406.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-fe4719dfb51b17ae",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-6dff51eb9bfaf621",
-      "category": "重大新闻",
-      "title": "收盘｜创业板指涨3.06% 多模态AI概念股爆发 市场近4700股上涨。 12分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103300708.html",
-      "published_at": "2026-07-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5d843c7536a8a335",
-      "category": "重大新闻",
-      "title": "从“授权”到“共建”：中国创新药出海模式升级，板块估值迎修复 中国药企在价值链中的位置从“供应商”向“合作方”迁移。 3152 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103300498.html",
-      "published_at": "2026-07-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-618093adccc20b28",
-      "category": "重大新闻",
-      "title": "盘前必读丨日韩股市高开SK海力士大涨18%；宇树科技8月10日申购 机构认为，科技板块短线仍有调整压力，可关注红利等防御品种。 37531 7小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103299771.html",
-      "published_at": "2026-07-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d79e41319ab4a893",
-      "category": "重大新闻",
-      "title": "财务造假、隐瞒股权代持，渔翁信息IPO欺诈发行被罚 撤回IPO申请两年多后，渔翁信息因欺诈发行被罚400万元。 7 6655 昨天 21:34",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103299499.html",
-      "published_at": "2026-07-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-83d1fe5896cf8fb7",
-      "category": "重大新闻",
-      "title": "公募量化上半年扩容，市场剧震拷问超额收益持续性 7月的大幅回撤甚至迅速侵蚀了部分产品前期积累的超额收益，导致上半年的收益“打水漂” 8 11677 昨天 19:",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103299343.html",
-      "published_at": "2026-07-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,13 +1836,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-21 19:05:32+08:00",
+  "last_checked_at": "2026-08-21 20:20:04+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 44797,
+    "rows": 48854,
     "covered_stocks": 5545,
-    "notice_rows": 2160,
-    "stock_news_rows": 42637,
+    "notice_rows": 6246,
+    "stock_news_rows": 42608,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
