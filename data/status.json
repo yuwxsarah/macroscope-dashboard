@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-22T12:09:16+08:00",
-      "finished_at": "2026-08-22T12:09:33+08:00",
+      "started_at": "2026-08-22T19:40:17+08:00",
+      "finished_at": "2026-08-22T19:40:34+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4964,
-      "started_at": "2026-08-22T12:09:33+08:00",
-      "finished_at": "2026-08-22T12:09:50+08:00",
+      "started_at": "2026-08-22T19:40:34+08:00",
+      "finished_at": "2026-08-22T19:41:15+08:00",
       "latest_date": "20260821",
       "total_cached_rows": 5000,
       "source_details": {
@@ -57,7 +57,7 @@
         },
         "dr": {
           "status": "failed",
-          "error": "DataFetchError('中国货币网未解析到DR001/DR007；严格不以FDR替代。')",
+          "error": "DataFetchError(\"中国货币网未解析到DR001/DR007；严格不以FDR替代。https://www.chinamoney.com.cn/chinese/mkdatapm/?tab=2: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/chinese/mkdatapm/?tab=2') | https://www.chinamoney.com.cn/english/mdtqapprp/: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/english/mdtqapprp/') | https://www.chinamoney.com.cn/chinese/mkdatapm/: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/chinese/mkdatapm/')\")",
           "note": "严格不使用FDR替代DR"
         }
       },
@@ -363,8 +363,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-21T20:35:57+08:00",
-      "finished_at": "2026-08-21T20:36:11+08:00",
+      "started_at": "2026-08-22T19:41:15+08:00",
+      "finished_at": "2026-08-22T19:41:44+08:00",
       "latest_date": "20260818",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260822",
-      "rows": 80378,
-      "cached_rows": 80378,
+      "rows": 44422,
+      "cached_rows": 44422,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "920414.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920415.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920418.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "688291.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688309.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688315.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-22T12:34:42+08:00",
+  "updated_at": "2026-08-22T20:11:39+08:00",
   "overall_status": "success",
-  "last_update_mode": "macro"
+  "last_update_mode": "evening"
 }
