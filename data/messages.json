@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23 07:33:32+08:00",
+  "updated_at": "2026-08-23 11:58:20+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -109,6 +109,20 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-64053984b954ea9e",
+      "category": "重大新闻",
+      "title": "下周关注丨英伟达等将披露财报，这些投资机会最靠谱 英伟达、拼多多、美团等将披露财报；多个产业会议将召开；国内成品油将迎来调价窗口...... 20481 2小时",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103329601.html",
+      "published_at": "2026-08-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-3794ae98e25e0ee6",
       "category": "重大新闻",
       "title": "国联民生总裁葛小波离职，业内：大概率赴香港市场发展 国联民生日前公告称，执行董事、总裁葛小波因个人原因，辞去公司执行董事、总裁、董事会风险控制委员会委员、董事会",
@@ -129,6 +143,34 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103329015.html",
+      "published_at": "2026-08-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fe4719dfb51b17ae",
+      "category": "重大新闻",
+      "title": "晚间公告｜8月21日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 60471 08-21 18:36",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328752.html",
+      "published_at": "2026-08-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6cc2846eceb88b47",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这18股，卖出键凯科技9762万元 共33只个股出现了机构的身影。 12142 08-21 18:19",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328725.html",
       "published_at": "2026-08-23",
       "symbols": [
         "A股"
@@ -1745,48 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d7d54d76d50ff2ca",
-      "category": "重大新闻",
-      "title": "A股四大股指开盘涨跌不一，能源金属板块活跃 盘面上，能源金属、民爆概念、油气板块开盘活跃。 2191 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103308897.html",
-      "published_at": "2026-08-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-edad57ca99973d25",
-      "category": "重大新闻",
-      "title": "盘前必读丨宇树科技今日网上路演；美国对多晶硅衍生品加征关税 机构认为，8月更倾向V型反攻，而非L型筑底。 5 30277 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103308745.html",
-      "published_at": "2026-08-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-43c821ff9aae37ec",
-      "category": "重大新闻",
-      "title": "宇树科技估值610亿，王兴兴身家超180亿，美团红杉腾讯阿里共同分羹 宇树科技发行价确定为150.80元/股，股东持股市值初现轮廓。 7 57712 昨天 23",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103308623.html",
-      "published_at": "2026-08-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,13 +1836,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-23 07:33:32+08:00",
+  "last_checked_at": "2026-08-23 11:58:20+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 78354,
+    "rows": 78855,
     "covered_stocks": 5545,
     "notice_rows": 37020,
-    "stock_news_rows": 41334,
+    "stock_news_rows": 41835,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
