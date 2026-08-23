@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-22T19:40:17+08:00",
-      "finished_at": "2026-08-22T19:40:34+08:00",
+      "started_at": "2026-08-23T12:23:04+08:00",
+      "finished_at": "2026-08-23T12:23:24+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4964,
-      "started_at": "2026-08-22T19:40:34+08:00",
-      "finished_at": "2026-08-22T19:41:15+08:00",
+      "started_at": "2026-08-23T12:23:24+08:00",
+      "finished_at": "2026-08-23T12:23:43+08:00",
       "latest_date": "20260821",
       "total_cached_rows": 5000,
       "source_details": {
@@ -57,7 +57,7 @@
         },
         "dr": {
           "status": "failed",
-          "error": "DataFetchError(\"中国货币网未解析到DR001/DR007；严格不以FDR替代。https://www.chinamoney.com.cn/chinese/mkdatapm/?tab=2: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/chinese/mkdatapm/?tab=2') | https://www.chinamoney.com.cn/english/mdtqapprp/: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/english/mdtqapprp/') | https://www.chinamoney.com.cn/chinese/mkdatapm/: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/chinese/mkdatapm/')\")",
+          "error": "DataFetchError('中国货币网未解析到DR001/DR007；严格不以FDR替代。')",
           "note": "严格不使用FDR替代DR"
         }
       },
@@ -397,8 +397,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260823",
-      "rows": 78855,
-      "cached_rows": 78855,
+      "rows": 78857,
+      "cached_rows": 78857,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
       "error": "20260823: KeyError('代码')"
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-23T11:58:35+08:00",
+  "updated_at": "2026-08-23T12:53:34+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
