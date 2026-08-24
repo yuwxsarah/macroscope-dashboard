@@ -264,9 +264,9 @@
     "crowding": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 80,
+      "cached_rows": 81,
       "total_cached_rows": 64,
-      "latest_date": "20260821",
+      "latest_date": "20260824",
       "source_details": {
         "crowding_history": {
           "status": "success",
@@ -282,9 +282,9 @@
     "breadth": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 80,
+      "cached_rows": 81,
       "total_cached_rows": 64,
-      "latest_date": "20260821",
+      "latest_date": "20260824",
       "source_details": {
         "breadth_counts": {
           "status": "success",
@@ -304,9 +304,9 @@
     "leverage": {
       "status": "success",
       "rows": 63,
-      "cached_rows": 79,
+      "cached_rows": 80,
       "total_cached_rows": 63,
-      "latest_date": "20260820",
+      "latest_date": "20260821",
       "source_details": {
         "margin_balance": {
           "status": "success",
@@ -373,19 +373,19 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-21T20:34:18+08:00",
-      "finished_at": "2026-08-21T20:35:57+08:00",
-      "latest_date": "20260821",
-      "crowding_cached_rows": 80,
-      "breadth_cached_rows": 80,
+      "started_at": "2026-08-24T13:26:52+08:00",
+      "finished_at": "2026-08-24T13:28:46+08:00",
+      "latest_date": "20260824",
+      "crowding_cached_rows": 81,
+      "breadth_cached_rows": 81,
       "leverage": {
         "status": "success",
         "rows": 1,
-        "latest_date": "20260820",
-        "source": "深交所融资融券汇总 + 上海两融历史公开表"
+        "latest_date": "20260821",
+        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
-      "snapshot_kind": "收盘后快照"
+      "snapshot_kind": "盘中快照"
     },
     "a_share_universe": {
       "status": "success",
@@ -397,22 +397,22 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260824",
-      "rows": 45589,
-      "cached_rows": 45589,
+      "rows": 61632,
+      "cached_rows": 61632,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "301586.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301588.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301591.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "20260808: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(32505 bytes read, 37446 more expected)', IncompleteRead(32505 bytes read, 37446 more expected)))；20260727: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')；20260725: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(25829 bytes read, 43771 more expected)', IncompleteRead(25829 bytes read, 43771 more expected)))"
     },
     "market_tracking": {
       "status": "success",
-      "latest_date": "20260821",
-      "rows": 80,
-      "cached_rows": 80,
+      "latest_date": "20260824",
+      "rows": 81,
+      "cached_rows": 81,
       "source": "由宏观、流动性、估值、A股情绪、两融、全球市场公开数据自动评分",
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-24T13:00:25+08:00",
+  "updated_at": "2026-08-24T13:52:37+08:00",
   "overall_status": "success",
-  "last_update_mode": "macro"
+  "last_update_mode": "snapshot"
 }
