@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24 13:52:37+08:00",
+  "updated_at": "2026-08-24 18:03:00+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,25 +355,25 @@
   "tracking": {
     "trade_date": "20260824",
     "summary": {
-      "market_score": 35.4,
-      "market_score_before_gate": 35.4,
-      "risk_score": 70.0,
-      "risk_level": "红色",
-      "market_phase": "防御期 / 红色预警",
-      "base_position_pct": 30.0,
-      "base_position_range": "20%-40%",
-      "risk_discount": 0.6,
-      "risk_discount_range": "50%-70%",
-      "suggested_position_pct": 19.0,
-      "suggested_position_range": "10%-28%",
-      "single_stock_limit": "10%",
-      "industry_limit": "25%",
-      "theme_limit": "15%",
-      "risk_action": "系统性降仓",
+      "market_score": 33.9,
+      "market_score_before_gate": 33.9,
+      "risk_score": 70.8,
+      "risk_level": "深红",
+      "market_phase": "风险期 / 深红防御优先",
+      "base_position_pct": 10.0,
+      "base_position_range": "0%-20%",
+      "risk_discount": 0.4,
+      "risk_discount_range": "30%-50%",
+      "suggested_position_pct": 5.0,
+      "suggested_position_range": "0%-10%",
+      "single_stock_limit": "5%",
+      "industry_limit": "15%",
+      "theme_limit": "10%",
+      "risk_action": "防御优先",
       "liquidity_gate": "流动性原始分<=2.0，按框架规则不建议重仓进攻。",
-      "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
-      "style_signal": "大盘价值占优",
-      "style_reason": "成长/科技20日动量均值 -3.07%；宽基20日动量均值 0.87%；风格差 -3.93%",
+      "concentration_note": "防御或风险期，单股上限5%，单行业上限15%，单主题上限10%。",
+      "style_signal": "均衡轮动",
+      "style_reason": "成长/科技20日动量均值 -3.07%；宽基20日动量均值 -1.17%；风格差 -1.89%",
       "formula": "实际仓位 = 大盘建议仓位 × 风险折扣"
     },
     "modules": [
@@ -439,14 +439,14 @@
       {
         "name": "盈利周期",
         "weight": 15,
-        "score": 32.0,
-        "raw_score": 1.6,
-        "weighted_score": 4.8,
+        "score": 29.9,
+        "raw_score": 1.5,
+        "weighted_score": 4.5,
         "status": "偏弱",
         "basis": [
           "制造业PMI 49.20",
           "社融存量同比 7.40%",
-          "主要A股指数20日动量均值 -0.97%"
+          "主要A股指数20日动量均值 -1.99%"
         ],
         "blueprint": [
           "全A盈利增速 30%",
@@ -479,9 +479,9 @@
       {
         "name": "市场情绪",
         "weight": 10,
-        "score": 38.1,
-        "raw_score": 1.9,
-        "weighted_score": 3.8,
+        "score": 36.0,
+        "raw_score": 1.8,
+        "weighted_score": 3.6,
         "status": "偏弱",
         "basis": [
           "上涨家数占比 20.23%",
@@ -499,14 +499,14 @@
       {
         "name": "风格结构",
         "weight": 10,
-        "score": 69.7,
-        "raw_score": 3.5,
-        "weighted_score": 7.0,
+        "score": 59.5,
+        "raw_score": 3.0,
+        "weighted_score": 6.0,
         "status": "中性偏强",
         "basis": [
           "成长/科技20日动量均值 -3.07%",
-          "宽基20日动量均值 0.87%",
-          "风格差 -3.93%"
+          "宽基20日动量均值 -1.17%",
+          "风格差 -1.89%"
         ],
         "blueprint": [
           "大小盘风格 25%",
@@ -531,12 +531,12 @@
       {
         "name": "量价质量恶化",
         "weight": 20,
-        "risk": 13.9,
-        "raw_risk": 69.7,
-        "level": "偏高",
+        "risk": 14.6,
+        "raw_risk": 73.0,
+        "level": "高",
         "basis": [
-          "主要指数20日动量均值 -0.97%",
-          "主要指数相对20日均线均值 -0.37%",
+          "主要指数20日动量均值 -1.99%",
+          "主要指数相对20日均线均值 -0.79%",
           "成交额近5期变化 -0.89万亿元"
         ]
       },
@@ -578,12 +578,12 @@
       {
         "name": "估值盈利背离",
         "weight": 10,
-        "risk": 7.2,
-        "raw_risk": 72.3,
+        "risk": 7.3,
+        "raw_risk": 73.4,
         "level": "高",
         "basis": [
           "指数PE历史分位均值 77%",
-          "盈利周期原始分 1.6/5"
+          "盈利周期原始分 1.5/5"
         ]
       },
       {
@@ -604,7 +604,7 @@
       "broad_turnover_pct": 1.318,
       "crowding_pct": 48.52,
       "margin_to_market_cap_pct": 2.329,
-      "index_momentum_20d_pct": -0.97,
+      "index_momentum_20d_pct": -1.99,
       "dgs10_pct": 4.69
     }
   },
