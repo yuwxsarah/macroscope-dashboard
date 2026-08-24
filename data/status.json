@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-23T19:39:58+08:00",
-      "finished_at": "2026-08-23T19:40:17+08:00",
+      "started_at": "2026-08-24T12:32:09+08:00",
+      "finished_at": "2026-08-24T12:32:28+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -44,15 +44,15 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 4964,
-      "started_at": "2026-08-23T19:40:17+08:00",
-      "finished_at": "2026-08-23T19:40:36+08:00",
-      "latest_date": "20260821",
-      "total_cached_rows": 5000,
+      "rows": 4965,
+      "started_at": "2026-08-24T12:32:28+08:00",
+      "finished_at": "2026-08-24T12:32:44+08:00",
+      "latest_date": "20260824",
+      "total_cached_rows": 5001,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4964,
+          "rows": 4965,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,7 +62,7 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5000
+      "cached_rows": 5001
     },
     "market": {
       "status": "success",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260824",
-      "rows": 49159,
-      "cached_rows": 49159,
+      "rows": 45589,
+      "cached_rows": 45589,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "920665.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920670.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920685.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "301586.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301588.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301591.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-24T12:02:15+08:00",
+  "updated_at": "2026-08-24T13:00:25+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
