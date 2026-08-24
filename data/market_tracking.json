@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24 20:31:05+08:00",
+  "updated_at": "2026-08-24 21:18:05+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,9 +355,9 @@
   "tracking": {
     "trade_date": "20260824",
     "summary": {
-      "market_score": 35.1,
-      "market_score_before_gate": 35.1,
-      "risk_score": 72.2,
+      "market_score": 35.3,
+      "market_score_before_gate": 35.3,
+      "risk_score": 74.7,
       "risk_level": "深红",
       "market_phase": "防御期 / 深红防御优先",
       "base_position_pct": 30.0,
@@ -373,7 +373,7 @@
       "liquidity_gate": "流动性原始分<=2.0，按框架规则不建议重仓进攻。",
       "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
       "style_signal": "大盘价值占优",
-      "style_reason": "成长/科技20日动量均值 -6.02%；宽基20日动量均值 -1.17%；风格差 -4.85%",
+      "style_reason": "成长/科技20日动量均值 -8.12%；宽基20日动量均值 -1.17%；风格差 -6.94%",
       "formula": "实际仓位 = 大盘建议仓位 × 风险折扣"
     },
     "modules": [
@@ -439,14 +439,14 @@
       {
         "name": "盈利周期",
         "weight": 15,
-        "score": 27.8,
-        "raw_score": 1.4,
-        "weighted_score": 4.2,
+        "score": 24.5,
+        "raw_score": 1.2,
+        "weighted_score": 3.6,
         "status": "偏弱",
         "basis": [
           "制造业PMI 49.20",
           "社融存量同比 7.40%",
-          "主要A股指数20日动量均值 -2.97%"
+          "主要A股指数20日动量均值 -4.54%"
         ],
         "blueprint": [
           "全A盈利增速 30%",
@@ -479,13 +479,13 @@
       {
         "name": "市场情绪",
         "weight": 10,
-        "score": 34.9,
-        "raw_score": 1.7,
-        "weighted_score": 3.4,
+        "score": 31.6,
+        "raw_score": 1.6,
+        "weighted_score": 3.2,
         "status": "偏弱",
         "basis": [
           "上涨家数占比 26.57%",
-          "A股成交额/总市值 4.58%",
+          "A股成交额/总市值 1.78%",
           "交易拥挤度 47.92%"
         ],
         "blueprint": [
@@ -499,14 +499,14 @@
       {
         "name": "风格结构",
         "weight": 10,
-        "score": 74.2,
-        "raw_score": 3.7,
-        "weighted_score": 7.4,
-        "status": "中性偏强",
+        "score": 84.7,
+        "raw_score": 4.2,
+        "weighted_score": 8.4,
+        "status": "明显改善",
         "basis": [
-          "成长/科技20日动量均值 -6.02%",
+          "成长/科技20日动量均值 -8.12%",
           "宽基20日动量均值 -1.17%",
-          "风格差 -4.85%"
+          "风格差 -6.94%"
         ],
         "blueprint": [
           "大小盘风格 25%",
@@ -531,23 +531,23 @@
       {
         "name": "量价质量恶化",
         "weight": 20,
-        "risk": 14.5,
-        "raw_risk": 72.7,
+        "risk": 15.6,
+        "raw_risk": 78.1,
         "level": "高",
         "basis": [
-          "主要指数20日动量均值 -2.97%",
-          "主要指数相对20日均线均值 -1.40%",
+          "主要指数20日动量均值 -4.54%",
+          "主要指数相对20日均线均值 -2.16%",
           "成交额近5期变化 -0.38万亿元"
         ]
       },
       {
         "name": "主线健康度下降",
         "weight": 20,
-        "risk": 11.0,
-        "raw_risk": 54.8,
+        "risk": 13.1,
+        "raw_risk": 65.3,
         "level": "偏高",
         "basis": [
-          "创业板20日动量 1.86%",
+          "创业板20日动量 -4.43%",
           "科创50 20日动量 -11.37%",
           "交易拥挤度 47.92%"
         ]
@@ -555,11 +555,11 @@
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 10.1,
-        "raw_risk": 67.3,
+        "risk": 9.2,
+        "raw_risk": 61.0,
         "level": "偏高",
         "basis": [
-          "两融/总市值 6.05%，历史分位 100%",
+          "两融/总市值 2.36%，历史分位 88%",
           "交易拥挤度历史分位 35%"
         ]
       },
@@ -578,12 +578,12 @@
       {
         "name": "估值盈利背离",
         "weight": 10,
-        "risk": 7.3,
-        "raw_risk": 73.3,
+        "risk": 7.5,
+        "raw_risk": 74.9,
         "level": "高",
         "basis": [
           "指数PE历史分位均值 74%",
-          "盈利周期原始分 1.4/5"
+          "盈利周期原始分 1.2/5"
         ]
       },
       {
@@ -601,10 +601,10 @@
     "signals": {
       "up_ratio_pct": 26.57,
       "total_amount_trillion": 2.007,
-      "broad_turnover_pct": 4.578,
+      "broad_turnover_pct": 1.782,
       "crowding_pct": 47.92,
-      "margin_to_market_cap_pct": 6.051,
-      "index_momentum_20d_pct": -2.97,
+      "margin_to_market_cap_pct": 2.355,
+      "index_momentum_20d_pct": -4.54,
       "dgs10_pct": 4.69
     }
   },
