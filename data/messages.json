@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25 07:52:35+08:00",
+  "updated_at": "2026-08-25 11:47:12+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-0947490c02a09e17",
+      "category": "重大新闻",
+      "title": "拆解鱼跃医疗中报业绩：数智赋能下，多个增长新引擎已崭露头角 21分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103332368.html",
+      "published_at": "2026-08-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b8e795241bb0333a",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，市场逾3900股下跌 盘面上，工业金属、工业气体、存储器、半导体材料、PCB等概念股跌幅居前。 5 5105 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103331999.html",
+      "published_at": "2026-08-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-795cf1e8e7c96110",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股存储、光通信板块重挫；燧原科技9月2日申购 机构认为，风格再平衡背景下关注量能变化。 7 33377 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103331859.html",
+      "published_at": "2026-08-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-637dc5073cf87b28",
+      "category": "重大新闻",
+      "title": "半导体破位、光通信回吐，科技缩圈反弹后迎二次调整 当中报业绩陆续落地、\"符合预期\" 已难以继续推升股价时，资金开始重新评估估值安全边际与业绩兑现节奏。 1862",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103331444.html",
+      "published_at": "2026-08-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f6d0da25dbbfafbd",
+      "category": "重大新闻",
+      "title": "券商系公募再迎人事调整，基金业“换帅潮”因何而起 在费率改革的深化期、在退休高峰的叠加期、在战略转型的关键期，高管“流水席”还将继续。 5 13475 昨天 1",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103331337.html",
+      "published_at": "2026-08-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-637dc5073cf87b28",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d9465965ba73d15a",
-      "category": "重大新闻",
-      "title": "收盘｜创业板指涨0.64% 医药生物板块集体爆发 全市场近4100只个股上涨。 10375 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103326562.html",
-      "published_at": "2026-08-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-481147e943fad6b2",
-      "category": "重大新闻",
-      "title": "A股四大指数集体高开，生物医药板块爆发 盘面上，生物医药板块爆发，创新药、ADC、基因检测、CRO方向领涨。 10 12576 7小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103325750.html",
-      "published_at": "2026-08-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-65d90f4f8a225408",
-      "category": "重大新闻",
-      "title": "盘前必读丨美财政部宣布扩大长债回购规模；中微公司上半年净利增长三倍 机构认为，修复前期高点尚需时日，短期科技与红利之间或呈现拉锯格局。 9 35764 9小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103325591.html",
-      "published_at": "2026-08-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-481147e943fad6b2",
-      "category": "重大新闻",
-      "title": "A股四大指数集体高开，生物医药板块爆发 盘面上，生物医药板块爆发，创新药、ADC、基因检测、CRO方向领涨。 9 10685 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103325750.html",
-      "published_at": "2026-08-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-65d90f4f8a225408",
-      "category": "重大新闻",
-      "title": "盘前必读丨美财政部宣布扩大长债回购规模；中微公司上半年净利增长三倍 机构认为，修复前期高点尚需时日，短期科技与红利之间或呈现拉锯格局。 9 34989 5小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103325591.html",
-      "published_at": "2026-08-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,13 +1836,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-25 07:52:35+08:00",
+  "last_checked_at": "2026-08-25 11:47:12+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 72274,
+    "rows": 49550,
     "covered_stocks": 5545,
-    "notice_rows": 30355,
-    "stock_news_rows": 41919,
+    "notice_rows": 6750,
+    "stock_news_rows": 42800,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
