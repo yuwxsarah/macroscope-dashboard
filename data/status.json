@@ -66,15 +66,15 @@
     },
     "market": {
       "status": "success",
-      "rows": 32948,
-      "started_at": "2026-08-25T17:20:07+08:00",
-      "finished_at": "2026-08-25T17:20:18+08:00",
+      "rows": 32951,
+      "started_at": "2026-08-25T18:04:26+08:00",
+      "finished_at": "2026-08-25T18:04:36+08:00",
       "latest_date": "20260825",
-      "total_cached_rows": 32952,
+      "total_cached_rows": 32955,
       "symbols": {
         "000001.SH": {
           "status": "success",
-          "rows": 1610,
+          "rows": 1611,
           "source": "新浪财经 / AKShare"
         },
         "399001.SZ": {
@@ -89,12 +89,12 @@
         },
         "000300.SH": {
           "status": "success",
-          "rows": 1610,
+          "rows": 1611,
           "source": "新浪财经 / AKShare"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1610,
+          "rows": 1611,
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
@@ -173,7 +173,7 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32952
+      "cached_rows": 32955
     },
     "global_macro": {
       "status": "success",
@@ -220,8 +220,8 @@
     "valuation": {
       "status": "success",
       "rows": 23373,
-      "started_at": "2026-08-25T17:20:18+08:00",
-      "finished_at": "2026-08-25T17:20:38+08:00",
+      "started_at": "2026-08-25T18:04:36+08:00",
+      "finished_at": "2026-08-25T18:05:05+08:00",
       "latest_date": "20260824",
       "total_cached_rows": 23373,
       "indices": {
@@ -321,17 +321,17 @@
     "deviation": {
       "status": "success",
       "rows": 2105,
-      "started_at": "2026-08-25T17:21:57+08:00",
-      "finished_at": "2026-08-25T17:21:57+08:00",
-      "latest_date": "20260824",
+      "started_at": "2026-08-25T18:06:54+08:00",
+      "finished_at": "2026-08-25T18:06:54+08:00",
+      "latest_date": "20260825",
       "total_cached_rows": 2105,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
       "indices": {
         "000001.SH": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260824",
-          "latest_month_date": "20260824"
+          "latest_week_date": "20260825",
+          "latest_month_date": "20260825"
         },
         "399001.SZ": {
           "status": "success",
@@ -348,14 +348,14 @@
         "000688.SH": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260824",
-          "latest_month_date": "20260824"
+          "latest_week_date": "20260825",
+          "latest_month_date": "20260825"
         },
         "000300.SH": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260824",
-          "latest_month_date": "20260824"
+          "latest_week_date": "20260825",
+          "latest_month_date": "20260825"
         }
       },
       "cached_rows": 2105
@@ -373,8 +373,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-25T17:20:38+08:00",
-      "finished_at": "2026-08-25T17:21:57+08:00",
+      "started_at": "2026-08-25T18:05:05+08:00",
+      "finished_at": "2026-08-25T18:06:54+08:00",
       "latest_date": "20260825",
       "crowding_cached_rows": 82,
       "breadth_cached_rows": 82,
@@ -382,7 +382,7 @@
         "status": "success",
         "rows": 1,
         "latest_date": "20260824",
-        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
+        "source": "深交所融资融券汇总 + 上海两融历史公开表"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
       "snapshot_kind": "收盘后快照"
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260825",
-      "rows": 45224,
-      "cached_rows": 45224,
+      "rows": 45181,
+      "cached_rows": 45181,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "301552.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301555.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301556.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "301152.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301158.SZ: Timeout('Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301167.SZ: Timeout('Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-25T17:49:07+08:00",
+  "updated_at": "2026-08-25T18:36:37+08:00",
   "overall_status": "success",
   "last_update_mode": "close"
 }
