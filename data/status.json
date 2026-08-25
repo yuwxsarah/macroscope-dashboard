@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-24T20:32:44+08:00",
-      "finished_at": "2026-08-24T20:33:10+08:00",
+      "started_at": "2026-08-25T12:24:43+08:00",
+      "finished_at": "2026-08-25T12:25:02+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -44,15 +44,15 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 4965,
-      "started_at": "2026-08-24T20:33:10+08:00",
-      "finished_at": "2026-08-24T20:33:27+08:00",
-      "latest_date": "20260824",
-      "total_cached_rows": 5001,
+      "rows": 4966,
+      "started_at": "2026-08-25T12:25:02+08:00",
+      "finished_at": "2026-08-25T12:25:17+08:00",
+      "latest_date": "20260825",
+      "total_cached_rows": 5002,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4965,
+          "rows": 4966,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,7 +62,7 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5001
+      "cached_rows": 5002
     },
     "market": {
       "status": "success",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260825",
-      "rows": 49550,
-      "cached_rows": 49550,
+      "rows": 46874,
+      "cached_rows": 46874,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "688139.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688141.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688153.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "20260730: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(2661 bytes read, 65907 more expected)', IncompleteRead(2661 bytes read, 65907 more expected)))；20260729: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(17141 bytes read, 54059 more expected)', IncompleteRead(17141 bytes read, 54059 more expected)))；20260727: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(37413 bytes read, 32447 more expected)', IncompleteRead(37413 bytes read, 32447 more expected)))"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-25T11:47:26+08:00",
+  "updated_at": "2026-08-25T12:50:44+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
