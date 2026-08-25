@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25 13:50:24+08:00",
+  "updated_at": "2026-08-25 17:48:02+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-14acb26514ceee4e",
+      "category": "重大新闻",
+      "title": "江波龙定增机构浮亏12.5亿，转身冲刺香港上市｜IPO观察 有业内人士指出，江波龙在A股刚刚完成增发便让机构深度浮亏，港股上市定价如何重新取得投资者信任，是个不",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103333026.html",
+      "published_at": "2026-08-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c89789ddb58bdbd9",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共70只个股涨停 这只黄金概念股4连板 黄金概念股深中华A收获4连板。一图速览今日连板股>> 1974 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103332796.html",
+      "published_at": "2026-08-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9076107ef0946296",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨0.19% 农业板块涨幅居前 全市场超4200股上涨。 6655 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103332756.html",
+      "published_at": "2026-08-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0947490c02a09e17",
+      "category": "重大新闻",
+      "title": "拆解鱼跃医疗中报业绩：数智赋能下，多个增长新引擎已崭露头角 8236 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103332368.html",
+      "published_at": "2026-08-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b8e795241bb0333a",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，市场逾3900股下跌 盘面上，工业金属、工业气体、存储器、半导体材料、PCB等概念股跌幅居前。 9 7740 8小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103331999.html",
+      "published_at": "2026-08-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-0947490c02a09e17",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-186bf1dcdd2da884",
-      "category": "重大新闻",
-      "title": "海特高新官微回应“抢公章”：系依法维权，列举原董事长“7宗罪” 6903 昨天 22:23",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103327328.html",
-      "published_at": "2026-08-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d64519be08c9f9cc",
-      "category": "重大新闻",
-      "title": "美债SOS！美出台双向政策维稳，全球金融市场遭遇极限拉扯 短暂喘息后，全球资产定价压力仍存。 13227 昨天 21:39",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103327319.html",
-      "published_at": "2026-08-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b2703c8dcb13f3e6",
-      "category": "重大新闻",
-      "title": "组织百人抢公章？海特高新、华芯科技控制权纠纷再升级 7771 昨天 21:10",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103327264.html",
-      "published_at": "2026-08-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7d9e26be4e30de4d",
-      "category": "重大新闻",
-      "title": "券商“一哥”最新业绩出炉！券商中报披露高峰来临，百亿营收券商已达3家 根据安排，到本周末，财达证券、东方财富等将陆续披露中报。 703 37分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103327136.html",
-      "published_at": "2026-08-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-26fc25227d398073",
-      "category": "重大新闻",
-      "title": "正收益占比不足四成！次新基金为何一登场就沦为“毛基” \"一登场便折损\"，基民：买在山顶的痛谁懂 424 40分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103327130.html",
-      "published_at": "2026-08-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,13 +1836,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-25 13:50:24+08:00",
+  "last_checked_at": "2026-08-25 17:48:02+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 48731,
+    "rows": 45224,
     "covered_stocks": 5545,
-    "notice_rows": 5479,
-    "stock_news_rows": 43252,
+    "notice_rows": 1804,
+    "stock_news_rows": 43420,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
