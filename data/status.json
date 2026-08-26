@@ -66,11 +66,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 32954,
-      "started_at": "2026-08-25T20:28:29+08:00",
-      "finished_at": "2026-08-25T20:28:41+08:00",
+      "rows": 32965,
+      "started_at": "2026-08-26T07:37:05+08:00",
+      "finished_at": "2026-08-26T07:37:16+08:00",
       "latest_date": "20260825",
-      "total_cached_rows": 32958,
+      "total_cached_rows": 32969,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -104,17 +104,17 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
@@ -124,42 +124,42 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
@@ -173,20 +173,20 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32958
+      "cached_rows": 32969
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-25T20:28:41+08:00",
-      "finished_at": "2026-08-25T20:40:13+08:00",
-      "latest_date": "20260821",
-      "total_cached_rows": 30012,
+      "started_at": "2026-08-26T07:37:16+08:00",
+      "finished_at": "2026-08-26T07:48:48+08:00",
+      "latest_date": "20260824",
+      "total_cached_rows": 30014,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260821",
+          "latest_date": "20260824",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -196,7 +196,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260821",
+          "latest_date": "20260824",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -209,13 +209,13 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260821",
-        "DGS10": "20260821",
+        "DGS2": "20260824",
+        "DGS10": "20260824",
         "NET_USD_LIQUIDITY_SOMA": "20260729",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260729"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 30012
+      "cached_rows": 30014
     },
     "valuation": {
       "status": "success",
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2105,
-      "started_at": "2026-08-25T20:45:26+08:00",
-      "finished_at": "2026-08-25T20:45:26+08:00",
+      "started_at": "2026-08-26T07:48:48+08:00",
+      "finished_at": "2026-08-26T07:48:48+08:00",
       "latest_date": "20260825",
       "total_cached_rows": 2105,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -386,12 +386,12 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20260825",
-      "rows": 48575,
-      "cached_rows": 48575,
+      "latest_date": "20260826",
+      "rows": 92205,
+      "cached_rows": 92205,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "20260730: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(57685 bytes read, 16743 more expected)', IncompleteRead(57685 bytes read, 16743 more expected)))；20260729: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(2661 bytes read, 68539 more expected)', IncompleteRead(2661 bytes read, 68539 more expected)))；20260728: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(15693 bytes read, 56780 more expected)', IncompleteRead(15693 bytes read, 56780 more expected)))"
+      "error": "600717.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；600722.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；600731.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -402,7 +402,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-25T21:21:16+08:00",
-  "overall_status": "partial",
-  "last_update_mode": "all"
+  "updated_at": "2026-08-26T08:12:11+08:00",
+  "overall_status": "success",
+  "last_update_mode": "global"
 }
