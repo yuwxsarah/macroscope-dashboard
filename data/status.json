@@ -66,11 +66,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 32965,
-      "started_at": "2026-08-26T07:37:05+08:00",
-      "finished_at": "2026-08-26T07:37:16+08:00",
-      "latest_date": "20260825",
-      "total_cached_rows": 32969,
+      "rows": 32968,
+      "started_at": "2026-08-26T17:26:07+08:00",
+      "finished_at": "2026-08-26T17:26:18+08:00",
+      "latest_date": "20260826",
+      "total_cached_rows": 32972,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -119,7 +119,7 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1672,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -164,16 +164,16 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1628,
+          "rows": 1629,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1628,
+          "rows": 1629,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32969
+      "cached_rows": 32972
     },
     "global_macro": {
       "status": "success",
@@ -220,8 +220,8 @@
     "valuation": {
       "status": "success",
       "rows": 23378,
-      "started_at": "2026-08-25T20:40:13+08:00",
-      "finished_at": "2026-08-25T20:40:44+08:00",
+      "started_at": "2026-08-26T17:26:18+08:00",
+      "finished_at": "2026-08-26T17:26:43+08:00",
       "latest_date": "20260825",
       "total_cached_rows": 23378,
       "indices": {
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2105,
-      "started_at": "2026-08-26T07:48:48+08:00",
-      "finished_at": "2026-08-26T07:48:48+08:00",
+      "started_at": "2026-08-26T17:28:08+08:00",
+      "finished_at": "2026-08-26T17:28:08+08:00",
       "latest_date": "20260825",
       "total_cached_rows": 2105,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -373,8 +373,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-26T13:17:53+08:00",
-      "finished_at": "2026-08-26T13:19:31+08:00",
+      "started_at": "2026-08-26T17:26:43+08:00",
+      "finished_at": "2026-08-26T17:28:08+08:00",
       "latest_date": "20260826",
       "crowding_cached_rows": 83,
       "breadth_cached_rows": 83,
@@ -385,7 +385,7 @@
         "source": "上交所融资融券汇总 + 深交所融资融券汇总"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
-      "snapshot_kind": "盘中快照"
+      "snapshot_kind": "收盘后快照"
     },
     "a_share_universe": {
       "status": "success",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260826",
-      "rows": 92973,
-      "cached_rows": 92973,
+      "rows": 51811,
+      "cached_rows": 51811,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "301157.SZ: Timeout('Failed to perform, curl: (28) Operation timed out after 30000 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301160.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301161.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "920974.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920976.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920981.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-26T13:44:51+08:00",
+  "updated_at": "2026-08-26T18:00:55+08:00",
   "overall_status": "success",
-  "last_update_mode": "snapshot"
+  "last_update_mode": "close"
 }
