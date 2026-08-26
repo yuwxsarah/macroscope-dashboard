@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-26T12:25:27+08:00",
-      "finished_at": "2026-08-26T12:25:49+08:00",
+      "started_at": "2026-08-26T19:59:29+08:00",
+      "finished_at": "2026-08-26T19:59:49+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4967,
-      "started_at": "2026-08-26T12:25:49+08:00",
-      "finished_at": "2026-08-26T12:26:02+08:00",
+      "started_at": "2026-08-26T19:59:49+08:00",
+      "finished_at": "2026-08-26T20:00:06+08:00",
       "latest_date": "20260826",
       "total_cached_rows": 5003,
       "source_details": {
@@ -363,9 +363,9 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-25T20:45:26+08:00",
-      "finished_at": "2026-08-25T20:45:33+08:00",
-      "latest_date": "20260818",
+      "started_at": "2026-08-26T20:00:06+08:00",
+      "finished_at": "2026-08-26T20:00:13+08:00",
+      "latest_date": "20260820",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260826",
-      "rows": 52987,
-      "cached_rows": 52987,
+      "rows": 51733,
+      "cached_rows": 51733,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "603808.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；603985.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688657.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "688816.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688819.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688820.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-26T19:31:21+08:00",
+  "updated_at": "2026-08-26T20:34:59+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
