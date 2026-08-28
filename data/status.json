@@ -66,114 +66,113 @@
     },
     "market": {
       "status": "success",
-      "rows": 32974,
-      "started_at": "2026-08-26T20:36:38+08:00",
-      "finished_at": "2026-08-26T20:36:47+08:00",
-      "latest_date": "20260826",
-      "total_cached_rows": 32978,
+      "rows": 31408,
+      "started_at": "2026-08-29T05:46:07+08:00",
+      "finished_at": "2026-08-29T05:46:42+08:00",
+      "latest_date": "20260828",
+      "total_cached_rows": 33025,
       "symbols": {
         "000001.SH": {
           "status": "success",
-          "rows": 1612,
+          "rows": 1614,
           "source": "新浪财经 / AKShare"
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 1612,
+          "rows": 1614,
           "source": "新浪财经 / AKShare"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 1612,
+          "rows": 1614,
           "source": "新浪财经 / AKShare"
         },
         "000300.SH": {
           "status": "success",
-          "rows": 1612,
+          "rows": 1614,
           "source": "新浪财经 / AKShare"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1612,
+          "rows": 1614,
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
-          "status": "success",
-          "rows": 1613,
-          "source": "中证指数官网 / AKShare"
+          "status": "failed",
+          "error": "DataFetchError(\"指数行情失败: 中证指数官网 / AKShare: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 东方财富指数日线 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))) | 东方财富指数历史 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))\")"
         },
         "^IXIC": {
-          "status": "success",
-          "rows": 1670,
-          "source": "Yahoo Finance / yfinance"
-        },
-        "^GSPC": {
-          "status": "success",
-          "rows": 1670,
-          "source": "Yahoo Finance / yfinance"
-        },
-        "^DJI": {
-          "status": "success",
-          "rows": 1670,
-          "source": "Yahoo Finance / yfinance"
-        },
-        "DX-Y.NYB": {
           "status": "success",
           "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
+        "^GSPC": {
+          "status": "success",
+          "rows": 1673,
+          "source": "Yahoo Finance / yfinance"
+        },
+        "^DJI": {
+          "status": "success",
+          "rows": 1673,
+          "source": "Yahoo Finance / yfinance"
+        },
+        "DX-Y.NYB": {
+          "status": "success",
+          "rows": 1675,
+          "source": "Yahoo Finance / yfinance"
+        },
         "AAPL": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1629,
+          "rows": 1630,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1629,
+          "rows": 1630,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32978
+      "cached_rows": 33025
     },
     "global_macro": {
       "status": "success",
@@ -219,47 +218,45 @@
     },
     "valuation": {
       "status": "success",
-      "rows": 23383,
-      "started_at": "2026-08-26T20:48:20+08:00",
-      "finished_at": "2026-08-26T20:48:51+08:00",
-      "latest_date": "20260826",
-      "total_cached_rows": 23383,
+      "rows": 753,
+      "started_at": "2026-08-29T05:46:42+08:00",
+      "finished_at": "2026-08-29T05:47:11+08:00",
+      "latest_date": "20260828",
+      "total_cached_rows": 23386,
       "indices": {
         "000001.SH": {
-          "status": "success",
-          "rows": 5503,
-          "source": "中证指数官网 / AKShare"
+          "status": "failed",
+          "error": "DataFetchError(\"估值数据失败: 中证指数: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 乐咕乐股: KeyError('上证综指')\")"
         },
         "399001.SZ": {
           "status": "failed",
-          "error": "DataFetchError(\"估值数据失败: 中证指数: ValueError('Length mismatch: Expected axis has 0 elements, new values have 16 elements') | 乐咕乐股: KeyError('深证成指')\")"
+          "error": "DataFetchError(\"估值数据失败: 中证指数: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 乐咕乐股: KeyError('深证成指')\")"
         },
         "399006.SZ": {
           "status": "failed",
-          "error": "DataFetchError(\"估值数据失败: 中证指数: ValueError('Length mismatch: Expected axis has 0 elements, new values have 16 elements') | 乐咕乐股: KeyError('创业板指')\")"
+          "error": "DataFetchError(\"估值数据失败: 中证指数: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 乐咕乐股: KeyError('创业板指')\")"
         },
         "000688.SH": {
-          "status": "success",
-          "rows": 1614,
-          "source": "中证指数官网 / AKShare"
+          "status": "failed",
+          "error": "DataFetchError(\"估值数据失败: 中证指数: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 乐咕乐股: KeyError('科创50')\")"
         },
         "000016.SH": {
           "status": "success",
-          "rows": 5503,
-          "source": "中证指数官网 / AKShare"
+          "rows": 260,
+          "source": "乐咕乐股 / AKShare"
         },
         "000300.SH": {
           "status": "success",
-          "rows": 5502,
-          "source": "中证指数官网 / AKShare"
+          "rows": 257,
+          "source": "乐咕乐股 / AKShare"
         },
         "000905.SH": {
           "status": "success",
-          "rows": 5261,
-          "source": "中证指数官网 / AKShare"
+          "rows": 236,
+          "source": "乐咕乐股 / AKShare"
         }
       },
-      "cached_rows": 23383
+      "cached_rows": 23386
     },
     "crowding": {
       "status": "success",
@@ -321,41 +318,41 @@
     "deviation": {
       "status": "success",
       "rows": 2105,
-      "started_at": "2026-08-26T20:52:11+08:00",
-      "finished_at": "2026-08-26T20:52:11+08:00",
-      "latest_date": "20260826",
+      "started_at": "2026-08-29T05:47:11+08:00",
+      "finished_at": "2026-08-29T05:47:11+08:00",
+      "latest_date": "20260828",
       "total_cached_rows": 2105,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
       "indices": {
         "000001.SH": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260826",
-          "latest_month_date": "20260826"
+          "latest_week_date": "20260828",
+          "latest_month_date": "20260828"
         },
         "399001.SZ": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260826",
-          "latest_month_date": "20260826"
+          "latest_week_date": "20260828",
+          "latest_month_date": "20260828"
         },
         "399006.SZ": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260826",
-          "latest_month_date": "20260826"
+          "latest_week_date": "20260828",
+          "latest_month_date": "20260828"
         },
         "000688.SH": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260826",
-          "latest_month_date": "20260826"
+          "latest_week_date": "20260828",
+          "latest_month_date": "20260828"
         },
         "000300.SH": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260826",
-          "latest_month_date": "20260826"
+          "latest_week_date": "20260828",
+          "latest_month_date": "20260828"
         }
       },
       "cached_rows": 2105
@@ -373,8 +370,8 @@
     "sentiment": {
       "status": "partial",
       "rows": 0,
-      "started_at": "2026-08-29T05:15:40+08:00",
-      "finished_at": "2026-08-29T05:15:40+08:00",
+      "started_at": "2026-08-29T05:47:11+08:00",
+      "finished_at": "2026-08-29T05:47:11+08:00",
       "latest_date": "20260826",
       "total_cached_rows": 83,
       "skipped": true,
@@ -390,11 +387,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260829",
-      "rows": 112441,
-      "cached_rows": 112441,
+      "rows": 112333,
+      "cached_rows": 112333,
       "covered_stocks": 5564,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "301136.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688365.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688386.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "300919.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；300920.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；300922.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -405,7 +402,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-29T05:44:58+08:00",
+  "updated_at": "2026-08-29T06:19:18+08:00",
   "overall_status": "success",
-  "last_update_mode": "snapshot"
+  "last_update_mode": "close"
 }

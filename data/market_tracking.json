@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29 05:44:58+08:00",
+  "updated_at": "2026-08-29 06:19:18+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,7 +357,7 @@
     "summary": {
       "market_score": 37.1,
       "market_score_before_gate": 37.1,
-      "risk_score": 49.0,
+      "risk_score": 48.7,
       "risk_level": "橙色",
       "market_phase": "防御期 / 橙色降风险",
       "base_position_pct": 30.0,
@@ -459,14 +459,14 @@
       {
         "name": "估值水平",
         "weight": 15,
-        "score": 23.6,
+        "score": 24.0,
         "raw_score": 1.2,
         "weighted_score": 3.6,
         "status": "偏弱",
         "basis": [
           "指数PE历史分位均值 76%",
           "上证综指 PE历史分位 73%",
-          "上证50 PE历史分位 81%",
+          "上证50 PE历史分位 80%",
           "沪深300 PE历史分位 76%"
         ],
         "blueprint": [
@@ -566,12 +566,12 @@
       {
         "name": "跨资产压力",
         "weight": 10,
-        "risk": 6.3,
-        "raw_risk": 63.1,
+        "risk": 6.0,
+        "raw_risk": 60.3,
         "level": "偏高",
         "basis": [
           "美国10年期国债 4.70%",
-          "纳斯达克20日动量 5.12%",
+          "纳斯达克20日动量 6.90%",
           "美元净流动性 5.48万亿美元"
         ]
       },
@@ -579,7 +579,7 @@
         "name": "估值盈利背离",
         "weight": 10,
         "risk": 7.1,
-        "raw_risk": 71.1,
+        "raw_risk": 70.9,
         "level": "高",
         "basis": [
           "指数PE历史分位均值 76%",
