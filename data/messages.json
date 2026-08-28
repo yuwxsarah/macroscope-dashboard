@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29 06:18:06+08:00",
+  "updated_at": "2026-08-29 07:06:43+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -139,7 +139,7 @@
     {
       "id": "auto-yicai-88083ca4c9e2db9c",
       "category": "重大新闻",
-      "title": "证监会发布12条意见，明确支持房企合理融资、加大债券融资支持力度 “一视同仁满足不同所有制房地产开发企业合理融资需求。” 14188 昨天 20:07",
+      "title": "证监会发布12条意见，明确支持房企合理融资、加大债券融资支持力度 “一视同仁满足不同所有制房地产开发企业合理融资需求。” 14715 昨天 20:07",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103339211.html",
@@ -153,7 +153,7 @@
     {
       "id": "auto-yicai-b4372583b68616a0",
       "category": "重大新闻",
-      "title": "晚间公告｜8月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 40166 昨天 18:46",
+      "title": "晚间公告｜8月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 41282 昨天 18:46",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103339007.html",
@@ -167,7 +167,49 @@
     {
       "id": "auto-yicai-63355eee31d6548b",
       "category": "重大新闻",
-      "title": "小幅加仓 2222 昨天 17:56",
+      "title": "小幅加仓 2284 昨天 17:56",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103338918.html",
+      "published_at": "2026-08-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-88083ca4c9e2db9c",
+      "category": "重大新闻",
+      "title": "证监会发布12条意见，明确支持房企合理融资、加大债券融资支持力度 “一视同仁满足不同所有制房地产开发企业合理融资需求。” 13971 昨天 20:07",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339211.html",
+      "published_at": "2026-08-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b4372583b68616a0",
+      "category": "重大新闻",
+      "title": "晚间公告｜8月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 39732 昨天 18:46",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339007.html",
+      "published_at": "2026-08-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-63355eee31d6548b",
+      "category": "重大新闻",
+      "title": "小幅加仓 2129 昨天 17:56",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103338918.html",
@@ -1745,48 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c945b7018ce56005",
-      "category": "重大新闻",
-      "title": "晚间重要公告汇总 以下是第一财经对一些重要公告的汇总，供投资者参考。 42491 昨天 19:06",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103329859.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-12675ba1969c410a",
-      "category": "重大新闻",
-      "title": "机构论后市丨科技进入右侧配置窗口；月末关注这些信号 A股后市怎么走？看看机构怎么说。 11956 昨天 17:59",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103329836.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0687d0f18560242b",
-      "category": "重大新闻",
-      "title": "IPO周报：“高中签率”新股下周一“开奖” 马矿股份此次发行价6.65元/股，是A股今年以来发行价第三低的新股 IPO周报 8112 昨天 16:54",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103329809.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,13 +1836,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-29 06:18:06+08:00",
+  "last_checked_at": "2026-08-29 07:06:43+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 112333,
-    "covered_stocks": 5564,
+    "rows": 112587,
+    "covered_stocks": 5565,
     "notice_rows": 66207,
-    "stock_news_rows": 46128,
+    "stock_news_rows": 46380,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
