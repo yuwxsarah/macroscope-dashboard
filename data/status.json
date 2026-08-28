@@ -66,127 +66,127 @@
     },
     "market": {
       "status": "success",
-      "rows": 32974,
-      "started_at": "2026-08-26T20:36:38+08:00",
-      "finished_at": "2026-08-26T20:36:47+08:00",
-      "latest_date": "20260826",
-      "total_cached_rows": 32978,
+      "rows": 33008,
+      "started_at": "2026-08-28T13:50:52+08:00",
+      "finished_at": "2026-08-28T13:51:00+08:00",
+      "latest_date": "20260828",
+      "total_cached_rows": 33012,
       "symbols": {
         "000001.SH": {
           "status": "success",
-          "rows": 1612,
+          "rows": 1613,
           "source": "新浪财经 / AKShare"
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 1612,
+          "rows": 1613,
           "source": "新浪财经 / AKShare"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 1612,
+          "rows": 1613,
           "source": "新浪财经 / AKShare"
         },
         "000300.SH": {
           "status": "success",
-          "rows": 1612,
+          "rows": 1613,
           "source": "新浪财经 / AKShare"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1612,
+          "rows": 1613,
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
           "status": "success",
-          "rows": 1613,
+          "rows": 1614,
           "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1672,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1672,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1672,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1675,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1672,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1672,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1672,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1672,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1672,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1672,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1672,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1670,
+          "rows": 1672,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1629,
+          "rows": 1631,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1629,
+          "rows": 1631,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32978
+      "cached_rows": 33012
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-26T20:36:47+08:00",
-      "finished_at": "2026-08-26T20:48:20+08:00",
-      "latest_date": "20260824",
-      "total_cached_rows": 30014,
+      "started_at": "2026-08-28T13:51:00+08:00",
+      "finished_at": "2026-08-28T14:02:33+08:00",
+      "latest_date": "20260826",
+      "total_cached_rows": 30016,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260824",
+          "latest_date": "20260826",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -196,7 +196,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260824",
+          "latest_date": "20260826",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -209,13 +209,13 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260824",
-        "DGS10": "20260824",
+        "DGS2": "20260826",
+        "DGS10": "20260826",
         "NET_USD_LIQUIDITY_SOMA": "20260729",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260729"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 30014
+      "cached_rows": 30016
     },
     "valuation": {
       "status": "success",
@@ -321,41 +321,41 @@
     "deviation": {
       "status": "success",
       "rows": 2105,
-      "started_at": "2026-08-26T20:52:11+08:00",
-      "finished_at": "2026-08-26T20:52:11+08:00",
-      "latest_date": "20260826",
+      "started_at": "2026-08-28T14:02:33+08:00",
+      "finished_at": "2026-08-28T14:02:33+08:00",
+      "latest_date": "20260827",
       "total_cached_rows": 2105,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
       "indices": {
         "000001.SH": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260826",
-          "latest_month_date": "20260826"
+          "latest_week_date": "20260827",
+          "latest_month_date": "20260827"
         },
         "399001.SZ": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260826",
-          "latest_month_date": "20260826"
+          "latest_week_date": "20260827",
+          "latest_month_date": "20260827"
         },
         "399006.SZ": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260826",
-          "latest_month_date": "20260826"
+          "latest_week_date": "20260827",
+          "latest_month_date": "20260827"
         },
         "000688.SH": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260826",
-          "latest_month_date": "20260826"
+          "latest_week_date": "20260827",
+          "latest_month_date": "20260827"
         },
         "000300.SH": {
           "status": "success",
           "rows": 421,
-          "latest_week_date": "20260826",
-          "latest_month_date": "20260826"
+          "latest_week_date": "20260827",
+          "latest_month_date": "20260827"
         }
       },
       "cached_rows": 2105
@@ -396,12 +396,12 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20260826",
-      "rows": 52105,
-      "cached_rows": 52105,
+      "latest_date": "20260828",
+      "rows": 51421,
+      "cached_rows": 51421,
       "covered_stocks": 5545,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "20260729: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(32505 bytes read, 37839 more expected)', IncompleteRead(32505 bytes read, 37839 more expected)))；20260728: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(11349 bytes read, 64976 more expected)', IncompleteRead(11349 bytes read, 64976 more expected)))；20260727: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(12797 bytes read, 57207 more expected)', IncompleteRead(12797 bytes read, 57207 more expected)))"
+      "error": "20260731: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(47549 bytes read, 26592 more expected)', IncompleteRead(47549 bytes read, 26592 more expected)))；20260730: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(8453 bytes read, 63435 more expected)', IncompleteRead(8453 bytes read, 63435 more expected)))；20260729: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(62029 bytes read, 8315 more expected)', IncompleteRead(62029 bytes read, 8315 more expected)))"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-26T21:25:08+08:00",
+  "updated_at": "2026-08-28T14:29:14+08:00",
   "overall_status": "success",
-  "last_update_mode": "all"
+  "last_update_mode": "global"
 }
