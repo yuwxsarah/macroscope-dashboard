@@ -66,11 +66,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33023,
-      "started_at": "2026-08-29T06:21:00+08:00",
-      "finished_at": "2026-08-29T06:21:09+08:00",
+      "rows": 33025,
+      "started_at": "2026-08-30T06:28:30+08:00",
+      "finished_at": "2026-08-30T06:28:49+08:00",
       "latest_date": "20260828",
-      "total_cached_rows": 33027,
+      "total_cached_rows": 33029,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -164,22 +164,22 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1630,
+          "rows": 1631,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1630,
+          "rows": 1631,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33027
+      "cached_rows": 33029
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-29T06:21:09+08:00",
-      "finished_at": "2026-08-29T06:32:42+08:00",
+      "started_at": "2026-08-30T06:28:49+08:00",
+      "finished_at": "2026-08-30T06:40:22+08:00",
       "latest_date": "20260827",
       "total_cached_rows": 30016,
       "source_details": {
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2105,
-      "started_at": "2026-08-29T06:33:20+08:00",
-      "finished_at": "2026-08-29T06:33:21+08:00",
+      "started_at": "2026-08-30T06:40:22+08:00",
+      "finished_at": "2026-08-30T06:40:22+08:00",
       "latest_date": "20260828",
       "total_cached_rows": 2105,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -389,12 +389,12 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20260829",
-      "rows": 113574,
-      "cached_rows": 113574,
-      "covered_stocks": 5565,
+      "latest_date": "20260830",
+      "rows": 111263,
+      "cached_rows": 111263,
+      "covered_stocks": 5564,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "920247.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920249.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920363.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "300837.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；300838.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；300839.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -405,7 +405,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-29T19:17:58+08:00",
+  "updated_at": "2026-08-30T07:13:17+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
