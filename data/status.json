@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-29T18:44:41+08:00",
-      "finished_at": "2026-08-29T18:45:00+08:00",
+      "started_at": "2026-08-30T10:18:13+08:00",
+      "finished_at": "2026-08-30T10:18:32+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4969,
-      "started_at": "2026-08-29T18:45:00+08:00",
-      "finished_at": "2026-08-29T18:45:16+08:00",
+      "started_at": "2026-08-30T10:18:32+08:00",
+      "finished_at": "2026-08-30T10:18:47+08:00",
       "latest_date": "20260828",
       "total_cached_rows": 5005,
       "source_details": {
@@ -390,11 +390,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260830",
-      "rows": 111404,
-      "cached_rows": 111404,
-      "covered_stocks": 5563,
+      "rows": 56431,
+      "cached_rows": 56431,
+      "covered_stocks": 5555,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "688218.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688222.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688223.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "20260806: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(47549 bytes read, 22970 more expected)', IncompleteRead(47549 bytes read, 22970 more expected)))；20260805: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(48997 bytes read, 20405 more expected)', IncompleteRead(48997 bytes read, 20405 more expected)))；20260801: ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(57685 bytes read, 17859 more expected)', IncompleteRead(57685 bytes read, 17859 more expected)))"
     },
     "market_tracking": {
       "status": "success",
@@ -405,7 +405,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-30T08:37:05+08:00",
+  "updated_at": "2026-08-30T10:47:32+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
