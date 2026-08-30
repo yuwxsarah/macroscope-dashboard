@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30 07:13:05+08:00",
+  "updated_at": "2026-08-30 08:36:49+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -129,6 +129,48 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103339460.html",
+      "published_at": "2026-08-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-88083ca4c9e2db9c",
+      "category": "重大新闻",
+      "title": "证监会发布12条意见，明确支持房企合理融资、加大债券融资支持力度 “一视同仁满足不同所有制房地产开发企业合理融资需求。” 22093 08-28 20:07",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339211.html",
+      "published_at": "2026-08-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b4372583b68616a0",
+      "category": "重大新闻",
+      "title": "晚间公告｜8月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 55108 08-28 18:46",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339007.html",
+      "published_at": "2026-08-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-63355eee31d6548b",
+      "category": "重大新闻",
+      "title": "小幅加仓 4640 08-28 17:56",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103338918.html",
       "published_at": "2026-08-30",
       "symbols": [
         "A股"
@@ -1745,48 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a2644fb1dcf100b2",
-      "category": "重大新闻",
-      "title": "梅卡曼德启动招股：Baillie Gifford、泰康人寿、Jane Street等9家豪华基石力挺，海外业务复合增速82.7%、占比过半 3028 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103330061.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ebaae7bcbb78e9a3",
-      "category": "重大新闻",
-      "title": "盘前必读丨阿里巴巴拟配售800亿港元新股；长存控股科创板IPO获受理 机构认为，放眼三季度后半程，行情将以结构性轮动修复为主，建议围绕政策主线、景气验证方向把握",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103330005.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-81263920bb6963d1",
-      "category": "重大新闻",
-      "title": "黄金连涨三周突破4600美元，金矿股业绩估值上行 受金价连续上涨与中报业绩大幅增长的双重驱动，A 股及港股黄金概念股近期表现强势 29285 昨天 19:13",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103329863.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,13 +1836,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-30 07:13:05+08:00",
+  "last_checked_at": "2026-08-30 08:36:49+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 111263,
-    "covered_stocks": 5564,
+    "rows": 111404,
+    "covered_stocks": 5563,
     "notice_rows": 65044,
-    "stock_news_rows": 46219,
+    "stock_news_rows": 46360,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
