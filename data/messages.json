@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30 10:47:17+08:00",
+  "updated_at": "2026-08-30 19:16:53+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-64cc4a857081adac",
+      "category": "重大新闻",
+      "title": "中信证券重登半年净利榜首，广发反超华泰跻身营收前三 随着券商中报“放榜”，行业座次表同步更新。 1分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339998.html",
+      "published_at": "2026-08-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6d72e694dc94ad5d",
+      "category": "重大新闻",
+      "title": "68.4亿美元额度“大礼包”落地，QDII限购之渴能解多少？ 时隔五月再收“大礼包”：额度松绑信号已至，“有钱买不到”的尴尬能缓解吗？ 基金风云 331 30分",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339991.html",
+      "published_at": "2026-08-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e34292323a178698",
+      "category": "重大新闻",
+      "title": "晚间公告｜8月30日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 3958 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339987.html",
+      "published_at": "2026-08-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-11074bc0c4e65a64",
+      "category": "重大新闻",
+      "title": "机构论后市丨市场磨底进程进入后半段；震荡博弈之下关注三大方向 中信证券：AI在Q2集中体现 而能化接下来可能逐步升温；方正证券：市场磨底进程进入后半段，关注三方",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339984.html",
+      "published_at": "2026-08-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-cea8bd0d3f70985f",
+      "category": "重大新闻",
+      "title": "晓数点｜9月财经日历请查收！ 一图速览>> 3462 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339891.html",
+      "published_at": "2026-08-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-18db70cab4f12414",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-672a7b8b6141540b",
-      "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共48只个股涨停 这只创新药概念股4连板 创新药概念股汉森制药收获4连板，黄金概念股深中华A录得3连板。一图速览今日连板股>> 3369 3",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103330865.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-672a7b8b6141540b",
-      "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共48只个股涨停 这只创新药概念股4连板 创新药概念股汉森制药收获4连板，黄金概念股深中华A录得3连板。一图速览今日连板股>> 2873 2",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103330865.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-68139b1ef4cd2111",
-      "category": "重大新闻",
-      "title": "收盘｜创业板指跌3.21% 医药生物板块领跌 全市场近4000股下跌。 10220 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103330822.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e12decfd9516d033",
-      "category": "重大新闻",
-      "title": "阿里巴巴融资800亿股价大跌，市场热议港股“二次探底” 日本央行9月议息会议前后市场或延续大幅波动。 19179 5小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103330554.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bdc67eca954650a8",
-      "category": "重大新闻",
-      "title": "A股四大指数开盘表现分化，工业金属、黄金等板块涨幅居前 盘面上，锂矿、工业金属、黄金、智能驾驶、服务器题材活跃。 10809 8小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103330148.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,13 +1836,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-30 10:47:17+08:00",
+  "last_checked_at": "2026-08-30 19:16:53+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 56431,
-    "covered_stocks": 5555,
-    "notice_rows": 9454,
-    "stock_news_rows": 46977,
+    "rows": 52503,
+    "covered_stocks": 5545,
+    "notice_rows": 5689,
+    "stock_news_rows": 46814,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
