@@ -7,7 +7,7 @@
   ],
   "data": {
     "macro.csv": {
-      "rows": 169,
+      "rows": 170,
       "columns": [
         "month",
         "m1_trillion",
@@ -188,7 +188,7 @@
       "status": "ok"
     },
     "market_messages.csv": {
-      "rows": 110667,
+      "rows": 111103,
       "columns": [
         "published_at",
         "category",

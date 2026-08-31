@@ -3,11 +3,11 @@
   "datasets": {
     "macro": {
       "status": "success",
-      "rows": 169,
-      "started_at": "2026-08-30T18:44:54+08:00",
-      "finished_at": "2026-08-30T18:45:13+08:00",
-      "latest_date": "202607",
-      "total_cached_rows": 169,
+      "rows": 170,
+      "started_at": "2026-08-31T10:18:06+08:00",
+      "finished_at": "2026-08-31T10:18:21+08:00",
+      "latest_date": "202608",
+      "total_cached_rows": 170,
       "source_details": {
         "components": {
           "money_supply": {
@@ -27,7 +27,7 @@
           },
           "pmi": {
             "status": "success",
-            "rows": 169,
+            "rows": 170,
             "source": "东方财富 / AKShare"
           },
           "cpi": {
@@ -40,13 +40,13 @@
           "人民银行社融存量部分年份失败: 2022: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2022ntjsj/shrzgm/index.html') | 2023: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2023ntjsj/shrzgm/index.html') | 2024: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2024ntjsj/shrzgm/index.html') | 2025: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2025ntjsj/shrzgm/index.html')"
         ]
       },
-      "cached_rows": 169
+      "cached_rows": 170
     },
     "liquidity": {
       "status": "success",
       "rows": 4969,
-      "started_at": "2026-08-30T18:45:13+08:00",
-      "finished_at": "2026-08-30T18:45:29+08:00",
+      "started_at": "2026-08-31T10:18:21+08:00",
+      "finished_at": "2026-08-31T10:18:37+08:00",
       "latest_date": "20260828",
       "total_cached_rows": 5005,
       "source_details": {
@@ -390,11 +390,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260831",
-      "rows": 110667,
-      "cached_rows": 110667,
+      "rows": 111103,
+      "cached_rows": 111103,
       "covered_stocks": 5566,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "920895.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920896.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920906.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "301578.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301583.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；301587.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -405,7 +405,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-31T08:31:46+08:00",
+  "updated_at": "2026-08-31T10:43:40+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }

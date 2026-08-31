@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31 08:31:46+08:00",
+  "updated_at": "2026-08-31 10:43:40+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,9 +355,9 @@
   "tracking": {
     "trade_date": "20260826",
     "summary": {
-      "market_score": 37.1,
-      "market_score_before_gate": 37.1,
-      "risk_score": 48.7,
+      "market_score": 44.9,
+      "market_score_before_gate": 44.9,
+      "risk_score": 47.4,
       "risk_level": "橙色",
       "market_phase": "防御期 / 橙色降风险",
       "base_position_pct": 30.0,
@@ -380,14 +380,14 @@
       {
         "name": "宏观周期",
         "weight": 15,
-        "score": 29.3,
-        "raw_score": 1.5,
-        "weighted_score": 4.5,
-        "status": "偏弱",
+        "score": 52.0,
+        "raw_score": 2.6,
+        "weighted_score": 7.8,
+        "status": "中性偏弱",
         "basis": [
-          "制造业PMI 49.20",
-          "M1-M2剪刀差 -3.70个百分点",
-          "社融存量同比 7.40%"
+          "制造业PMI 49.80",
+          "M1-M2剪刀差 暂无个百分点",
+          "社融存量同比 暂无"
         ],
         "blueprint": [
           "经济动能 25%：PMI、工业增加值、社零、投资",
@@ -419,13 +419,13 @@
       {
         "name": "政策环境",
         "weight": 15,
-        "score": 37.0,
-        "raw_score": 1.9,
-        "weighted_score": 5.7,
-        "status": "偏弱",
+        "score": 51.0,
+        "raw_score": 2.5,
+        "weighted_score": 7.5,
+        "status": "中性偏弱",
         "basis": [
           "公开高频政策指标暂未接入，当前用流动性、信用扩张和经济动能做代理",
-          "社融存量同比 7.40%",
+          "社融存量同比 暂无",
           "DR007近5期变化 0.07个百分点"
         ],
         "blueprint": [
@@ -439,13 +439,13 @@
       {
         "name": "盈利周期",
         "weight": 15,
-        "score": 34.1,
-        "raw_score": 1.7,
-        "weighted_score": 5.1,
-        "status": "偏弱",
+        "score": 52.1,
+        "raw_score": 2.6,
+        "weighted_score": 7.8,
+        "status": "中性偏弱",
         "basis": [
-          "制造业PMI 49.20",
-          "社融存量同比 7.40%",
+          "制造业PMI 49.80",
+          "社融存量同比 暂无",
           "主要A股指数20日动量均值 0.07%"
         ],
         "blueprint": [
@@ -578,23 +578,23 @@
       {
         "name": "估值盈利背离",
         "weight": 10,
-        "risk": 7.1,
-        "raw_risk": 71.1,
-        "level": "高",
+        "risk": 6.2,
+        "raw_risk": 62.1,
+        "level": "偏高",
         "basis": [
           "指数PE历史分位均值 76%",
-          "盈利周期原始分 1.7/5"
+          "盈利周期原始分 2.6/5"
         ]
       },
       {
         "name": "政策反应钝化",
         "weight": 5,
-        "risk": 2.4,
-        "raw_risk": 47.5,
+        "risk": 2.0,
+        "raw_risk": 40.0,
         "level": "中",
         "basis": [
           "当前尚未接入政策文本事件库，先用政策代理指标与市场反应判断",
-          "政策环境原始分 1.9/5"
+          "政策环境原始分 2.5/5"
         ]
       }
     ],
