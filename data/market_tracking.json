@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31 16:01:48+08:00",
+  "updated_at": "2026-09-01 07:10:20+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,9 +355,9 @@
   "tracking": {
     "trade_date": "20260831",
     "summary": {
-      "market_score": 46.0,
-      "market_score_before_gate": 46.0,
-      "risk_score": 49.4,
+      "market_score": 49.1,
+      "market_score_before_gate": 49.1,
+      "risk_score": 45.6,
       "risk_level": "橙色",
       "market_phase": "防御期 / 橙色降风险",
       "base_position_pct": 30.0,
@@ -372,8 +372,8 @@
       "risk_action": "提前降风险",
       "liquidity_gate": "流动性原始分<=2.0，按框架规则不建议重仓进攻。",
       "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
-      "style_signal": "均衡轮动",
-      "style_reason": "成长/科技20日动量均值 3.02%；宽基20日动量均值 1.79%；风格差 1.22%",
+      "style_signal": "成长科技占优",
+      "style_reason": "成长/科技20日动量均值 7.74%；宽基20日动量均值 3.22%；风格差 4.52%",
       "formula": "实际仓位 = 大盘建议仓位 × 风险折扣"
     },
     "modules": [
@@ -439,14 +439,14 @@
       {
         "name": "盈利周期",
         "weight": 15,
-        "score": 56.0,
-        "raw_score": 2.8,
-        "weighted_score": 8.4,
-        "status": "中性偏弱",
+        "score": 61.9,
+        "raw_score": 3.1,
+        "weighted_score": 9.3,
+        "status": "中性偏强",
         "basis": [
           "制造业PMI 49.80",
           "社融存量同比 暂无",
-          "主要A股指数20日动量均值 1.90%"
+          "主要A股指数20日动量均值 4.76%"
         ],
         "blueprint": [
           "全A盈利增速 30%",
@@ -479,10 +479,10 @@
       {
         "name": "市场情绪",
         "weight": 10,
-        "score": 74.9,
-        "raw_score": 3.7,
-        "weighted_score": 7.4,
-        "status": "中性偏强",
+        "score": 80.8,
+        "raw_score": 4.0,
+        "weighted_score": 8.0,
+        "status": "明显改善",
         "basis": [
           "上涨家数占比 57.58%",
           "A股成交额/总市值 1.85%",
@@ -499,14 +499,14 @@
       {
         "name": "风格结构",
         "weight": 10,
-        "score": 56.1,
-        "raw_score": 2.8,
-        "weighted_score": 5.6,
-        "status": "中性偏弱",
+        "score": 72.6,
+        "raw_score": 3.6,
+        "weighted_score": 7.2,
+        "status": "中性偏强",
         "basis": [
-          "成长/科技20日动量均值 3.02%",
-          "宽基20日动量均值 1.79%",
-          "风格差 1.22%"
+          "成长/科技20日动量均值 7.74%",
+          "宽基20日动量均值 3.22%",
+          "风格差 4.52%"
         ],
         "blueprint": [
           "大小盘风格 25%",
@@ -531,24 +531,24 @@
       {
         "name": "量价质量恶化",
         "weight": 20,
-        "risk": 9.4,
-        "raw_risk": 46.9,
+        "risk": 7.9,
+        "raw_risk": 39.5,
         "level": "中",
         "basis": [
-          "主要指数20日动量均值 1.90%",
-          "主要指数相对20日均线均值 -0.92%",
+          "主要指数20日动量均值 4.76%",
+          "主要指数相对20日均线均值 -0.41%",
           "成交额近5期变化 0.05万亿元"
         ]
       },
       {
         "name": "主线健康度下降",
         "weight": 20,
-        "risk": 6.1,
-        "raw_risk": 30.3,
-        "level": "偏低",
+        "risk": 3.2,
+        "raw_risk": 16.0,
+        "level": "低",
         "basis": [
-          "创业板20日动量 2.41%",
-          "科创50 20日动量 1.60%",
+          "创业板20日动量 4.12%",
+          "科创50 20日动量 8.47%",
           "交易拥挤度 44.75%"
         ]
       },
@@ -566,24 +566,24 @@
       {
         "name": "跨资产压力",
         "weight": 10,
-        "risk": 6.5,
-        "raw_risk": 64.8,
-        "level": "偏高",
+        "risk": 7.4,
+        "raw_risk": 74.3,
+        "level": "高",
         "basis": [
-          "美国10年期国债 4.67%",
-          "纳斯达克20日动量 4.05%",
+          "美国10年期国债 4.73%",
+          "纳斯达克20日动量 1.76%",
           "美元净流动性 5.48万亿美元"
         ]
       },
       {
         "name": "估值盈利背离",
         "weight": 10,
-        "risk": 6.1,
-        "raw_risk": 61.3,
+        "risk": 5.8,
+        "raw_risk": 58.3,
         "level": "偏高",
         "basis": [
           "指数PE历史分位均值 79%",
-          "盈利周期原始分 2.8/5"
+          "盈利周期原始分 3.1/5"
         ]
       },
       {
@@ -604,8 +604,8 @@
       "broad_turnover_pct": 1.854,
       "crowding_pct": 44.75,
       "margin_to_market_cap_pct": 2.307,
-      "index_momentum_20d_pct": 1.9,
-      "dgs10_pct": 4.67
+      "index_momentum_20d_pct": 4.76,
+      "dgs10_pct": 4.73
     }
   },
   "method_note": "大盘机会评分按七大模块0-5原始分折算为100分；风险领先预警分越高越需要降仓。该模型用于仓位管理与风控，不直接预测指数点位，不构成投资建议。"

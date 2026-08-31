@@ -66,55 +66,55 @@
     },
     "market": {
       "status": "success",
-      "rows": 33028,
-      "started_at": "2026-08-31T15:23:34+08:00",
-      "finished_at": "2026-08-31T15:23:42+08:00",
+      "rows": 33043,
+      "started_at": "2026-09-01T06:28:47+08:00",
+      "finished_at": "2026-09-01T06:28:55+08:00",
       "latest_date": "20260831",
-      "total_cached_rows": 33033,
+      "total_cached_rows": 33050,
       "symbols": {
         "000001.SH": {
           "status": "success",
-          "rows": 1614,
+          "rows": 1615,
           "source": "新浪财经 / AKShare"
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 1614,
+          "rows": 1615,
           "source": "新浪财经 / AKShare"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 1614,
+          "rows": 1615,
           "source": "新浪财经 / AKShare"
         },
         "000300.SH": {
           "status": "success",
-          "rows": 1614,
+          "rows": 1615,
           "source": "新浪财经 / AKShare"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1614,
+          "rows": 1615,
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
           "status": "success",
-          "rows": 1615,
+          "rows": 1616,
           "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
@@ -124,69 +124,69 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1632,
+          "rows": 1631,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1632,
+          "rows": 1631,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33033
+      "cached_rows": 33050
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-31T06:28:55+08:00",
-      "finished_at": "2026-08-31T06:40:28+08:00",
-      "latest_date": "20260827",
-      "total_cached_rows": 30016,
+      "started_at": "2026-09-01T06:28:55+08:00",
+      "finished_at": "2026-09-01T06:40:26+08:00",
+      "latest_date": "20260828",
+      "total_cached_rows": 30018,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260827",
+          "latest_date": "20260828",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -196,7 +196,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260827",
+          "latest_date": "20260828",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -209,13 +209,13 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260827",
-        "DGS10": "20260827",
+        "DGS2": "20260828",
+        "DGS10": "20260828",
         "NET_USD_LIQUIDITY_SOMA": "20260729",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260729"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 30016
+      "cached_rows": 30018
     },
     "valuation": {
       "status": "success",
@@ -320,45 +320,45 @@
     },
     "deviation": {
       "status": "success",
-      "rows": 2105,
-      "started_at": "2026-08-31T15:25:49+08:00",
-      "finished_at": "2026-08-31T15:25:49+08:00",
-      "latest_date": "20260828",
-      "total_cached_rows": 2105,
+      "rows": 2110,
+      "started_at": "2026-09-01T06:40:26+08:00",
+      "finished_at": "2026-09-01T06:40:26+08:00",
+      "latest_date": "20260831",
+      "total_cached_rows": 2110,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
       "indices": {
         "000001.SH": {
           "status": "success",
-          "rows": 421,
-          "latest_week_date": "20260828",
-          "latest_month_date": "20260828"
+          "rows": 422,
+          "latest_week_date": "20260831",
+          "latest_month_date": "20260831"
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 421,
-          "latest_week_date": "20260828",
-          "latest_month_date": "20260828"
+          "rows": 422,
+          "latest_week_date": "20260831",
+          "latest_month_date": "20260831"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 421,
-          "latest_week_date": "20260828",
-          "latest_month_date": "20260828"
+          "rows": 422,
+          "latest_week_date": "20260831",
+          "latest_month_date": "20260831"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 421,
-          "latest_week_date": "20260828",
-          "latest_month_date": "20260828"
+          "rows": 422,
+          "latest_week_date": "20260831",
+          "latest_month_date": "20260831"
         },
         "000300.SH": {
           "status": "success",
-          "rows": 421,
-          "latest_week_date": "20260828",
-          "latest_month_date": "20260828"
+          "rows": 422,
+          "latest_week_date": "20260831",
+          "latest_month_date": "20260831"
         }
       },
-      "cached_rows": 2105
+      "cached_rows": 2110
     },
     "fund_subscription": {
       "status": "success",
@@ -396,12 +396,12 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20260831",
-      "rows": 111487,
-      "cached_rows": 111487,
-      "covered_stocks": 5566,
+      "latest_date": "20260901",
+      "rows": 111886,
+      "cached_rows": 111886,
+      "covered_stocks": 5569,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "688489.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688496.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688505.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "600792.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；600793.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；600794.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-31T16:01:48+08:00",
+  "updated_at": "2026-09-01T07:10:20+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "global"
 }

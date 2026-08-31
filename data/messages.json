@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31 16:00:38+08:00",
+  "updated_at": "2026-09-01 07:10:08+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-1f19d8ba06c899e4",
+      "category": "重大新闻",
+      "title": "A股中报风云丨2026年上半年谁最吸金？ 一图速览>> 3090 昨天 23:47",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103341664.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-71bfd8abc25293a7",
+      "category": "重大新闻",
+      "title": "A股中报风云丨2026年上半年谁营收最高？ 一图速览>> 2656 昨天 23:47",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103341665.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-8eb584f79cf1c1c0",
+      "category": "重大新闻",
+      "title": "动能向新，结构向优，业绩向好——沪市公司2026年半年报业绩综述 2026年上半年，2318家沪市公司合计实现营业收入26.2万亿元，同比增长6.3%。 278",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103341621.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f55fd6e10deb78b7",
+      "category": "重大新闻",
+      "title": "国际农产品价格暴涨，种业行情存预期博弈 A股种业板块在预期驱动下大幅上涨，但短期面临过热风险。 6500 昨天 21:35",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103341558.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9b60754259637349",
+      "category": "重大新闻",
+      "title": "透视上市券商中报：10家龙头贡献近七成营收，有中小券商业绩逆势下滑 “券商行业上半年业绩高增，主要来自于财富管理、投行业务及科创投资。” 4330 昨天 20:",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103341276.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-7cde3d5ef3fed5d4",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f6d0da25dbbfafbd",
-      "category": "重大新闻",
-      "title": "券商系公募再迎人事调整，基金业“换帅潮”因何而起 在费率改革的深化期、在退休高峰的叠加期、在战略转型的关键期，高管“流水席”还将继续。 5 13878 昨天 1",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103331337.html",
-      "published_at": "2026-08-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0947490c02a09e17",
-      "category": "重大新闻",
-      "title": "拆解鱼跃医疗中报业绩：数智赋能下，多个增长新引擎已崭露头角 827 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103332368.html",
-      "published_at": "2026-08-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b8e795241bb0333a",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，市场逾3900股下跌 盘面上，工业金属、工业气体、存储器、半导体材料、PCB等概念股跌幅居前。 8 5973 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103331999.html",
-      "published_at": "2026-08-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-795cf1e8e7c96110",
-      "category": "重大新闻",
-      "title": "盘前必读丨美股存储、光通信板块重挫；燧原科技9月2日申购 机构认为，风格再平衡背景下关注量能变化。 7 34493 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103331859.html",
-      "published_at": "2026-08-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-637dc5073cf87b28",
-      "category": "重大新闻",
-      "title": "半导体破位、光通信回吐，科技缩圈反弹后迎二次调整 当中报业绩陆续落地、\"符合预期\" 已难以继续推升股价时，资金开始重新评估估值安全边际与业绩兑现节奏。 1868",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103331444.html",
-      "published_at": "2026-08-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,13 +1836,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-31 16:00:38+08:00",
+  "last_checked_at": "2026-09-01 07:10:08+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 111487,
-    "covered_stocks": 5566,
-    "notice_rows": 64739,
-    "stock_news_rows": 46748,
+    "rows": 111886,
+    "covered_stocks": 5569,
+    "notice_rows": 64791,
+    "stock_news_rows": 47095,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
