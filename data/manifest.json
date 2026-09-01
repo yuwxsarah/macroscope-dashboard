@@ -2,36 +2,35 @@
   "ok": true,
   "deployment_allowed": true,
   "errors": [],
-  "warnings": [
-    "data/macro.csv missing columns: ['source']"
-  ],
+  "warnings": [],
   "data": {
     "macro.csv": {
-      "rows": 170,
+      "rows": 173,
       "columns": [
         "month",
+        "cpi_mom_pct",
+        "cpi_yoy_pct",
+        "m1_m2_gap_pp",
+        "m1_m2_mechanical_sum_trillion",
         "m1_trillion",
         "m1_yoy_pct",
         "m2_trillion",
         "m2_yoy_pct",
-        "sf_increment_trillion",
-        "sf_increment_yoy_pct",
-        "sf_12m_trillion",
-        "sf_12m_yoy_pct",
-        "sf_stock_trillion",
-        "sf_stock_yoy_pct",
         "pmi_manufacturing",
         "pmi_non_manufacturing",
-        "cpi_yoy_pct",
-        "cpi_mom_pct",
-        "m1_m2_gap_pp",
-        "m1_m2_mechanical_sum_trillion",
+        "sf_12m_trillion",
+        "sf_12m_yoy_pct",
+        "sf_increment_trillion",
+        "sf_increment_yoy_pct",
+        "sf_stock_trillion",
+        "sf_stock_yoy_pct",
+        "source",
         "updated_at"
       ],
       "status": "ok"
     },
     "liquidity.csv": {
-      "rows": 5006,
+      "rows": 5007,
       "columns": [
         "trade_date",
         "dr001_pct",
@@ -42,7 +41,7 @@
       "status": "ok"
     },
     "market.csv": {
-      "rows": 33050,
+      "rows": 33053,
       "columns": [
         "trade_date",
         "symbol",
@@ -71,7 +70,7 @@
       "status": "ok"
     },
     "valuation.csv": {
-      "rows": 23393,
+      "rows": 28090,
       "columns": [
         "trade_date",
         "index_code",
@@ -177,7 +176,7 @@
       "status": "ok"
     },
     "a_share_universe.csv": {
-      "rows": 5545,
+      "rows": 5026,
       "columns": [
         "code",
         "exchange",
@@ -188,7 +187,7 @@
       "status": "ok"
     },
     "market_messages.csv": {
-      "rows": 111741,
+      "rows": 112218,
       "columns": [
         "published_at",
         "category",

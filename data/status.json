@@ -3,11 +3,11 @@
   "datasets": {
     "macro": {
       "status": "success",
-      "rows": 170,
-      "started_at": "2026-09-01T10:23:24+08:00",
-      "finished_at": "2026-09-01T10:23:43+08:00",
+      "rows": 173,
+      "started_at": "2026-09-01T12:27:35+08:00",
+      "finished_at": "2026-09-01T12:27:59+08:00",
       "latest_date": "202608",
-      "total_cached_rows": 170,
+      "total_cached_rows": 173,
       "source_details": {
         "components": {
           "money_supply": {
@@ -22,8 +22,8 @@
           },
           "social_financing_stock": {
             "status": "success",
-            "rows": 7,
-            "source": "中国人民银行官方社会融资规模存量统计表"
+            "rows": 11,
+            "source": "中国人民银行金融统计数据报告"
           },
           "pmi": {
             "status": "success",
@@ -36,41 +36,51 @@
             "source": "东方财富 / AKShare"
           }
         },
-        "messages": [
-          "人民银行社融存量部分年份失败: 2022: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2022ntjsj/shrzgm/index.html') | 2023: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2023ntjsj/shrzgm/index.html') | 2024: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2024ntjsj/shrzgm/index.html') | 2025: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2025ntjsj/shrzgm/index.html')"
-        ]
+        "messages": []
       },
-      "cached_rows": 170
+      "cached_rows": 173
     },
     "liquidity": {
       "status": "success",
-      "rows": 4970,
-      "started_at": "2026-09-01T10:23:43+08:00",
-      "finished_at": "2026-09-01T10:23:59+08:00",
-      "latest_date": "20260831",
-      "total_cached_rows": 5006,
+      "rows": 4971,
+      "started_at": "2026-09-01T12:27:59+08:00",
+      "finished_at": "2026-09-01T12:28:16+08:00",
+      "latest_date": "20260901",
+      "total_cached_rows": 5007,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4970,
+          "rows": 4971,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
-          "status": "failed",
-          "error": "DataFetchError('中国货币网未解析到DR001/DR007；严格不以FDR替代。')",
-          "note": "严格不使用FDR替代DR"
+          "status": "success",
+          "rows": 65,
+          "latest_date": "20260831",
+          "dr001_pct": 1.4219,
+          "dr007_pct": 1.418,
+          "urls_used": [
+            "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/currency/prr-chrt.csv"
+          ],
+          "errors": [],
+          "note": "DR001/DR007来自中国货币网官方历史CSV；未使用FDR替代。"
         }
       },
+      "latest_by_series": {
+        "dr001_pct": "20260831",
+        "dr007_pct": "20260831",
+        "shibor_on_pct": "20260901"
+      },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5006
+      "cached_rows": 5007
     },
     "market": {
       "status": "success",
-      "rows": 33043,
-      "started_at": "2026-09-01T06:28:47+08:00",
-      "finished_at": "2026-09-01T06:28:55+08:00",
-      "latest_date": "20260831",
-      "total_cached_rows": 33050,
+      "rows": 33044,
+      "started_at": "2026-09-01T12:28:16+08:00",
+      "finished_at": "2026-09-01T12:28:29+08:00",
+      "latest_date": "20260901",
+      "total_cached_rows": 33053,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -104,17 +114,17 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1674,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1674,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1674,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
@@ -164,22 +174,22 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1631,
+          "rows": 1633,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1631,
+          "rows": 1633,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33050
+      "cached_rows": 33053
     },
     "global_macro": {
-      "status": "success",
+      "status": "partial",
       "rows": 2,
-      "started_at": "2026-09-01T06:28:55+08:00",
-      "finished_at": "2026-09-01T06:40:26+08:00",
+      "started_at": "2026-09-01T12:28:29+08:00",
+      "finished_at": "2026-09-01T12:43:11+08:00",
       "latest_date": "20260828",
       "total_cached_rows": 30018,
       "source_details": {
@@ -205,7 +215,7 @@
         },
         "USD_LIQUIDITY": {
           "status": "failed",
-          "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))"
+          "error": "DataFetchError('FRED美元流动性输入失败: [\\'WSHOSHO\\', \\'WALCL\\', \\'WDTGAL\\', \\'RRPONTSYD\\']; {\\'WSHOSHO\\': [\\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\', \\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\'], \\'WALCL\\': [\\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\', \\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\'], \\'WDTGAL\\': [\\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\', \\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\'], \\'RRPONTSYD\\': [\\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\', \\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\']}')"
         }
       },
       "latest_by_series": {
@@ -219,47 +229,58 @@
     },
     "valuation": {
       "status": "success",
-      "rows": 23393,
-      "started_at": "2026-08-31T15:23:42+08:00",
-      "finished_at": "2026-08-31T15:24:06+08:00",
-      "latest_date": "20260828",
-      "total_cached_rows": 23393,
+      "rows": 28090,
+      "started_at": "2026-09-01T12:43:11+08:00",
+      "finished_at": "2026-09-01T12:43:47+08:00",
+      "latest_date": "20260831",
+      "total_cached_rows": 28090,
       "indices": {
         "000001.SH": {
           "status": "success",
-          "rows": 5505,
+          "rows": 5506,
           "source": "中证指数官网 / AKShare"
         },
         "399001.SZ": {
-          "status": "failed",
-          "error": "DataFetchError(\"估值数据失败: 中证指数: ValueError('Length mismatch: Expected axis has 0 elements, new values have 16 elements') | 乐咕乐股: KeyError('深证成指')\")"
+          "status": "success",
+          "rows": 2346,
+          "source": "东方财富估值分析公开接口"
         },
         "399006.SZ": {
-          "status": "failed",
-          "error": "DataFetchError(\"估值数据失败: 中证指数: ValueError('Length mismatch: Expected axis has 0 elements, new values have 16 elements') | 乐咕乐股: KeyError('创业板指')\")"
+          "status": "success",
+          "rows": 2346,
+          "source": "东方财富估值分析公开接口"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1616,
+          "rows": 1617,
           "source": "中证指数官网 / AKShare"
         },
         "000016.SH": {
           "status": "success",
-          "rows": 5505,
+          "rows": 5506,
           "source": "中证指数官网 / AKShare"
         },
         "000300.SH": {
           "status": "success",
-          "rows": 5504,
+          "rows": 5505,
           "source": "中证指数官网 / AKShare"
         },
         "000905.SH": {
           "status": "success",
-          "rows": 5263,
+          "rows": 5264,
           "source": "中证指数官网 / AKShare"
         }
       },
-      "cached_rows": 23393
+      "latest_by_index": {
+        "000001.SH": "20260831",
+        "399001.SZ": "20260831",
+        "399006.SZ": "20260831",
+        "000688.SH": "20260831",
+        "000016.SH": "20260831",
+        "000300.SH": "20260831",
+        "000905.SH": "20260831"
+      },
+      "cached_rows": 28090
     },
     "crowding": {
       "status": "success",
@@ -321,8 +342,8 @@
     "deviation": {
       "status": "success",
       "rows": 2110,
-      "started_at": "2026-09-01T06:40:26+08:00",
-      "finished_at": "2026-09-01T06:40:26+08:00",
+      "started_at": "2026-09-01T12:45:14+08:00",
+      "finished_at": "2026-09-01T12:45:14+08:00",
       "latest_date": "20260831",
       "total_cached_rows": 2110,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -363,9 +384,9 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-30T18:45:29+08:00",
-      "finished_at": "2026-08-30T18:45:37+08:00",
-      "latest_date": "20260821",
+      "started_at": "2026-09-01T12:45:14+08:00",
+      "finished_at": "2026-09-01T12:45:21+08:00",
+      "latest_date": "20260828",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
@@ -373,8 +394,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-01T11:47:30+08:00",
-      "finished_at": "2026-09-01T11:48:55+08:00",
+      "started_at": "2026-09-01T12:43:47+08:00",
+      "finished_at": "2026-09-01T12:45:14+08:00",
       "latest_date": "20260901",
       "crowding_cached_rows": 85,
       "breadth_cached_rows": 85,
@@ -382,7 +403,7 @@
         "status": "success",
         "rows": 1,
         "latest_date": "20260831",
-        "source": "深交所融资融券汇总 + 上海两融历史公开表"
+        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
       "snapshot_kind": "盘中快照"
@@ -395,13 +416,17 @@
       "source": "东方财富行情中心代码列表"
     },
     "messages": {
-      "status": "partial",
+      "status": "success",
       "latest_date": "20260901",
-      "rows": 111741,
-      "cached_rows": 111741,
+      "rows": 112218,
+      "cached_rows": 112218,
       "covered_stocks": 5569,
+      "requested_stocks": 5545,
+      "failed_stocks": 0,
+      "coverage_rate": 1.0043,
+      "failed_symbols_sample": [],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "920639.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920663.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；920675.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": null
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +437,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-01T12:22:59+08:00",
-  "overall_status": "success",
-  "last_update_mode": "snapshot"
+  "updated_at": "2026-09-01T13:37:03+08:00",
+  "overall_status": "partial",
+  "last_update_mode": "all"
 }
