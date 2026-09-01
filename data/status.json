@@ -77,8 +77,8 @@
     "market": {
       "status": "success",
       "rows": 33044,
-      "started_at": "2026-09-01T12:28:16+08:00",
-      "finished_at": "2026-09-01T12:28:29+08:00",
+      "started_at": "2026-09-01T13:53:32+08:00",
+      "finished_at": "2026-09-01T13:53:44+08:00",
       "latest_date": "20260901",
       "total_cached_rows": 33053,
       "symbols": {
@@ -187,11 +187,11 @@
     },
     "global_macro": {
       "status": "partial",
-      "rows": 2,
-      "started_at": "2026-09-01T12:28:29+08:00",
-      "finished_at": "2026-09-01T12:43:11+08:00",
+      "rows": 4,
+      "started_at": "2026-09-01T13:53:44+08:00",
+      "finished_at": "2026-09-01T13:57:52+08:00",
       "latest_date": "20260828",
-      "total_cached_rows": 30018,
+      "total_cached_rows": 30020,
       "source_details": {
         "DGS2": {
           "status": "success",
@@ -199,8 +199,7 @@
           "latest_date": "20260828",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
-            "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
-            "FRED TXT: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))"
+            "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
           ]
         },
         "DGS10": {
@@ -209,23 +208,52 @@
           "latest_date": "20260828",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
-            "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
-            "FRED TXT: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))"
+            "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
           ]
         },
         "USD_LIQUIDITY": {
-          "status": "failed",
-          "error": "DataFetchError('FRED美元流动性输入失败: [\\'WSHOSHO\\', \\'WALCL\\', \\'WDTGAL\\', \\'RRPONTSYD\\']; {\\'WSHOSHO\\': [\\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\', \\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\'], \\'WALCL\\': [\\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\', \\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\'], \\'WDTGAL\\': [\\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\', \\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\'], \\'RRPONTSYD\\': [\\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\', \\'ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host=\\\\\\'fred.stlouisfed.org\\\\\\', port=443): Read timed out. (read timeout=20)\"))\\']}')"
+          "status": "partial",
+          "rows": 2,
+          "latest_date": "20260826",
+          "source": "美联储H.4.1 / 纽约联储逆回购API（FRED备用）",
+          "formula": "SOMA口径=WSHOSHO-WDTGAL-RRPONTSYD；总资产口径=WALCL-WDTGAL-RRPONTSYD；统一换算为万亿美元",
+          "input_latest_dates": {
+            "WSHOSHO": "20260826",
+            "WALCL": "20260826",
+            "WDTGAL": "20260826",
+            "RRPONTSYD": "20260831"
+          },
+          "input_sources": {
+            "WSHOSHO": "Federal Reserve H.4.1 fallback",
+            "WALCL": "Federal Reserve H.4.1 fallback",
+            "WDTGAL": "Federal Reserve H.4.1 fallback",
+            "RRPONTSYD": "New York Fed reverse-repo API fallback"
+          },
+          "fallback_errors": {
+            "WSHOSHO": [
+              "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
+            ],
+            "WALCL": [
+              "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
+            ],
+            "WDTGAL": [
+              "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
+            ],
+            "RRPONTSYD": [
+              "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
+            ]
+          },
+          "fallback_alignment_note": null
         }
       },
       "latest_by_series": {
         "DGS2": "20260828",
         "DGS10": "20260828",
-        "NET_USD_LIQUIDITY_SOMA": "20260729",
-        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260729"
+        "NET_USD_LIQUIDITY_SOMA": "20260826",
+        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260826"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 30018
+      "cached_rows": 30020
     },
     "valuation": {
       "status": "success",
@@ -342,8 +370,8 @@
     "deviation": {
       "status": "success",
       "rows": 2110,
-      "started_at": "2026-09-01T12:45:14+08:00",
-      "finished_at": "2026-09-01T12:45:14+08:00",
+      "started_at": "2026-09-01T13:57:52+08:00",
+      "finished_at": "2026-09-01T13:57:52+08:00",
       "latest_date": "20260831",
       "total_cached_rows": 2110,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -437,7 +465,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-01T13:37:03+08:00",
+  "updated_at": "2026-09-01T13:58:08+08:00",
   "overall_status": "partial",
-  "last_update_mode": "all"
+  "last_update_mode": "global"
 }
