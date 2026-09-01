@@ -77,8 +77,8 @@
     "market": {
       "status": "success",
       "rows": 33044,
-      "started_at": "2026-09-01T13:53:32+08:00",
-      "finished_at": "2026-09-01T13:53:44+08:00",
+      "started_at": "2026-09-01T14:05:40+08:00",
+      "finished_at": "2026-09-01T14:05:53+08:00",
       "latest_date": "20260901",
       "total_cached_rows": 33053,
       "symbols": {
@@ -186,10 +186,10 @@
       "cached_rows": 33053
     },
     "global_macro": {
-      "status": "partial",
+      "status": "success",
       "rows": 4,
-      "started_at": "2026-09-01T13:53:44+08:00",
-      "finished_at": "2026-09-01T13:57:52+08:00",
+      "started_at": "2026-09-01T14:05:53+08:00",
+      "finished_at": "2026-09-01T14:06:40+08:00",
       "latest_date": "20260828",
       "total_cached_rows": 30020,
       "source_details": {
@@ -199,7 +199,7 @@
           "latest_date": "20260828",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
-            "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
+            "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
           ]
         },
         "DGS10": {
@@ -208,11 +208,11 @@
           "latest_date": "20260828",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
-            "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
+            "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
           ]
         },
         "USD_LIQUIDITY": {
-          "status": "partial",
+          "status": "success",
           "rows": 2,
           "latest_date": "20260826",
           "source": "美联储H.4.1 / 纽约联储逆回购API（FRED备用）",
@@ -229,18 +229,19 @@
             "WDTGAL": "Federal Reserve H.4.1 fallback",
             "RRPONTSYD": "New York Fed reverse-repo API fallback"
           },
+          "fallback_used": true,
           "fallback_errors": {
             "WSHOSHO": [
-              "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
+              "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
             ],
             "WALCL": [
-              "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
+              "FRED CSV skipped after prior host failure: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
             ],
             "WDTGAL": [
-              "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
+              "FRED CSV skipped after prior host failure: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
             ],
             "RRPONTSYD": [
-              "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
+              "FRED CSV skipped after prior host failure: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
             ]
           },
           "fallback_alignment_note": null
@@ -252,7 +253,7 @@
         "NET_USD_LIQUIDITY_SOMA": "20260826",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260826"
       },
-      "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
+      "note": "DGS2/DGS10独立抓取；美元净流动性优先使用FRED，失败时切换至美联储H.4.1与纽约联储逆回购官方接口。",
       "cached_rows": 30020
     },
     "valuation": {
@@ -370,8 +371,8 @@
     "deviation": {
       "status": "success",
       "rows": 2110,
-      "started_at": "2026-09-01T13:57:52+08:00",
-      "finished_at": "2026-09-01T13:57:52+08:00",
+      "started_at": "2026-09-01T14:06:40+08:00",
+      "finished_at": "2026-09-01T14:06:40+08:00",
       "latest_date": "20260831",
       "total_cached_rows": 2110,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -465,7 +466,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-01T13:58:08+08:00",
-  "overall_status": "partial",
+  "updated_at": "2026-09-01T14:06:56+08:00",
+  "overall_status": "success",
   "last_update_mode": "global"
 }
