@@ -76,9 +76,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 33044,
-      "started_at": "2026-09-01T14:05:40+08:00",
-      "finished_at": "2026-09-01T14:05:53+08:00",
+      "rows": 33048,
+      "started_at": "2026-09-01T15:29:12+08:00",
+      "finished_at": "2026-09-01T15:29:21+08:00",
       "latest_date": "20260901",
       "total_cached_rows": 33053,
       "symbols": {
@@ -114,22 +114,22 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1673,
+          "rows": 1674,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1676,
+          "rows": 1677,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -259,8 +259,8 @@
     "valuation": {
       "status": "success",
       "rows": 28090,
-      "started_at": "2026-09-01T12:43:11+08:00",
-      "finished_at": "2026-09-01T12:43:47+08:00",
+      "started_at": "2026-09-01T15:29:21+08:00",
+      "finished_at": "2026-09-01T15:29:52+08:00",
       "latest_date": "20260831",
       "total_cached_rows": 28090,
       "indices": {
@@ -371,8 +371,8 @@
     "deviation": {
       "status": "success",
       "rows": 2110,
-      "started_at": "2026-09-01T14:06:40+08:00",
-      "finished_at": "2026-09-01T14:06:40+08:00",
+      "started_at": "2026-09-01T15:31:40+08:00",
+      "finished_at": "2026-09-01T15:31:40+08:00",
       "latest_date": "20260831",
       "total_cached_rows": 2110,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -423,8 +423,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-01T12:43:47+08:00",
-      "finished_at": "2026-09-01T12:45:14+08:00",
+      "started_at": "2026-09-01T15:29:52+08:00",
+      "finished_at": "2026-09-01T15:31:40+08:00",
       "latest_date": "20260901",
       "crowding_cached_rows": 85,
       "breadth_cached_rows": 85,
@@ -432,10 +432,10 @@
         "status": "success",
         "rows": 1,
         "latest_date": "20260831",
-        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
+        "source": "深交所融资融券汇总 + 上海两融历史公开表"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
-      "snapshot_kind": "盘中快照"
+      "snapshot_kind": "收盘后快照"
     },
     "a_share_universe": {
       "status": "success",
@@ -445,17 +445,38 @@
       "source": "东方财富行情中心代码列表"
     },
     "messages": {
-      "status": "success",
+      "status": "partial",
       "latest_date": "20260901",
-      "rows": 112218,
-      "cached_rows": 112218,
-      "covered_stocks": 5569,
-      "requested_stocks": 5545,
-      "failed_stocks": 0,
-      "coverage_rate": 1.0043,
-      "failed_symbols_sample": [],
+      "rows": 98564,
+      "cached_rows": 98564,
+      "covered_stocks": 4794,
+      "requested_stocks": 5026,
+      "failed_stocks": 232,
+      "coverage_rate": 0.9538,
+      "failed_symbols_sample": [
+        "000003.SZ",
+        "000005.SZ",
+        "000013.SZ",
+        "000023.SZ",
+        "000024.SZ",
+        "000033.SZ",
+        "000046.SZ",
+        "000502.SZ",
+        "000508.SZ",
+        "000515.SZ",
+        "000540.SZ",
+        "000542.SZ",
+        "000562.SZ",
+        "000569.SZ",
+        "000578.SZ",
+        "000583.SZ",
+        "000585.SZ",
+        "000588.SZ",
+        "000606.SZ",
+        "000611.SZ"
+      ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": null
+      "error": "600669.SH: KeyError('code')；600659.SH: KeyError('code')；600705.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -466,7 +487,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-01T14:06:56+08:00",
-  "overall_status": "success",
-  "last_update_mode": "global"
+  "updated_at": "2026-09-01T16:06:41+08:00",
+  "overall_status": "partial",
+  "last_update_mode": "close"
 }

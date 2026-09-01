@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01 13:17:46+08:00",
+  "updated_at": "2026-09-01 16:05:21+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-b9be695ca157ce63",
+      "category": "重大新闻",
+      "title": "收盘｜沪指跌0.16% 传媒板块表现活跃 全市场超3300只个股上涨。 4361 49分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103342528.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c663d1c987417722",
+      "category": "重大新闻",
+      "title": "半导体景气度受AI驱动上行，业内：2028年云厂商盈亏是关键考验 “如果2028年云厂商盈利的话，可能会产生第二轮资本支出；如果收益不及预期，那么资产开支可能会",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103342281.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a74885d566306899",
+      "category": "重大新闻",
+      "title": "A股中报风云丨2026年上半年谁研发投入最高？ 一图速览>> 2842 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103342262.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a4d0c0e324955d6c",
+      "category": "重大新闻",
+      "title": "晓数点｜一图速览8月A股月报 四大指数8月均累计上涨，蓝盾光电问鼎8月最牛股，主力青睐天孚通信，抛售中际旭创>> 2005 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103342251.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-61ca210fb0b21fa1",
+      "category": "重大新闻",
+      "title": "A股中报风云丨2026年上半年谁“发红包”最壕？ 一图速览>> 2563 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103342167.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-a74885d566306899",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-49395b6ebee89075",
-      "category": "重大新闻",
-      "title": "连涨两月却遭183亿资金止盈，医药反弹迎分歧时刻 都在说医药回暖，钱为什么在跑？市场在分歧中博弈什么 7089 昨天 20:46",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103333492.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f237917941b5b828",
-      "category": "重大新闻",
-      "title": "“大肉签”轮番登场！月内16只新股平均浮盈8万，3股单签赚超10万 不过，部分新股虽然“首秀”表现亮眼，但上市后股价持续下挫。 17288 昨天 19:28",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103333312.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-91344539033f9334",
-      "category": "重大新闻",
-      "title": "盘前必读丨加拿大宣布对美实施报复性关税；马云买入阿里超6亿港元 机构认为，当前市场环境下，做好多资产对冲仍是核心。 1分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103333810.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9f6649f398a58261",
-      "category": "重大新闻",
-      "title": "中报业绩齐增，光通信高景气为何难挽股价颓势 这是最好的光通信时代吗？ 6252 昨天 20:52",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103333273.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-49395b6ebee89075",
-      "category": "重大新闻",
-      "title": "连涨两月却遭183亿资金止盈，医药反弹迎分歧时刻 都在说医药回暖，钱为什么在跑？市场在分歧中博弈什么 5074 昨天 20:46",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103333492.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,16 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-01 13:17:46+08:00",
+  "last_checked_at": "2026-09-01 16:05:21+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 112218,
-    "covered_stocks": 5569,
-    "requested_stocks": 5545,
-    "failed_stocks": 0,
-    "coverage_rate": 1.0,
-    "notice_rows": 64805,
-    "stock_news_rows": 47413,
+    "rows": 98564,
+    "covered_stocks": 4794,
+    "requested_stocks": 5026,
+    "failed_stocks": 232,
+    "coverage_rate": 0.9538,
+    "news_symbols_with_items": 5585,
+    "notice_rows": 58631,
+    "stock_news_rows": 39933,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
