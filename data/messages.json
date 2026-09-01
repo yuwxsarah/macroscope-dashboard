@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01 17:20:37+08:00",
+  "updated_at": "2026-09-01 17:48:45+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -109,9 +109,23 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-650d15ba2ea5daa5",
+      "category": "重大新闻",
+      "title": "调仓？ 11分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103342765.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-d299110a9e93383f",
       "category": "重大新闻",
-      "title": "晓数点丨券商9月金股出炉，涉及工业、信息技术、材料等领域 宁德时代最受机构青睐，共入围了5家券商的推荐名单。 1137 35分钟前",
+      "title": "晓数点丨券商9月金股出炉，涉及工业、信息技术、材料等领域 宁德时代最受机构青睐，共入围了5家券商的推荐名单。 1292 1小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103342676.html",
@@ -125,7 +139,7 @@
     {
       "id": "auto-yicai-1e19493f3f768a69",
       "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共86只个股涨停 这只农业股6连板 农业股万向德农收获6连板、新赛股份4连板；AI短剧概念股芒果超媒2连板。一图速览今日连板股>> 765 ",
+      "title": "连板股追踪丨A股今日共86只个股涨停 这只农业股6连板 农业股万向德农收获6连板、新赛股份4连板；AI短剧概念股芒果超媒2连板。一图速览今日连板股>> 951 ",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103342669.html",
@@ -139,7 +153,7 @@
     {
       "id": "auto-yicai-bbc44f5b689aa47b",
       "category": "重大新闻",
-      "title": "A股半年报盘点：工行日赚9.5亿，长鑫科技闯入利润榜前十 1881 1小时前",
+      "title": "A股半年报盘点：工行日赚9.5亿，长鑫科技闯入利润榜前十 2067 1小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103342557.html",
@@ -153,7 +167,21 @@
     {
       "id": "auto-yicai-b9be695ca157ce63",
       "category": "重大新闻",
-      "title": "收盘｜沪指跌0.16% 传媒板块表现活跃 全市场超3300只个股上涨。 10282 2小时前",
+      "title": "收盘｜沪指跌0.16% 传媒板块表现活跃 全市场超3300只个股上涨。 11212 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103342528.html",
+      "published_at": "2026-09-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b9be695ca157ce63",
+      "category": "重大新闻",
+      "title": "收盘｜沪指跌0.16% 传媒板块表现活跃 全市场超3300只个股上涨。 4361 49分钟前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103342528.html",
@@ -171,20 +199,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103342281.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b9be695ca157ce63",
-      "category": "重大新闻",
-      "title": "收盘｜沪指跌0.16% 传媒板块表现活跃 全市场超3300只个股上涨。 4361 49分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103342528.html",
       "published_at": "2026-09-01",
       "symbols": [
         "A股"
@@ -1773,20 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-49395b6ebee89075",
-      "category": "重大新闻",
-      "title": "连涨两月却遭183亿资金止盈，医药反弹迎分歧时刻 都在说医药回暖，钱为什么在跑？市场在分歧中博弈什么 7306 昨天 20:46",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103333492.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-01 17:20:37+08:00",
+  "last_checked_at": "2026-09-01 17:48:45+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 48800,
+    "rows": 104882,
     "covered_stocks": 4794,
     "requested_stocks": 5026,
     "failed_stocks": 232,
     "coverage_rate": 0.9538,
-    "news_symbols_with_items": 5149,
-    "notice_rows": 8834,
-    "stock_news_rows": 39966,
+    "news_symbols_with_items": 5588,
+    "notice_rows": 64854,
+    "stock_news_rows": 40033,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
