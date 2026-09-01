@@ -43,7 +43,8 @@ class DataSourceFallbackTests(unittest.TestCase):
         ):
             frame, details = provider.fetch("20260801")
 
-        self.assertEqual(details["status"], "partial")
+        self.assertEqual(details["status"], "success")
+        self.assertTrue(details["fallback_used"])
         self.assertEqual(details["latest_date"], "20260826")
         self.assertEqual(details["source"], "美联储H.4.1 / 纽约联储逆回购API（FRED备用）")
         self.assertTrue((frame["source"] == details["source"]).all())

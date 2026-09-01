@@ -217,7 +217,7 @@ def update_global_macro(settings: dict[str, Any]) -> tuple[int, dict[str, Any]]:
         "total_cached_rows": len(merged),
         "source_details": details,
         "latest_by_series": latest_by_series,
-        "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
+        "note": "DGS2/DGS10独立抓取；美元净流动性优先使用FRED，失败时切换至美联储H.4.1与纽约联储逆回购官方接口。",
     }
 
 

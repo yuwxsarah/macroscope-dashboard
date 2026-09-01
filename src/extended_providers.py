@@ -141,10 +141,10 @@ class FredTreasuryProvider:
             "Accept-Language": "en-US,en;q=0.9",
         }
 
-    @retry(stop=stop_after_attempt(2), wait=wait_exponential(multiplier=1, min=1, max=4), reraise=True)
+    @retry(stop=stop_after_attempt(1), reraise=True)
     def _fred_csv(self, series: str, start_date: str) -> pd.DataFrame:
         url = self.FRED_CSV.format(series=series, start=pd.to_datetime(start_date).strftime("%Y-%m-%d"))
-        response = requests.get(url, timeout=20, headers=self._headers())
+        response = requests.get(url, timeout=15, headers=self._headers())
         response.raise_for_status()
         raw = pd.read_csv(io.StringIO(response.text))
         date_col = pick_column(raw, ["DATE", "observation_date", "date"])
@@ -269,11 +269,11 @@ class UsdLiquidityProvider:
     def _headers() -> dict[str, str]:
         return FredTreasuryProvider._headers()
 
-    @retry(stop=stop_after_attempt(2), wait=wait_exponential(multiplier=1, min=1, max=4), reraise=True)
+    @retry(stop=stop_after_attempt(1), reraise=True)
     def _fred_csv(self, series: str, start_date: str) -> pd.DataFrame:
         start = pd.to_datetime(start_date).strftime("%Y-%m-%d")
         url = self.FRED_CSV.format(series=series, start=start)
-        response = requests.get(url, timeout=20, headers=self._headers())
+        response = requests.get(url, timeout=15, headers=self._headers())
         response.raise_for_status()
         raw = pd.read_csv(io.StringIO(response.text))
         date_col = pick_column(raw, ["DATE", "observation_date", "date"])
@@ -388,13 +388,18 @@ class UsdLiquidityProvider:
         raw: dict[str, pd.DataFrame] = {}
         input_sources: dict[str, str] = {}
         input_errors: dict[str, list[str]] = {}
+        fred_csv_error: str | None = None
         for series in ["WSHOSHO", "WALCL", "WDTGAL", "RRPONTSYD"]:
             errors: list[str] = []
-            try:
-                raw[series] = self._fred_csv(series, start_key)
-                input_sources[series] = "FRED CSV"
-            except Exception as exc:
-                errors.append(repr(exc))
+            if fred_csv_error is not None:
+                errors.append(f"FRED CSV skipped after prior host failure: {fred_csv_error}")
+            else:
+                try:
+                    raw[series] = self._fred_csv(series, start_key)
+                    input_sources[series] = "FRED CSV"
+                except Exception as exc:
+                    fred_csv_error = repr(exc)
+                    errors.append(fred_csv_error)
             if errors:
                 input_errors[series] = errors
         missing = [series for series in ["WSHOSHO", "WALCL", "WDTGAL", "RRPONTSYD"] if series not in raw]
@@ -462,13 +467,14 @@ class UsdLiquidityProvider:
 
         out = pd.concat(frames, ignore_index=True).drop_duplicates(["trade_date", "series"], keep="last")
         details = {
-            "status": "partial" if any("fallback" in source for source in input_sources.values()) else "success",
+            "status": "success",
             "rows": len(out),
             "latest_date": str(out["trade_date"].max()),
             "source": output_source,
             "formula": "SOMA口径=WSHOSHO-WDTGAL-RRPONTSYD；总资产口径=WALCL-WDTGAL-RRPONTSYD；统一换算为万亿美元",
             "input_latest_dates": {series: date_key(frame["date"].max()) for series, frame in raw.items()},
             "input_sources": input_sources,
+            "fallback_used": any("fallback" in source for source in input_sources.values()),
             "fallback_errors": input_errors,
             "fallback_alignment_note": (
                 "RRP仅有页面最新值时，按7天内最近观测与周度资产负债表对齐。"
