@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 170,
-      "started_at": "2026-08-31T10:18:06+08:00",
-      "finished_at": "2026-08-31T10:18:21+08:00",
+      "started_at": "2026-09-01T10:23:24+08:00",
+      "finished_at": "2026-09-01T10:23:43+08:00",
       "latest_date": "202608",
       "total_cached_rows": 170,
       "source_details": {
@@ -44,15 +44,15 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 4969,
-      "started_at": "2026-08-31T10:18:21+08:00",
-      "finished_at": "2026-08-31T10:18:37+08:00",
-      "latest_date": "20260828",
-      "total_cached_rows": 5005,
+      "rows": 4970,
+      "started_at": "2026-09-01T10:23:43+08:00",
+      "finished_at": "2026-09-01T10:23:59+08:00",
+      "latest_date": "20260831",
+      "total_cached_rows": 5006,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4969,
+          "rows": 4970,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,7 +62,7 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5005
+      "cached_rows": 5006
     },
     "market": {
       "status": "success",
@@ -395,13 +395,13 @@
       "source": "东方财富行情中心代码列表"
     },
     "messages": {
-      "status": "partial",
+      "status": "success",
       "latest_date": "20260901",
-      "rows": 111510,
-      "cached_rows": 111510,
-      "covered_stocks": 5568,
+      "rows": 112185,
+      "cached_rows": 112185,
+      "covered_stocks": 5569,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "688230.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688251.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；688266.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": null
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-01T08:40:54+08:00",
+  "updated_at": "2026-09-01T10:56:55+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
