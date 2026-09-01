@@ -276,23 +276,63 @@ def fetch_stock_news(item: dict, start_key: str, end_key: str) -> tuple[list[dic
     return rows, None
 
 
-def fetch_market_news(days: int, max_workers: int, news_limit: int) -> tuple[list[dict], list[str], int]:
+def fetch_market_news(
+    days: int,
+    max_workers: int,
+    news_limit: int,
+    fetcher=fetch_stock_news,
+) -> tuple[list[dict], list[str], int, list[str]]:
     today = datetime.now(BEIJING)
     start_key = (today - timedelta(days=days - 1)).strftime("%Y%m%d")
     end_key = today.strftime("%Y%m%d")
     universe = read_universe(news_limit)
     rows: list[dict] = []
-    errors: list[str] = []
     if not universe:
-        return rows, ["a_share_universe.csv is empty; run update_ashare_daily.py first"], 0
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = [executor.submit(fetch_stock_news, item, start_key, end_key) for item in universe]
-        for future in as_completed(futures):
-            item_rows, error = future.result()
-            rows.extend(item_rows)
-            if error:
-                errors.append(error)
-    return rows, errors, len(universe)
+        return rows, ["a_share_universe.csv is empty; run update_ashare_daily.py first"], 0, []
+
+    pending = list(universe)
+    final_errors: list[str] = []
+    for attempt in range(2):
+        failed: list[dict] = []
+        attempt_errors: list[str] = []
+        workers = max(1, min(max_workers, 4 if attempt else max_workers))
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = {executor.submit(fetcher, item, start_key, end_key): item for item in pending}
+            for future in as_completed(futures):
+                item = futures[future]
+                try:
+                    item_rows, error = future.result()
+                except Exception as exc:
+                    item_rows, error = [], f"{item['symbol']}: {exc!r}"
+                rows.extend(item_rows)
+                if error:
+                    failed.append(item)
+                    attempt_errors.append(error)
+        pending = failed
+        if not pending:
+            final_errors = []
+            break
+        final_errors = attempt_errors
+
+    failed_symbols = sorted({str(item["symbol"]) for item in pending})
+    covered_stocks = max(0, len(universe) - len(failed_symbols))
+    return rows, final_errors, covered_stocks, failed_symbols
+
+
+def cached_news_for_symbols(existing: pd.DataFrame, symbols: list[str], days: int) -> list[dict]:
+    if existing.empty or not symbols:
+        return []
+    cutoff = (datetime.now(BEIJING) - timedelta(days=days - 1)).strftime("%Y%m%d")
+    today = datetime.now(BEIJING).strftime("%Y%m%d")
+    cached = existing[
+        (existing["category"].astype(str) == "个股资讯")
+        & existing["symbol"].astype(str).isin(symbols)
+    ].copy()
+    if cached.empty:
+        return []
+    keys = cached["published_at"].map(date_key)
+    cached = cached[(keys >= cutoff) & (keys <= today)]
+    return cached.to_dict(orient="records")
 
 
 def dedupe_rows(rows: list[dict]) -> pd.DataFrame:
@@ -383,7 +423,13 @@ def dedupe_manual_items(items: list[dict]) -> list[dict]:
     return sorted(output, key=lambda row: str(row.get("published_at", "")), reverse=True)
 
 
-def update_status(row_count: int, covered_stocks: int, errors: list[str]) -> None:
+def update_status(
+    row_count: int,
+    covered_stocks: int,
+    errors: list[str],
+    requested_stocks: int = 0,
+    failed_symbols: list[str] | None = None,
+) -> None:
     status_path = DATA_DIR / "status.json"
     if status_path.exists():
         try:
@@ -392,15 +438,22 @@ def update_status(row_count: int, covered_stocks: int, errors: list[str]) -> Non
             status = {"overall_status": "partial", "datasets": {}}
     else:
         status = {"overall_status": "partial", "datasets": {}}
+    failed_symbols = failed_symbols or []
     status.setdefault("datasets", {})["messages"] = {
         "status": "partial" if errors else "success",
         "latest_date": datetime.now(BEIJING).strftime("%Y%m%d"),
         "rows": row_count,
         "cached_rows": row_count,
         "covered_stocks": covered_stocks,
+        "requested_stocks": requested_stocks,
+        "failed_stocks": len(failed_symbols),
+        "coverage_rate": round(covered_stocks / requested_stocks, 4) if requested_stocks else None,
+        "failed_symbols_sample": failed_symbols[:20],
         "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
         "error": "；".join(errors[-3:]) if errors else None,
     }
+    if errors:
+        status["overall_status"] = "partial"
     write_json(status_path, status)
 
 
@@ -430,9 +483,15 @@ def main() -> None:
     errors.extend(notice_errors)
     stock_rows: list[dict] = []
     covered_stocks = 0
+    failed_symbols: list[str] = []
+    requested_stocks = 0
     if not args.skip_stock_news:
-        stock_rows, stock_errors, covered_stocks = fetch_market_news(args.days, args.max_workers, args.news_limit)
+        stock_rows, stock_errors, covered_stocks, failed_symbols = fetch_market_news(
+            args.days, args.max_workers, args.news_limit
+        )
+        requested_stocks = covered_stocks + len(failed_symbols)
         errors.extend(stock_errors[:50])
+        stock_rows.extend(cached_news_for_symbols(existing_market, failed_symbols, args.days))
     if not notice_rows and not existing_market.empty:
         cached = existing_market[existing_market["category"].astype(str) == "公告"]
         if not cached.empty:
@@ -462,12 +521,21 @@ def main() -> None:
         "days": args.days,
         "rows": int(len(market_frame)),
         "covered_stocks": int(max(covered_stocks, actual_covered)),
+        "requested_stocks": requested_stocks,
+        "failed_stocks": len(failed_symbols),
+        "coverage_rate": round(covered_stocks / requested_stocks, 4) if requested_stocks else None,
         "notice_rows": int(len(notice_rows)),
         "stock_news_rows": int(len(stock_rows)),
         "source": "东方财富公告大全、东方财富个股新闻",
     }
     write_json(MESSAGE_PATH, payload)
-    update_status(len(market_frame), int(payload["market_feed"]["covered_stocks"]), errors)
+    update_status(
+        len(market_frame),
+        int(payload["market_feed"]["covered_stocks"]),
+        errors,
+        requested_stocks=requested_stocks,
+        failed_symbols=failed_symbols,
+    )
     print(json.dumps({
         "market_rows": len(market_frame),
         "notice_rows": len(notice_rows),

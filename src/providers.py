@@ -50,6 +50,11 @@ def _release_series(df: pd.DataFrame, value_name: str) -> pd.DataFrame:
 class PublicMacroProvider:
     """Public macro sources with independent fallbacks for each indicator."""
 
+    PBC_REPORT_LISTS = [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/11871-2.html",
+    ]
+
     def __init__(self) -> None:
         self.ak = _import_akshare()
         self.messages: list[str] = []
@@ -67,72 +72,96 @@ class PublicMacroProvider:
         self.messages.append(f"{label}: " + " | ".join(errors))
         return pd.DataFrame()
 
-    def _fetch_social_stock_official(self, start_month: str) -> pd.DataFrame:
-        """Fetch official PBOC AFRE stock and YoY growth tables by year."""
-        start_year = max(2015, int(start_month[:4]))
-        current_year = datetime.now().year
-        rows: list[dict[str, Any]] = []
-        errors: list[str] = []
-        headers = {"User-Agent": "Mozilla/5.0 (compatible; MacroScopePublic/4.0; research dashboard)"}
+    @staticmethod
+    def _report_month(title: str) -> str | None:
+        year_match = re.search(r"((?:19|20)\d{2})年", title)
+        if not year_match:
+            return None
+        year = year_match.group(1)
+        month_match = re.search(r"(\d{1,2})月", title)
+        if month_match:
+            return f"{year}{int(month_match.group(1)):02d}"
+        period_months = {"一季度": 3, "上半年": 6, "前三季度": 9, "全年": 12}
+        for label, month in period_months.items():
+            if label in title:
+                return f"{year}{month:02d}"
+        if title.startswith(f"{year}年金融统计数据报告"):
+            return f"{year}12"
+        return None
 
-        for year in range(start_year, current_year + 1):
-            page_url = f"https://www.pbc.gov.cn/diaochatongjisi/116219/116319/{year}ntjsj/shrzgm/index.html"
+    @staticmethod
+    def _parse_pbc_social_report(title: str, text: str) -> dict[str, Any] | None:
+        month = PublicMacroProvider._report_month(title)
+        if month is None:
+            return None
+        compact = re.sub(r"\s+", "", text)
+        row: dict[str, Any] = {"month": month}
+        stock_match = re.search(
+            r"社会融资规模存量为([0-9]+(?:\.[0-9]+)?)万亿元，同比(增长|下降)([0-9]+(?:\.[0-9]+)?)%",
+            compact,
+        )
+        if stock_match:
+            direction = -1 if stock_match.group(2) == "下降" else 1
+            row["sf_stock_trillion"] = float(stock_match.group(1))
+            row["sf_stock_yoy_pct"] = direction * float(stock_match.group(3))
+        cumulative_match = re.search(
+            r"社会融资规模增量累计为([0-9]+(?:\.[0-9]+)?)万亿元",
+            compact,
+        )
+        if cumulative_match:
+            row["sf_cumulative_trillion"] = float(cumulative_match.group(1))
+        return row if len(row) > 1 else None
+
+    def _fetch_social_official_reports(self, start_month: str) -> pd.DataFrame:
+        """Read recent AFRE stock and cumulative flow directly from PBOC reports."""
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; MacroScopePublic/6.0; research dashboard)"}
+        report_links: dict[str, tuple[str, str]] = {}
+        list_errors: list[str] = []
+        min_year = max(int(start_month[:4]), datetime.now().year - 1)
+        for page_url in self.PBC_REPORT_LISTS:
             try:
-                page = requests.get(page_url, timeout=25, headers=headers)
-                page.raise_for_status()
-                soup = BeautifulSoup(page.content, "html.parser")
-                heading = soup.find(string=lambda value: isinstance(value, str) and "社会融资规模存量统计表" in value)
-                if heading is None:
-                    raise DataFetchError("页面未找到社融存量标题")
-                xls_url = None
-                for anchor in heading.find_all_next("a", href=True):
-                    href = str(anchor.get("href", ""))
-                    if re.search(r"\.xlsx?$", href, flags=re.I):
-                        xls_url = urljoin(page_url, href)
-                        break
-                if not xls_url:
-                    raise DataFetchError("页面未找到社融存量 Excel 链接")
-
-                workbook = requests.get(xls_url, timeout=30, headers=headers)
-                workbook.raise_for_status()
-                raw = pd.read_excel(io.BytesIO(workbook.content), header=None)
-                first_col = raw.iloc[:, 0].astype(str).str.replace(r"\s+", "", regex=True)
-                matches = raw.index[first_col.str.contains("社会融资规模存量", na=False)].tolist()
-                if not matches:
-                    raise DataFetchError("Excel 未找到社融存量行")
-                numeric_counts = {
-                    int(row): int(pd.to_numeric(raw.iloc[int(row), 1:], errors="coerce").notna().sum())
-                    for row in matches
-                }
-                stock_row = max(numeric_counts, key=numeric_counts.get)
-                if numeric_counts[stock_row] == 0:
-                    raise DataFetchError("Excel 社融存量行没有数值")
-
-                for col in range(raw.shape[1] - 1):
-                    month = None
-                    for candidate in raw.iloc[:stock_row, col].tolist():
-                        text = str(candidate).strip()
-                        found = re.search(r"((?:19|20)\d{2})[.年/-](0?[1-9]|1[0-2])", text)
-                        if found:
-                            month = f"{found.group(1)}{int(found.group(2)):02d}"
-                    if not month or month < start_month:
-                        continue
-                    stock = pd.to_numeric(pd.Series([raw.iat[stock_row, col]]), errors="coerce").iloc[0]
-                    growth = pd.to_numeric(pd.Series([raw.iat[stock_row, col + 1]]), errors="coerce").iloc[0]
-                    if pd.notna(stock):
-                        rows.append({
-                            "month": month,
-                            "sf_stock_trillion": float(stock),
-                            "sf_stock_yoy_pct": float(growth) if pd.notna(growth) else np.nan,
-                        })
+                response = requests.get(page_url, timeout=25, headers=headers)
+                response.raise_for_status()
+                response.encoding = "utf-8"
+                soup = BeautifulSoup(response.text, "html.parser")
+                for anchor in soup.select("a[href]"):
+                    title = " ".join(anchor.get_text(" ", strip=True).split())
+                    month = self._report_month(title)
+                    if month and int(month[:4]) >= min_year and "金融统计数据报告" in title:
+                        report_links[month] = (title, urljoin(page_url, str(anchor.get("href"))))
             except Exception as exc:
-                errors.append(f"{year}: {exc!r}")
+                list_errors.append(f"{page_url}: {exc!r}")
+
+        rows: list[dict[str, Any]] = []
+        report_errors: list[str] = []
+        for month, (title, report_url) in sorted(report_links.items()):
+            try:
+                response = requests.get(report_url, timeout=25, headers=headers)
+                response.raise_for_status()
+                response.encoding = "utf-8"
+                text = " ".join(BeautifulSoup(response.text, "html.parser").stripped_strings)
+                row = self._parse_pbc_social_report(title, text)
+                if row:
+                    rows.append(row)
+            except Exception as exc:
+                report_errors.append(f"{month}: {exc!r}")
 
         if not rows:
-            raise DataFetchError("人民银行社融存量表抓取失败: " + " | ".join(errors[-4:]))
-        if errors:
-            self.messages.append("人民银行社融存量部分年份失败: " + " | ".join(errors[-4:]))
-        return pd.DataFrame(rows).drop_duplicates("month", keep="last").sort_values("month")
+            errors = [*list_errors, *report_errors]
+            raise DataFetchError("人民银行金融统计报告抓取失败: " + " | ".join(errors[-4:]))
+        out = pd.DataFrame(rows).drop_duplicates("month", keep="last").sort_values("month")
+        if "sf_cumulative_trillion" in out.columns:
+            cumulative = numeric(out["sf_cumulative_trillion"])
+            previous = cumulative.groupby(out["month"].str[:4]).shift(1)
+            out["sf_increment_trillion"] = cumulative.where(previous.isna(), cumulative - previous)
+            out["sf_increment_trillion"] = out["sf_increment_trillion"].where(out["month"].str[4:] != "01", cumulative)
+            out["sf_increment_yoy_pct"] = out["sf_increment_trillion"].pct_change(12, fill_method=None) * 100
+            out["sf_12m_trillion"] = out["sf_increment_trillion"].rolling(12, min_periods=12).sum()
+            out["sf_12m_yoy_pct"] = out["sf_12m_trillion"].pct_change(12, fill_method=None) * 100
+            out = out.drop(columns=["sf_cumulative_trillion"])
+        if list_errors or report_errors:
+            self.messages.append("人民银行金融统计报告部分页面失败: " + " | ".join([*list_errors, *report_errors][-4:]))
+        return out.reset_index(drop=True)
 
     def fetch(self, start_month: str = "200801") -> tuple[pd.DataFrame, dict[str, Any]]:
         frames: list[pd.DataFrame] = []
@@ -164,6 +193,13 @@ class PublicMacroProvider:
             else:
                 component_status["money_supply"] = {"status": "failed", "error": "所有货币供应量源均失败"}
 
+        official_social = pd.DataFrame()
+        official_social_error: Exception | None = None
+        try:
+            official_social = self._fetch_social_official_reports(start_month)
+        except Exception as exc:
+            official_social_error = exc
+
         social = self._try("社会融资规模", [lambda: self.ak.macro_china_shrzgm()])
         if not social.empty:
             date_col = pick_column(social, ["月份", "日期"])
@@ -181,16 +217,35 @@ class PublicMacroProvider:
                 component_status["social_financing"] = {"status": "success", "rows": len(out), "source": "商务数据中心 / AKShare"}
             else:
                 component_status["social_financing"] = {"status": "failed", "error": "缺少社融字段"}
+        elif not official_social.empty and "sf_increment_trillion" in official_social.columns:
+            flow_columns = [
+                "month", "sf_increment_trillion", "sf_increment_yoy_pct",
+                "sf_12m_trillion", "sf_12m_yoy_pct",
+            ]
+            flow = official_social[[column for column in flow_columns if column in official_social.columns]].copy()
+            frames.append(flow)
+            component_status["social_financing"] = {
+                "status": "success", "rows": len(flow), "source": "中国人民银行金融统计数据报告",
+                "note": "月度增量由年内累计值按月差分得到",
+            }
         else:
-            component_status["social_financing"] = {"status": "failed", "error": "公开社融源失败"}
+            component_status["social_financing"] = {
+                "status": "failed",
+                "error": f"公开社融源失败；人民银行备用源: {official_social_error!r}",
+            }
 
         try:
-            stock = self._fetch_social_stock_official(start_month)
+            stock_columns = ["month", "sf_stock_trillion", "sf_stock_yoy_pct"]
+            stock = official_social[[column for column in stock_columns if column in official_social.columns]].dropna(
+                subset=["sf_stock_trillion"]
+            )
+            if stock.empty:
+                raise DataFetchError(f"人民银行报告未解析到社融存量: {official_social_error!r}")
             frames.append(stock)
             component_status["social_financing_stock"] = {
                 "status": "success",
                 "rows": len(stock),
-                "source": "中国人民银行官方社会融资规模存量统计表",
+                "source": "中国人民银行金融统计数据报告",
             }
         except Exception as exc:
             component_status["social_financing_stock"] = {"status": "failed", "error": repr(exc)}
@@ -268,13 +323,87 @@ class PublicMacroProvider:
                 merged[col] = np.nan
         merged["m1_m2_gap_pp"] = merged["m1_yoy_pct"] - merged["m2_yoy_pct"]
         merged["m1_m2_mechanical_sum_trillion"] = merged["m1_trillion"] + merged["m2_trillion"]
+        merged["source"] = "人民银行/国家统计局等公开源；分项来源见status.json"
         merged["updated_at"] = datetime.now().isoformat(timespec="seconds")
         return merged.reset_index(drop=True), {"components": component_status, "messages": self.messages}
 
 
 class ChinaMarketProvider:
+    EASTMONEY_VALUATION_URL = "https://datacenter-web.eastmoney.com/api/data/v1/get"
+
     def __init__(self) -> None:
         self.ak = _import_akshare()
+
+    @staticmethod
+    def _parse_eastmoney_valuation_payload(
+        payload: dict[str, Any], item: dict[str, Any], start_date: str, end_date: str,
+    ) -> pd.DataFrame:
+        result = payload.get("result") if isinstance(payload, dict) else None
+        rows = result.get("data", []) if isinstance(result, dict) else []
+        if not isinstance(rows, list) or not rows:
+            return pd.DataFrame()
+        raw = pd.DataFrame(rows)
+        if "TRADE_DATE" not in raw.columns or "PE_TTM_AVG" not in raw.columns:
+            raise DataFetchError(f"东方财富估值接口缺少字段: {list(raw.columns)}")
+        pb_column = next(
+            (name for name in ["PB_MRQ_AVG", "PB_AVG", "PB_LF_AVG"] if name in raw.columns),
+            None,
+        )
+        out = pd.DataFrame({
+            "trade_date": raw["TRADE_DATE"].map(date_key),
+            "index_code": item["symbol"],
+            "index_name": item["name"],
+            "pe_ttm": numeric(raw["PE_TTM_AVG"]),
+            "pb": numeric(raw[pb_column]) if pb_column else np.nan,
+            "source": "东方财富估值分析公开接口",
+        })
+        out = out.dropna(subset=["trade_date", "pe_ttm"])
+        out = out[(out["trade_date"] >= start_date) & (out["trade_date"] <= end_date)]
+        return out.sort_values("trade_date").drop_duplicates("trade_date", keep="last").reset_index(drop=True)
+
+    def _fetch_eastmoney_valuation(
+        self, item: dict[str, Any], start_date: str, end_date: str,
+    ) -> pd.DataFrame:
+        base_params = {
+            "reportName": "RPT_VALUEMARKET",
+            "columns": "ALL",
+            "pageSize": 500,
+            "sortColumns": "TRADE_DATE",
+            "sortTypes": 1,
+            "source": "WEB",
+            "client": "WEB",
+            # RPT_VALUEMARKET rejects date comparisons for some Shenzhen
+            # indexes, so request the index history and apply the date window locally.
+            "filter": f'(TRADE_MARKET_CODE="{item["code"]}")',
+        }
+        payloads: list[dict[str, Any]] = []
+        page_number = 1
+        total_pages = 1
+        while page_number <= total_pages:
+            response = requests.get(
+                self.EASTMONEY_VALUATION_URL,
+                params={**base_params, "pageNumber": page_number},
+                timeout=25,
+                headers={"User-Agent": "Mozilla/5.0 (compatible; MacroScopePublic/6.0)"},
+            )
+            response.raise_for_status()
+            payload = response.json()
+            result = payload.get("result") if isinstance(payload, dict) else None
+            if not isinstance(result, dict):
+                raise DataFetchError(f"东方财富估值接口返回异常: {payload}")
+            payloads.append(payload)
+            total_pages = min(int(result.get("pages") or 1), 20)
+            page_number += 1
+        frames = [
+            self._parse_eastmoney_valuation_payload(payload, item, start_date, end_date)
+            for payload in payloads
+        ]
+        out = pd.concat([frame for frame in frames if not frame.empty], ignore_index=True) if any(
+            not frame.empty for frame in frames
+        ) else pd.DataFrame()
+        if out.empty:
+            raise DataFetchError("东方财富估值接口返回空表")
+        return out.sort_values("trade_date").drop_duplicates("trade_date", keep="last").reset_index(drop=True)
 
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=1, max=8), reraise=True)
     def fetch_index(self, item: dict[str, Any], start_date: str, end_date: str) -> pd.DataFrame:
@@ -417,6 +546,13 @@ class ChinaMarketProvider:
                     return out.reset_index(drop=True)
         except Exception as exc:
             errors.append(f"乐咕乐股: {exc!r}")
+
+        # Third choice: Eastmoney's public market-valuation history. It covers
+        # Shenzhen Component and ChiNext even when CSIndex/Legulegu do not.
+        try:
+            return self._fetch_eastmoney_valuation(item, start_date, end_date)
+        except Exception as exc:
+            errors.append(f"东方财富估值分析: {exc!r}")
 
         raise DataFetchError("估值数据失败: " + " | ".join(errors))
 

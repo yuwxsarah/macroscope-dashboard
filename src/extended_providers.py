@@ -265,17 +265,18 @@ class UsdLiquidityProvider:
     """Net USD liquidity from FRED balance-sheet and RRP series."""
 
     FRED_CSV = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={series}&cosd={start}"
+    FRED_SERIES_PAGE = "https://fred.stlouisfed.org/series/{series}"
     SOURCE = "FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD"
 
     @staticmethod
     def _headers() -> dict[str, str]:
         return FredTreasuryProvider._headers()
 
-    @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=1, max=10), reraise=True)
+    @retry(stop=stop_after_attempt(2), wait=wait_exponential(multiplier=1, min=1, max=4), reraise=True)
     def _fred_csv(self, series: str, start_date: str) -> pd.DataFrame:
         start = pd.to_datetime(start_date).strftime("%Y-%m-%d")
         url = self.FRED_CSV.format(series=series, start=start)
-        response = requests.get(url, timeout=45, headers=self._headers())
+        response = requests.get(url, timeout=20, headers=self._headers())
         response.raise_for_status()
         raw = pd.read_csv(io.StringIO(response.text))
         date_col = pick_column(raw, ["DATE", "observation_date", "date"])
@@ -289,20 +290,61 @@ class UsdLiquidityProvider:
             raise DataFetchError(f"FRED CSV中{series}为空")
         return out.sort_values("date").reset_index(drop=True)
 
+    @staticmethod
+    def _parse_fred_series_page(html: str, series: str) -> pd.DataFrame:
+        soup = BeautifulSoup(html, "html.parser")
+        date_node = soup.select_one("input#coed")
+        value_node = soup.select_one(".series-meta-observation-value")
+        raw_date = date_node.get("value") if date_node else None
+        raw_value = value_node.get_text(" ", strip=True) if value_node else None
+        parsed_date = pd.to_datetime(raw_date, errors="coerce")
+        parsed_value = pd.to_numeric(str(raw_value or "").replace(",", ""), errors="coerce")
+        if pd.isna(parsed_date) or pd.isna(parsed_value):
+            raise DataFetchError(f"FRED序列页面未解析到{series}最新值")
+        return pd.DataFrame({"date": [parsed_date], series: [float(parsed_value)]})
+
+    @retry(stop=stop_after_attempt(2), wait=wait_exponential(multiplier=1, min=1, max=4), reraise=True)
+    def _fred_series_page(self, series: str) -> pd.DataFrame:
+        response = requests.get(
+            self.FRED_SERIES_PAGE.format(series=series),
+            timeout=20,
+            headers=self._headers(),
+        )
+        response.raise_for_status()
+        return self._parse_fred_series_page(response.text, series)
+
     def fetch(self, start_date: str = "20150101") -> tuple[pd.DataFrame, dict[str, Any]]:
         start_key = date_key(start_date) or "20150101"
-        raw = {
-            series: self._fred_csv(series, start_key)
-            for series in ["WSHOSHO", "WALCL", "WDTGAL", "RRPONTSYD"]
-        }
+        raw: dict[str, pd.DataFrame] = {}
+        input_sources: dict[str, str] = {}
+        input_errors: dict[str, list[str]] = {}
+        for series in ["WSHOSHO", "WALCL", "WDTGAL", "RRPONTSYD"]:
+            errors: list[str] = []
+            try:
+                raw[series] = self._fred_csv(series, start_key)
+                input_sources[series] = "FRED CSV"
+            except Exception as exc:
+                errors.append(repr(exc))
+                try:
+                    raw[series] = self._fred_series_page(series)
+                    input_sources[series] = "FRED series page fallback"
+                except Exception as fallback_exc:
+                    errors.append(repr(fallback_exc))
+            if errors:
+                input_errors[series] = errors
+        missing = [series for series in ["WSHOSHO", "WALCL", "WDTGAL", "RRPONTSYD"] if series not in raw]
+        if missing:
+            raise DataFetchError(f"FRED美元流动性输入失败: {missing}; {input_errors}")
 
         weekly = raw["WSHOSHO"].merge(raw["WALCL"], on="date", how="inner").merge(raw["WDTGAL"], on="date", how="inner")
         rrp = raw["RRPONTSYD"].rename(columns={"RRPONTSYD": "rrp_busd"})
+        rrp_is_latest_only = len(rrp) == 1
         aligned = pd.merge_asof(
             weekly.sort_values("date"),
             rrp[["date", "rrp_busd"]].sort_values("date"),
             on="date",
-            direction="backward",
+            direction="nearest" if rrp_is_latest_only else "backward",
+            tolerance=timedelta(days=7) if rrp_is_latest_only else None,
         ).dropna(subset=["WSHOSHO", "WALCL", "WDTGAL", "rrp_busd"])
         if aligned.empty:
             raise DataFetchError("美元净流动性序列对齐后为空")
@@ -330,12 +372,18 @@ class UsdLiquidityProvider:
 
         out = pd.concat(frames, ignore_index=True).drop_duplicates(["trade_date", "series"], keep="last")
         details = {
-            "status": "success",
+            "status": "partial" if any("fallback" in source for source in input_sources.values()) else "success",
             "rows": len(out),
             "latest_date": str(out["trade_date"].max()),
             "source": self.SOURCE,
             "formula": "SOMA口径=WSHOSHO-WDTGAL-RRPONTSYD；总资产口径=WALCL-WDTGAL-RRPONTSYD；统一换算为万亿美元",
             "input_latest_dates": {series: date_key(frame["date"].max()) for series, frame in raw.items()},
+            "input_sources": input_sources,
+            "fallback_errors": input_errors,
+            "fallback_alignment_note": (
+                "RRP仅有页面最新值时，按7天内最近观测与周度资产负债表对齐。"
+                if rrp_is_latest_only else None
+            ),
         }
         return out.sort_values(["series", "trade_date"]).reset_index(drop=True), details
 
@@ -348,6 +396,7 @@ class ChinaLiquidityProvider:
         "https://www.chinamoney.com.cn/english/mdtqapprp/",
         "https://www.chinamoney.com.cn/chinese/mkdatapm/",
     ]
+    DR_CSV_URL = "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/currency/prr-chrt.csv"
 
     def __init__(self) -> None:
         self.ak = _import_akshare()
@@ -418,6 +467,31 @@ class ChinaLiquidityProvider:
                     return value
         return None
 
+    @staticmethod
+    def _parse_dr_csv(text: str) -> pd.DataFrame:
+        raw = pd.read_csv(io.StringIO(text), header=None)
+        if raw.shape[1] < 4:
+            raise DataFetchError(f"中国货币网DR CSV列数异常: {raw.shape[1]}")
+        values = raw.iloc[:, -3:]
+        out = pd.DataFrame({
+            "trade_date": raw.iloc[:, 0].map(date_key),
+            "dr001_pct": numeric(values.iloc[:, 0]),
+            "dr007_pct": numeric(values.iloc[:, 1]),
+        })
+        out = out.dropna(subset=["trade_date"])
+        out = out[out[["dr001_pct", "dr007_pct"]].notna().any(axis=1)]
+        if out.empty:
+            raise DataFetchError("中国货币网DR CSV没有有效DR001/DR007")
+        out["source"] = "中国货币网 / 全国银行间同业拆借中心"
+        return out.drop_duplicates("trade_date", keep="last").sort_values("trade_date").reset_index(drop=True)
+
+    @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=1, max=8), reraise=True)
+    def _fetch_dr_csv(self) -> pd.DataFrame:
+        response = requests.get(self.DR_CSV_URL, timeout=30, headers=self._headers())
+        response.raise_for_status()
+        response.encoding = response.apparent_encoding or "utf-8"
+        return self._parse_dr_csv(response.text)
+
     @retry(stop=stop_after_attempt(4), wait=wait_exponential(multiplier=1, min=2, max=16), reraise=True)
     def _fetch_dr_page(self, url: str) -> tuple[float | None, float | None, str]:
         response = requests.get(url, timeout=45, headers=self._headers())
@@ -438,8 +512,25 @@ class ChinaLiquidityProvider:
         return dr001, dr007, url
 
     def fetch_dr_current(self) -> tuple[pd.DataFrame, dict[str, Any]]:
+        csv_errors: list[str] = []
+        try:
+            frame = self._fetch_dr_csv()
+            latest = frame.iloc[-1]
+            return frame, {
+                "status": "success",
+                "rows": len(frame),
+                "latest_date": str(latest["trade_date"]),
+                "dr001_pct": float(latest["dr001_pct"]) if pd.notna(latest["dr001_pct"]) else None,
+                "dr007_pct": float(latest["dr007_pct"]) if pd.notna(latest["dr007_pct"]) else None,
+                "urls_used": [self.DR_CSV_URL],
+                "errors": [],
+                "note": "DR001/DR007来自中国货币网官方历史CSV；未使用FDR替代。",
+            }
+        except Exception as exc:
+            csv_errors.append(f"{self.DR_CSV_URL}: {exc!r}")
+
         dr001 = dr007 = None
-        errors: list[str] = []
+        errors: list[str] = list(csv_errors)
         used: list[str] = []
         for url in self.DR_URLS:
             try:

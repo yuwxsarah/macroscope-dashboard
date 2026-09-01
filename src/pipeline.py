@@ -58,8 +58,15 @@ def _merge_history(old: pd.DataFrame, new: pd.DataFrame, keys: list[str]) -> pd.
     elif new.empty:
         merged = old.copy()
     else:
-        merged = pd.concat([old, new], ignore_index=True)
-        merged = merged.drop_duplicates(keys, keep="last")
+        # A partial public-source response must not erase a valid cached field
+        # for the same date. Only non-null fresh values replace the cache.
+        old_clean = old.drop_duplicates(keys, keep="last").set_index(keys)
+        new_clean = new.drop_duplicates(keys, keep="last").set_index(keys)
+        columns = old_clean.columns.union(new_clean.columns)
+        cached = old_clean.reindex(columns=columns)
+        fresh = new_clean.reindex(columns=columns)
+        merged_indexed = fresh.combine_first(cached)
+        merged = merged_indexed.reset_index()
     return merged.sort_values(keys).reset_index(drop=True) if not merged.empty else merged
 
 
@@ -70,12 +77,39 @@ def _latest_value(df: pd.DataFrame, date_col: str) -> str | None:
     return values.max() if not values.empty else None
 
 
+def _component_statuses(value: Any, *, include_root: bool = True) -> list[str]:
+    statuses: list[str] = []
+    if isinstance(value, dict):
+        status = value.get("status")
+        if include_root and status in {"success", "partial", "failed"}:
+            statuses.append(str(status))
+        for key, nested in value.items():
+            if key != "status":
+                statuses.extend(_component_statuses(nested))
+    elif isinstance(value, (list, tuple)):
+        for nested in value:
+            statuses.extend(_component_statuses(nested))
+    return statuses
+
+
+def _dataset_status(rows: int, metadata: dict[str, Any]) -> str:
+    if rows <= 0:
+        return "partial"
+    explicit = metadata.get("status")
+    child_statuses = _component_statuses(metadata, include_root=False)
+    if explicit == "failed" or "failed" in child_statuses or "partial" in child_statuses:
+        return "partial"
+    if explicit == "partial":
+        return "partial"
+    return "success"
+
+
 def _run(fn: Callable[[], tuple[int, dict[str, Any]]]) -> dict[str, Any]:
     started = _now_iso()
     try:
         rows, metadata = fn()
         return {
-            "status": "success" if rows > 0 else "partial",
+            "status": _dataset_status(rows, metadata),
             "rows": rows,
             "started_at": started,
             "finished_at": _now_iso(),
@@ -96,6 +130,11 @@ def update_macro(settings: dict[str, Any]) -> tuple[int, dict[str, Any]]:
     new, details = provider.fetch(settings["macro_start_month"])
     old = read_csv_safe(MACRO_PATH)
     merged = _merge_history(old, new, ["month"])
+    if "sf_increment_trillion" in merged.columns:
+        increments = pd.to_numeric(merged["sf_increment_trillion"], errors="coerce")
+        merged["sf_increment_yoy_pct"] = increments.pct_change(12, fill_method=None) * 100
+        merged["sf_12m_trillion"] = increments.rolling(12, min_periods=12).sum()
+        merged["sf_12m_yoy_pct"] = merged["sf_12m_trillion"].pct_change(12, fill_method=None) * 100
     write_csv_atomic(merged, MACRO_PATH)
     return len(new), {
         "latest_date": _latest_value(merged, "month"),
@@ -206,10 +245,15 @@ def update_liquidity(settings: dict[str, Any]) -> tuple[int, dict[str, Any]]:
         if col in merged.columns:
             merged[col] = pd.to_numeric(merged[col], errors="coerce")
     write_csv_atomic(merged, LIQUIDITY_PATH)
+    latest_by_series: dict[str, str | None] = {}
+    for column in value_cols:
+        available = merged.dropna(subset=[column]) if column in merged.columns else pd.DataFrame()
+        latest_by_series[column] = _latest_value(available, "trade_date")
     return len(new), {
         "latest_date": _latest_value(merged, "trade_date"),
         "total_cached_rows": len(merged),
         "source_details": details,
+        "latest_by_series": latest_by_series,
         "note": "DR来自中国货币网，严格不以FDR替代。",
     }
 
@@ -235,10 +279,15 @@ def update_valuation(settings: dict[str, Any]) -> tuple[int, dict[str, Any]]:
     old = read_csv_safe(VALUATION_PATH)
     merged = _merge_history(old, new, ["trade_date", "index_code"])
     write_csv_atomic(merged, VALUATION_PATH)
+    latest_by_index: dict[str, str | None] = {}
+    for item in settings["valuation_indices"]:
+        subset = merged[merged["index_code"] == item["symbol"]] if "index_code" in merged.columns else pd.DataFrame()
+        latest_by_index[item["symbol"]] = _latest_value(subset, "trade_date")
     return len(new), {
         "latest_date": _latest_value(merged, "trade_date"),
         "total_cached_rows": len(merged),
         "indices": per_index,
+        "latest_by_index": latest_by_index,
     }
 
 
@@ -467,16 +516,17 @@ def update_selected(mode: str = "all") -> dict[str, Any]:
                 info["serving_cached_data"] = True
 
     ran = [status["datasets"].get(name, {}) for name, _ in tasks[mode]]
-    success_count = sum(1 for x in ran if x.get("status") in {"success", "partial"})
+    success_count = sum(1 for x in ran if x.get("status") == "success")
+    usable_count = sum(1 for x in ran if x.get("status") in {"success", "partial"})
     if success_count == len(ran):
         status["overall_status"] = "success"
-    elif success_count > 0 or available > 0:
+    elif usable_count > 0 or available > 0:
         status["overall_status"] = "partial"
     else:
         status["overall_status"] = "failed"
 
     write_json(STATUS_PATH, status)
-    if success_count == 0 and available == 0:
+    if usable_count == 0 and available == 0:
         raise RuntimeError(f"更新失败且无历史缓存: {status['datasets']}")
     return status
 

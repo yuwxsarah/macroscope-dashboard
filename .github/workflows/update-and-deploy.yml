@@ -98,13 +98,12 @@ jobs:
 
       - name: Fetch and cache public data
         if: steps.select.outputs.mode != 'messages' && steps.select.outputs.mode != 'publish'
-        continue-on-error: true
-        timeout-minutes: 35
+        timeout-minutes: 45
         run: python scripts/update_data.py --mode "${{ steps.select.outputs.mode }}"
 
       - name: Refresh information feed
         if: steps.select.outputs.mode != 'publish'
-        timeout-minutes: 35
+        timeout-minutes: 45
         run: python scripts/update_messages.py
 
       - name: Refresh A-share three-month daily series
