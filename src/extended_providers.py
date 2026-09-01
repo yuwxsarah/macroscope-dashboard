@@ -120,8 +120,8 @@ class FredTreasuryProvider:
     """Official U.S. Treasury yields with independent per-series fallbacks.
 
     Primary source: FRED CSV (Federal Reserve H.15 series).
-    Fallbacks: FRED plain-text series file, then the Federal Reserve H.15
-    current-release HTML table for the latest observation. DGS10 is fetched
+    Fallbacks: the Federal Reserve H.15 current-release HTML table, then FRED
+    plain text. DGS10 is fetched
     independently from DGS2 so one missing series can never suppress the other.
     """
 
@@ -141,10 +141,10 @@ class FredTreasuryProvider:
             "Accept-Language": "en-US,en;q=0.9",
         }
 
-    @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=1, max=10), reraise=True)
+    @retry(stop=stop_after_attempt(2), wait=wait_exponential(multiplier=1, min=1, max=4), reraise=True)
     def _fred_csv(self, series: str, start_date: str) -> pd.DataFrame:
         url = self.FRED_CSV.format(series=series, start=pd.to_datetime(start_date).strftime("%Y-%m-%d"))
-        response = requests.get(url, timeout=45, headers=self._headers())
+        response = requests.get(url, timeout=20, headers=self._headers())
         response.raise_for_status()
         raw = pd.read_csv(io.StringIO(response.text))
         date_col = pick_column(raw, ["DATE", "observation_date", "date"])
@@ -159,9 +159,9 @@ class FredTreasuryProvider:
             raise DataFetchError(f"FRED CSV中{series}为空")
         return out
 
-    @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=1, max=10), reraise=True)
+    @retry(stop=stop_after_attempt(1), reraise=True)
     def _fred_txt(self, series: str, start_date: str) -> pd.DataFrame:
-        response = requests.get(self.FRED_TXT.format(series=series), timeout=45, headers=self._headers())
+        response = requests.get(self.FRED_TXT.format(series=series), timeout=20, headers=self._headers())
         response.raise_for_status()
         lines = response.text.splitlines()
         header_idx = next((i for i, line in enumerate(lines) if re.match(r"^\s*DATE\s+VALUE\s*$", line)), None)
@@ -179,9 +179,9 @@ class FredTreasuryProvider:
             raise DataFetchError(f"FRED TXT中{series}为空")
         return out
 
-    @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=1, max=10), reraise=True)
+    @retry(stop=stop_after_attempt(2), wait=wait_exponential(multiplier=1, min=1, max=4), reraise=True)
     def _h15_latest(self, series: str) -> pd.DataFrame:
-        response = requests.get(self.H15_URL, timeout=45, headers=self._headers())
+        response = requests.get(self.H15_URL, timeout=20, headers=self._headers())
         response.raise_for_status()
         tables = pd.read_html(io.StringIO(response.text))
         target = "2-year" if series == "DGS2" else "10-year"
@@ -222,20 +222,15 @@ class FredTreasuryProvider:
             source = ""
             for label, fn in [
                 ("FRED CSV", self._fred_csv),
+                ("H15 HTML", lambda current_series, _start: self._h15_latest(current_series)),
                 ("FRED TXT", self._fred_txt),
             ]:
                 try:
                     frame = fn(series, start_date)
-                    source = f"美联储H.15 / {label}"
+                    source = "美联储H.15当前发布页" if label == "H15 HTML" else f"美联储H.15 / {label}"
                     break
                 except Exception as exc:
                     errors.append(f"{label}: {exc!r}")
-            if frame.empty:
-                try:
-                    frame = self._h15_latest(series)
-                    source = "美联储H.15当前发布页"
-                except Exception as exc:
-                    errors.append(f"H15 HTML: {exc!r}")
             if frame.empty:
                 details[series] = {"status": "failed", "errors": errors}
                 continue
@@ -266,6 +261,8 @@ class UsdLiquidityProvider:
 
     FRED_CSV = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={series}&cosd={start}"
     FRED_SERIES_PAGE = "https://fred.stlouisfed.org/series/{series}"
+    H41_URL = "https://www.federalreserve.gov/releases/h41/current/"
+    NYFED_RRP_URL = "https://markets.newyorkfed.org/api/rp/reverserepo/propositions/search.json"
     SOURCE = "FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD"
 
     @staticmethod
@@ -313,6 +310,79 @@ class UsdLiquidityProvider:
         response.raise_for_status()
         return self._parse_fred_series_page(response.text, series)
 
+    @staticmethod
+    def _parse_h41_latest(html: str) -> dict[str, pd.DataFrame]:
+        tables = pd.read_html(io.StringIO(html))
+        targets = {
+            "WSHOSHO": "Securities held outright",
+            "WALCL": "Total assets",
+            "WDTGAL": "U.S. Treasury, General Account",
+        }
+        values: dict[str, float] = {}
+        observation_date: pd.Timestamp | None = None
+        for table in tables:
+            columns = [
+                " ".join(str(part) for part in column if str(part) != "nan")
+                if isinstance(column, tuple) else str(column)
+                for column in table.columns
+            ]
+            if not any("Eliminations from consolidation" in column for column in columns):
+                continue
+            if observation_date is None and len(columns) > 2:
+                match = re.search(r"([A-Z][a-z]{2}\s+\d{1,2},\s+\d{4})", columns[2])
+                if match:
+                    observation_date = pd.to_datetime(match.group(1), errors="coerce")
+            labels = table.iloc[:, 0].astype(str).str.replace(r"\d+$", "", regex=True).str.strip()
+            for series, label in targets.items():
+                matches = table.index[labels == label].tolist()
+                if not matches or table.shape[1] < 3:
+                    continue
+                value = pd.to_numeric(pd.Series([table.iloc[matches[0], 2]]), errors="coerce").iloc[0]
+                if pd.notna(value):
+                    values[series] = float(value)
+        if observation_date is None or pd.isna(observation_date) or any(series not in values for series in targets):
+            raise DataFetchError(f"美联储H.4.1未解析完整美元流动性输入: {values}")
+        return {
+            series: pd.DataFrame({"date": [observation_date], series: [value]})
+            for series, value in values.items()
+        }
+
+    @staticmethod
+    def _parse_nyfed_rrp(payload: dict[str, Any]) -> pd.DataFrame:
+        repo = payload.get("repo") if isinstance(payload, dict) else None
+        operations = repo.get("operations", []) if isinstance(repo, dict) else []
+        rows: list[dict[str, Any]] = []
+        for operation in operations if isinstance(operations, list) else []:
+            if str(operation.get("operationType", "")).lower() != "reverse repo":
+                continue
+            date = pd.to_datetime(operation.get("operationDate"), errors="coerce")
+            amount = pd.to_numeric(pd.Series([operation.get("totalAmtAccepted")]), errors="coerce").iloc[0]
+            if pd.notna(date) and pd.notna(amount):
+                rows.append({"date": date, "RRPONTSYD": float(amount) / 1_000_000_000})
+        if not rows:
+            raise DataFetchError("纽约联储逆回购API没有有效操作记录")
+        out = pd.DataFrame(rows).groupby("date", as_index=False)["RRPONTSYD"].sum()
+        return out.sort_values("date").reset_index(drop=True)
+
+    @retry(stop=stop_after_attempt(2), wait=wait_exponential(multiplier=1, min=1, max=4), reraise=True)
+    def _federal_reserve_fallback(self) -> dict[str, pd.DataFrame]:
+        response = requests.get(self.H41_URL, timeout=25, headers=self._headers())
+        response.raise_for_status()
+        inputs = self._parse_h41_latest(response.text)
+        h41_date = inputs["WALCL"]["date"].max()
+        rrp_response = requests.get(
+            self.NYFED_RRP_URL,
+            params={
+                "startDate": (h41_date - timedelta(days=14)).strftime("%Y-%m-%d"),
+                "endDate": datetime.now().strftime("%Y-%m-%d"),
+            },
+            timeout=25,
+            headers={**self._headers(), "Accept": "application/json"},
+        )
+        rrp_response.raise_for_status()
+        inputs["RRPONTSYD"] = self._parse_nyfed_rrp(rrp_response.json())
+        return inputs
+
     def fetch(self, start_date: str = "20150101") -> tuple[pd.DataFrame, dict[str, Any]]:
         start_key = date_key(start_date) or "20150101"
         raw: dict[str, pd.DataFrame] = {}
@@ -325,13 +395,28 @@ class UsdLiquidityProvider:
                 input_sources[series] = "FRED CSV"
             except Exception as exc:
                 errors.append(repr(exc))
-                try:
-                    raw[series] = self._fred_series_page(series)
-                    input_sources[series] = "FRED series page fallback"
-                except Exception as fallback_exc:
-                    errors.append(repr(fallback_exc))
             if errors:
                 input_errors[series] = errors
+        missing = [series for series in ["WSHOSHO", "WALCL", "WDTGAL", "RRPONTSYD"] if series not in raw]
+        if missing:
+            try:
+                official = self._federal_reserve_fallback()
+                for series in missing:
+                    if series in official:
+                        raw[series] = official[series]
+                        input_sources[series] = (
+                            "New York Fed reverse-repo API fallback"
+                            if series == "RRPONTSYD" else "Federal Reserve H.4.1 fallback"
+                        )
+            except Exception as exc:
+                input_errors["official_fallback"] = [repr(exc)]
+        missing = [series for series in ["WSHOSHO", "WALCL", "WDTGAL", "RRPONTSYD"] if series not in raw]
+        for series in missing:
+            try:
+                raw[series] = self._fred_series_page(series)
+                input_sources[series] = "FRED series page fallback"
+            except Exception as exc:
+                input_errors.setdefault(series, []).append(repr(exc))
         missing = [series for series in ["WSHOSHO", "WALCL", "WDTGAL", "RRPONTSYD"] if series not in raw]
         if missing:
             raise DataFetchError(f"FRED美元流动性输入失败: {missing}; {input_errors}")
@@ -359,6 +444,11 @@ class UsdLiquidityProvider:
             ("net_liquidity_soma_trn", "NET_USD_LIQUIDITY_SOMA", "美元净流动性（SOMA-TGA-RRP）"),
             ("net_liquidity_total_assets_trn", "NET_USD_LIQUIDITY_TOTAL_ASSETS", "美元净流动性（总资产-TGA-RRP）"),
         ]
+        output_source = (
+            self.SOURCE
+            if all(source == "FRED CSV" for source in input_sources.values())
+            else "美联储H.4.1 / 纽约联储逆回购API（FRED备用）"
+        )
         frames: list[pd.DataFrame] = []
         for column, series, name in outputs:
             frames.append(pd.DataFrame({
@@ -367,7 +457,7 @@ class UsdLiquidityProvider:
                 "name": name,
                 "value_pct": values[column].round(4),
                 "unit": "万亿美元",
-                "source": self.SOURCE,
+                "source": output_source,
             }))
 
         out = pd.concat(frames, ignore_index=True).drop_duplicates(["trade_date", "series"], keep="last")
@@ -375,7 +465,7 @@ class UsdLiquidityProvider:
             "status": "partial" if any("fallback" in source for source in input_sources.values()) else "success",
             "rows": len(out),
             "latest_date": str(out["trade_date"].max()),
-            "source": self.SOURCE,
+            "source": output_source,
             "formula": "SOMA口径=WSHOSHO-WDTGAL-RRPONTSYD；总资产口径=WALCL-WDTGAL-RRPONTSYD；统一换算为万亿美元",
             "input_latest_dates": {series: date_key(frame["date"].max()) for series, frame in raw.items()},
             "input_sources": input_sources,

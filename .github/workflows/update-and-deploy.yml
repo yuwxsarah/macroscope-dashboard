@@ -102,7 +102,7 @@ jobs:
         run: python scripts/update_data.py --mode "${{ steps.select.outputs.mode }}"
 
       - name: Refresh information feed
-        if: steps.select.outputs.mode != 'publish'
+        if: steps.select.outputs.mode == 'messages' || steps.select.outputs.mode == 'all' || steps.select.outputs.mode == 'close' || steps.select.outputs.mode == 'evening'
         timeout-minutes: 45
         run: python scripts/update_messages.py
 

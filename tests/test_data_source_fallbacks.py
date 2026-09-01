@@ -3,7 +3,7 @@ from unittest.mock import patch
 
 import pandas as pd
 
-from src.extended_providers import ChinaLiquidityProvider, UsdLiquidityProvider
+from src.extended_providers import ChinaLiquidityProvider, FredTreasuryProvider, UsdLiquidityProvider
 from src.providers import ChinaMarketProvider, PublicMacroProvider
 
 
@@ -24,27 +24,67 @@ class DataSourceFallbackTests(unittest.TestCase):
         self.assertEqual(frame.iloc[0]["date"].strftime("%Y%m%d"), "20260826")
         self.assertEqual(frame.iloc[0]["WSHOSHO"], 6462101.0)
 
-    def test_fred_page_fallback_can_align_latest_rrp(self) -> None:
+    def test_official_fed_fallback_can_align_rrp(self) -> None:
         provider = UsdLiquidityProvider()
-
-        def page_value(series):
-            dates = {"RRPONTSYD": "2026-08-31"}
-            values = {
-                "WSHOSHO": 6462101.0,
-                "WALCL": 6600000.0,
-                "WDTGAL": 800000.0,
-                "RRPONTSYD": 40.0,
-            }
-            return pd.DataFrame({"date": [pd.Timestamp(dates.get(series, "2026-08-26"))], series: [values[series]]})
+        official = {
+            "WSHOSHO": pd.DataFrame({"date": [pd.Timestamp("2026-08-26")], "WSHOSHO": [6462101.0]}),
+            "WALCL": pd.DataFrame({"date": [pd.Timestamp("2026-08-26")], "WALCL": [6730912.0]}),
+            "WDTGAL": pd.DataFrame({"date": [pd.Timestamp("2026-08-26")], "WDTGAL": [959435.0]}),
+            "RRPONTSYD": pd.DataFrame({
+                "date": [pd.Timestamp("2026-08-25"), pd.Timestamp("2026-08-26")],
+                "RRPONTSYD": [0.15, 0.20],
+            }),
+        }
 
         with patch.object(provider, "_fred_csv", side_effect=TimeoutError("csv timeout")), patch.object(
-            provider, "_fred_series_page", side_effect=page_value
+            provider, "_federal_reserve_fallback", return_value=official
+        ), patch.object(
+            provider, "_fred_series_page", side_effect=AssertionError("FRED page should not run")
         ):
             frame, details = provider.fetch("20260801")
 
         self.assertEqual(details["status"], "partial")
         self.assertEqual(details["latest_date"], "20260826")
+        self.assertEqual(details["source"], "美联储H.4.1 / 纽约联储逆回购API（FRED备用）")
+        self.assertTrue((frame["source"] == details["source"]).all())
         self.assertEqual(len(frame), 2)
+
+    def test_h41_and_nyfed_parsers(self) -> None:
+        html = """
+        <table><thead><tr>
+          <th>Assets, liabilities, and capital</th>
+          <th>Eliminations from consolidation</th>
+          <th>Wednesday Aug 26, 2026</th>
+          <th>Change</th>
+        </tr></thead><tbody>
+          <tr><td>Securities held outright1</td><td></td><td>6462101</td><td>-13202</td></tr>
+          <tr><td>Total assets</td><td>0</td><td>6730912</td><td>-14787</td></tr>
+          <tr><td>U.S. Treasury, General Account</td><td></td><td>959435</td><td>23029</td></tr>
+        </tbody></table>
+        """
+        h41 = UsdLiquidityProvider._parse_h41_latest(html)
+        self.assertEqual(h41["WSHOSHO"].iloc[0]["WSHOSHO"], 6462101.0)
+        self.assertEqual(h41["WALCL"].iloc[0]["WALCL"], 6730912.0)
+        self.assertEqual(h41["WDTGAL"].iloc[0]["WDTGAL"], 959435.0)
+
+        payload = {"repo": {"operations": [
+            {"operationDate": "2026-08-26", "operationType": "Reverse Repo", "totalAmtAccepted": 175000000},
+            {"operationDate": "2026-08-26", "operationType": "Reverse Repo", "totalAmtAccepted": 25000000},
+        ]}}
+        rrp = UsdLiquidityProvider._parse_nyfed_rrp(payload)
+        self.assertAlmostEqual(rrp.iloc[0]["RRPONTSYD"], 0.2)
+
+    def test_treasury_uses_h15_before_fred_text(self) -> None:
+        provider = FredTreasuryProvider()
+        latest = pd.DataFrame([{"trade_date": "20260828", "value_pct": 4.0}])
+        with patch.object(provider, "_fred_csv", side_effect=TimeoutError("csv timeout")), patch.object(
+            provider, "_h15_latest", return_value=latest
+        ), patch.object(provider, "_fred_txt", side_effect=AssertionError("TXT should not run")):
+            frame, details = provider.fetch_with_details("20260801")
+
+        self.assertEqual(len(frame), 2)
+        self.assertEqual(details["DGS2"]["source"], "美联储H.15当前发布页")
+        self.assertEqual(details["DGS10"]["source"], "美联储H.15当前发布页")
 
     def test_pbc_report_parser(self) -> None:
         title = "2026年7月金融统计数据报告"
