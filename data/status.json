@@ -76,11 +76,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33065,
-      "started_at": "2026-09-02T06:31:34+08:00",
-      "finished_at": "2026-09-02T06:31:43+08:00",
-      "latest_date": "20260901",
-      "total_cached_rows": 33070,
+      "rows": 33068,
+      "started_at": "2026-09-02T12:20:08+08:00",
+      "finished_at": "2026-09-02T12:20:17+08:00",
+      "latest_date": "20260902",
+      "total_cached_rows": 33073,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -129,7 +129,7 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1677,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -174,24 +174,24 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1633,
+          "rows": 1634,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1633,
+          "rows": 1634,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33070
+      "cached_rows": 33073
     },
     "global_macro": {
       "status": "success",
-      "rows": 4,
-      "started_at": "2026-09-02T06:31:43+08:00",
-      "finished_at": "2026-09-02T06:32:30+08:00",
+      "rows": 643,
+      "started_at": "2026-09-02T12:20:17+08:00",
+      "finished_at": "2026-09-02T12:21:05+08:00",
       "latest_date": "20260831",
-      "total_cached_rows": 30022,
+      "total_cached_rows": 30661,
       "source_details": {
         "DGS2": {
           "status": "success",
@@ -245,16 +245,30 @@
             ]
           },
           "fallback_alignment_note": null
+        },
+        "PCE_YOY": {
+          "status": "success",
+          "rows": 319,
+          "latest_date": "20260701",
+          "source": "美国经济分析局BEA NIPA表2.8.4"
+        },
+        "FEDFUNDS": {
+          "status": "success",
+          "rows": 320,
+          "latest_date": "20260801",
+          "source": "美联储H.15月度数据包"
         }
       },
       "latest_by_series": {
         "DGS2": "20260831",
         "DGS10": "20260831",
         "NET_USD_LIQUIDITY_SOMA": "20260826",
-        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260826"
+        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260826",
+        "PCE_YOY": "20260701",
+        "FEDFUNDS": "20260801"
       },
-      "note": "DGS2/DGS10独立抓取；美元净流动性优先使用FRED，失败时切换至美联储H.4.1与纽约联储逆回购官方接口。",
-      "cached_rows": 30022
+      "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15。",
+      "cached_rows": 30661
     },
     "valuation": {
       "status": "success",
@@ -371,8 +385,8 @@
     "deviation": {
       "status": "success",
       "rows": 2115,
-      "started_at": "2026-09-02T06:32:30+08:00",
-      "finished_at": "2026-09-02T06:32:30+08:00",
+      "started_at": "2026-09-02T12:21:05+08:00",
+      "finished_at": "2026-09-02T12:21:05+08:00",
       "latest_date": "20260901",
       "total_cached_rows": 2115,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -487,7 +501,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-02T11:47:45+08:00",
+  "updated_at": "2026-09-02T12:21:21+08:00",
   "overall_status": "success",
-  "last_update_mode": "snapshot"
+  "last_update_mode": "global"
 }
