@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02 17:21:35+08:00",
+  "updated_at": "2026-09-02 17:54:41+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -109,9 +109,23 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-4d766ba5bdca2b6a",
+      "category": "重大新闻",
+      "title": "谨慎观望？ 8分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103344433.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-14f1ec4fb07961c4",
       "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共55只个股涨停 这只农业股5连板 影视板块欢瑞世纪3连板。一图速览今日连板股>> 362 29分钟前",
+      "title": "连板股追踪丨A股今日共55只个股涨停 这只农业股5连板 影视板块欢瑞世纪3连板。一图速览今日连板股>> 703 58分钟前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103344377.html",
@@ -125,7 +139,7 @@
     {
       "id": "auto-yicai-571d2f3b64c26ae2",
       "category": "重大新闻",
-      "title": "收盘｜沪指跌0.97% 军工板块表现活跃 全市场超3900只个股下跌。 7926 2小时前",
+      "title": "收盘｜沪指跌0.97% 军工板块表现活跃 全市场超3900只个股下跌。 8825 2小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103344180.html",
@@ -139,7 +153,7 @@
     {
       "id": "auto-yicai-114cf0cf023290bc",
       "category": "重大新闻",
-      "title": "A股四大指数集体低开，市场逾4300股下跌 盘面上，玻纤、黄金、半导体板块带头调整，油气、海运、煤炭板块强势。 5 6810 7小时前",
+      "title": "A股四大指数集体低开，市场逾4300股下跌 盘面上，玻纤、黄金、半导体板块带头调整，油气、海运、煤炭板块强势。 5 6903 8小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103343615.html",
@@ -153,24 +167,10 @@
     {
       "id": "auto-yicai-e7440c1c9dfc0e4c",
       "category": "重大新闻",
-      "title": "盘前必读丨日韩股市大幅低开；中际旭创回购超3亿元 机构认为，预计9月市场仍将维持震荡，等待市场主线真正确立。 6 39887 9小时前",
+      "title": "盘前必读丨日韩股市大幅低开；中际旭创回购超3亿元 机构认为，预计9月市场仍将维持震荡，等待市场主线真正确立。 6 39980 9小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103343493.html",
-      "published_at": "2026-09-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3971914981b8a14e",
-      "category": "重大新闻",
-      "title": "收益率创2021年来新高，全国社保基金累计投资收益超2万亿元 2025年社保基金积极开展动态配置，及时把握资本市场大幅回调的机会，开展动态配置加仓股票，在促进国",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103342909.html",
       "published_at": "2026-09-02",
       "symbols": [
         "A股"
@@ -213,6 +213,20 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103343493.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3971914981b8a14e",
+      "category": "重大新闻",
+      "title": "收益率创2021年来新高，全国社保基金累计投资收益超2万亿元 2025年社保基金积极开展动态配置，及时把握资本市场大幅回调的机会，开展动态配置加仓股票，在促进国",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103342909.html",
       "published_at": "2026-09-02",
       "symbols": [
         "A股"
@@ -1773,20 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d5b39bd0d59da1a7",
-      "category": "重大新闻",
-      "title": "晚间公告｜8月26日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 30711 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103335110.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-02 17:21:35+08:00",
+  "last_checked_at": "2026-09-02 17:54:41+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 42004,
+    "rows": 45344,
     "covered_stocks": 4795,
     "requested_stocks": 5026,
     "failed_stocks": 231,
     "coverage_rate": 0.954,
-    "news_symbols_with_items": 4853,
-    "notice_rows": 1742,
-    "stock_news_rows": 40262,
+    "news_symbols_with_items": 5056,
+    "notice_rows": 5074,
+    "stock_news_rows": 40270,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
