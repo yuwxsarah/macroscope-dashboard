@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02 19:17:37+08:00",
+  "updated_at": "2026-09-02 19:52:54+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-bdc7eadc4bb3c5a5",
+      "category": "重大新闻",
+      "title": "持仓超3万亿、单家最多3600亿，外资机构二季度加仓这些行业 外资二季度增持了10余个行业，在电子行业的持股数较一季末增加了19.46亿股 7分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103344617.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d1b5140ea4f9e7a2",
+      "category": "重大新闻",
+      "title": "公募年内参与定增浮盈37亿，江波龙等热门项目成“陷阱” 27家参与定增公募机构中，66.67%的机构实现浮盈 1292 59分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103344510.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d443cdb22322fee7",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月2日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5415 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103344489.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c887ac7e8cd2ce8f",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这13股，卖出通源石油1.33亿元 共37只个股出现了机构的身影。 2780 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103344483.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4d766ba5bdca2b6a",
+      "category": "重大新闻",
+      "title": "谨慎观望？ 951 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103344433.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-d1b5140ea4f9e7a2",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8a26e51f03594117",
-      "category": "重大新闻",
-      "title": "盘前必读丨商务部回应美考虑对华额外加征7.5%关税；香农芯创净利猛涨超2200% 机构认为，市场连续反弹，风格跷跷板或将延续。 5 38554 7小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103337663.html",
-      "published_at": "2026-08-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bac5d9bb255e48af",
-      "category": "重大新闻",
-      "title": "*ST康佳主动退市，异议股东现金选择权小幅溢价 近年来，监管持续强化退市中的投资者保护监管 9073 15小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103337566.html",
-      "published_at": "2026-08-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-633fa3b85c4f1e76",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，市场逾2700股下跌 盘面上，智能电网、特高压、光伏、培育钻石、PCB、CPO、金融科技、创新药概念股走弱。 7 7027 5小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103337821.html",
-      "published_at": "2026-08-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8a26e51f03594117",
-      "category": "重大新闻",
-      "title": "盘前必读丨商务部回应美考虑对华额外加征7.5%关税；香农芯创净利猛涨超2200% 机构认为，市场连续反弹，风格跷跷板或将延续。 5 38368 6小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103337663.html",
-      "published_at": "2026-08-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bac5d9bb255e48af",
-      "category": "重大新闻",
-      "title": "*ST康佳主动退市，异议股东现金选择权小幅溢价 近年来，监管持续强化退市中的投资者保护监管 8484 14小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103337566.html",
-      "published_at": "2026-08-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-02 19:17:37+08:00",
+  "last_checked_at": "2026-09-02 19:52:54+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 42162,
+    "rows": 47309,
     "covered_stocks": 4795,
     "requested_stocks": 5026,
     "failed_stocks": 231,
     "coverage_rate": 0.954,
-    "news_symbols_with_items": 4776,
-    "notice_rows": 1781,
-    "stock_news_rows": 40381,
+    "news_symbols_with_items": 5141,
+    "notice_rows": 6919,
+    "stock_news_rows": 40391,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
