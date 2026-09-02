@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01 19:54:31+08:00",
+  "updated_at": "2026-09-02 08:37:23+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-e7440c1c9dfc0e4c",
+      "category": "重大新闻",
+      "title": "盘前必读丨日韩股市大幅低开；中际旭创回购超3亿元 机构认为，预计9月市场仍将维持震荡，等待市场主线真正确立。 8577 30分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103343493.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3971914981b8a14e",
+      "category": "重大新闻",
+      "title": "收益率创2021年来新高，全国社保基金累计投资收益超2万亿元 2025年社保基金积极开展动态配置，及时把握资本市场大幅回调的机会，开展动态配置加仓股票，在促进国",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103342909.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d8d833835676c7d0",
+      "category": "重大新闻",
+      "title": "北交所设立五周年：专精特新“小巨人”加速成长 最新披露的中报数据显示，今年上半年，北交所公司整体盈利面超八成。 15738 昨天 21:10",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103343214.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c7a2ea6e26328c45",
+      "category": "重大新闻",
+      "title": "电子行业集体交出“炸裂”中报，半导体、PCB与存储板块爆发式增长 半导体、PCB与存储板块的业绩爆发式增长，充分诠释了“AI强则电子强”。 5384 昨天 20",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103342795.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2b9450075ddec6be",
+      "category": "重大新闻",
+      "title": "瑞银最新研判：A股风险因素边际改善，市场重回多板块轮动 A股下半年行情不再局限于单一主线，多板块轮动机会增多。 6252 昨天 20:51",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103343166.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-7a6e64060e0ea87e",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a18275d811468277",
-      "category": "重大新闻",
-      "title": "收盘｜沪指涨0.59% 大金融板块强势 全市场超2900股上涨。 11057 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103334640.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c0c4f9fd0cd21781",
-      "category": "重大新闻",
-      "title": "A股四大指数多数高开，PCB、创新药等板块表现活跃 盘面上，黄金、农业、油气、煤炭板块跌幅靠前。 8 7647 8小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103333946.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c0c4f9fd0cd21781",
-      "category": "重大新闻",
-      "title": "A股四大指数多数高开，PCB、创新药等板块表现活跃 盘面上，黄金、农业、油气、煤炭板块跌幅靠前。 8 7058 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103333946.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-91344539033f9334",
-      "category": "重大新闻",
-      "title": "盘前必读丨加拿大宣布对美实施报复性关税；马云买入阿里超6亿港元 机构认为，当前市场环境下，做好多资产对冲仍是核心。 6 32447 5小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103333810.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9f6649f398a58261",
-      "category": "重大新闻",
-      "title": "中报业绩齐增，光通信高景气为何难挽股价颓势 这是最好的光通信时代吗？ 9383 昨天 20:52",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103333273.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-01 19:54:31+08:00",
+  "last_checked_at": "2026-09-02 08:37:23+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 46706,
-    "covered_stocks": 4794,
+    "rows": 106325,
+    "covered_stocks": 4795,
     "requested_stocks": 5026,
-    "failed_stocks": 232,
-    "coverage_rate": 0.9538,
-    "news_symbols_with_items": 5087,
-    "notice_rows": 6613,
-    "stock_news_rows": 40094,
+    "failed_stocks": 231,
+    "coverage_rate": 0.954,
+    "news_symbols_with_items": 5589,
+    "notice_rows": 66225,
+    "stock_news_rows": 40100,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
