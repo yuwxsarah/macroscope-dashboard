@@ -15,6 +15,7 @@ from src.extended_providers import (
     FundSubscriptionProvider,
     GlobalMarketProvider,
     UsInflationPolicyProvider,
+    UsPmiProvider,
     UsdLiquidityProvider,
 )
 from src.providers import ChinaMarketProvider, PublicMacroProvider
@@ -214,6 +215,15 @@ def update_global_macro(settings: dict[str, Any]) -> tuple[int, dict[str, Any]]:
     except Exception as exc:
         details["PCE_YOY"] = {"status": "failed", "error": repr(exc)}
         details["FEDFUNDS"] = {"status": "failed", "error": repr(exc)}
+    try:
+        us_pmi, us_pmi_details = UsPmiProvider().fetch_with_details(
+            settings.get("us_pmi_start_date", "20000101")
+        )
+        frames.append(us_pmi)
+        details.update(us_pmi_details)
+    except Exception as exc:
+        details["US_PMI_MANUFACTURING"] = {"status": "failed", "error": repr(exc)}
+        details["US_PMI_SERVICES"] = {"status": "failed", "error": repr(exc)}
     new = pd.concat(frames, ignore_index=True, sort=False)
     old = read_csv_safe(GLOBAL_MACRO_PATH)
     merged = _merge_history(old, new, ["trade_date", "series"])
@@ -221,7 +231,7 @@ def update_global_macro(settings: dict[str, Any]) -> tuple[int, dict[str, Any]]:
     latest_by_series = {}
     for series in [
         "DGS2", "DGS10", "NET_USD_LIQUIDITY_SOMA", "NET_USD_LIQUIDITY_TOTAL_ASSETS",
-        "PCE_YOY", "FEDFUNDS",
+        "PCE_YOY", "FEDFUNDS", "US_PMI_MANUFACTURING", "US_PMI_SERVICES",
     ]:
         part = merged[merged["series"] == series] if "series" in merged.columns else pd.DataFrame()
         latest_by_series[series] = _latest_value(part, "trade_date")
@@ -230,7 +240,7 @@ def update_global_macro(settings: dict[str, Any]) -> tuple[int, dict[str, Any]]:
         "total_cached_rows": len(merged),
         "source_details": details,
         "latest_by_series": latest_by_series,
-        "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15。",
+        "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15；美国PMI为S&P Global制造业与服务业公开样本。",
     }
 
 

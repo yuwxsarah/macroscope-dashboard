@@ -1,5 +1,8 @@
 import unittest
 from unittest.mock import patch
+import base64
+import json
+import zlib
 
 import pandas as pd
 
@@ -7,12 +10,27 @@ from src.extended_providers import (
     ChinaLiquidityProvider,
     FredTreasuryProvider,
     UsInflationPolicyProvider,
+    UsPmiProvider,
     UsdLiquidityProvider,
 )
 from src.providers import ChinaMarketProvider, PublicMacroProvider
 
 
 class DataSourceFallbackTests(unittest.TestCase):
+    def test_us_pmi_chart_decode_and_parse(self) -> None:
+        payload = [{"series": [{"serie": {"data": [
+            [53.9, 1782864000, None, "2026-07-01"],
+            [54.2, 1785542400, None, "2026-08-01"],
+        ]}}]}]
+        packed = zlib.compress(json.dumps(payload).encode("utf-8"))
+        key = UsPmiProvider.OBFUSCATION_KEY
+        encrypted = bytes(byte ^ key[index % len(key)] for index, byte in enumerate(packed))
+        decoded = UsPmiProvider._decode_chart_payload(base64.b64encode(encrypted).decode("ascii"))
+        frame = UsPmiProvider._parse_chart_payload(decoded, "20260801")
+        self.assertEqual(len(frame), 1)
+        self.assertEqual(frame.iloc[0]["trade_date"], "20260801")
+        self.assertAlmostEqual(frame.iloc[0]["value_pct"], 54.2)
+
     def test_bea_pce_table_parser_calculates_yoy(self) -> None:
         years = ["2025"] * 12 + ["2026"] * 2
         months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC", "JAN", "FEB"]

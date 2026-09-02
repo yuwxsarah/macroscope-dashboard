@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+import base64
 import io
 import json
 import math
 import re
+import zlib
 from datetime import datetime, timedelta
 from typing import Any
 from zoneinfo import ZoneInfo
@@ -415,6 +417,108 @@ class UsInflationPolicyProvider:
                 details[series] = {"status": "failed", "error": repr(exc)}
         if not frames:
             raise DataFetchError(f"PCE与联邦基金利率均抓取失败: {details}")
+        out = pd.concat(frames, ignore_index=True).drop_duplicates(["trade_date", "series"], keep="last")
+        return out.sort_values(["series", "trade_date"]).reset_index(drop=True), details
+
+
+class UsPmiProvider:
+    """S&P Global U.S. manufacturing and services PMI public chart sample."""
+
+    CHART_URL = "https://d3ii0wo49og5mi.cloudfront.net/economics/{symbol}"
+    OBFUSCATION_KEY = b"tradingeconomics-charts-core-api-key"
+    SPECS = [
+        ("US_PMI_MANUFACTURING", "美国S&P Global制造业PMI", "unitedstamanpmi"),
+        ("US_PMI_SERVICES", "美国S&P Global服务业PMI", "unitedstaserpmi"),
+    ]
+    SOURCE = "S&P Global / Trading Economics公开图表（公开样本）"
+
+    @classmethod
+    def _decode_chart_payload(cls, encoded: Any) -> Any:
+        if not isinstance(encoded, str) or not encoded.strip():
+            raise DataFetchError("美国PMI公开图表返回格式异常")
+        try:
+            encrypted = base64.b64decode(encoded)
+            clear = bytes(
+                byte ^ cls.OBFUSCATION_KEY[index % len(cls.OBFUSCATION_KEY)]
+                for index, byte in enumerate(encrypted)
+            )
+            decoded: bytes | None = None
+            for window_bits in (zlib.MAX_WBITS, zlib.MAX_WBITS | 16, -zlib.MAX_WBITS):
+                try:
+                    decoded = zlib.decompress(clear, window_bits)
+                    break
+                except zlib.error:
+                    continue
+            if decoded is None:
+                raise zlib.error("unsupported compressed payload")
+            return json.loads(decoded.decode("utf-8"))
+        except Exception as exc:
+            raise DataFetchError(f"美国PMI公开图表解码失败: {exc}") from exc
+
+    @staticmethod
+    def _parse_chart_payload(payload: Any, start_date: str) -> pd.DataFrame:
+        try:
+            points = payload[0]["series"][0]["serie"]["data"]
+        except (KeyError, IndexError, TypeError) as exc:
+            raise DataFetchError("美国PMI公开图表缺少历史序列") from exc
+        records: list[dict[str, Any]] = []
+        for point in points:
+            if not isinstance(point, list) or len(point) < 2:
+                continue
+            observed = pd.to_datetime(point[3] if len(point) > 3 else None, errors="coerce")
+            if pd.isna(observed):
+                observed = pd.to_datetime(point[1], unit="s", errors="coerce")
+            value = pd.to_numeric(pd.Series([point[0]]), errors="coerce").iloc[0]
+            if pd.notna(observed) and pd.notna(value):
+                records.append({
+                    "trade_date": observed.strftime("%Y%m%d"),
+                    "value_pct": float(value),
+                })
+        frame = pd.DataFrame(records)
+        if frame.empty:
+            raise DataFetchError("美国PMI公开图表历史序列为空")
+        frame = frame[frame["trade_date"] >= start_date]
+        if frame.empty:
+            raise DataFetchError("指定日期范围内没有美国PMI数据")
+        return frame.drop_duplicates("trade_date", keep="last").sort_values("trade_date").reset_index(drop=True)
+
+    @retry(stop=stop_after_attempt(2), wait=wait_exponential(multiplier=1, min=1, max=4), reraise=True)
+    def _fetch_series(self, symbol: str, start_date: str) -> pd.DataFrame:
+        response = requests.get(
+            self.CHART_URL.format(symbol=symbol),
+            params={"span": "max"},
+            timeout=35,
+            headers={
+                **FredTreasuryProvider._headers(),
+                "Origin": "https://tradingeconomics.com",
+                "Referer": "https://tradingeconomics.com/",
+            },
+        )
+        response.raise_for_status()
+        return self._parse_chart_payload(self._decode_chart_payload(response.json()), start_date)
+
+    def fetch_with_details(self, start_date: str = "20000101") -> tuple[pd.DataFrame, dict[str, Any]]:
+        frames: list[pd.DataFrame] = []
+        details: dict[str, Any] = {}
+        for series, name, symbol in self.SPECS:
+            try:
+                frame = self._fetch_series(symbol, start_date).copy()
+                frame["series"] = series
+                frame["name"] = name
+                frame["unit"] = "点"
+                frame["source"] = self.SOURCE
+                frames.append(frame[["trade_date", "series", "name", "value_pct", "unit", "source"]])
+                details[series] = {
+                    "status": "success",
+                    "rows": len(frame),
+                    "latest_date": str(frame["trade_date"].max()),
+                    "source": self.SOURCE,
+                    "coverage_note": "公开图表仅提供有限历史样本，刷新时与本地历史合并保存。",
+                }
+            except Exception as exc:
+                details[series] = {"status": "failed", "error": repr(exc)}
+        if not frames:
+            raise DataFetchError(f"美国制造业与服务业PMI均抓取失败: {details}")
         out = pd.concat(frames, ignore_index=True).drop_duplicates(["trade_date", "series"], keep="last")
         return out.sort_values(["series", "trade_date"]).reset_index(drop=True), details
 

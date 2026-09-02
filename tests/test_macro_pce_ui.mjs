@@ -4,10 +4,14 @@ import test from 'node:test';
 
 const source = fs.readFileSync(new URL('../scripts/build_site.py', import.meta.url), 'utf8');
 
-test('macro page exposes one PMI chart and one combined PCE policy chart', () => {
+test('macro page preserves China PMI plus CPI and adds US PMI and PCE policy charts', () => {
   assert.equal((source.match(/id="pmiChart"/g) || []).length, 1);
+  assert.equal((source.match(/id="usPmiChart"/g) || []).length, 1);
   assert.equal((source.match(/id="pcePolicyChart"/g) || []).length, 1);
-  assert.match(source, /制造业、非制造业与50荣枯线/);
+  assert.match(source, /中国PMI与CPI/);
+  assert.match(source, /中国CPI同比/);
+  assert.match(source, /US_PMI_MANUFACTURING/);
+  assert.match(source, /US_PMI_SERVICES/);
   assert.match(source, /PCE_YOY/);
   assert.match(source, /FEDFUNDS/);
   assert.match(source, /BEA NIPA 2\.8\.4/);
