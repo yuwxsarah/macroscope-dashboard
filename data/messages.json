@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02 17:54:41+08:00",
+  "updated_at": "2026-09-02 19:17:37+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-d1b5140ea4f9e7a2",
+      "category": "重大新闻",
+      "title": "公募年内参与定增浮盈37亿，江波龙等热门项目成“陷阱” 27家参与定增公募机构中，66.67%的机构实现浮盈 362 23分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103344510.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d443cdb22322fee7",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月2日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 1912 41分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103344489.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c887ac7e8cd2ce8f",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这13股，卖出通源石油1.33亿元 共37只个股出现了机构的身影。 1540 43分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103344483.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4d766ba5bdca2b6a",
+      "category": "重大新闻",
+      "title": "谨慎观望？ 765 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103344433.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-14f1ec4fb07961c4",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共55只个股涨停 这只农业股5连板 影视板块欢瑞世纪3连板。一图速览今日连板股>> 2005 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103344377.html",
+      "published_at": "2026-09-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-4d766ba5bdca2b6a",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ea3fdce6799edc88",
-      "category": "重大新闻",
-      "title": "英伟达财报提振AI信心，A股科技股反弹成色几何？ 英伟达超预期财报虽短期提振A股科技板块情绪，但受制于获利盘宣泄、美债利率高企及 AI 商业化前景不确定性等多重",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103337257.html",
-      "published_at": "2026-08-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3c7a4bbb338da4ff",
-      "category": "重大新闻",
-      "title": "上百只基金亮出基民 “盈利账”：净值与真实获得感之间隔着什么？ 这一次，基金“买家秀”终于摆上了台面。谁制造了“基金赚、基民亏”的剪刀差？ 11398 昨天 2",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103337251.html",
-      "published_at": "2026-08-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-05ba806e61c910c9",
-      "category": "重大新闻",
-      "title": "八个月清盘追平去年全年，发起式基金“续期券”卡在哪 当年以“利益绑定”为名低门槛成立的发起式基金，三年后迎来命运的分野。 796 46分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103335345.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bc4a26d0ab612f09",
-      "category": "重大新闻",
-      "title": "单季亏逾33亿！温氏股份中报由盈转亏，猪价反弹能否托起业绩底？ 温氏股份交出2024年来最差中报，猪周期底部信号渐明？ 1385 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103335261.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a3e5c458dd431889",
-      "category": "重大新闻",
-      "title": "核心条款未谈拢、重组上会被否，月内多起并购重组宣告终止 “并购重组交易的撮合难点在于估值与定价。” 1137 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103335272.html",
-      "published_at": "2026-08-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-02 17:54:41+08:00",
+  "last_checked_at": "2026-09-02 19:17:37+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 45344,
+    "rows": 42162,
     "covered_stocks": 4795,
     "requested_stocks": 5026,
     "failed_stocks": 231,
     "coverage_rate": 0.954,
-    "news_symbols_with_items": 5056,
-    "notice_rows": 5074,
-    "stock_news_rows": 40270,
+    "news_symbols_with_items": 4776,
+    "notice_rows": 1781,
+    "stock_news_rows": 40381,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
