@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import test from 'node:test';
+
+const source = fs.readFileSync(new URL('../scripts/build_site.py', import.meta.url), 'utf8');
+
+test('macro page exposes one PMI chart and one combined PCE policy chart', () => {
+  assert.equal((source.match(/id="pmiChart"/g) || []).length, 1);
+  assert.equal((source.match(/id="pcePolicyChart"/g) || []).length, 1);
+  assert.match(source, /制造业、非制造业与50荣枯线/);
+  assert.match(source, /PCE_YOY/);
+  assert.match(source, /FEDFUNDS/);
+  assert.match(source, /BEA NIPA 2\.8\.4/);
+  assert.match(source, /美联储 H\.15/);
+});

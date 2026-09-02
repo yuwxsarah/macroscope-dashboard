@@ -14,6 +14,7 @@ from src.extended_providers import (
     FredTreasuryProvider,
     FundSubscriptionProvider,
     GlobalMarketProvider,
+    UsInflationPolicyProvider,
     UsdLiquidityProvider,
 )
 from src.providers import ChinaMarketProvider, PublicMacroProvider
@@ -204,12 +205,24 @@ def update_global_macro(settings: dict[str, Any]) -> tuple[int, dict[str, Any]]:
         details["USD_LIQUIDITY"] = liquidity_details
     except Exception as exc:
         details["USD_LIQUIDITY"] = {"status": "failed", "error": repr(exc)}
+    try:
+        inflation_policy, policy_details = UsInflationPolicyProvider().fetch_with_details(
+            settings.get("us_inflation_start_date", "20000101")
+        )
+        frames.append(inflation_policy)
+        details.update(policy_details)
+    except Exception as exc:
+        details["PCE_YOY"] = {"status": "failed", "error": repr(exc)}
+        details["FEDFUNDS"] = {"status": "failed", "error": repr(exc)}
     new = pd.concat(frames, ignore_index=True, sort=False)
     old = read_csv_safe(GLOBAL_MACRO_PATH)
     merged = _merge_history(old, new, ["trade_date", "series"])
     write_csv_atomic(merged, GLOBAL_MACRO_PATH)
     latest_by_series = {}
-    for series in ["DGS2", "DGS10", "NET_USD_LIQUIDITY_SOMA", "NET_USD_LIQUIDITY_TOTAL_ASSETS"]:
+    for series in [
+        "DGS2", "DGS10", "NET_USD_LIQUIDITY_SOMA", "NET_USD_LIQUIDITY_TOTAL_ASSETS",
+        "PCE_YOY", "FEDFUNDS",
+    ]:
         part = merged[merged["series"] == series] if "series" in merged.columns else pd.DataFrame()
         latest_by_series[series] = _latest_value(part, "trade_date")
     return len(new), {
@@ -217,7 +230,7 @@ def update_global_macro(settings: dict[str, Any]) -> tuple[int, dict[str, Any]]:
         "total_cached_rows": len(merged),
         "source_details": details,
         "latest_by_series": latest_by_series,
-        "note": "DGS2/DGS10独立抓取；美元净流动性优先使用FRED，失败时切换至美联储H.4.1与纽约联储逆回购官方接口。",
+        "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15。",
     }
 
 

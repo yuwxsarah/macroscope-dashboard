@@ -3,11 +3,45 @@ from unittest.mock import patch
 
 import pandas as pd
 
-from src.extended_providers import ChinaLiquidityProvider, FredTreasuryProvider, UsdLiquidityProvider
+from src.extended_providers import (
+    ChinaLiquidityProvider,
+    FredTreasuryProvider,
+    UsInflationPolicyProvider,
+    UsdLiquidityProvider,
+)
 from src.providers import ChinaMarketProvider, PublicMacroProvider
 
 
 class DataSourceFallbackTests(unittest.TestCase):
+    def test_bea_pce_table_parser_calculates_yoy(self) -> None:
+        years = ["2025"] * 12 + ["2026"] * 2
+        months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC", "JAN", "FEB"]
+        values = [100 + i for i in range(14)]
+        table = {"Data_Rows": [
+            [{"CV": "Line"}, {"CV": ""}] + [{"CV": value} for value in years],
+            [{"CV": "Line"}, {"CV": ""}] + [{"CV": value} for value in months],
+            [{"CV": "1"}, {"CV": "Personal consumption expenditures (PCE)"}]
+            + [{"CV": str(value)} for value in values],
+        ]}
+        frame = UsInflationPolicyProvider._parse_bea_pce_table(table, "20250101")
+        self.assertEqual(frame.iloc[0]["trade_date"], "20260101")
+        self.assertAlmostEqual(frame.iloc[0]["value_pct"], 12.0)
+
+    def test_fed_funds_csv_parser(self) -> None:
+        text = '\n'.join([
+            '"Series Description","Federal funds effective rate"',
+            '"Unit:","Percent:_Per_Year"',
+            '"Multiplier:","1"',
+            '"Currency:","NA"',
+            '"Unique Identifier: ","H15/H15/RIFSPFF_N.M"',
+            '"Time Period","RIFSPFF_N.M"',
+            '2026-07,3.63',
+            '2026-08,3.64',
+        ])
+        frame = UsInflationPolicyProvider._parse_fed_funds_csv(text, "20260101")
+        self.assertEqual(frame.iloc[-1]["trade_date"], "20260801")
+        self.assertAlmostEqual(frame.iloc[-1]["value_pct"], 3.64)
+
     def test_chinamoney_dr_csv_parser(self) -> None:
         text = "2026-08-31,,,,,,1.4219,1.4180,1.4376\n2026-08-28,,,,,,1.3333,1.4444,1.5555\n"
         frame = ChinaLiquidityProvider._parse_dr_csv(text)

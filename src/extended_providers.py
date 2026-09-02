@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import io
+import json
 import math
 import re
 from datetime import datetime, timedelta
@@ -254,6 +255,168 @@ class FredTreasuryProvider:
 
     def fetch(self, start_date: str) -> pd.DataFrame:
         return self.fetch_with_details(start_date)[0]
+
+
+class UsInflationPolicyProvider:
+    """Headline PCE inflation and the effective federal funds rate.
+
+    PCE comes from BEA NIPA table 2.8.4. The official price index is
+    transformed into a year-over-year percentage change. The policy rate
+    comes from the Federal Reserve H.15 monthly data package.
+    """
+
+    BEA_URL = "https://apps.bea.gov/iTablecore/data/app/GetSteps"
+    FED_DOWNLOAD_URL = "https://www.federalreserve.gov/datadownload/Download.aspx"
+    FED_OUTPUT_URL = "https://www.federalreserve.gov/datadownload/Output.aspx"
+    FED_MONTHLY_PACKAGE = "d7e27b7b09a3a7feae95b9c61781fcd8"
+
+    @staticmethod
+    def _headers() -> dict[str, str]:
+        return FredTreasuryProvider._headers()
+
+    @staticmethod
+    def _parse_bea_pce_table(table: dict[str, Any], start_date: str) -> pd.DataFrame:
+        rows = table.get("Data_Rows", []) if isinstance(table, dict) else []
+        if len(rows) < 3:
+            raise DataFetchError("BEA NIPA 2.8.4缺少PCE数据行")
+
+        years = [str(cell.get("CV", "")).strip() for cell in rows[0][2:]]
+        months = [str(cell.get("CV", "")).strip() for cell in rows[1][2:]]
+        pce_row = next(
+            (
+                row for row in rows[2:]
+                if len(row) > 2 and (
+                    str(row[0].get("CV", "")).strip() == "1"
+                    or "personal consumption expenditures (pce)" in str(row[1].get("CV", "")).lower()
+                )
+            ),
+            None,
+        )
+        if pce_row is None:
+            raise DataFetchError("BEA NIPA 2.8.4未找到PCE总指数")
+
+        values = [cell.get("CV") for cell in pce_row[2:]]
+        records: list[dict[str, Any]] = []
+        for year, month, value in zip(years, months, values):
+            observed = pd.to_datetime(f"{year}-{month}-01", format="%Y-%b-%d", errors="coerce")
+            parsed = pd.to_numeric(pd.Series([str(value).replace(",", "")]), errors="coerce").iloc[0]
+            if pd.notna(observed) and pd.notna(parsed):
+                records.append({"date": observed, "pce_index": float(parsed)})
+        if not records:
+            raise DataFetchError("BEA NIPA 2.8.4的PCE总指数为空")
+
+        frame = pd.DataFrame(records).drop_duplicates("date", keep="last").sort_values("date")
+        frame["value_pct"] = frame["pce_index"].pct_change(12, fill_method=None) * 100
+        frame["trade_date"] = frame["date"].dt.strftime("%Y%m%d")
+        frame = frame.dropna(subset=["value_pct"])
+        frame = frame[frame["trade_date"] >= start_date]
+        if frame.empty:
+            raise DataFetchError("BEA PCE同比序列为空")
+        return frame[["trade_date", "value_pct"]].reset_index(drop=True)
+
+    @staticmethod
+    def _parse_fed_funds_csv(text: str, start_date: str) -> pd.DataFrame:
+        lines = text.splitlines()
+        header_idx = next(
+            (i for i, line in enumerate(lines) if line.lstrip('\ufeff').startswith('"Time Period"')),
+            None,
+        )
+        if header_idx is None:
+            raise DataFetchError("美联储H.15 CSV未找到数据表头")
+        raw = pd.read_csv(io.StringIO("\n".join(lines[header_idx:])))
+        date_col = pick_column(raw, ["Time Period", "DATE", "date"])
+        value_col = pick_column(raw, ["RIFSPFF_N.M", "FEDFUNDS"])
+        if date_col is None or value_col is None:
+            raise DataFetchError(f"美联储H.15 CSV缺少联邦基金利率字段: {list(raw.columns)}")
+        observed = pd.to_datetime(raw[date_col].astype(str) + "-01", format="%Y-%m-%d", errors="coerce")
+        out = pd.DataFrame({
+            "trade_date": observed.dt.strftime("%Y%m%d"),
+            "value_pct": numeric(raw[value_col]),
+        }).dropna(subset=["trade_date", "value_pct"])
+        out = out[out["trade_date"] >= start_date]
+        if out.empty:
+            raise DataFetchError("美联储H.15联邦基金利率序列为空")
+        return out.drop_duplicates("trade_date", keep="last").sort_values("trade_date").reset_index(drop=True)
+
+    @retry(stop=stop_after_attempt(2), wait=wait_exponential(multiplier=1, min=1, max=4), reraise=True)
+    def _fetch_pce(self, start_date: str) -> pd.DataFrame:
+        first_year = max(1959, pd.to_datetime(start_date).year - 1)
+        last_year = datetime.now(ZoneInfo("Asia/Shanghai")).year
+        request_data = [
+            ["reqid", "19"], ["step", "3"], ["isuri", "1"],
+            ["nipa_table_list", "81"], ["categories", "survey"],
+            ["First_Year", str(first_year)], ["Last_Year", str(last_year)],
+            ["Series", "M"], ["Select_all_years", "0"],
+        ]
+        response = requests.post(
+            self.BEA_URL,
+            json={"appid": 19, "steps": [3], "data": request_data},
+            timeout=45,
+            headers={**self._headers(), "Content-Type": "application/json"},
+        )
+        response.raise_for_status()
+        payload = response.json()
+        prompt = next(
+            (
+                prompt for step in payload.get("Steps", []) if step.get("Number") == 3
+                for prompt in step.get("Prompts", []) if prompt.get("UIControl") == "Table"
+            ),
+            None,
+        )
+        if prompt is None:
+            raise DataFetchError("BEA交互表未返回NIPA 2.8.4")
+        prompt_data = json.loads(prompt.get("PromtData", "{}"))
+        table = json.loads(prompt_data.get("Table", "{}"))
+        return self._parse_bea_pce_table(table, start_date)
+
+    @retry(stop=stop_after_attempt(2), wait=wait_exponential(multiplier=1, min=1, max=4), reraise=True)
+    def _fetch_fed_funds(self, start_date: str) -> pd.DataFrame:
+        with requests.Session() as session:
+            session.headers.update(self._headers())
+            landing = session.get(self.FED_DOWNLOAD_URL, params={"rel": "H15"}, timeout=25)
+            landing.raise_for_status()
+            response = session.get(
+                self.FED_OUTPUT_URL,
+                params={
+                    "rel": "H15", "series": self.FED_MONTHLY_PACKAGE,
+                    "lastobs": "1000", "from": "", "to": "",
+                    "filetype": "csv", "label": "include",
+                    "layout": "seriescolumn", "type": "package",
+                },
+                timeout=45,
+            )
+            response.raise_for_status()
+            if "text/csv" not in response.headers.get("Content-Type", "").lower():
+                raise DataFetchError("美联储H.15没有返回CSV")
+            return self._parse_fed_funds_csv(response.text, start_date)
+
+    def fetch_with_details(self, start_date: str = "20000101") -> tuple[pd.DataFrame, dict[str, Any]]:
+        frames: list[pd.DataFrame] = []
+        details: dict[str, Any] = {}
+        specs = [
+            ("PCE_YOY", "美国PCE价格指数同比", "美国经济分析局BEA NIPA表2.8.4", self._fetch_pce),
+            ("FEDFUNDS", "美国有效联邦基金利率", "美联储H.15月度数据包", self._fetch_fed_funds),
+        ]
+        for series, name, source, fetcher in specs:
+            try:
+                frame = fetcher(start_date).copy()
+                frame["series"] = series
+                frame["name"] = name
+                frame["unit"] = "%"
+                frame["source"] = source
+                frames.append(frame[["trade_date", "series", "name", "value_pct", "unit", "source"]])
+                details[series] = {
+                    "status": "success",
+                    "rows": len(frame),
+                    "latest_date": str(frame["trade_date"].max()),
+                    "source": source,
+                }
+            except Exception as exc:
+                details[series] = {"status": "failed", "error": repr(exc)}
+        if not frames:
+            raise DataFetchError(f"PCE与联邦基金利率均抓取失败: {details}")
+        out = pd.concat(frames, ignore_index=True).drop_duplicates(["trade_date", "series"], keep="last")
+        return out.sort_values(["series", "trade_date"]).reset_index(drop=True), details
 
 
 class UsdLiquidityProvider:
