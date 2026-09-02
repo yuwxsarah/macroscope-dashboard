@@ -28739,6 +28739,8 @@
 20230801,DGS2,美国2年期国债收益率,4.92,%,美联储H.15 / FRED CSV
 20230801,FEDFUNDS,美国有效联邦基金利率,5.33,%,美联储H.15月度数据包
 20230801,PCE_YOY,美国PCE价格指数同比,3.43205991996991,%,美国经济分析局BEA NIPA表2.8.4
+20230801,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,47.9,点,S&P Global / Trading Economics公开图表（公开样本）
+20230801,US_PMI_SERVICES,美国S&P Global服务业PMI,50.5,点,S&P Global / Trading Economics公开图表（公开样本）
 20230802,DGS10,美国10年期国债收益率,4.08,%,美联储H.15 / FRED CSV
 20230802,DGS2,美国2年期国债收益率,4.88,%,美联储H.15 / FRED CSV
 20230802,NET_USD_LIQUIDITY_SOMA,美元净流动性（SOMA-TGA-RRP）,5.3368,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
@@ -28797,6 +28799,8 @@
 20230901,DGS2,美国2年期国债收益率,4.87,%,美联储H.15 / FRED CSV
 20230901,FEDFUNDS,美国有效联邦基金利率,5.33,%,美联储H.15月度数据包
 20230901,PCE_YOY,美国PCE价格指数同比,3.4488928270185903,%,美国经济分析局BEA NIPA表2.8.4
+20230901,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,49.8,点,S&P Global / Trading Economics公开图表（公开样本）
+20230901,US_PMI_SERVICES,美国S&P Global服务业PMI,50.1,点,S&P Global / Trading Economics公开图表（公开样本）
 20230905,DGS10,美国10年期国债收益率,4.27,%,美联储H.15 / FRED CSV
 20230905,DGS2,美国2年期国债收益率,4.94,%,美联储H.15 / FRED CSV
 20230906,DGS10,美国10年期国债收益率,4.3,%,美联储H.15 / FRED CSV
@@ -28845,6 +28849,8 @@
 20230929,DGS2,美国2年期国债收益率,5.03,%,美联储H.15 / FRED CSV
 20231001,FEDFUNDS,美国有效联邦基金利率,5.33,%,美联储H.15月度数据包
 20231001,PCE_YOY,美国PCE价格指数同比,3.0232617305099296,%,美国经济分析局BEA NIPA表2.8.4
+20231001,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,50.0,点,S&P Global / Trading Economics公开图表（公开样本）
+20231001,US_PMI_SERVICES,美国S&P Global服务业PMI,50.6,点,S&P Global / Trading Economics公开图表（公开样本）
 20231002,DGS10,美国10年期国债收益率,4.69,%,美联储H.15 / FRED CSV
 20231002,DGS2,美国2年期国债收益率,5.12,%,美联储H.15 / FRED CSV
 20231003,DGS10,美国10年期国债收益率,4.81,%,美联储H.15 / FRED CSV
@@ -28901,6 +28907,8 @@
 20231101,NET_USD_LIQUIDITY_SOMA,美元净流动性（SOMA-TGA-RRP）,5.5054,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20231101,NET_USD_LIQUIDITY_TOTAL_ASSETS,美元净流动性（总资产-TGA-RRP）,6.0342,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20231101,PCE_YOY,美国PCE价格指数同比,2.7650899986466193,%,美国经济分析局BEA NIPA表2.8.4
+20231101,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,49.4,点,S&P Global / Trading Economics公开图表（公开样本）
+20231101,US_PMI_SERVICES,美国S&P Global服务业PMI,50.8,点,S&P Global / Trading Economics公开图表（公开样本）
 20231102,DGS10,美国10年期国债收益率,4.67,%,美联储H.15 / FRED CSV
 20231102,DGS2,美国2年期国债收益率,4.98,%,美联储H.15 / FRED CSV
 20231103,DGS10,美国10年期国债收益率,4.57,%,美联储H.15 / FRED CSV
@@ -28953,6 +28961,8 @@
 20231201,DGS2,美国2年期国债收益率,4.56,%,美联储H.15 / FRED CSV
 20231201,FEDFUNDS,美国有效联邦基金利率,5.33,%,美联储H.15月度数据包
 20231201,PCE_YOY,美国PCE价格指数同比,2.7672658467360334,%,美国经济分析局BEA NIPA表2.8.4
+20231201,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,47.9,点,S&P Global / Trading Economics公开图表（公开样本）
+20231201,US_PMI_SERVICES,美国S&P Global服务业PMI,51.4,点,S&P Global / Trading Economics公开图表（公开样本）
 20231204,DGS10,美国10年期国债收益率,4.28,%,美联储H.15 / FRED CSV
 20231204,DGS2,美国2年期国债收益率,4.64,%,美联储H.15 / FRED CSV
 20231205,DGS10,美国10年期国债收益率,4.18,%,美联储H.15 / FRED CSV
@@ -29001,6 +29011,8 @@
 20231229,DGS2,美国2年期国债收益率,4.23,%,美联储H.15 / FRED CSV
 20240101,FEDFUNDS,美国有效联邦基金利率,5.33,%,美联储H.15月度数据包
 20240101,PCE_YOY,美国PCE价格指数同比,2.6987514493606035,%,美国经济分析局BEA NIPA表2.8.4
+20240101,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,50.7,点,S&P Global / Trading Economics公开图表（公开样本）
+20240101,US_PMI_SERVICES,美国S&P Global服务业PMI,52.5,点,S&P Global / Trading Economics公开图表（公开样本）
 20240102,DGS10,美国10年期国债收益率,3.95,%,美联储H.15 / FRED CSV
 20240102,DGS2,美国2年期国债收益率,4.33,%,美联储H.15 / FRED CSV
 20240103,DGS10,美国10年期国债收益率,3.91,%,美联储H.15 / FRED CSV
@@ -29057,6 +29069,8 @@
 20240201,DGS2,美国2年期国债收益率,4.2,%,美联储H.15 / FRED CSV
 20240201,FEDFUNDS,美国有效联邦基金利率,5.33,%,美联储H.15月度数据包
 20240201,PCE_YOY,美国PCE价格指数同比,2.705057426970159,%,美国经济分析局BEA NIPA表2.8.4
+20240201,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,52.2,点,S&P Global / Trading Economics公开图表（公开样本）
+20240201,US_PMI_SERVICES,美国S&P Global服务业PMI,52.3,点,S&P Global / Trading Economics公开图表（公开样本）
 20240202,DGS10,美国10年期国债收益率,4.03,%,美联储H.15 / FRED CSV
 20240202,DGS2,美国2年期国债收益率,4.36,%,美联储H.15 / FRED CSV
 20240205,DGS10,美国10年期国债收益率,4.17,%,美联储H.15 / FRED CSV
@@ -29107,6 +29121,8 @@
 20240301,DGS2,美国2年期国债收益率,4.54,%,美联储H.15 / FRED CSV
 20240301,FEDFUNDS,美国有效联邦基金利率,5.33,%,美联储H.15月度数据包
 20240301,PCE_YOY,美国PCE价格指数同比,2.9279392327126175,%,美国经济分析局BEA NIPA表2.8.4
+20240301,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,51.9,点,S&P Global / Trading Economics公开图表（公开样本）
+20240301,US_PMI_SERVICES,美国S&P Global服务业PMI,51.7,点,S&P Global / Trading Economics公开图表（公开样本）
 20240304,DGS10,美国10年期国债收益率,4.22,%,美联储H.15 / FRED CSV
 20240304,DGS2,美国2年期国债收益率,4.61,%,美联储H.15 / FRED CSV
 20240305,DGS10,美国10年期国债收益率,4.13,%,美联储H.15 / FRED CSV
@@ -29157,6 +29173,8 @@
 20240401,DGS2,美国2年期国债收益率,4.72,%,美联储H.15 / FRED CSV
 20240401,FEDFUNDS,美国有效联邦基金利率,5.33,%,美联储H.15月度数据包
 20240401,PCE_YOY,美国PCE价格指数同比,2.826154012888593,%,美国经济分析局BEA NIPA表2.8.4
+20240401,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,50.0,点,S&P Global / Trading Economics公开图表（公开样本）
+20240401,US_PMI_SERVICES,美国S&P Global服务业PMI,51.3,点,S&P Global / Trading Economics公开图表（公开样本）
 20240402,DGS10,美国10年期国债收益率,4.36,%,美联储H.15 / FRED CSV
 20240402,DGS2,美国2年期国债收益率,4.7,%,美联储H.15 / FRED CSV
 20240403,DGS10,美国10年期国债收益率,4.36,%,美联储H.15 / FRED CSV
@@ -29213,6 +29231,8 @@
 20240501,NET_USD_LIQUIDITY_SOMA,美元净流动性（SOMA-TGA-RRP）,5.5637,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20240501,NET_USD_LIQUIDITY_TOTAL_ASSETS,美元净流动性（总资产-TGA-RRP）,6.0339,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20240501,PCE_YOY,美国PCE价格指数同比,2.6616729088639213,%,美国经济分析局BEA NIPA表2.8.4
+20240501,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,51.3,点,S&P Global / Trading Economics公开图表（公开样本）
+20240501,US_PMI_SERVICES,美国S&P Global服务业PMI,54.8,点,S&P Global / Trading Economics公开图表（公开样本）
 20240502,DGS10,美国10年期国债收益率,4.58,%,美联储H.15 / FRED CSV
 20240502,DGS2,美国2年期国债收益率,4.87,%,美联储H.15 / FRED CSV
 20240503,DGS10,美国10年期国债收益率,4.5,%,美联储H.15 / FRED CSV
@@ -29265,6 +29285,8 @@
 20240531,DGS2,美国2年期国债收益率,4.89,%,美联储H.15 / FRED CSV
 20240601,FEDFUNDS,美国有效联邦基金利率,5.33,%,美联储H.15月度数据包
 20240601,PCE_YOY,美国PCE价格指数同比,2.548373440470164,%,美国经济分析局BEA NIPA表2.8.4
+20240601,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,51.6,点,S&P Global / Trading Economics公开图表（公开样本）
+20240601,US_PMI_SERVICES,美国S&P Global服务业PMI,55.3,点,S&P Global / Trading Economics公开图表（公开样本）
 20240603,DGS10,美国10年期国债收益率,4.41,%,美联储H.15 / FRED CSV
 20240603,DGS2,美国2年期国债收益率,4.82,%,美联储H.15 / FRED CSV
 20240604,DGS10,美国10年期国债收益率,4.33,%,美联储H.15 / FRED CSV
@@ -29315,6 +29337,8 @@
 20240701,DGS2,美国2年期国债收益率,4.77,%,美联储H.15 / FRED CSV
 20240701,FEDFUNDS,美国有效联邦基金利率,5.33,%,美联储H.15月度数据包
 20240701,PCE_YOY,美国PCE价格指数同比,2.594376777467322,%,美国经济分析局BEA NIPA表2.8.4
+20240701,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,49.6,点,S&P Global / Trading Economics公开图表（公开样本）
+20240701,US_PMI_SERVICES,美国S&P Global服务业PMI,55.0,点,S&P Global / Trading Economics公开图表（公开样本）
 20240702,DGS10,美国10年期国债收益率,4.43,%,美联储H.15 / FRED CSV
 20240702,DGS2,美国2年期国债收益率,4.74,%,美联储H.15 / FRED CSV
 20240703,DGS10,美国10年期国债收益率,4.36,%,美联储H.15 / FRED CSV
@@ -29371,6 +29395,8 @@
 20240801,DGS2,美国2年期国债收益率,4.16,%,美联储H.15 / FRED CSV
 20240801,FEDFUNDS,美国有效联邦基金利率,5.33,%,美联储H.15月度数据包
 20240801,PCE_YOY,美国PCE价格指数同比,2.412994957427461,%,美国经济分析局BEA NIPA表2.8.4
+20240801,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,47.9,点,S&P Global / Trading Economics公开图表（公开样本）
+20240801,US_PMI_SERVICES,美国S&P Global服务业PMI,55.7,点,S&P Global / Trading Economics公开图表（公开样本）
 20240802,DGS10,美国10年期国债收益率,3.8,%,美联储H.15 / FRED CSV
 20240802,DGS2,美国2年期国债收益率,3.88,%,美联储H.15 / FRED CSV
 20240805,DGS10,美国10年期国债收益率,3.78,%,美联储H.15 / FRED CSV
@@ -29423,6 +29449,8 @@
 20240830,DGS2,美国2年期国债收益率,3.91,%,美联储H.15 / FRED CSV
 20240901,FEDFUNDS,美国有效联邦基金利率,5.13,%,美联储H.15月度数据包
 20240901,PCE_YOY,美国PCE价格指数同比,2.260766436883843,%,美国经济分析局BEA NIPA表2.8.4
+20240901,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,47.3,点,S&P Global / Trading Economics公开图表（公开样本）
+20240901,US_PMI_SERVICES,美国S&P Global服务业PMI,55.2,点,S&P Global / Trading Economics公开图表（公开样本）
 20240903,DGS10,美国10年期国债收益率,3.84,%,美联储H.15 / FRED CSV
 20240903,DGS2,美国2年期国债收益率,3.88,%,美联储H.15 / FRED CSV
 20240904,DGS10,美国10年期国债收益率,3.77,%,美联储H.15 / FRED CSV
@@ -29475,6 +29503,8 @@
 20241001,DGS2,美国2年期国债收益率,3.61,%,美联储H.15 / FRED CSV
 20241001,FEDFUNDS,美国有效联邦基金利率,4.83,%,美联储H.15月度数据包
 20241001,PCE_YOY,美国PCE价格指数同比,2.4776925356425616,%,美国经济分析局BEA NIPA表2.8.4
+20241001,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,48.5,点,S&P Global / Trading Economics公开图表（公开样本）
+20241001,US_PMI_SERVICES,美国S&P Global服务业PMI,55.0,点,S&P Global / Trading Economics公开图表（公开样本）
 20241002,DGS10,美国10年期国债收益率,3.79,%,美联储H.15 / FRED CSV
 20241002,DGS2,美国2年期国债收益率,3.63,%,美联储H.15 / FRED CSV
 20241002,NET_USD_LIQUIDITY_SOMA,美元净流动性（SOMA-TGA-RRP）,5.442,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
@@ -29531,6 +29561,8 @@
 20241101,DGS2,美国2年期国债收益率,4.21,%,美联储H.15 / FRED CSV
 20241101,FEDFUNDS,美国有效联邦基金利率,4.64,%,美联储H.15月度数据包
 20241101,PCE_YOY,美国PCE价格指数同比,2.5878034125423,%,美国经济分析局BEA NIPA表2.8.4
+20241101,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,49.7,点,S&P Global / Trading Economics公开图表（公开样本）
+20241101,US_PMI_SERVICES,美国S&P Global服务业PMI,56.1,点,S&P Global / Trading Economics公开图表（公开样本）
 20241104,DGS10,美国10年期国债收益率,4.31,%,美联储H.15 / FRED CSV
 20241104,DGS2,美国2年期国债收益率,4.17,%,美联储H.15 / FRED CSV
 20241105,DGS10,美国10年期国债收益率,4.26,%,美联储H.15 / FRED CSV
@@ -29577,6 +29609,8 @@
 20241129,DGS2,美国2年期国债收益率,4.13,%,美联储H.15 / FRED CSV
 20241201,FEDFUNDS,美国有效联邦基金利率,4.48,%,美联储H.15月度数据包
 20241201,PCE_YOY,美国PCE价格指数同比,2.7280946901200087,%,美国经济分析局BEA NIPA表2.8.4
+20241201,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,49.4,点,S&P Global / Trading Economics公开图表（公开样本）
+20241201,US_PMI_SERVICES,美国S&P Global服务业PMI,56.8,点,S&P Global / Trading Economics公开图表（公开样本）
 20241202,DGS10,美国10年期国债收益率,4.19,%,美联储H.15 / FRED CSV
 20241202,DGS2,美国2年期国债收益率,4.17,%,美联储H.15 / FRED CSV
 20241203,DGS10,美国10年期国债收益率,4.23,%,美联储H.15 / FRED CSV
@@ -29631,6 +29665,8 @@
 20250101,NET_USD_LIQUIDITY_SOMA,美元净流动性（SOMA-TGA-RRP）,5.3314,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20250101,NET_USD_LIQUIDITY_TOTAL_ASSETS,美元净流动性（总资产-TGA-RRP）,5.6571,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20250101,PCE_YOY,美国PCE价格指数同比,2.6073795303935166,%,美国经济分析局BEA NIPA表2.8.4
+20250101,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,51.2,点,S&P Global / Trading Economics公开图表（公开样本）
+20250101,US_PMI_SERVICES,美国S&P Global服务业PMI,52.9,点,S&P Global / Trading Economics公开图表（公开样本）
 20250102,DGS10,美国10年期国债收益率,4.57,%,美联储H.15 / FRED CSV
 20250102,DGS2,美国2年期国债收益率,4.25,%,美联储H.15 / FRED CSV
 20250103,DGS10,美国10年期国债收益率,4.6,%,美联储H.15 / FRED CSV
@@ -29683,6 +29719,8 @@
 20250131,DGS2,美国2年期国债收益率,4.22,%,美联储H.15 / FRED CSV
 20250201,FEDFUNDS,美国有效联邦基金利率,4.33,%,美联储H.15月度数据包
 20250201,PCE_YOY,美国PCE价格指数同比,2.7104846734857135,%,美国经济分析局BEA NIPA表2.8.4
+20250201,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,52.7,点,S&P Global / Trading Economics公开图表（公开样本）
+20250201,US_PMI_SERVICES,美国S&P Global服务业PMI,51.0,点,S&P Global / Trading Economics公开图表（公开样本）
 20250203,DGS10,美国10年期国债收益率,4.54,%,美联储H.15 / FRED CSV
 20250203,DGS2,美国2年期国债收益率,4.26,%,美联储H.15 / FRED CSV
 20250204,DGS10,美国10年期国债收益率,4.52,%,美联储H.15 / FRED CSV
@@ -29731,6 +29769,8 @@
 20250228,DGS2,美国2年期国债收益率,3.99,%,美联储H.15 / FRED CSV
 20250301,FEDFUNDS,美国有效联邦基金利率,4.33,%,美联储H.15月度数据包
 20250301,PCE_YOY,美国PCE价格指数同比,2.3594336708984365,%,美国经济分析局BEA NIPA表2.8.4
+20250301,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,50.2,点,S&P Global / Trading Economics公开图表（公开样本）
+20250301,US_PMI_SERVICES,美国S&P Global服务业PMI,54.4,点,S&P Global / Trading Economics公开图表（公开样本）
 20250303,DGS10,美国10年期国债收益率,4.16,%,美联储H.15 / FRED CSV
 20250303,DGS2,美国2年期国债收益率,3.96,%,美联储H.15 / FRED CSV
 20250304,DGS10,美国10年期国债收益率,4.22,%,美联储H.15 / FRED CSV
@@ -29785,6 +29825,8 @@
 20250401,DGS2,美国2年期国债收益率,3.87,%,美联储H.15 / FRED CSV
 20250401,FEDFUNDS,美国有效联邦基金利率,4.33,%,美联储H.15月度数据包
 20250401,PCE_YOY,美国PCE价格指数同比,2.2774259978433964,%,美国经济分析局BEA NIPA表2.8.4
+20250401,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,50.2,点,S&P Global / Trading Economics公开图表（公开样本）
+20250401,US_PMI_SERVICES,美国S&P Global服务业PMI,50.8,点,S&P Global / Trading Economics公开图表（公开样本）
 20250402,DGS10,美国10年期国债收益率,4.2,%,美联储H.15 / FRED CSV
 20250402,DGS2,美国2年期国债收益率,3.91,%,美联储H.15 / FRED CSV
 20250402,NET_USD_LIQUIDITY_SOMA,美元净流动性（SOMA-TGA-RRP）,5.8753,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
@@ -29839,6 +29881,8 @@
 20250501,DGS2,美国2年期国债收益率,3.7,%,美联储H.15 / FRED CSV
 20250501,FEDFUNDS,美国有效联邦基金利率,4.33,%,美联储H.15月度数据包
 20250501,PCE_YOY,美国PCE价格指数同比,2.4580860654408676,%,美国经济分析局BEA NIPA表2.8.4
+20250501,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,52.0,点,S&P Global / Trading Economics公开图表（公开样本）
+20250501,US_PMI_SERVICES,美国S&P Global服务业PMI,53.7,点,S&P Global / Trading Economics公开图表（公开样本）
 20250502,DGS10,美国10年期国债收益率,4.33,%,美联储H.15 / FRED CSV
 20250502,DGS2,美国2年期国债收益率,3.83,%,美联储H.15 / FRED CSV
 20250505,DGS10,美国10年期国债收益率,4.36,%,美联储H.15 / FRED CSV
@@ -29889,6 +29933,8 @@
 20250530,DGS2,美国2年期国债收益率,3.89,%,美联储H.15 / FRED CSV
 20250601,FEDFUNDS,美国有效联邦基金利率,4.33,%,美联储H.15月度数据包
 20250601,PCE_YOY,美国PCE价格指数同比,2.5935129797068024,%,美国经济分析局BEA NIPA表2.8.4
+20250601,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,52.0,点,S&P Global / Trading Economics公开图表（公开样本）
+20250601,US_PMI_SERVICES,美国S&P Global服务业PMI,52.9,点,S&P Global / Trading Economics公开图表（公开样本）
 20250602,DGS10,美国10年期国债收益率,4.46,%,美联储H.15 / FRED CSV
 20250602,DGS2,美国2年期国债收益率,3.94,%,美联储H.15 / FRED CSV
 20250603,DGS10,美国10年期国债收益率,4.46,%,美联储H.15 / FRED CSV
@@ -29941,6 +29987,8 @@
 20250701,DGS2,美国2年期国债收益率,3.78,%,美联储H.15 / FRED CSV
 20250701,FEDFUNDS,美国有效联邦基金利率,4.33,%,美联储H.15月度数据包
 20250701,PCE_YOY,美国PCE价格指数同比,2.605547294239341,%,美国经济分析局BEA NIPA表2.8.4
+20250701,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,49.8,点,S&P Global / Trading Economics公开图表（公开样本）
+20250701,US_PMI_SERVICES,美国S&P Global服务业PMI,55.7,点,S&P Global / Trading Economics公开图表（公开样本）
 20250702,DGS10,美国10年期国债收益率,4.3,%,美联储H.15 / FRED CSV
 20250702,DGS2,美国2年期国债收益率,3.78,%,美联储H.15 / FRED CSV
 20250702,NET_USD_LIQUIDITY_SOMA,美元净流动性（SOMA-TGA-RRP）,5.7396,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
@@ -29997,6 +30045,8 @@
 20250801,DGS2,美国2年期国债收益率,3.69,%,美联储H.15 / FRED CSV
 20250801,FEDFUNDS,美国有效联邦基金利率,4.33,%,美联储H.15月度数据包
 20250801,PCE_YOY,美国PCE价格指数同比,2.7476208541517,%,美国经济分析局BEA NIPA表2.8.4
+20250801,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,53.0,点,S&P Global / Trading Economics公开图表（公开样本）
+20250801,US_PMI_SERVICES,美国S&P Global服务业PMI,54.5,点,S&P Global / Trading Economics公开图表（公开样本）
 20250804,DGS10,美国10年期国债收益率,4.22,%,美联储H.15 / FRED CSV
 20250804,DGS2,美国2年期国债收益率,3.69,%,美联储H.15 / FRED CSV
 20250805,DGS10,美国10年期国债收益率,4.22,%,美联储H.15 / FRED CSV
@@ -30047,6 +30097,8 @@
 20250829,DGS2,美国2年期国债收益率,3.59,%,美联储H.15 / FRED CSV
 20250901,FEDFUNDS,美国有效联邦基金利率,4.22,%,美联储H.15月度数据包
 20250901,PCE_YOY,美国PCE价格指数同比,2.7874424148706556,%,美国经济分析局BEA NIPA表2.8.4
+20250901,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,52.0,点,S&P Global / Trading Economics公开图表（公开样本）
+20250901,US_PMI_SERVICES,美国S&P Global服务业PMI,54.2,点,S&P Global / Trading Economics公开图表（公开样本）
 20250902,DGS10,美国10年期国债收益率,4.28,%,美联储H.15 / FRED CSV
 20250902,DGS2,美国2年期国债收益率,3.66,%,美联储H.15 / FRED CSV
 20250903,DGS10,美国10年期国债收益率,4.22,%,美联储H.15 / FRED CSV
@@ -30103,6 +30155,8 @@
 20251001,NET_USD_LIQUIDITY_SOMA,美元净流动性（SOMA-TGA-RRP）,5.4552,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20251001,NET_USD_LIQUIDITY_TOTAL_ASSETS,美元净流动性（总资产-TGA-RRP）,5.7576,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20251001,PCE_YOY,美国PCE价格指数同比,2.7125805259691216,%,美国经济分析局BEA NIPA表2.8.4
+20251001,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,52.5,点,S&P Global / Trading Economics公开图表（公开样本）
+20251001,US_PMI_SERVICES,美国S&P Global服务业PMI,54.8,点,S&P Global / Trading Economics公开图表（公开样本）
 20251002,DGS10,美国10年期国债收益率,4.1,%,美联储H.15 / FRED CSV
 20251002,DGS2,美国2年期国债收益率,3.55,%,美联储H.15 / FRED CSV
 20251003,DGS10,美国10年期国债收益率,4.13,%,美联储H.15 / FRED CSV
@@ -30155,6 +30209,8 @@
 20251031,DGS2,美国2年期国债收益率,3.6,%,美联储H.15 / FRED CSV
 20251101,FEDFUNDS,美国有效联邦基金利率,3.88,%,美联储H.15月度数据包
 20251101,PCE_YOY,美国PCE价格指数同比,2.8201898312699925,%,美国经济分析局BEA NIPA表2.8.4
+20251101,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,52.2,点,S&P Global / Trading Economics公开图表（公开样本）
+20251101,US_PMI_SERVICES,美国S&P Global服务业PMI,54.1,点,S&P Global / Trading Economics公开图表（公开样本）
 20251103,DGS10,美国10年期国债收益率,4.13,%,美联储H.15 / FRED CSV
 20251103,DGS2,美国2年期国债收益率,3.6,%,美联储H.15 / FRED CSV
 20251104,DGS10,美国10年期国债收益率,4.1,%,美联储H.15 / FRED CSV
@@ -30203,6 +30259,8 @@
 20251201,DGS2,美国2年期国债收益率,3.54,%,美联储H.15 / FRED CSV
 20251201,FEDFUNDS,美国有效联邦基金利率,3.72,%,美联储H.15月度数据包
 20251201,PCE_YOY,美国PCE价格指数同比,2.878083518031027,%,美国经济分析局BEA NIPA表2.8.4
+20251201,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,51.8,点,S&P Global / Trading Economics公开图表（公开样本）
+20251201,US_PMI_SERVICES,美国S&P Global服务业PMI,52.5,点,S&P Global / Trading Economics公开图表（公开样本）
 20251202,DGS10,美国10年期国债收益率,4.09,%,美联储H.15 / FRED CSV
 20251202,DGS2,美国2年期国债收益率,3.51,%,美联储H.15 / FRED CSV
 20251203,DGS10,美国10年期国债收益率,4.06,%,美联储H.15 / FRED CSV
@@ -30257,6 +30315,8 @@
 20251231,NET_USD_LIQUIDITY_TOTAL_ASSETS,美元净流动性（总资产-TGA-RRP）,5.6618,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20260101,FEDFUNDS,美国有效联邦基金利率,3.64,%,美联储H.15月度数据包
 20260101,PCE_YOY,美国PCE价格指数同比,2.8752083050942012,%,美国经济分析局BEA NIPA表2.8.4
+20260101,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,52.4,点,S&P Global / Trading Economics公开图表（公开样本）
+20260101,US_PMI_SERVICES,美国S&P Global服务业PMI,52.7,点,S&P Global / Trading Economics公开图表（公开样本）
 20260102,DGS10,美国10年期国债收益率,4.19,%,美联储H.15 / FRED CSV
 20260102,DGS2,美国2年期国债收益率,3.47,%,美联储H.15 / FRED CSV
 20260105,DGS10,美国10年期国债收益率,4.17,%,美联储H.15 / FRED CSV
@@ -30307,6 +30367,8 @@
 20260130,DGS2,美国2年期国债收益率,3.52,%,美联储H.15 / FRED CSV
 20260201,FEDFUNDS,美国有效联邦基金利率,3.64,%,美联储H.15月度数据包
 20260201,PCE_YOY,美国PCE价格指数同比,2.873230041057484,%,美国经济分析局BEA NIPA表2.8.4
+20260201,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,51.6,点,S&P Global / Trading Economics公开图表（公开样本）
+20260201,US_PMI_SERVICES,美国S&P Global服务业PMI,51.7,点,S&P Global / Trading Economics公开图表（公开样本）
 20260202,DGS10,美国10年期国债收益率,4.29,%,美联储H.15 / FRED CSV
 20260202,DGS2,美国2年期国债收益率,3.57,%,美联储H.15 / FRED CSV
 20260203,DGS10,美国10年期国债收益率,4.28,%,美联储H.15 / FRED CSV
@@ -30355,6 +30417,8 @@
 20260227,DGS2,美国2年期国债收益率,3.38,%,美联储H.15 / FRED CSV
 20260301,FEDFUNDS,美国有效联邦基金利率,3.64,%,美联储H.15月度数据包
 20260301,PCE_YOY,美国PCE价格指数同比,3.5429288317545327,%,美国经济分析局BEA NIPA表2.8.4
+20260301,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,52.3,点,S&P Global / Trading Economics公开图表（公开样本）
+20260301,US_PMI_SERVICES,美国S&P Global服务业PMI,49.8,点,S&P Global / Trading Economics公开图表（公开样本）
 20260302,DGS10,美国10年期国债收益率,4.05,%,美联储H.15 / FRED CSV
 20260302,DGS2,美国2年期国债收益率,3.47,%,美联储H.15 / FRED CSV
 20260303,DGS10,美国10年期国债收益率,4.06,%,美联储H.15 / FRED CSV
@@ -30413,6 +30477,8 @@
 20260401,NET_USD_LIQUIDITY_SOMA,美元净流动性（SOMA-TGA-RRP）,5.5836,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20260401,NET_USD_LIQUIDITY_TOTAL_ASSETS,美元净流动性（总资产-TGA-RRP）,5.8697,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20260401,PCE_YOY,美国PCE价格指数同比,3.8018232263178797,%,美国经济分析局BEA NIPA表2.8.4
+20260401,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,54.5,点,S&P Global / Trading Economics公开图表（公开样本）
+20260401,US_PMI_SERVICES,美国S&P Global服务业PMI,51.0,点,S&P Global / Trading Economics公开图表（公开样本）
 20260402,DGS10,美国10年期国债收益率,4.31,%,美联储H.15 / FRED CSV
 20260402,DGS2,美国2年期国债收益率,3.79,%,美联储H.15 / FRED CSV
 20260403,DGS10,美国10年期国债收益率,4.35,%,美联储H.15 / FRED CSV
@@ -30467,6 +30533,8 @@
 20260501,DGS2,美国2年期国债收益率,3.88,%,美联储H.15 / FRED CSV
 20260501,FEDFUNDS,美国有效联邦基金利率,3.63,%,美联储H.15月度数据包
 20260501,PCE_YOY,美国PCE价格指数同比,4.111410033233098,%,美国经济分析局BEA NIPA表2.8.4
+20260501,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,55.1,点,S&P Global / Trading Economics公开图表（公开样本）
+20260501,US_PMI_SERVICES,美国S&P Global服务业PMI,50.7,点,S&P Global / Trading Economics公开图表（公开样本）
 20260504,DGS10,美国10年期国债收益率,4.45,%,美联储H.15 / FRED CSV
 20260504,DGS2,美国2年期国债收益率,3.95,%,美联储H.15 / FRED CSV
 20260505,DGS10,美国10年期国债收益率,4.43,%,美联储H.15 / FRED CSV
@@ -30517,6 +30585,8 @@
 20260601,DGS2,美国2年期国债收益率,4.05,%,美联储H.15 / FRED CSV
 20260601,FEDFUNDS,美国有效联邦基金利率,3.63,%,美联储H.15月度数据包
 20260601,PCE_YOY,美国PCE价格指数同比,3.71697056247684,%,美国经济分析局BEA NIPA表2.8.4
+20260601,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,53.9,点,S&P Global / Trading Economics公开图表（公开样本）
+20260601,US_PMI_SERVICES,美国S&P Global服务业PMI,51.2,点,S&P Global / Trading Economics公开图表（公开样本）
 20260602,DGS10,美国10年期国债收益率,4.46,%,美联储H.15 / FRED CSV
 20260602,DGS2,美国2年期国债收益率,4.05,%,美联储H.15 / FRED CSV
 20260603,DGS10,美国10年期国债收益率,4.49,%,美联储H.15 / FRED CSV
@@ -30571,6 +30641,8 @@
 20260701,NET_USD_LIQUIDITY_SOMA,美元净流动性（SOMA-TGA-RRP）,5.6346,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20260701,NET_USD_LIQUIDITY_TOTAL_ASSETS,美元净流动性（总资产-TGA-RRP）,5.9162,万亿美元,FRED：WSHOSHO/WALCL/WDTGAL/RRPONTSYD
 20260701,PCE_YOY,美国PCE价格指数同比,3.7011657214870874,%,美国经济分析局BEA NIPA表2.8.4
+20260701,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,53.9,点,S&P Global / Trading Economics公开图表（公开样本）
+20260701,US_PMI_SERVICES,美国S&P Global服务业PMI,54.6,点,S&P Global / Trading Economics公开图表（公开样本）
 20260702,DGS10,美国10年期国债收益率,4.49,%,美联储H.15 / FRED CSV
 20260702,DGS2,美国2年期国债收益率,4.14,%,美联储H.15 / FRED CSV
 20260706,DGS10,美国10年期国债收益率,4.48,%,美联储H.15 / FRED CSV
@@ -30622,6 +30694,8 @@
 20260731,DGS10,美国10年期国债收益率,4.75,%,美联储H.15当前发布页
 20260731,DGS2,美国2年期国债收益率,4.28,%,美联储H.15当前发布页
 20260801,FEDFUNDS,美国有效联邦基金利率,3.63,%,美联储H.15月度数据包
+20260801,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,53.9,点,S&P Global / Trading Economics公开图表（公开样本）
+20260801,US_PMI_SERVICES,美国S&P Global服务业PMI,56.8,点,S&P Global / Trading Economics公开图表（公开样本）
 20260803,DGS10,美国10年期国债收益率,4.7,%,美联储H.15当前发布页
 20260803,DGS2,美国2年期国债收益率,4.25,%,美联储H.15当前发布页
 20260804,DGS10,美国10年期国债收益率,4.63,%,美联储H.15当前发布页
