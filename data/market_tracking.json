@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02 08:37:39+08:00",
+  "updated_at": "2026-09-02 10:37:57+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,23 +355,23 @@
   "tracking": {
     "trade_date": "20260901",
     "summary": {
-      "market_score": 49.6,
-      "market_score_before_gate": 49.6,
+      "market_score": 52.8,
+      "market_score_before_gate": 52.8,
       "risk_score": 40.0,
       "risk_level": "橙色",
-      "market_phase": "防御期 / 橙色降风险",
-      "base_position_pct": 30.0,
-      "base_position_range": "20%-40%",
+      "market_phase": "震荡期 / 橙色降风险",
+      "base_position_pct": 50.0,
+      "base_position_range": "40%-60%",
       "risk_discount": 0.8,
       "risk_discount_range": "75%-85%",
-      "suggested_position_pct": 24.5,
-      "suggested_position_range": "15%-34%",
-      "single_stock_limit": "10%",
-      "industry_limit": "25%",
-      "theme_limit": "15%",
+      "suggested_position_pct": 40.5,
+      "suggested_position_range": "30%-51%",
+      "single_stock_limit": "15%",
+      "industry_limit": "35%",
+      "theme_limit": "25%",
       "risk_action": "提前降风险",
-      "liquidity_gate": "流动性原始分<=2.0，按框架规则不建议重仓进攻。",
-      "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
+      "liquidity_gate": "",
+      "concentration_note": "单股上限15%，单行业上限35%，单主题上限25%，以结构性机会为主。",
       "style_signal": "均衡轮动",
       "style_reason": "成长/科技20日动量均值 0.41%；宽基20日动量均值 2.18%；风格差 -1.77%",
       "formula": "实际仓位 = 大盘建议仓位 × 风险折扣"
@@ -400,13 +400,13 @@
       {
         "name": "流动性环境",
         "weight": 20,
-        "score": 36.7,
-        "raw_score": 1.8,
-        "weighted_score": 7.2,
-        "status": "偏弱",
+        "score": 52.4,
+        "raw_score": 2.6,
+        "weighted_score": 10.4,
+        "status": "中性偏弱",
         "basis": [
-          "DR007 暂无，历史分位 50%",
-          "DR007近5期变化 -0.02个百分点",
+          "DR007 1.38%，历史分位 3%",
+          "DR007近5期变化 -0.07个百分点",
           "美元净流动性近4期变化 -0.20万亿美元"
         ],
         "blueprint": [
@@ -426,7 +426,7 @@
         "basis": [
           "公开高频政策指标暂未接入，当前用流动性、信用扩张和经济动能做代理",
           "社融存量同比 暂无",
-          "DR007近5期变化 -0.02个百分点"
+          "DR007近5期变化 -0.07个百分点"
         ],
         "blueprint": [
           "宏观政策 30%",

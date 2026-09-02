@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 173,
-      "started_at": "2026-09-01T19:21:11+08:00",
-      "finished_at": "2026-09-01T19:21:40+08:00",
+      "started_at": "2026-09-02T10:37:08+08:00",
+      "finished_at": "2026-09-02T10:37:28+08:00",
       "latest_date": "202608",
       "total_cached_rows": 173,
       "source_details": {
@@ -43,8 +43,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4971,
-      "started_at": "2026-09-01T19:21:40+08:00",
-      "finished_at": "2026-09-01T19:21:55+08:00",
+      "started_at": "2026-09-02T10:37:28+08:00",
+      "finished_at": "2026-09-02T10:37:41+08:00",
       "latest_date": "20260901",
       "total_cached_rows": 5007,
       "source_details": {
@@ -55,10 +55,10 @@
         },
         "dr": {
           "status": "success",
-          "rows": 65,
-          "latest_date": "20260831",
-          "dr001_pct": 1.4219,
-          "dr007_pct": 1.418,
+          "rows": 66,
+          "latest_date": "20260901",
+          "dr001_pct": 1.3576,
+          "dr007_pct": 1.3841,
           "urls_used": [
             "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/currency/prr-chrt.csv"
           ],
@@ -67,8 +67,8 @@
         }
       },
       "latest_by_series": {
-        "dr001_pct": "20260831",
-        "dr007_pct": "20260831",
+        "dr001_pct": "20260901",
+        "dr007_pct": "20260901",
         "shibor_on_pct": "20260901"
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
@@ -487,7 +487,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-02T08:37:39+08:00",
-  "overall_status": "partial",
-  "last_update_mode": "global"
+  "updated_at": "2026-09-02T10:37:57+08:00",
+  "overall_status": "success",
+  "last_update_mode": "macro"
 }
