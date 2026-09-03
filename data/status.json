@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 173,
-      "started_at": "2026-09-02T19:20:25+08:00",
-      "finished_at": "2026-09-02T19:20:51+08:00",
+      "started_at": "2026-09-03T15:09:03+08:00",
+      "finished_at": "2026-09-03T15:09:32+08:00",
       "latest_date": "202608",
       "total_cached_rows": 173,
       "source_details": {
@@ -42,23 +42,23 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 4972,
-      "started_at": "2026-09-02T19:20:51+08:00",
-      "finished_at": "2026-09-02T19:21:05+08:00",
-      "latest_date": "20260902",
-      "total_cached_rows": 5008,
+      "rows": 4973,
+      "started_at": "2026-09-03T15:09:32+08:00",
+      "finished_at": "2026-09-03T15:09:46+08:00",
+      "latest_date": "20260903",
+      "total_cached_rows": 5009,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4972,
+          "rows": 4973,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
           "status": "success",
           "rows": 66,
-          "latest_date": "20260901",
-          "dr001_pct": 1.3576,
-          "dr007_pct": 1.3841,
+          "latest_date": "20260902",
+          "dr001_pct": 1.3594,
+          "dr007_pct": 1.3738,
           "urls_used": [
             "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/currency/prr-chrt.csv"
           ],
@@ -67,12 +67,12 @@
         }
       },
       "latest_by_series": {
-        "dr001_pct": "20260901",
-        "dr007_pct": "20260901",
-        "shibor_on_pct": "20260902"
+        "dr001_pct": "20260902",
+        "dr007_pct": "20260902",
+        "shibor_on_pct": "20260903"
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5008
+      "cached_rows": 5009
     },
     "market": {
       "status": "success",
@@ -517,7 +517,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-03T08:40:42+08:00",
-  "overall_status": "partial",
-  "last_update_mode": "global"
+  "updated_at": "2026-09-03T15:10:02+08:00",
+  "overall_status": "success",
+  "last_update_mode": "macro"
 }
