@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03 23:16:27+08:00",
+  "updated_at": "2026-09-04 00:05:22+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,7 +357,7 @@
     "summary": {
       "market_score": 50.3,
       "market_score_before_gate": 50.3,
-      "risk_score": 66.5,
+      "risk_score": 67.9,
       "risk_level": "红色",
       "market_phase": "震荡期 / 红色预警",
       "base_position_pct": 50.0,
@@ -459,15 +459,15 @@
       {
         "name": "估值水平",
         "weight": 15,
-        "score": 33.7,
+        "score": 33.3,
         "raw_score": 1.7,
         "weighted_score": 5.1,
         "status": "偏弱",
         "basis": [
-          "指数PE历史分位均值 66%",
-          "上证综指 PE历史分位 68%",
-          "上证50 PE历史分位 72%",
-          "沪深300 PE历史分位 64%"
+          "指数PE历史分位均值 67%",
+          "上证综指 PE历史分位 56%",
+          "上证50 PE历史分位 66%",
+          "沪深300 PE历史分位 53%"
         ],
         "blueprint": [
           "宽基指数估值 30%",
@@ -485,7 +485,7 @@
         "status": "中性偏弱",
         "basis": [
           "上涨家数占比 34.59%",
-          "A股成交额/总市值 1.54%",
+          "A股成交额/总市值 3.98%",
           "交易拥挤度 42.84%"
         ],
         "blueprint": [
@@ -555,34 +555,34 @@
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 6.3,
-        "raw_risk": 41.8,
-        "level": "中",
+        "risk": 7.8,
+        "raw_risk": 52.3,
+        "level": "偏高",
         "basis": [
-          "两融/总市值 2.33%，历史分位 79%",
+          "两融/总市值 6.01%，历史分位 100%",
           "交易拥挤度历史分位 5%"
         ]
       },
       {
         "name": "跨资产压力",
         "weight": 10,
-        "risk": 7.8,
-        "raw_risk": 78.3,
+        "risk": 7.6,
+        "raw_risk": 76.3,
         "level": "高",
         "basis": [
           "美国10年期国债 4.79%",
-          "纳斯达克20日动量 -0.55%",
+          "纳斯达克20日动量 0.70%",
           "美元净流动性 5.50万亿美元"
         ]
       },
       {
         "name": "估值盈利背离",
         "weight": 10,
-        "risk": 6.0,
-        "raw_risk": 60.3,
+        "risk": 6.1,
+        "raw_risk": 60.5,
         "level": "偏高",
         "basis": [
-          "指数PE历史分位均值 66%",
+          "指数PE历史分位均值 67%",
           "盈利周期原始分 2.3/5"
         ]
       },
@@ -601,9 +601,9 @@
     "signals": {
       "up_ratio_pct": 34.59,
       "total_amount_trillion": 1.757,
-      "broad_turnover_pct": 1.543,
+      "broad_turnover_pct": 3.984,
       "crowding_pct": 42.84,
-      "margin_to_market_cap_pct": 2.329,
+      "margin_to_market_cap_pct": 6.013,
       "index_momentum_20d_pct": -3.03,
       "dgs10_pct": 4.79
     }
