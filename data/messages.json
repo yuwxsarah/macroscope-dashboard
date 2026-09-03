@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03 22:19:02+08:00",
+  "updated_at": "2026-09-03 23:16:14+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-7ba9948da2014b14",
+      "category": "重大新闻",
+      "title": "56只全员盈利、8只悉数亏损，定开基金为何放大盈亏极值？ 究竟是“管住手”还是“焊死车门”？ 1974 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103346659.html",
+      "published_at": "2026-09-03",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e5e59e22b0fc9be3",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月3日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 40104 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103346478.html",
+      "published_at": "2026-09-03",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-09647898379236b6",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这10股，卖出九鼎新材4543万元 共31只个股出现了机构的身影。 6996 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103346449.html",
+      "published_at": "2026-09-03",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c3538c0975ac12f6",
+      "category": "重大新闻",
+      "title": "横盘博弈 2160 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103346401.html",
+      "published_at": "2026-09-03",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0e8b1a8c07481943",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共46只个股涨停 这只零售股5连板 传媒板块龙版传媒4连板。一图速览今日连板股>> 4237 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103346251.html",
+      "published_at": "2026-09-03",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-7ba9948da2014b14",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b4372583b68616a0",
-      "category": "重大新闻",
-      "title": "晚间公告｜8月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 55108 08-28 18:46",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103339007.html",
-      "published_at": "2026-08-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-63355eee31d6548b",
-      "category": "重大新闻",
-      "title": "小幅加仓 4640 08-28 17:56",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103338918.html",
-      "published_at": "2026-08-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-88083ca4c9e2db9c",
-      "category": "重大新闻",
-      "title": "证监会发布12条意见，明确支持房企合理融资、加大债券融资支持力度 “一视同仁满足不同所有制房地产开发企业合理融资需求。” 21783 08-28 20:07",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103339211.html",
-      "published_at": "2026-08-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b4372583b68616a0",
-      "category": "重大新闻",
-      "title": "晚间公告｜8月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 54178 08-28 18:46",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103339007.html",
-      "published_at": "2026-08-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-63355eee31d6548b",
-      "category": "重大新闻",
-      "title": "小幅加仓 4516 08-28 17:56",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103338918.html",
-      "published_at": "2026-08-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-03 22:19:02+08:00",
+  "last_checked_at": "2026-09-03 23:16:14+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 101408,
+    "rows": 107834,
     "covered_stocks": 4796,
     "requested_stocks": 5026,
     "failed_stocks": 230,
     "coverage_rate": 0.9542,
-    "news_symbols_with_items": 5565,
-    "notice_rows": 61098,
-    "stock_news_rows": 40310,
+    "news_symbols_with_items": 5587,
+    "notice_rows": 67521,
+    "stock_news_rows": 40313,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
