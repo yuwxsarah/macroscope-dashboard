@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04 16:14:26+08:00",
+  "updated_at": "2026-09-04 20:46:41+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,9 +355,9 @@
   "tracking": {
     "trade_date": "20260904",
     "summary": {
-      "market_score": 48.1,
-      "market_score_before_gate": 48.1,
-      "risk_score": 59.2,
+      "market_score": 48.6,
+      "market_score_before_gate": 48.6,
+      "risk_score": 62.2,
       "risk_level": "红色",
       "market_phase": "防御期 / 红色预警",
       "base_position_pct": 30.0,
@@ -373,7 +373,7 @@
       "liquidity_gate": "流动性原始分<=2.0，按框架规则不建议重仓进攻。",
       "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
       "style_signal": "大盘价值占优",
-      "style_reason": "成长/科技20日动量均值 -5.21%；宽基20日动量均值 -0.53%；风格差 -4.69%",
+      "style_reason": "成长/科技20日动量均值 -8.76%；宽基20日动量均值 -1.69%；风格差 -7.07%",
       "formula": "实际仓位 = 大盘建议仓位 × 风险折扣"
     },
     "modules": [
@@ -439,14 +439,14 @@
       {
         "name": "盈利周期",
         "weight": 15,
-        "score": 45.7,
-        "raw_score": 2.3,
-        "weighted_score": 6.9,
+        "score": 41.2,
+        "raw_score": 2.1,
+        "weighted_score": 6.3,
         "status": "中性偏弱",
         "basis": [
           "制造业PMI 49.80",
           "社融存量同比 暂无",
-          "主要A股指数20日动量均值 -3.03%"
+          "主要A股指数20日动量均值 -5.17%"
         ],
         "blueprint": [
           "全A盈利增速 30%",
@@ -459,15 +459,15 @@
       {
         "name": "估值水平",
         "weight": 15,
-        "score": 33.3,
-        "raw_score": 1.7,
-        "weighted_score": 5.1,
+        "score": 36.1,
+        "raw_score": 1.8,
+        "weighted_score": 5.4,
         "status": "偏弱",
         "basis": [
-          "指数PE历史分位均值 67%",
-          "上证综指 PE历史分位 56%",
-          "上证50 PE历史分位 66%",
-          "沪深300 PE历史分位 53%"
+          "指数PE历史分位均值 64%",
+          "上证综指 PE历史分位 68%",
+          "上证50 PE历史分位 71%",
+          "沪深300 PE历史分位 63%"
         ],
         "blueprint": [
           "宽基指数估值 30%",
@@ -479,13 +479,13 @@
       {
         "name": "市场情绪",
         "weight": 10,
-        "score": 51.8,
-        "raw_score": 2.6,
-        "weighted_score": 5.2,
+        "score": 47.4,
+        "raw_score": 2.4,
+        "weighted_score": 4.8,
         "status": "中性偏弱",
         "basis": [
           "上涨家数占比 43.14%",
-          "A股成交额/总市值 1.78%",
+          "A股成交额/总市值 1.79%",
           "交易拥挤度 42.61%"
         ],
         "blueprint": [
@@ -499,14 +499,14 @@
       {
         "name": "风格结构",
         "weight": 10,
-        "score": 73.4,
-        "raw_score": 3.7,
-        "weighted_score": 7.4,
-        "status": "中性偏强",
+        "score": 85.4,
+        "raw_score": 4.3,
+        "weighted_score": 8.6,
+        "status": "明显改善",
         "basis": [
-          "成长/科技20日动量均值 -5.21%",
-          "宽基20日动量均值 -0.53%",
-          "风格差 -4.69%"
+          "成长/科技20日动量均值 -8.76%",
+          "宽基20日动量均值 -1.69%",
+          "风格差 -7.07%"
         ],
         "blueprint": [
           "大小盘风格 25%",
@@ -531,35 +531,35 @@
       {
         "name": "量价质量恶化",
         "weight": 20,
-        "risk": 11.4,
-        "raw_risk": 56.8,
+        "risk": 12.5,
+        "raw_risk": 62.7,
         "level": "偏高",
         "basis": [
-          "主要指数20日动量均值 -3.03%",
-          "主要指数相对20日均线均值 -2.82%",
+          "主要指数20日动量均值 -5.17%",
+          "主要指数相对20日均线均值 -3.36%",
           "成交额近5期变化 0.22万亿元"
         ]
       },
       {
         "name": "主线健康度下降",
         "weight": 20,
-        "risk": 10.5,
-        "raw_risk": 52.6,
+        "risk": 12.6,
+        "raw_risk": 63.0,
         "level": "偏高",
         "basis": [
-          "创业板20日动量 -5.77%",
-          "科创50 20日动量 -5.30%",
+          "创业板20日动量 -7.76%",
+          "科创50 20日动量 -9.56%",
           "交易拥挤度 42.61%"
         ]
       },
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 6.0,
-        "raw_risk": 40.2,
+        "risk": 6.5,
+        "raw_risk": 43.1,
         "level": "中",
         "basis": [
-          "两融/总市值 2.33%，历史分位 77%",
+          "两融/总市值 2.34%，历史分位 83%",
           "交易拥挤度历史分位 3%"
         ]
       },
@@ -578,12 +578,12 @@
       {
         "name": "估值盈利背离",
         "weight": 10,
-        "risk": 6.1,
-        "raw_risk": 60.5,
+        "risk": 5.4,
+        "raw_risk": 54.5,
         "level": "偏高",
         "basis": [
-          "指数PE历史分位均值 67%",
-          "盈利周期原始分 2.3/5"
+          "指数PE历史分位均值 64%",
+          "盈利周期原始分 2.1/5"
         ]
       },
       {
@@ -601,10 +601,10 @@
     "signals": {
       "up_ratio_pct": 43.14,
       "total_amount_trillion": 2.029,
-      "broad_turnover_pct": 1.782,
+      "broad_turnover_pct": 1.792,
       "crowding_pct": 42.61,
-      "margin_to_market_cap_pct": 2.325,
-      "index_momentum_20d_pct": -3.03,
+      "margin_to_market_cap_pct": 2.339,
+      "index_momentum_20d_pct": -5.17,
       "dgs10_pct": 4.79
     }
   },
