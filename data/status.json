@@ -75,10 +75,10 @@
       "cached_rows": 5009
     },
     "market": {
-      "status": "partial",
-      "rows": 31484,
-      "started_at": "2026-09-03T23:18:45+08:00",
-      "finished_at": "2026-09-03T23:19:28+08:00",
+      "status": "success",
+      "rows": 33097,
+      "started_at": "2026-09-04T08:10:38+08:00",
+      "finished_at": "2026-09-04T08:10:47+08:00",
       "latest_date": "20260903",
       "total_cached_rows": 33110,
       "symbols": {
@@ -108,8 +108,9 @@
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
-          "status": "failed",
-          "error": "DataFetchError(\"指数行情失败: 中证指数官网 / AKShare: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 东方财富指数日线 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))) | 东方财富指数历史 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))\")"
+          "status": "success",
+          "rows": 1619,
+          "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
           "status": "success",
@@ -133,52 +134,52 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1677,
+          "rows": 1676,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1677,
+          "rows": 1676,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1677,
+          "rows": 1676,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1677,
+          "rows": 1676,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1677,
+          "rows": 1676,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1677,
+          "rows": 1676,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1677,
+          "rows": 1676,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1677,
+          "rows": 1676,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1634,
+          "rows": 1635,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1634,
+          "rows": 1635,
           "source": "Yahoo Finance / yfinance"
         }
       },
@@ -187,15 +188,15 @@
     "global_macro": {
       "status": "success",
       "rows": 717,
-      "started_at": "2026-09-03T23:19:28+08:00",
-      "finished_at": "2026-09-03T23:20:16+08:00",
-      "latest_date": "20260901",
-      "total_cached_rows": 30737,
+      "started_at": "2026-09-04T08:10:47+08:00",
+      "finished_at": "2026-09-04T08:11:37+08:00",
+      "latest_date": "20260902",
+      "total_cached_rows": 30741,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260901",
+          "latest_date": "20260902",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -204,7 +205,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260901",
+          "latest_date": "20260902",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -213,14 +214,14 @@
         "USD_LIQUIDITY": {
           "status": "success",
           "rows": 2,
-          "latest_date": "20260826",
+          "latest_date": "20260902",
           "source": "美联储H.4.1 / 纽约联储逆回购API（FRED备用）",
           "formula": "SOMA口径=WSHOSHO-WDTGAL-RRPONTSYD；总资产口径=WALCL-WDTGAL-RRPONTSYD；统一换算为万亿美元",
           "input_latest_dates": {
-            "WSHOSHO": "20260826",
-            "WALCL": "20260826",
-            "WDTGAL": "20260826",
-            "RRPONTSYD": "20260902"
+            "WSHOSHO": "20260902",
+            "WALCL": "20260902",
+            "WDTGAL": "20260902",
+            "RRPONTSYD": "20260903"
           },
           "input_sources": {
             "WSHOSHO": "Federal Reserve H.4.1 fallback",
@@ -273,17 +274,17 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260901",
-        "DGS10": "20260901",
-        "NET_USD_LIQUIDITY_SOMA": "20260826",
-        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260826",
+        "DGS2": "20260902",
+        "DGS10": "20260902",
+        "NET_USD_LIQUIDITY_SOMA": "20260902",
+        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260902",
         "PCE_YOY": "20260701",
         "FEDFUNDS": "20260801",
         "US_PMI_MANUFACTURING": "20260801",
         "US_PMI_SERVICES": "20260801"
       },
       "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15；美国PMI为S&P Global制造业与服务业公开样本。",
-      "cached_rows": 30737
+      "cached_rows": 30741
     },
     "valuation": {
       "status": "success",
@@ -400,8 +401,8 @@
     "deviation": {
       "status": "success",
       "rows": 2115,
-      "started_at": "2026-09-03T23:32:03+08:00",
-      "finished_at": "2026-09-03T23:32:03+08:00",
+      "started_at": "2026-09-04T08:11:37+08:00",
+      "finished_at": "2026-09-04T08:11:38+08:00",
       "latest_date": "20260903",
       "total_cached_rows": 2115,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -516,7 +517,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-04T00:05:22+08:00",
-  "overall_status": "partial",
-  "last_update_mode": "all"
+  "updated_at": "2026-09-04T08:11:50+08:00",
+  "overall_status": "success",
+  "last_update_mode": "global"
 }
