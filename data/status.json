@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 173,
-      "started_at": "2026-09-04T15:13:00+08:00",
-      "finished_at": "2026-09-04T15:13:23+08:00",
+      "started_at": "2026-09-04T22:32:02+08:00",
+      "finished_at": "2026-09-04T22:32:43+08:00",
       "latest_date": "202608",
       "total_cached_rows": 173,
       "source_details": {
@@ -43,8 +43,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4974,
-      "started_at": "2026-09-04T15:13:23+08:00",
-      "finished_at": "2026-09-04T15:13:40+08:00",
+      "started_at": "2026-09-04T22:32:43+08:00",
+      "finished_at": "2026-09-04T22:33:02+08:00",
       "latest_date": "20260904",
       "total_cached_rows": 5010,
       "source_details": {
@@ -56,9 +56,9 @@
         "dr": {
           "status": "success",
           "rows": 66,
-          "latest_date": "20260903",
-          "dr001_pct": 1.3542,
-          "dr007_pct": 1.3704,
+          "latest_date": "20260904",
+          "dr001_pct": 1.3593,
+          "dr007_pct": 1.3726,
           "urls_used": [
             "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/currency/prr-chrt.csv"
           ],
@@ -67,8 +67,8 @@
         }
       },
       "latest_by_series": {
-        "dr001_pct": "20260903",
-        "dr007_pct": "20260903",
+        "dr001_pct": "20260904",
+        "dr007_pct": "20260904",
         "shibor_on_pct": "20260904"
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
@@ -443,8 +443,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-09-03T23:32:03+08:00",
-      "finished_at": "2026-09-03T23:32:10+08:00",
+      "started_at": "2026-09-04T22:33:02+08:00",
+      "finished_at": "2026-09-04T22:33:08+08:00",
       "latest_date": "20260901",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -477,8 +477,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260904",
-      "rows": 107560,
-      "cached_rows": 107560,
+      "rows": 107568,
+      "cached_rows": 107568,
       "covered_stocks": 4796,
       "requested_stocks": 5026,
       "failed_stocks": 230,
@@ -506,7 +506,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600700.SH: KeyError('code')；600680.SH: KeyError('code')；600652.SH: KeyError('code')"
+      "error": "600656.SH: KeyError('code')；600672.SH: KeyError('code')；600659.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -517,7 +517,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-04T22:11:22+08:00",
+  "updated_at": "2026-09-04T23:12:51+08:00",
   "overall_status": "partial",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
