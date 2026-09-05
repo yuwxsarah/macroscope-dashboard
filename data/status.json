@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 173,
-      "started_at": "2026-09-05T14:55:35+08:00",
-      "finished_at": "2026-09-05T14:56:06+08:00",
+      "started_at": "2026-09-05T21:32:11+08:00",
+      "finished_at": "2026-09-05T21:32:44+08:00",
       "latest_date": "202608",
       "total_cached_rows": 173,
       "source_details": {
@@ -43,8 +43,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4974,
-      "started_at": "2026-09-05T14:56:06+08:00",
-      "finished_at": "2026-09-05T14:56:22+08:00",
+      "started_at": "2026-09-05T21:32:44+08:00",
+      "finished_at": "2026-09-05T21:33:04+08:00",
       "latest_date": "20260904",
       "total_cached_rows": 5010,
       "source_details": {
@@ -443,8 +443,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-09-04T23:18:55+08:00",
-      "finished_at": "2026-09-04T23:19:08+08:00",
+      "started_at": "2026-09-05T21:33:04+08:00",
+      "finished_at": "2026-09-05T21:33:11+08:00",
       "latest_date": "20260901",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -477,8 +477,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260905",
-      "rows": 107187,
-      "cached_rows": 107187,
+      "rows": 107197,
+      "cached_rows": 107197,
       "covered_stocks": 4796,
       "requested_stocks": 5026,
       "failed_stocks": 230,
@@ -506,7 +506,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600656.SH: KeyError('code')；600646.SH: KeyError('code')；600652.SH: KeyError('code')"
+      "error": "600652.SH: KeyError('code')；600646.SH: KeyError('code')；600669.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -517,7 +517,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-05T14:56:38+08:00",
-  "overall_status": "success",
-  "last_update_mode": "macro"
+  "updated_at": "2026-09-05T22:08:27+08:00",
+  "overall_status": "partial",
+  "last_update_mode": "evening"
 }
