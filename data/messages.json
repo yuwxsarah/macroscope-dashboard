@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07 23:41:45+08:00",
+  "updated_at": "2026-09-08 00:31:39+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,6 +111,76 @@
     {
       "id": "auto-yicai-c744d784fd47535b",
       "category": "重大新闻",
+      "title": "全球黄金“回家”：美元信任裂痕加速扩大 储备资产大迁徙，各国央行不仅在“搬家”，更在“加仓”。 8267 昨天 21:19",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103355067.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-21dbb03f7cd8e201",
+      "category": "重大新闻",
+      "title": "监管给“页面跳转”立新规，多家基金公司启动内部排查 “点一下”时代结束，“谁负责”时代开始，金融流量生意戴上了紧箍咒 7368 昨天 20:06",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103354958.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1d2fafbe4a3950c5",
+      "category": "重大新闻",
+      "title": "半年规模增长近百亿，个人养老金基金将迎“固收+”入池 个人养老基金“新菜”即将上桌，首批执行“一司一只”择优申报，“固收+”能否接住养老钱？ 5105 昨天 1",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103354850.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9f43523dd3a25f49",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月7日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 44227 昨天 19:08",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103354852.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4b146837876fc89f",
+      "category": "重大新闻",
+      "title": "光模块中报全景：备货席卷全行业，三季度业绩增速是估值分水岭 光通信上半年整体业绩呈现收入扩张，利润提速的情形，光纤光缆与光模块及器件上半年的毛利率分别同比提升7",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103354792.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c744d784fd47535b",
+      "category": "重大新闻",
       "title": "全球黄金“回家”：美元信任裂痕加速扩大 储备资产大迁徙，各国央行不仅在“搬家”，更在“加仓”。 7244 2小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
@@ -157,20 +227,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103354852.html",
-      "published_at": "2026-09-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4b146837876fc89f",
-      "category": "重大新闻",
-      "title": "光模块中报全景：备货席卷全行业，三季度业绩增速是估值分水岭 光通信上半年整体业绩呈现收入扩张，利润提速的情形，光纤光缆与光模块及器件上半年的毛利率分别同比提升7",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103354792.html",
       "published_at": "2026-09-07",
       "symbols": [
         "A股"
@@ -1731,62 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c1a6a34885e66ce5",
-      "category": "重大新闻",
-      "title": "A股四大指数多数低开，玻纤、传媒等板块表现活跃 盘面上，地产、农业、煤炭、石化板块调整。 8 2749 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341902.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-da90cd48740cf45d",
-      "category": "重大新闻",
-      "title": "盘前必读丨AI应用利好来了；中际旭创大手笔回购 机构认为，结构性修复轮动行情有望持续，组合投资是王道。 40724 5小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341800.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a4d0c0e324955d6c",
-      "category": "重大新闻",
-      "title": "晓数点｜一图速览8月A股月报 四大指数8月均累计上涨，蓝盾光电问鼎8月最牛股，主力青睐天孚通信，抛售中际旭创>> 6分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103342251.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-61ca210fb0b21fa1",
-      "category": "重大新闻",
-      "title": "A股中报风云丨2026年上半年谁“发红包”最壕？ 一图速览>> 827 50分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103342167.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-07 23:41:45+08:00",
+  "last_checked_at": "2026-09-08 00:31:39+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 105183,
+    "rows": 105125,
     "covered_stocks": 4795,
     "requested_stocks": 5026,
     "failed_stocks": 231,
     "coverage_rate": 0.954,
     "news_symbols_with_items": 5587,
-    "notice_rows": 65272,
-    "stock_news_rows": 39911,
+    "notice_rows": 65260,
+    "stock_news_rows": 39865,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
