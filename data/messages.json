@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06 22:24:13+08:00",
+  "updated_at": "2026-09-07 10:38:42+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-3a80c3e4f90ae80f",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，存储、农业板块涨幅居前 盘面上，存储、HBM、保险、农业板块领涨。 1509 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103353809.html",
+      "published_at": "2026-09-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b2aceffbc5225b0e",
+      "category": "重大新闻",
+      "title": "盘前必读丨8家中央金融企业迎3600亿元增资；*ST萃华将被退市 机构认为，9月中旬之后向上的合力逐渐具备，市场有望迎来新一轮修复行情。 5 29657 2小时",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103353700.html",
+      "published_at": "2026-09-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-01bd2dcfcf21111e",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月6日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 56131 昨天 18:47",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103353224.html",
+      "published_at": "2026-09-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e67ee6e8d63350f1",
+      "category": "重大新闻",
+      "title": "IPO周报：燧原科技将上市，长存控股进入问询环节 燧原科技的发行价高于摩尔线程-U、沐曦股份-U。 IPO周报 6128 昨天 18:20",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103353195.html",
+      "published_at": "2026-09-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-bdcc73ed40927807",
+      "category": "重大新闻",
+      "title": "机构论后市丨市场有望迎来新一轮修复行情；推荐三个潜在方向 A股后市怎么走？看看机构怎么说。 10778 昨天 18:07",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103353175.html",
+      "published_at": "2026-09-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-01bd2dcfcf21111e",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1f19d8ba06c899e4",
-      "category": "重大新闻",
-      "title": "A股中报风云丨2026年上半年谁最吸金？ 一图速览>> 5415 昨天 23:47",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341664.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-71bfd8abc25293a7",
-      "category": "重大新闻",
-      "title": "A股中报风云丨2026年上半年谁营收最高？ 一图速览>> 4299 昨天 23:47",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341665.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8eb584f79cf1c1c0",
-      "category": "重大新闻",
-      "title": "动能向新，结构向优，业绩向好——沪市公司2026年半年报业绩综述 2026年上半年，2318家沪市公司合计实现营业收入26.2万亿元，同比增长6.3%。 389",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341621.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f55fd6e10deb78b7",
-      "category": "重大新闻",
-      "title": "国际农产品价格暴涨，种业行情存预期博弈 A股种业板块在预期驱动下大幅上涨，但短期面临过热风险。 10189 昨天 21:35",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341558.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1f19d8ba06c899e4",
-      "category": "重大新闻",
-      "title": "A股中报风云丨2026年上半年谁最吸金？ 一图速览>> 3090 昨天 23:47",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341664.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-06 22:24:13+08:00",
+  "last_checked_at": "2026-09-07 10:38:42+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 99313,
-    "covered_stocks": 4796,
+    "rows": 104324,
+    "covered_stocks": 4795,
     "requested_stocks": 5026,
-    "failed_stocks": 230,
-    "coverage_rate": 0.9542,
-    "news_symbols_with_items": 5559,
-    "notice_rows": 59423,
-    "stock_news_rows": 39890,
+    "failed_stocks": 231,
+    "coverage_rate": 0.954,
+    "news_symbols_with_items": 5583,
+    "notice_rows": 64717,
+    "stock_news_rows": 39607,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
