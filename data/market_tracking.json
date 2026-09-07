@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 00:31:52+08:00",
+  "updated_at": "2026-09-08 01:05:44+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,9 +355,9 @@
   "tracking": {
     "trade_date": "20260907",
     "summary": {
-      "market_score": 51.5,
-      "market_score_before_gate": 51.5,
-      "risk_score": 54.7,
+      "market_score": 51.2,
+      "market_score_before_gate": 51.2,
+      "risk_score": 55.3,
       "risk_level": "红色",
       "market_phase": "震荡期 / 红色预警",
       "base_position_pct": 50.0,
@@ -459,15 +459,15 @@
       {
         "name": "估值水平",
         "weight": 15,
-        "score": 35.1,
-        "raw_score": 1.8,
-        "weighted_score": 5.4,
+        "score": 33.7,
+        "raw_score": 1.7,
+        "weighted_score": 5.1,
         "status": "偏弱",
         "basis": [
-          "指数PE历史分位均值 65%",
-          "上证综指 PE历史分位 68%",
-          "上证50 PE历史分位 69%",
-          "沪深300 PE历史分位 63%"
+          "指数PE历史分位均值 66%",
+          "上证综指 PE历史分位 55%",
+          "上证50 PE历史分位 63%",
+          "沪深300 PE历史分位 52%"
         ],
         "blueprint": [
           "宽基指数估值 30%",
@@ -578,11 +578,11 @@
       {
         "name": "估值盈利背离",
         "weight": 10,
-        "risk": 5.5,
-        "raw_risk": 55.0,
+        "risk": 6.1,
+        "raw_risk": 60.9,
         "level": "偏高",
         "basis": [
-          "指数PE历史分位均值 65%",
+          "指数PE历史分位均值 66%",
           "盈利周期原始分 2.2/5"
         ]
       },
