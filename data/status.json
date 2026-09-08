@@ -75,12 +75,12 @@
       "cached_rows": 5011
     },
     "market": {
-      "status": "partial",
-      "rows": 31511,
-      "started_at": "2026-09-08T00:33:49+08:00",
-      "finished_at": "2026-09-08T00:34:29+08:00",
-      "latest_date": "20260907",
-      "total_cached_rows": 33140,
+      "status": "success",
+      "rows": 33136,
+      "started_at": "2026-09-08T08:31:09+08:00",
+      "finished_at": "2026-09-08T08:31:19+08:00",
+      "latest_date": "20260908",
+      "total_cached_rows": 33142,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -108,8 +108,9 @@
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
-          "status": "failed",
-          "error": "DataFetchError(\"指数行情失败: 中证指数官网 / AKShare: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 东方财富指数日线 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))) | 东方财富指数历史 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))\")"
+          "status": "success",
+          "rows": 1621,
+          "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
           "status": "success",
@@ -173,22 +174,22 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1636,
+          "rows": 1638,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1636,
+          "rows": 1638,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33140
+      "cached_rows": 33142
     },
     "global_macro": {
       "status": "success",
       "rows": 717,
-      "started_at": "2026-09-08T00:34:29+08:00",
-      "finished_at": "2026-09-08T00:35:16+08:00",
+      "started_at": "2026-09-08T08:31:19+08:00",
+      "finished_at": "2026-09-08T08:32:06+08:00",
       "latest_date": "20260903",
       "total_cached_rows": 30743,
       "source_details": {
@@ -400,8 +401,8 @@
     "deviation": {
       "status": "success",
       "rows": 2120,
-      "started_at": "2026-09-08T00:36:03+08:00",
-      "finished_at": "2026-09-08T00:36:03+08:00",
+      "started_at": "2026-09-08T08:32:06+08:00",
+      "finished_at": "2026-09-08T08:32:06+08:00",
       "latest_date": "20260907",
       "total_cached_rows": 2120,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -509,7 +510,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-08T01:05:44+08:00",
-  "overall_status": "partial",
-  "last_update_mode": "all"
+  "updated_at": "2026-09-08T08:32:23+08:00",
+  "overall_status": "success",
+  "last_update_mode": "global"
 }
