@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 20:43:08+08:00",
+  "updated_at": "2026-09-08 21:39:58+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -109,12 +109,68 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-06cfc904890d22f9",
+      "category": "重大新闻",
+      "title": "太子奶创始人李途纯北京离世：一代乳酸菌开拓者终谢幕 太子奶的商业起落，浓缩了中国民营企业在资本扩张时代的一段样本。 13010 53分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103356662.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-34824e0d8273db77",
       "category": "重大新闻",
       "title": "AI视频业务营收占比极低，龙版传媒蹭概念股价一周狂飙逾93% 龙版传媒AI视频业务6月营收约80元、7月营收约7.5万元，占其2025年营收比例不足0.01% ",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103356648.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-96547f581d652114",
+      "category": "重大新闻",
+      "title": "美国“虹吸”全球铜库存，伦铜再创新高、产业链分化加剧 “当前铜产业可以总结为‘铜矿缺且贵、冶炼争取少亏、下游畏高以刚需采购为主’的不同结构。” 1478 1小时",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103356634.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1ede1f8fc3e4bfc4",
+      "category": "重大新闻",
+      "title": "厄尔尼诺引爆全球粮价，A股农业板块“强预期弱现实”博弈 机构警示，高全球粮食供应“急冻”，国内主粮自给率高，部分个股估值脱离基本面 2780 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103356619.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6f2333d73f2f5562",
+      "category": "重大新闻",
+      "title": "逢低抄底？ 1292 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103356486.html",
       "published_at": "2026-09-08",
       "symbols": [
         "A股"
@@ -1731,62 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d5a047614d7cf423",
-      "category": "重大新闻",
-      "title": "YiwealthSMI｜爆款易得，长红难求！7月榜单里的券商运营新逻辑 本期为证券社交媒体指数（2026年7月）。 331 23分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103342347.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-650d15ba2ea5daa5",
-      "category": "重大新闻",
-      "title": "调仓？ 11分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103342765.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d299110a9e93383f",
-      "category": "重大新闻",
-      "title": "晓数点丨券商9月金股出炉，涉及工业、信息技术、材料等领域 宁德时代最受机构青睐，共入围了5家券商的推荐名单。 1292 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103342676.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1e19493f3f768a69",
-      "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共86只个股涨停 这只农业股6连板 农业股万向德农收获6连板、新赛股份4连板；AI短剧概念股芒果超媒2连板。一图速览今日连板股>> 951 ",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103342669.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-08 20:43:08+08:00",
+  "last_checked_at": "2026-09-08 21:39:58+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 99203,
+    "rows": 105919,
     "covered_stocks": 4795,
     "requested_stocks": 5026,
     "failed_stocks": 231,
     "coverage_rate": 0.954,
-    "news_symbols_with_items": 5577,
-    "notice_rows": 59038,
-    "stock_news_rows": 40165,
+    "news_symbols_with_items": 5594,
+    "notice_rows": 65750,
+    "stock_news_rows": 40169,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
