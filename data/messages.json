@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 10:52:58+08:00",
+  "updated_at": "2026-09-10 20:54:42+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-9c3dc33caa0c4f34",
+      "category": "重大新闻",
+      "title": "券商中期业绩会密集召开，明星IPO项目、并购计划等引关注 券商参与投资的明星IPO项目亦备受关注。 10分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103359964.html",
+      "published_at": "2026-09-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fd8dcd6243617f6c",
+      "category": "重大新闻",
+      "title": "存储涨价潮下收入仅增1.83%，深科技为何砸18.5亿扩产封测？ 扩产项目12年回收期、两年后投产 10分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103359787.html",
+      "published_at": "2026-09-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-bf077b299241e99c",
+      "category": "重大新闻",
+      "title": "实控人半年两度被重罚！ST百灵连环爆雷、经营承压 实控人内幕交易等细节曝光。 1013 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103359895.html",
+      "published_at": "2026-09-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-12533c24f37841e8",
+      "category": "重大新闻",
+      "title": "8月平均收益超10%！百亿量化私募快速“回血” 市场已逐渐由上半年的单一板块行情扩散到多板块行情以及板块间的轮动行情，环境对量化选股策略更加友好。 2191 2",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103359791.html",
+      "published_at": "2026-09-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d78d08c7d1272b12",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月10日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5 24449 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103359728.html",
+      "published_at": "2026-09-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-95d9cde6c1540918",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-df8fbf66020d7ff5",
-      "category": "重大新闻",
-      "title": "盘前必读丨潘功胜最新发声；富时A50指数将迎来重大调整 机构认为，市场短期震荡蓄势，关注增量政策催化和外部环境企稳。 3679 34分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103344986.html",
-      "published_at": "2026-09-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ce5ba489f8edf754",
-      "category": "重大新闻",
-      "title": "超六成百亿基金未达盈利中线，顶流的“基民体验”差距有多大？ 从“基金赚没赚”到“基民赚没赚”，基民终于有了一本“明白账”！ 5074 昨天 20:48",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103344719.html",
-      "published_at": "2026-09-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-75eb6515188ff67d",
-      "category": "重大新闻",
-      "title": "上半年靠自营赚了1600多亿！“牛市旗手”最新持仓曝光 随着中报收官，券商最新的自营盘持仓同步出炉。 7554 昨天 20:30",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103344701.html",
-      "published_at": "2026-09-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bdc7eadc4bb3c5a5",
-      "category": "重大新闻",
-      "title": "持仓超3万亿、个股最多3600亿，外资机构二季度加仓这些行业 外资二季度增持了10余个行业，在电子行业的持股数较一季末增加了19.46亿股 6252 昨天 19",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103344617.html",
-      "published_at": "2026-09-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d1b5140ea4f9e7a2",
-      "category": "重大新闻",
-      "title": "公募年内参与定增浮盈37亿，江波龙等热门项目成“陷阱” 27家参与定增公募机构中，66.67%的机构实现浮盈 4361 昨天 18:53",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103344510.html",
-      "published_at": "2026-09-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-10 10:52:58+08:00",
+  "last_checked_at": "2026-09-10 20:54:42+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 107821,
+    "rows": 95365,
     "covered_stocks": 4795,
     "requested_stocks": 5026,
     "failed_stocks": 231,
     "coverage_rate": 0.954,
-    "news_symbols_with_items": 5603,
-    "notice_rows": 67624,
-    "stock_news_rows": 40197,
+    "news_symbols_with_items": 5560,
+    "notice_rows": 54976,
+    "stock_news_rows": 40389,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
