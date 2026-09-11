@@ -344,9 +344,9 @@
     "crowding": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 92,
+      "cached_rows": 93,
       "total_cached_rows": 64,
-      "latest_date": "20260910",
+      "latest_date": "20260911",
       "source_details": {
         "crowding_history": {
           "status": "success",
@@ -362,9 +362,9 @@
     "breadth": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 92,
+      "cached_rows": 93,
       "total_cached_rows": 64,
-      "latest_date": "20260910",
+      "latest_date": "20260911",
       "source_details": {
         "breadth_counts": {
           "status": "success",
@@ -384,9 +384,9 @@
     "leverage": {
       "status": "success",
       "rows": 63,
-      "cached_rows": 91,
+      "cached_rows": 92,
       "total_cached_rows": 63,
-      "latest_date": "20260909",
+      "latest_date": "20260910",
       "source_details": {
         "margin_balance": {
           "status": "success",
@@ -451,11 +451,21 @@
       "cached_rows": 300
     },
     "sentiment": {
-      "status": "failed",
-      "rows": 0,
-      "started_at": "2026-09-10T23:20:30+08:00",
-      "finished_at": "2026-09-10T23:26:31+08:00",
-      "error": "DataFetchError('A股实时行情失败: 东方财富沪深京A股实时行情: ConnectionError(ProtocolError(\\'Connection aborted.\\', RemoteDisconnected(\\'Remote end closed connection without response\\'))) | 新浪沪深京A股实时行情: JSONDecodeError(\"Can not decode value starting with character \\'<\\'\", position=position_marker(offset=0,line=1,column=0), severity=\\'error\\') | 东方财富沪深A股分市场行情: DataFetchError(\\'数据源返回空表\\')')"
+      "status": "success",
+      "rows": 2,
+      "started_at": "2026-09-11T16:17:44+08:00",
+      "finished_at": "2026-09-11T16:19:02+08:00",
+      "latest_date": "20260911",
+      "crowding_cached_rows": 93,
+      "breadth_cached_rows": 93,
+      "leverage": {
+        "status": "success",
+        "rows": 1,
+        "latest_date": "20260910",
+        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
+      },
+      "source": "新浪沪深京A股实时行情 / AKShare",
+      "snapshot_kind": "收盘后快照"
     },
     "a_share_universe": {
       "status": "success",
@@ -500,14 +510,14 @@
     },
     "market_tracking": {
       "status": "success",
-      "latest_date": "20260910",
-      "rows": 92,
-      "cached_rows": 92,
+      "latest_date": "20260911",
+      "rows": 93,
+      "cached_rows": 93,
       "source": "由宏观、流动性、估值、A股情绪、两融、全球市场公开数据自动评分",
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-11T15:17:09+08:00",
+  "updated_at": "2026-09-11T16:19:16+08:00",
   "overall_status": "success",
-  "last_update_mode": "macro"
+  "last_update_mode": "snapshot"
 }
