@@ -476,9 +476,9 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20260912",
-      "rows": 108758,
-      "cached_rows": 108758,
+      "latest_date": "20260913",
+      "rows": 107287,
+      "cached_rows": 107287,
       "covered_stocks": 4795,
       "requested_stocks": 5026,
       "failed_stocks": 231,
@@ -506,7 +506,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600670.SH: KeyError('code')；600695.SH: KeyError('code')；600647.SH: KeyError('code')"
+      "error": "600670.SH: KeyError('code')；600672.SH: KeyError('code')；600656.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -517,7 +517,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-13T08:05:26+08:00",
-  "overall_status": "success",
+  "updated_at": "2026-09-13T10:53:54+08:00",
+  "overall_status": "partial",
   "last_update_mode": "global"
 }
