@@ -76,9 +76,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 33205,
-      "started_at": "2026-09-12T08:23:34+08:00",
-      "finished_at": "2026-09-12T08:23:45+08:00",
+      "rows": 33213,
+      "started_at": "2026-09-13T08:04:10+08:00",
+      "finished_at": "2026-09-13T08:04:21+08:00",
       "latest_date": "20260911",
       "total_cached_rows": 33220,
       "symbols": {
@@ -134,42 +134,42 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1681,
+          "rows": 1682,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1681,
+          "rows": 1682,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1681,
+          "rows": 1682,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1681,
+          "rows": 1682,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1681,
+          "rows": 1682,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1681,
+          "rows": 1682,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1681,
+          "rows": 1682,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1681,
+          "rows": 1682,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
@@ -186,10 +186,10 @@
       "cached_rows": 33220
     },
     "global_macro": {
-      "status": "partial",
-      "rows": 397,
-      "started_at": "2026-09-12T08:23:45+08:00",
-      "finished_at": "2026-09-12T08:24:35+08:00",
+      "status": "success",
+      "rows": 717,
+      "started_at": "2026-09-13T08:04:21+08:00",
+      "finished_at": "2026-09-13T08:05:09+08:00",
       "latest_date": "20260910",
       "total_cached_rows": 30753,
       "source_details": {
@@ -253,8 +253,10 @@
           "source": "美国经济分析局BEA NIPA表2.8.4"
         },
         "FEDFUNDS": {
-          "status": "failed",
-          "error": "DataFetchError('美联储H.15没有返回CSV')"
+          "status": "success",
+          "rows": 320,
+          "latest_date": "20260801",
+          "source": "美联储H.15月度数据包"
         },
         "US_PMI_MANUFACTURING": {
           "status": "success",
@@ -399,8 +401,8 @@
     "deviation": {
       "status": "success",
       "rows": 2120,
-      "started_at": "2026-09-12T08:24:35+08:00",
-      "finished_at": "2026-09-12T08:24:35+08:00",
+      "started_at": "2026-09-13T08:05:09+08:00",
+      "finished_at": "2026-09-13T08:05:09+08:00",
       "latest_date": "20260911",
       "total_cached_rows": 2120,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -515,7 +517,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-12T22:16:47+08:00",
-  "overall_status": "partial",
-  "last_update_mode": "evening"
+  "updated_at": "2026-09-13T08:05:26+08:00",
+  "overall_status": "success",
+  "last_update_mode": "global"
 }
