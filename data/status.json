@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 173,
-      "started_at": "2026-09-15T00:31:56+08:00",
-      "finished_at": "2026-09-15T00:32:23+08:00",
+      "started_at": "2026-09-15T01:01:21+08:00",
+      "finished_at": "2026-09-15T01:01:49+08:00",
       "latest_date": "202608",
       "total_cached_rows": 173,
       "source_details": {
@@ -43,8 +43,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4980,
-      "started_at": "2026-09-15T00:32:23+08:00",
-      "finished_at": "2026-09-15T00:32:39+08:00",
+      "started_at": "2026-09-15T01:01:49+08:00",
+      "finished_at": "2026-09-15T01:02:03+08:00",
       "latest_date": "20260914",
       "total_cached_rows": 5016,
       "source_details": {
@@ -76,9 +76,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 33233,
-      "started_at": "2026-09-14T22:07:49+08:00",
-      "finished_at": "2026-09-14T22:08:01+08:00",
+      "rows": 33231,
+      "started_at": "2026-09-15T01:02:03+08:00",
+      "finished_at": "2026-09-15T01:02:12+08:00",
       "latest_date": "20260914",
       "total_cached_rows": 33241,
       "symbols": {
@@ -174,12 +174,12 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1642,
+          "rows": 1641,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1642,
+          "rows": 1641,
           "source": "Yahoo Finance / yfinance"
         }
       },
@@ -188,8 +188,8 @@
     "global_macro": {
       "status": "success",
       "rows": 717,
-      "started_at": "2026-09-14T08:17:19+08:00",
-      "finished_at": "2026-09-14T08:18:07+08:00",
+      "started_at": "2026-09-15T01:02:12+08:00",
+      "finished_at": "2026-09-15T01:02:59+08:00",
       "latest_date": "20260910",
       "total_cached_rows": 30753,
       "source_details": {
@@ -289,8 +289,8 @@
     "valuation": {
       "status": "success",
       "rows": 28160,
-      "started_at": "2026-09-14T22:08:01+08:00",
-      "finished_at": "2026-09-14T22:08:47+08:00",
+      "started_at": "2026-09-15T01:02:59+08:00",
+      "finished_at": "2026-09-15T01:03:51+08:00",
       "latest_date": "20260914",
       "total_cached_rows": 28270,
       "indices": {
@@ -401,8 +401,8 @@
     "deviation": {
       "status": "success",
       "rows": 2125,
-      "started_at": "2026-09-14T22:10:22+08:00",
-      "finished_at": "2026-09-14T22:10:22+08:00",
+      "started_at": "2026-09-15T01:03:51+08:00",
+      "finished_at": "2026-09-15T01:03:51+08:00",
       "latest_date": "20260914",
       "total_cached_rows": 2125,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -443,29 +443,22 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-09-15T00:32:39+08:00",
-      "finished_at": "2026-09-15T00:32:46+08:00",
+      "started_at": "2026-09-15T01:03:51+08:00",
+      "finished_at": "2026-09-15T01:03:57+08:00",
       "latest_date": "20260909",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
     },
     "sentiment": {
-      "status": "success",
-      "rows": 2,
-      "started_at": "2026-09-14T22:08:47+08:00",
-      "finished_at": "2026-09-14T22:10:22+08:00",
+      "status": "partial",
+      "rows": 0,
+      "started_at": "2026-09-15T01:03:51+08:00",
+      "finished_at": "2026-09-15T01:03:51+08:00",
       "latest_date": "20260914",
-      "crowding_cached_rows": 94,
-      "breadth_cached_rows": 94,
-      "leverage": {
-        "status": "success",
-        "rows": 1,
-        "latest_date": "20260911",
-        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
-      },
-      "source": "新浪沪深京A股实时行情 / AKShare",
-      "snapshot_kind": "收盘后快照"
+      "total_cached_rows": 94,
+      "skipped": true,
+      "note": "非A股交易时段，继续展示上一次成功快照。"
     },
     "a_share_universe": {
       "status": "success",
@@ -506,7 +499,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600672.SH: KeyError('code')；600656.SH: KeyError('code')；600680.SH: KeyError('code')"
+      "error": "600813.SH: KeyError('code')；600672.SH: KeyError('code')；600669.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -517,7 +510,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-15T01:00:06+08:00",
+  "updated_at": "2026-09-15T01:29:23+08:00",
   "overall_status": "partial",
-  "last_update_mode": "evening"
+  "last_update_mode": "all"
 }

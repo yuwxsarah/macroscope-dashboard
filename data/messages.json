@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 00:59:47+08:00",
+  "updated_at": "2026-09-15 01:27:30+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,7 +111,7 @@
     {
       "id": "auto-yicai-bab76f08ff67060a",
       "category": "重大新闻",
-      "title": "人形机器人IPO审核收紧？投行：更重质量，可持续商业化前景是关键 “与一些申报项目还未进入合理商业化循环有关系。” 10964 昨天 20:58",
+      "title": "人形机器人IPO审核收紧？投行：更重质量，可持续商业化前景是关键 “与一些申报项目还未进入合理商业化循环有关系。” 11460 昨天 20:58",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103363860.html",
@@ -125,7 +125,7 @@
     {
       "id": "auto-yicai-0463c15a0941fd7a",
       "category": "重大新闻",
-      "title": "晚间公告｜9月14日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 27766 昨天 19:15",
+      "title": "晚间公告｜9月14日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 27983 昨天 19:15",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103363751.html",
@@ -139,7 +139,7 @@
     {
       "id": "auto-yicai-101c81fac33f936c",
       "category": "重大新闻",
-      "title": "美联储、日本央行加息在即，港股逆势站稳｜市场观察 加息如何影响港股？ 9693 昨天 19:10",
+      "title": "美联储、日本央行加息在即，港股逆势站稳｜市场观察 加息如何影响港股？ 10096 昨天 19:10",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103363754.html",
@@ -199,6 +199,20 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103363751.html",
+      "published_at": "2026-09-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-101c81fac33f936c",
+      "category": "重大新闻",
+      "title": "美联储、日本央行加息在即，港股逆势站稳｜市场观察 加息如何影响港股？ 9693 昨天 19:10",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103363754.html",
       "published_at": "2026-09-15",
       "symbols": [
         "A股"
@@ -1773,20 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1d2fafbe4a3950c5",
-      "category": "重大新闻",
-      "title": "半年规模增长近百亿，个人养老金基金将迎“固收+”入池 个人养老基金“新菜”即将上桌，首批执行“一司一只”择优申报，“固收+”能否接住养老钱？ 4795 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103354850.html",
-      "published_at": "2026-09-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,7 +1836,7 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-15 00:59:47+08:00",
+  "last_checked_at": "2026-09-15 01:27:30+08:00",
   "market_feed": {
     "days": 31,
     "rows": 105894,
