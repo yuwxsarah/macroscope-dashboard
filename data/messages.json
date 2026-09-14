@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 11:06:39+08:00",
+  "updated_at": "2026-09-14 22:45:28+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-bab76f08ff67060a",
+      "category": "重大新闻",
+      "title": "人形机器人IPO审核收紧？投行：更重质量，可持续商业化前景是关键 “与一些申报项目还未进入合理商业化循环有关系。” 5415 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103363860.html",
+      "published_at": "2026-09-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0463c15a0941fd7a",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月14日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 23488 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103363751.html",
+      "published_at": "2026-09-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-101c81fac33f936c",
+      "category": "重大新闻",
+      "title": "美联储、日本央行加息在即，港股逆势站稳｜市场观察 加息如何影响港股？ 8453 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103363754.html",
+      "published_at": "2026-09-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f3b89c159701b2ab",
+      "category": "重大新闻",
+      "title": "“新中金”呼之欲出，两家AMC系券商将告别A股 “汇金系”券商的加速整合，是当下券业并购重组白热化的缩影。 4330 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103363737.html",
+      "published_at": "2026-09-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2cf0bd216b64b798",
+      "category": "重大新闻",
+      "title": "AI“口头放缓”引担忧，A股光模块三巨头市值单日蒸发近千亿 大模型\"踩刹车\"传闻扰动市场 5694 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103363736.html",
+      "published_at": "2026-09-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-15438cefc47438ca",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-01bd2dcfcf21111e",
-      "category": "重大新闻",
-      "title": "晚间公告｜9月6日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 56131 昨天 18:47",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103353224.html",
-      "published_at": "2026-09-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e67ee6e8d63350f1",
-      "category": "重大新闻",
-      "title": "IPO周报：燧原科技将上市，长存控股进入问询环节 燧原科技的发行价高于摩尔线程-U、沐曦股份-U。 IPO周报 6128 昨天 18:20",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103353195.html",
-      "published_at": "2026-09-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bdcc73ed40927807",
-      "category": "重大新闻",
-      "title": "机构论后市丨市场有望迎来新一轮修复行情；推荐三个潜在方向 A股后市怎么走？看看机构怎么说。 10778 昨天 18:07",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103353175.html",
-      "published_at": "2026-09-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-01bd2dcfcf21111e",
-      "category": "重大新闻",
-      "title": "晚间公告｜9月6日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 29347 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103353224.html",
-      "published_at": "2026-09-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e67ee6e8d63350f1",
-      "category": "重大新闻",
-      "title": "IPO周报：燧原科技将上市，长存控股进入问询环节 燧原科技的发行价高于摩尔线程-U、沐曦股份-U。 IPO周报 2439 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103353195.html",
-      "published_at": "2026-09-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-14 11:06:39+08:00",
+  "last_checked_at": "2026-09-14 22:45:28+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 105614,
+    "rows": 106433,
     "covered_stocks": 4794,
     "requested_stocks": 5026,
     "failed_stocks": 232,
     "coverage_rate": 0.9538,
-    "news_symbols_with_items": 5601,
-    "notice_rows": 66514,
-    "stock_news_rows": 39100,
+    "news_symbols_with_items": 5603,
+    "notice_rows": 67109,
+    "stock_news_rows": 39324,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
