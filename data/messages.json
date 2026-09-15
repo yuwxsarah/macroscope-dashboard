@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 23:10:38+08:00",
+  "updated_at": "2026-09-15 23:53:06+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,7 +111,7 @@
     {
       "id": "auto-yicai-2eec47faee669995",
       "category": "重大新闻",
-      "title": "全球AI资产受挫，A股国产链缘何逆市翻红 A股科技的业绩真空期博弈 3865 3小时前",
+      "title": "全球AI资产受挫，A股国产链缘何逆市翻红 A股科技的业绩真空期博弈 4516 3小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103365423.html",
@@ -129,6 +129,62 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103365426.html",
+      "published_at": "2026-09-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6716704dd464850e",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月15日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 39732 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365317.html",
+      "published_at": "2026-09-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e9f1fc98b72aa7b1",
+      "category": "重大新闻",
+      "title": "4天14只“加时”募集，新基金为何卖不动了？ 权益基金赚钱效应不足，投资者观望情绪浓厚 2594 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365319.html",
+      "published_at": "2026-09-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-43f62f17d3033732",
+      "category": "重大新闻",
+      "title": "罕见！要约收购后公众持股剩6%，瓦轴B主动“私有化”退市 无论是A股，还是B股，选择主动要约退市的例子，此前极为罕见。 2625 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365291.html",
+      "published_at": "2026-09-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2eec47faee669995",
+      "category": "重大新闻",
+      "title": "全球AI资产受挫，A股国产链缘何逆市翻红 A股科技的业绩真空期博弈 3865 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365423.html",
       "published_at": "2026-09-15",
       "symbols": [
         "A股"
@@ -1731,62 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1ede1f8fc3e4bfc4",
-      "category": "重大新闻",
-      "title": "厄尔尼诺引爆全球粮价，A股农业板块“强预期弱现实”博弈 机构警示，高全球粮食供应“急冻”，国内主粮自给率高，部分个股估值脱离基本面 4361 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103356619.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-6f2333d73f2f5562",
-      "category": "重大新闻",
-      "title": "逢低抄底？ 1540 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103356486.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-96547f581d652114",
-      "category": "重大新闻",
-      "title": "美国“虹吸”全球铜库存，伦铜再创新高、产业链分化加剧 “当前铜产业可以总结为‘铜矿缺且贵、冶炼争取少亏、下游畏高以刚需采购为主’的不同结构。” 12分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103356634.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1ede1f8fc3e4bfc4",
-      "category": "重大新闻",
-      "title": "厄尔尼诺引爆全球粮价，A股农业板块“强预期弱现实”博弈 机构警示，高全球粮食供应“急冻”，国内主粮自给率高，部分个股估值脱离基本面 13分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103356619.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-15 23:10:38+08:00",
+  "last_checked_at": "2026-09-15 23:53:06+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 107150,
+    "rows": 107156,
     "covered_stocks": 4794,
     "requested_stocks": 5026,
     "failed_stocks": 232,
     "coverage_rate": 0.9538,
     "news_symbols_with_items": 5602,
-    "notice_rows": 67590,
-    "stock_news_rows": 39560,
+    "notice_rows": 67591,
+    "stock_news_rows": 39565,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
