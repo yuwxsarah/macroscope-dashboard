@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 11:09:07+08:00",
+  "updated_at": "2026-09-15 21:20:19+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-2eec47faee669995",
+      "category": "重大新闻",
+      "title": "全球AI资产受挫，A股国产链缘何逆市翻红 A股科技的业绩真空期博弈 2439 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365423.html",
+      "published_at": "2026-09-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b12c657ab489b783",
+      "category": "重大新闻",
+      "title": "金价失守4270美元，黄金消费者“舍得出手”了 加息预期打满、美债利率冲顶，黄金短期定价逻辑被重构导致金价回调。但市场普遍认为利空出尽后有望触底回升，同时金饰消",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365426.html",
+      "published_at": "2026-09-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6716704dd464850e",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月15日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 24356 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365317.html",
+      "published_at": "2026-09-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e9f1fc98b72aa7b1",
+      "category": "重大新闻",
+      "title": "4天14只“加时”募集，新基金为何卖不动了？ 权益基金赚钱效应不足，投资者观望情绪浓厚 1881 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365319.html",
+      "published_at": "2026-09-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-43f62f17d3033732",
+      "category": "重大新闻",
+      "title": "罕见！要约收购后公众持股剩6%，瓦轴B主动“私有化”退市 无论是A股，还是B股，选择主动要约退市的例子，此前极为罕见。 2067 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365291.html",
+      "published_at": "2026-09-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-d26040c13dc27a5a",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c744d784fd47535b",
-      "category": "重大新闻",
-      "title": "全球黄金“回家”：美元信任裂痕加速扩大 储备资产大迁徙，各国央行不仅在“搬家”，更在“加仓”。 28200 昨天 21:19",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103355067.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-21dbb03f7cd8e201",
-      "category": "重大新闻",
-      "title": "监管给“页面跳转”立新规，多家基金公司启动内部排查 “点一下”时代结束，“谁负责”时代开始，金融流量生意戴上了紧箍咒 13723 昨天 20:06",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103354958.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1d2fafbe4a3950c5",
-      "category": "重大新闻",
-      "title": "半年规模增长近百亿，个人养老金基金将迎“固收+”入池 个人养老基金“新菜”即将上桌，首批执行“一司一只”择优申报，“固收+”能否接住养老钱？ 11150 昨天 ",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103354850.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c744d784fd47535b",
-      "category": "重大新闻",
-      "title": "全球黄金“回家”：美元信任裂痕加速扩大 储备资产大迁徙，各国央行不仅在“搬家”，更在“加仓”。 8732 昨天 21:19",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103355067.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-21dbb03f7cd8e201",
-      "category": "重大新闻",
-      "title": "监管给“页面跳转”立新规，多家基金公司启动内部排查 “点一下”时代结束，“谁负责”时代开始，金融流量生意戴上了紧箍咒 7368 昨天 20:06",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103354958.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-15 11:09:07+08:00",
+  "last_checked_at": "2026-09-15 21:20:19+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 105965,
+    "rows": 107130,
     "covered_stocks": 4794,
     "requested_stocks": 5026,
     "failed_stocks": 232,
     "coverage_rate": 0.9538,
     "news_symbols_with_items": 5602,
-    "notice_rows": 66733,
-    "stock_news_rows": 39232,
+    "notice_rows": 67578,
+    "stock_news_rows": 39552,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
