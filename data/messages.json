@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17 23:50:46+08:00",
+  "updated_at": "2026-09-18 00:28:00+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,11 +111,11 @@
     {
       "id": "auto-yicai-206ebad6b648c7f2",
       "category": "重大新闻",
-      "title": "上市近30年，瓦轴B主动“私有化”退市获受理 “瓦轴B面临的选择其实并不多。” 1509 1小时前",
+      "title": "上市近30年，瓦轴B主动“私有化”退市获受理 “瓦轴B面临的选择其实并不多。” 2098 昨天 22:15",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103368936.html",
-      "published_at": "2026-09-17",
+      "published_at": "2026-09-18",
       "symbols": [
         "A股"
       ],
@@ -129,7 +129,7 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103368803.html",
-      "published_at": "2026-09-17",
+      "published_at": "2026-09-18",
       "symbols": [
         "A股"
       ],
@@ -139,11 +139,11 @@
     {
       "id": "auto-yicai-a47de0274ddc5bb7",
       "category": "重大新闻",
-      "title": "美联储加息落地，全球紧缩交易重启 全球资产重启“紧缩交易”模式 9693 3小时前",
+      "title": "美联储加息落地，全球紧缩交易重启 全球资产重启“紧缩交易”模式 10716 昨天 20:31",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103368767.html",
-      "published_at": "2026-09-17",
+      "published_at": "2026-09-18",
       "symbols": [
         "A股"
       ],
@@ -153,11 +153,11 @@
     {
       "id": "auto-yicai-e757015598e83576",
       "category": "重大新闻",
-      "title": "美联储表态“鹰派”，港股依然阴霾密布｜市场观察 美联储“鹰派”表态后，日本央行加息也值得关注。 4299 4小时前",
+      "title": "美联储表态“鹰派”，港股依然阴霾密布｜市场观察 美联储“鹰派”表态后，日本央行加息也值得关注。 4299 昨天 19:49",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103368686.html",
-      "published_at": "2026-09-17",
+      "published_at": "2026-09-18",
       "symbols": [
         "A股"
       ],
@@ -171,7 +171,7 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103368676.html",
-      "published_at": "2026-09-17",
+      "published_at": "2026-09-18",
       "symbols": [
         "A股"
       ],
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-17 23:50:46+08:00",
+  "last_checked_at": "2026-09-18 00:28:00+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 103252,
+    "rows": 109387,
     "covered_stocks": 4794,
     "requested_stocks": 5026,
     "failed_stocks": 232,
     "coverage_rate": 0.9538,
-    "news_symbols_with_items": 5589,
-    "notice_rows": 63559,
-    "stock_news_rows": 39693,
+    "news_symbols_with_items": 5602,
+    "notice_rows": 70301,
+    "stock_news_rows": 39086,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
