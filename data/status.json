@@ -76,40 +76,40 @@
     },
     "market": {
       "status": "success",
-      "rows": 33267,
-      "started_at": "2026-09-17T08:39:49+08:00",
-      "finished_at": "2026-09-17T08:40:01+08:00",
+      "rows": 33282,
+      "started_at": "2026-09-17T20:37:15+08:00",
+      "finished_at": "2026-09-17T20:37:23+08:00",
       "latest_date": "20260917",
-      "total_cached_rows": 33283,
+      "total_cached_rows": 33290,
       "symbols": {
         "000001.SH": {
           "status": "success",
-          "rows": 1627,
+          "rows": 1628,
           "source": "新浪财经 / AKShare"
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 1627,
+          "rows": 1628,
           "source": "新浪财经 / AKShare"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 1627,
+          "rows": 1628,
           "source": "新浪财经 / AKShare"
         },
         "000300.SH": {
           "status": "success",
-          "rows": 1627,
+          "rows": 1628,
           "source": "新浪财经 / AKShare"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1627,
+          "rows": 1628,
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
           "status": "success",
-          "rows": 1628,
+          "rows": 1629,
           "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
@@ -129,47 +129,47 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1687,
+          "rows": 1688,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1685,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1685,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1685,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1685,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1685,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1685,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1685,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1685,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
@@ -183,7 +183,7 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33283
+      "cached_rows": 33290
     },
     "global_macro": {
       "status": "partial",
@@ -286,58 +286,58 @@
     },
     "valuation": {
       "status": "success",
-      "rows": 28174,
-      "started_at": "2026-09-16T23:45:35+08:00",
-      "finished_at": "2026-09-16T23:46:18+08:00",
-      "latest_date": "20260916",
-      "total_cached_rows": 28284,
+      "rows": 28181,
+      "started_at": "2026-09-17T20:37:23+08:00",
+      "finished_at": "2026-09-17T20:38:05+08:00",
+      "latest_date": "20260917",
+      "total_cached_rows": 28291,
       "indices": {
         "000001.SH": {
           "status": "success",
-          "rows": 5518,
+          "rows": 5519,
           "source": "中证指数官网 / AKShare"
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 2358,
+          "rows": 2359,
           "source": "东方财富估值分析公开接口"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 2358,
+          "rows": 2359,
           "source": "东方财富估值分析公开接口"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1629,
+          "rows": 1630,
           "source": "中证指数官网 / AKShare"
         },
         "000016.SH": {
           "status": "success",
-          "rows": 5518,
+          "rows": 5519,
           "source": "中证指数官网 / AKShare"
         },
         "000300.SH": {
           "status": "success",
-          "rows": 5517,
+          "rows": 5518,
           "source": "中证指数官网 / AKShare"
         },
         "000905.SH": {
           "status": "success",
-          "rows": 5276,
+          "rows": 5277,
           "source": "中证指数官网 / AKShare"
         }
       },
       "latest_by_index": {
-        "000001.SH": "20260916",
-        "399001.SZ": "20260916",
-        "399006.SZ": "20260916",
-        "000688.SH": "20260916",
-        "000016.SH": "20260916",
-        "000300.SH": "20260916",
-        "000905.SH": "20260916"
+        "000001.SH": "20260917",
+        "399001.SZ": "20260917",
+        "399006.SZ": "20260917",
+        "000688.SH": "20260917",
+        "000016.SH": "20260917",
+        "000300.SH": "20260917",
+        "000905.SH": "20260917"
       },
-      "cached_rows": 28284
+      "cached_rows": 28291
     },
     "crowding": {
       "status": "success",
@@ -399,41 +399,41 @@
     "deviation": {
       "status": "success",
       "rows": 2125,
-      "started_at": "2026-09-17T08:40:51+08:00",
-      "finished_at": "2026-09-17T08:40:51+08:00",
-      "latest_date": "20260916",
+      "started_at": "2026-09-17T20:39:56+08:00",
+      "finished_at": "2026-09-17T20:39:56+08:00",
+      "latest_date": "20260917",
       "total_cached_rows": 2125,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
       "indices": {
         "000001.SH": {
           "status": "success",
           "rows": 425,
-          "latest_week_date": "20260916",
-          "latest_month_date": "20260916"
+          "latest_week_date": "20260917",
+          "latest_month_date": "20260917"
         },
         "399001.SZ": {
           "status": "success",
           "rows": 425,
-          "latest_week_date": "20260916",
-          "latest_month_date": "20260916"
+          "latest_week_date": "20260917",
+          "latest_month_date": "20260917"
         },
         "399006.SZ": {
           "status": "success",
           "rows": 425,
-          "latest_week_date": "20260916",
-          "latest_month_date": "20260916"
+          "latest_week_date": "20260917",
+          "latest_month_date": "20260917"
         },
         "000688.SH": {
           "status": "success",
           "rows": 425,
-          "latest_week_date": "20260916",
-          "latest_month_date": "20260916"
+          "latest_week_date": "20260917",
+          "latest_month_date": "20260917"
         },
         "000300.SH": {
           "status": "success",
           "rows": 425,
-          "latest_week_date": "20260916",
-          "latest_month_date": "20260916"
+          "latest_week_date": "20260917",
+          "latest_month_date": "20260917"
         }
       },
       "cached_rows": 2125
@@ -451,8 +451,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-17T16:53:43+08:00",
-      "finished_at": "2026-09-17T16:55:08+08:00",
+      "started_at": "2026-09-17T20:38:05+08:00",
+      "finished_at": "2026-09-17T20:39:56+08:00",
       "latest_date": "20260917",
       "crowding_cached_rows": 97,
       "breadth_cached_rows": 97,
@@ -475,8 +475,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260917",
-      "rows": 109261,
-      "cached_rows": 109261,
+      "rows": 109966,
+      "cached_rows": 109966,
       "covered_stocks": 4794,
       "requested_stocks": 5026,
       "failed_stocks": 232,
@@ -504,7 +504,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600701.SH: KeyError('code')；600752.SH: KeyError('code')；600672.SH: KeyError('code')"
+      "error": "600695.SH: KeyError('code')；600670.SH: KeyError('code')；600677.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -515,7 +515,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-17T16:55:22+08:00",
-  "overall_status": "success",
-  "last_update_mode": "snapshot"
+  "updated_at": "2026-09-17T21:12:55+08:00",
+  "overall_status": "partial",
+  "last_update_mode": "close"
 }
