@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18 00:28:00+08:00",
+  "updated_at": "2026-09-18 10:57:27+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -109,9 +109,51 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-6e6bba0837190fd6",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，AI硬件侧明显升温 农业、海运、煤炭、油气板块调整。市场逾3800股上涨。 1664 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103369158.html",
+      "published_at": "2026-09-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2107da8464b9cab8",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股芯片板块大幅反弹；恒瑞医药首次出手回购 机构认为，短期市场仍受制于成交量，需耐心等待区间震荡后的方向选择。 32385 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103369054.html",
+      "published_at": "2026-09-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a5ca58f812369ebb",
+      "category": "重大新闻",
+      "title": "北交所IPO储备再扩充，年内223家挂牌公司进入创新层 根据安排，新三板每年有6次调层安排，此次为年内第四次调层。 2625 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103368638.html",
+      "published_at": "2026-09-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-206ebad6b648c7f2",
       "category": "重大新闻",
-      "title": "上市近30年，瓦轴B主动“私有化”退市获受理 “瓦轴B面临的选择其实并不多。” 2098 昨天 22:15",
+      "title": "上市近30年，瓦轴B主动“私有化”退市获受理 “瓦轴B面临的选择其实并不多。” 9 8670 昨天 22:15",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103368936.html",
@@ -129,6 +171,20 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103368803.html",
+      "published_at": "2026-09-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-206ebad6b648c7f2",
+      "category": "重大新闻",
+      "title": "上市近30年，瓦轴B主动“私有化”退市获受理 “瓦轴B面临的选择其实并不多。” 2098 昨天 22:15",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103368936.html",
       "published_at": "2026-09-18",
       "symbols": [
         "A股"
@@ -1731,62 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bf077b299241e99c",
-      "category": "重大新闻",
-      "title": "实控人半年两度被重罚！ST百灵连环爆雷、经营承压 实控人内幕交易等细节曝光。 5 1850 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103359895.html",
-      "published_at": "2026-09-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-12533c24f37841e8",
-      "category": "重大新闻",
-      "title": "8月平均收益超10%！百亿量化私募快速“回血” 市场已逐渐由上半年的单一板块行情扩散到多板块行情以及板块间的轮动行情，环境对量化选股策略更加友好。 8 2935",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103359791.html",
-      "published_at": "2026-09-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d78d08c7d1272b12",
-      "category": "重大新闻",
-      "title": "晚间公告｜9月10日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 9 38120 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103359728.html",
-      "published_at": "2026-09-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9c3dc33caa0c4f34",
-      "category": "重大新闻",
-      "title": "券商中期业绩会密集召开，明星IPO项目、并购计划等引关注 券商参与投资的明星IPO项目亦备受关注。 10分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103359964.html",
-      "published_at": "2026-09-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-18 00:28:00+08:00",
+  "last_checked_at": "2026-09-18 10:57:27+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 109387,
+    "rows": 108177,
     "covered_stocks": 4794,
     "requested_stocks": 5026,
     "failed_stocks": 232,
     "coverage_rate": 0.9538,
     "news_symbols_with_items": 5602,
-    "notice_rows": 70301,
-    "stock_news_rows": 39086,
+    "notice_rows": 69049,
+    "stock_news_rows": 39128,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
