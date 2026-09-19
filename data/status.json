@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 173,
-      "started_at": "2026-09-19T15:19:00+08:00",
-      "finished_at": "2026-09-19T15:19:21+08:00",
+      "started_at": "2026-09-19T21:59:25+08:00",
+      "finished_at": "2026-09-19T21:59:54+08:00",
       "latest_date": "202608",
       "total_cached_rows": 173,
       "source_details": {
@@ -41,17 +41,16 @@
       "cached_rows": 173
     },
     "liquidity": {
-      "status": "success",
-      "rows": 4984,
-      "started_at": "2026-09-19T15:19:21+08:00",
-      "finished_at": "2026-09-19T15:19:39+08:00",
+      "status": "partial",
+      "rows": 66,
+      "started_at": "2026-09-19T21:59:54+08:00",
+      "finished_at": "2026-09-19T22:00:39+08:00",
       "latest_date": "20260918",
       "total_cached_rows": 5020,
       "source_details": {
         "shibor_on": {
-          "status": "success",
-          "rows": 4984,
-          "source": "中国货币网 / AKShare"
+          "status": "failed",
+          "error": "ChunkedEncodingError(ProtocolError('Response ended prematurely'))"
         },
         "dr": {
           "status": "success",
@@ -441,8 +440,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-09-18T23:18:51+08:00",
-      "finished_at": "2026-09-18T23:18:55+08:00",
+      "started_at": "2026-09-19T22:00:39+08:00",
+      "finished_at": "2026-09-19T22:00:45+08:00",
       "latest_date": "20260915",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -475,8 +474,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260919",
-      "rows": 108159,
-      "cached_rows": 108159,
+      "rows": 96472,
+      "cached_rows": 96472,
       "covered_stocks": 4793,
       "requested_stocks": 5026,
       "failed_stocks": 233,
@@ -504,7 +503,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600687.SH: KeyError('code')；600677.SH: KeyError('code')；600669.SH: KeyError('code')"
+      "error": "600647.SH: KeyError('code')；600687.SH: KeyError('code')；600659.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -515,7 +514,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-19T15:19:57+08:00",
-  "overall_status": "success",
-  "last_update_mode": "macro"
+  "updated_at": "2026-09-19T22:31:56+08:00",
+  "overall_status": "partial",
+  "last_update_mode": "evening"
 }
