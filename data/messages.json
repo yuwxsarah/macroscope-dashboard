@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22 01:04:51+08:00",
+  "updated_at": "2026-09-22 01:30:19+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -167,7 +167,7 @@
     {
       "id": "auto-yicai-1d7bb63b44178b1f",
       "category": "重大新闻",
-      "title": "晚间公告｜9月21日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 41623 昨天 19:26",
+      "title": "晚间公告｜9月21日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 42026 昨天 19:26",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103372708.html",
@@ -181,7 +181,7 @@
     {
       "id": "auto-yicai-1d7bb63b44178b1f",
       "category": "重大新闻",
-      "title": "晚间公告｜9月21日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 40290 昨天 19:26",
+      "title": "晚间公告｜9月21日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 41065 昨天 19:26",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103372708.html",
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-22 01:04:51+08:00",
+  "last_checked_at": "2026-09-22 01:30:19+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 99256,
+    "rows": 99254,
     "covered_stocks": 4793,
     "requested_stocks": 5026,
     "failed_stocks": 233,
     "coverage_rate": 0.9536,
     "news_symbols_with_items": 5581,
     "notice_rows": 62004,
-    "stock_news_rows": 37252,
+    "stock_news_rows": 37250,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
