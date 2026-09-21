@@ -342,9 +342,9 @@
     "crowding": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 98,
+      "cached_rows": 99,
       "total_cached_rows": 64,
-      "latest_date": "20260918",
+      "latest_date": "20260921",
       "source_details": {
         "crowding_history": {
           "status": "success",
@@ -360,9 +360,9 @@
     "breadth": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 98,
+      "cached_rows": 99,
       "total_cached_rows": 64,
-      "latest_date": "20260918",
+      "latest_date": "20260921",
       "source_details": {
         "breadth_counts": {
           "status": "success",
@@ -382,9 +382,9 @@
     "leverage": {
       "status": "success",
       "rows": 63,
-      "cached_rows": 97,
+      "cached_rows": 98,
       "total_cached_rows": 63,
-      "latest_date": "20260917",
+      "latest_date": "20260918",
       "source_details": {
         "margin_balance": {
           "status": "success",
@@ -451,15 +451,15 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-18T23:17:00+08:00",
-      "finished_at": "2026-09-18T23:18:51+08:00",
-      "latest_date": "20260918",
-      "crowding_cached_rows": 98,
-      "breadth_cached_rows": 98,
+      "started_at": "2026-09-21T17:16:50+08:00",
+      "finished_at": "2026-09-21T17:19:19+08:00",
+      "latest_date": "20260921",
+      "crowding_cached_rows": 99,
+      "breadth_cached_rows": 99,
       "leverage": {
         "status": "success",
         "rows": 1,
-        "latest_date": "20260917",
+        "latest_date": "20260918",
         "source": "上交所融资融券汇总 + 深交所融资融券汇总"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
@@ -508,14 +508,14 @@
     },
     "market_tracking": {
       "status": "success",
-      "latest_date": "20260918",
-      "rows": 98,
-      "cached_rows": 98,
+      "latest_date": "20260921",
+      "rows": 99,
+      "cached_rows": 99,
       "source": "由宏观、流动性、估值、A股情绪、两融、全球市场公开数据自动评分",
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-21T15:57:28+08:00",
+  "updated_at": "2026-09-21T17:19:37+08:00",
   "overall_status": "success",
-  "last_update_mode": "macro"
+  "last_update_mode": "snapshot"
 }
