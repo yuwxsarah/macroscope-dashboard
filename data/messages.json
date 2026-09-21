@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21 22:49:29+08:00",
+  "updated_at": "2026-09-22 00:02:19+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -115,7 +115,7 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103372916.html",
-      "published_at": "2026-09-21",
+      "published_at": "2026-09-22",
       "symbols": [
         "A股"
       ],
@@ -125,11 +125,11 @@
     {
       "id": "auto-yicai-5e5d060d78bc0c90",
       "category": "重大新闻",
-      "title": "创新药ETF再“包场”涨幅榜，是高低切换还是拐点已至？ 创新药ETF霸榜的一天：这次是真涨还是又一次昙花一现？ 1912 1小时前",
+      "title": "创新药ETF再“包场”涨幅榜，是高低切换还是拐点已至？ 创新药ETF霸榜的一天：这次是真涨还是又一次昙花一现？ 2501 昨天 20:55",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103372706.html",
-      "published_at": "2026-09-21",
+      "published_at": "2026-09-22",
       "symbols": [
         "A股"
       ],
@@ -143,6 +143,48 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103372791.html",
+      "published_at": "2026-09-22",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3563e16ecb0df015",
+      "category": "重大新闻",
+      "title": "产业催化密集落地，AI算力链行情聚焦“订单验证” 产业催化密集落地与宏观压力边际缓和共同推动 AI 算力链行情聚焦于订单验证与业绩兑现。 2718 昨天 19:",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103372726.html",
+      "published_at": "2026-09-22",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1d7bb63b44178b1f",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月21日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 40290 昨天 19:26",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103372708.html",
+      "published_at": "2026-09-22",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5e5d060d78bc0c90",
+      "category": "重大新闻",
+      "title": "创新药ETF再“包场”涨幅榜，是高低切换还是拐点已至？ 创新药ETF霸榜的一天：这次是真涨还是又一次昙花一现？ 1912 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103372706.html",
       "published_at": "2026-09-21",
       "symbols": [
         "A股"
@@ -1745,48 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-06768228b60ae011",
-      "category": "重大新闻",
-      "title": "北交所公募产品矩阵“上新”，部分三个月持有期基金14日开售 据市场测算，三个月持有期基金的推出，预计将为北交所市场带来45亿元至135亿元规模的增量资金。 50",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103362445.html",
-      "published_at": "2026-09-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-11e2aacd1b0895b5",
-      "category": "重大新闻",
-      "title": "晚间公告｜9月13日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 19830 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103362419.html",
-      "published_at": "2026-09-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c1946a03dcaa00be",
-      "category": "重大新闻",
-      "title": "7家券商、15名从业人员被处罚，多项业务曝出合规风险 除证监系统的处罚外，央行近期对券商反洗钱等相关违规行为的处罚也在增加。 6345 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103362412.html",
-      "published_at": "2026-09-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-21 22:49:29+08:00",
+  "last_checked_at": "2026-09-22 00:02:19+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 101698,
+    "rows": 101075,
     "covered_stocks": 4793,
     "requested_stocks": 5026,
     "failed_stocks": 233,
     "coverage_rate": 0.9536,
     "news_symbols_with_items": 5582,
-    "notice_rows": 64065,
-    "stock_news_rows": 37633,
+    "notice_rows": 63437,
+    "stock_news_rows": 37638,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
