@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 173,
-      "started_at": "2026-09-21T15:56:31+08:00",
-      "finished_at": "2026-09-21T15:56:55+08:00",
+      "started_at": "2026-09-22T00:41:10+08:00",
+      "finished_at": "2026-09-22T00:41:40+08:00",
       "latest_date": "202608",
       "total_cached_rows": 173,
       "source_details": {
@@ -43,8 +43,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4986,
-      "started_at": "2026-09-21T15:56:55+08:00",
-      "finished_at": "2026-09-21T15:57:11+08:00",
+      "started_at": "2026-09-22T00:41:40+08:00",
+      "finished_at": "2026-09-22T00:41:56+08:00",
       "latest_date": "20260921",
       "total_cached_rows": 5022,
       "source_details": {
@@ -55,10 +55,10 @@
         },
         "dr": {
           "status": "success",
-          "rows": 66,
-          "latest_date": "20260920",
-          "dr001_pct": 1.3596,
-          "dr007_pct": 1.3993,
+          "rows": 67,
+          "latest_date": "20260921",
+          "dr001_pct": 1.3627,
+          "dr007_pct": 1.3953,
           "urls_used": [
             "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/currency/prr-chrt.csv"
           ],
@@ -67,8 +67,8 @@
         }
       },
       "latest_by_series": {
-        "dr001_pct": "20260920",
-        "dr007_pct": "20260920",
+        "dr001_pct": "20260921",
+        "dr007_pct": "20260921",
         "shibor_on_pct": "20260921"
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
@@ -76,9 +76,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 33333,
-      "started_at": "2026-09-21T22:14:19+08:00",
-      "finished_at": "2026-09-21T22:14:32+08:00",
+      "rows": 33331,
+      "started_at": "2026-09-21T23:19:17+08:00",
+      "finished_at": "2026-09-21T23:19:27+08:00",
       "latest_date": "20260921",
       "total_cached_rows": 33342,
       "symbols": {
@@ -174,12 +174,12 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1647,
+          "rows": 1646,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1647,
+          "rows": 1646,
           "source": "Yahoo Finance / yfinance"
         }
       },
@@ -287,8 +287,8 @@
     "valuation": {
       "status": "success",
       "rows": 28195,
-      "started_at": "2026-09-21T22:14:32+08:00",
-      "finished_at": "2026-09-21T22:15:09+08:00",
+      "started_at": "2026-09-21T23:19:27+08:00",
+      "finished_at": "2026-09-21T23:20:03+08:00",
       "latest_date": "20260921",
       "total_cached_rows": 28305,
       "indices": {
@@ -399,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2130,
-      "started_at": "2026-09-21T22:18:14+08:00",
-      "finished_at": "2026-09-21T22:18:14+08:00",
+      "started_at": "2026-09-21T23:31:17+08:00",
+      "finished_at": "2026-09-21T23:31:17+08:00",
       "latest_date": "20260921",
       "total_cached_rows": 2130,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -441,9 +441,9 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-09-20T22:22:50+08:00",
-      "finished_at": "2026-09-20T22:22:54+08:00",
-      "latest_date": "20260915",
+      "started_at": "2026-09-22T00:41:56+08:00",
+      "finished_at": "2026-09-22T00:42:03+08:00",
+      "latest_date": "20260916",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
@@ -451,8 +451,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-21T22:15:09+08:00",
-      "finished_at": "2026-09-21T22:18:14+08:00",
+      "started_at": "2026-09-21T23:20:03+08:00",
+      "finished_at": "2026-09-21T23:31:17+08:00",
       "latest_date": "20260921",
       "crowding_cached_rows": 99,
       "breadth_cached_rows": 99,
@@ -460,7 +460,7 @@
         "status": "success",
         "rows": 1,
         "latest_date": "20260918",
-        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
+        "source": "深交所融资融券汇总 + 上海两融历史公开表"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
       "snapshot_kind": "收盘后快照"
@@ -475,8 +475,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260922",
-      "rows": 99252,
-      "cached_rows": 99252,
+      "rows": 99256,
+      "cached_rows": 99256,
       "covered_stocks": 4793,
       "requested_stocks": 5026,
       "failed_stocks": 233,
@@ -504,7 +504,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600659.SH: KeyError('code')；600656.SH: KeyError('code')；600670.SH: KeyError('code')"
+      "error": "600687.SH: KeyError('code')；600677.SH: KeyError('code')；600669.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -515,7 +515,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-22T00:39:43+08:00",
+  "updated_at": "2026-09-22T01:05:08+08:00",
   "overall_status": "partial",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
