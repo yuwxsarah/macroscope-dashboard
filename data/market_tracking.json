@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22 00:03:38+08:00",
+  "updated_at": "2026-09-22 00:39:43+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,19 +357,19 @@
     "summary": {
       "market_score": 45.7,
       "market_score_before_gate": 45.7,
-      "risk_score": 36.2,
-      "risk_level": "橙色",
-      "market_phase": "防御期 / 橙色降风险",
+      "risk_score": 33.0,
+      "risk_level": "黄色",
+      "market_phase": "防御期",
       "base_position_pct": 30.0,
       "base_position_range": "20%-40%",
-      "risk_discount": 0.8,
-      "risk_discount_range": "75%-85%",
-      "suggested_position_pct": 24.5,
-      "suggested_position_range": "15%-34%",
+      "risk_discount": 0.9,
+      "risk_discount_range": "90%",
+      "suggested_position_pct": 27.0,
+      "suggested_position_range": "18%-36%",
       "single_stock_limit": "10%",
       "industry_limit": "25%",
       "theme_limit": "15%",
-      "risk_action": "提前降风险",
+      "risk_action": "停止追高",
       "liquidity_gate": "",
       "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
       "style_signal": "均衡轮动",
@@ -485,7 +485,7 @@
         "status": "明显改善",
         "basis": [
           "上涨家数占比 80.74%",
-          "A股成交额/总市值 4.55%",
+          "A股成交额/总市值 1.77%",
           "交易拥挤度 43.87%"
         ],
         "blueprint": [
@@ -555,11 +555,11 @@
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 7.9,
-        "raw_risk": 52.5,
-        "level": "偏高",
+        "risk": 4.7,
+        "raw_risk": 31.6,
+        "level": "偏低",
         "basis": [
-          "两融/总市值 5.89%，历史分位 95%",
+          "两融/总市值 2.29%，历史分位 53%",
           "交易拥挤度历史分位 10%"
         ]
       },
@@ -567,11 +567,11 @@
         "name": "跨资产压力",
         "weight": 10,
         "risk": 6.9,
-        "raw_risk": 68.5,
+        "raw_risk": 69.0,
         "level": "偏高",
         "basis": [
           "美国10年期国债 4.94%",
-          "纳斯达克20日动量 2.97%",
+          "纳斯达克20日动量 2.65%",
           "美元净流动性 5.47万亿美元"
         ]
       },
@@ -601,9 +601,9 @@
     "signals": {
       "up_ratio_pct": 80.74,
       "total_amount_trillion": 2.031,
-      "broad_turnover_pct": 4.55,
+      "broad_turnover_pct": 1.766,
       "crowding_pct": 43.87,
-      "margin_to_market_cap_pct": 5.892,
+      "margin_to_market_cap_pct": 2.286,
       "index_momentum_20d_pct": 0.93,
       "dgs10_pct": 4.94
     }
