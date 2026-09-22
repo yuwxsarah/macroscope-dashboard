@@ -30,7 +30,7 @@
       "status": "ok"
     },
     "liquidity.csv": {
-      "rows": 5022,
+      "rows": 5023,
       "columns": [
         "trade_date",
         "dr001_pct",
