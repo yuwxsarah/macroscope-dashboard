@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22 15:42:28+08:00",
+  "updated_at": "2026-09-22 16:49:43+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -353,23 +353,23 @@
     "风险控制"
   ],
   "tracking": {
-    "trade_date": "20260921",
+    "trade_date": "20260922",
     "summary": {
-      "market_score": 48.9,
-      "market_score_before_gate": 48.9,
-      "risk_score": 33.1,
-      "risk_level": "黄色",
-      "market_phase": "防御期",
+      "market_score": 43.1,
+      "market_score_before_gate": 43.1,
+      "risk_score": 42.0,
+      "risk_level": "橙色",
+      "market_phase": "防御期 / 橙色降风险",
       "base_position_pct": 30.0,
       "base_position_range": "20%-40%",
-      "risk_discount": 0.9,
-      "risk_discount_range": "90%",
-      "suggested_position_pct": 27.0,
-      "suggested_position_range": "18%-36%",
+      "risk_discount": 0.8,
+      "risk_discount_range": "75%-85%",
+      "suggested_position_pct": 24.5,
+      "suggested_position_range": "15%-34%",
       "single_stock_limit": "10%",
       "industry_limit": "25%",
       "theme_limit": "15%",
-      "risk_action": "停止追高",
+      "risk_action": "提前降风险",
       "liquidity_gate": "",
       "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
       "style_signal": "均衡轮动",
@@ -400,12 +400,12 @@
       {
         "name": "流动性环境",
         "weight": 20,
-        "score": 67.4,
-        "raw_score": 3.4,
-        "weighted_score": 13.6,
-        "status": "中性偏强",
+        "score": 52.6,
+        "raw_score": 2.6,
+        "weighted_score": 10.4,
+        "status": "中性偏弱",
         "basis": [
-          "DR007 1.40%，历史分位 6%",
+          "DR007 暂无，历史分位 50%",
           "DR007近5期变化 -0.03个百分点",
           "美元净流动性近4期变化 -0.01万亿美元"
         ],
@@ -479,14 +479,14 @@
       {
         "name": "市场情绪",
         "weight": 10,
-        "score": 82.4,
-        "raw_score": 4.1,
-        "weighted_score": 8.2,
-        "status": "明显改善",
+        "score": 56.1,
+        "raw_score": 2.8,
+        "weighted_score": 5.6,
+        "status": "中性偏弱",
         "basis": [
-          "上涨家数占比 80.74%",
-          "A股成交额/总市值 1.77%",
-          "交易拥挤度 43.87%"
+          "上涨家数占比 43.75%",
+          "A股成交额/总市值 1.86%",
+          "交易拥挤度 45.66%"
         ],
         "blueprint": [
           "成交活跃度 25%",
@@ -520,47 +520,47 @@
       {
         "name": "市场广度恶化",
         "weight": 20,
-        "risk": 0.0,
-        "raw_risk": 0.0,
-        "level": "低",
+        "risk": 7.1,
+        "raw_risk": 35.4,
+        "level": "中",
         "basis": [
-          "上涨家数占比 80.74%",
-          "近5期上涨家数变化 1276只"
+          "上涨家数占比 43.75%",
+          "近5期上涨家数变化 1230只"
         ]
       },
       {
         "name": "量价质量恶化",
         "weight": 20,
-        "risk": 6.3,
-        "raw_risk": 31.5,
+        "risk": 5.7,
+        "raw_risk": 28.3,
         "level": "偏低",
         "basis": [
           "主要指数20日动量均值 0.93%",
           "主要指数相对20日均线均值 1.12%",
-          "成交额近5期变化 0.40万亿元"
+          "成交额近5期变化 0.52万亿元"
         ]
       },
       {
         "name": "主线健康度下降",
         "weight": 20,
-        "risk": 6.3,
-        "raw_risk": 31.7,
+        "risk": 6.8,
+        "raw_risk": 34.0,
         "level": "偏低",
         "basis": [
           "创业板20日动量 -0.94%",
           "科创50 20日动量 3.44%",
-          "交易拥挤度 43.87%"
+          "交易拥挤度 45.66%"
         ]
       },
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 4.7,
-        "raw_risk": 31.6,
-        "level": "偏低",
+        "risk": 6.6,
+        "raw_risk": 43.8,
+        "level": "中",
         "basis": [
-          "两融/总市值 2.29%，历史分位 53%",
-          "交易拥挤度历史分位 10%"
+          "两融/总市值 2.30%，历史分位 58%",
+          "交易拥挤度历史分位 30%"
         ]
       },
       {
@@ -599,11 +599,11 @@
       }
     ],
     "signals": {
-      "up_ratio_pct": 80.74,
-      "total_amount_trillion": 2.031,
-      "broad_turnover_pct": 1.766,
-      "crowding_pct": 43.87,
-      "margin_to_market_cap_pct": 2.286,
+      "up_ratio_pct": 43.75,
+      "total_amount_trillion": 2.135,
+      "broad_turnover_pct": 1.856,
+      "crowding_pct": 45.66,
+      "margin_to_market_cap_pct": 2.299,
       "index_momentum_20d_pct": 0.93,
       "dgs10_pct": 5.01
     }
