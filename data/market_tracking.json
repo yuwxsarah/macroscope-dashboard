@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22 22:57:23+08:00",
+  "updated_at": "2026-09-22 23:42:44+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,8 +355,8 @@
   "tracking": {
     "trade_date": "20260922",
     "summary": {
-      "market_score": 43.3,
-      "market_score_before_gate": 43.3,
+      "market_score": 46.5,
+      "market_score_before_gate": 46.5,
       "risk_score": 41.2,
       "risk_level": "橙色",
       "market_phase": "防御期 / 橙色降风险",
@@ -400,13 +400,13 @@
       {
         "name": "流动性环境",
         "weight": 20,
-        "score": 52.6,
-        "raw_score": 2.6,
-        "weighted_score": 10.4,
-        "status": "中性偏弱",
+        "score": 68.0,
+        "raw_score": 3.4,
+        "weighted_score": 13.6,
+        "status": "中性偏强",
         "basis": [
-          "DR007 暂无，历史分位 50%",
-          "DR007近5期变化 -0.03个百分点",
+          "DR007 1.38%，历史分位 4%",
+          "DR007近5期变化 -0.05个百分点",
           "美元净流动性近4期变化 -0.01万亿美元"
         ],
         "blueprint": [
@@ -426,7 +426,7 @@
         "basis": [
           "公开高频政策指标暂未接入，当前用流动性、信用扩张和经济动能做代理",
           "社融存量同比 7.20%",
-          "DR007近5期变化 -0.03个百分点"
+          "DR007近5期变化 -0.05个百分点"
         ],
         "blueprint": [
           "宏观政策 30%",
