@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23 00:18:22+08:00",
+  "updated_at": "2026-09-23 11:06:03+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -109,6 +109,76 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-d3cb3fbe567e0f85",
+      "category": "重大新闻",
+      "title": "A股四大指数开盘多数上涨，存储、有色金属板块表现活跃 盘面上，海运、电力、油气、CRO板块调整。 2470 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103375016.html",
+      "published_at": "2026-09-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-af5b7b980ca68771",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股存储芯片股集体上涨；中金公司今日复牌 机构认为，AI应用接力硬件，行情尚待业绩兑现。 6 31486 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103374900.html",
+      "published_at": "2026-09-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-caac4e54493fb407",
+      "category": "重大新闻",
+      "title": "四家机构网下打新违规被警示，定价决策不审慎成“通病” 年内登陆A股的118只新股首日无一破发，上市首日平均涨幅高达267.86% 8 10840 昨天 20:4",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103374586.html",
+      "published_at": "2026-09-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c5d6ed3cd6ee4cbb",
+      "category": "重大新闻",
+      "title": "中一签赚超18万！创业板、北交所新股同步大涨，炒新行情再起？ 创业板、北交所新股同步大涨。 11 24201 昨天 20:40",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103374582.html",
+      "published_at": "2026-09-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-91986ee0bd985d19",
+      "category": "重大新闻",
+      "title": "赵诣升副总、刘彦春卸高管，公募顶流的“两种转身” 一个拾级而上，作为公司“招牌”进入管理层；一个转身归位，把时间还给研究和持仓。 前者如有“四冠王”之称的赵诣履",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103374446.html",
+      "published_at": "2026-09-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-caac4e54493fb407",
       "category": "重大新闻",
       "title": "四家机构网下打新违规被警示，定价决策不审慎成“通病” 年内登陆A股的118只新股首日无一破发，上市首日平均涨幅高达267.86% 3214 昨天 20:40",
@@ -129,20 +199,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103374582.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-91986ee0bd985d19",
-      "category": "重大新闻",
-      "title": "赵诣升副总、刘彦春卸高管，公募顶流的“两种转身” 一个拾级而上，作为公司“招牌”进入管理层；一个转身归位，把时间还给研究和持仓。 前者如有“四冠王”之称的赵诣履",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103374446.html",
       "published_at": "2026-09-23",
       "symbols": [
         "A股"
@@ -1731,62 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0463c15a0941fd7a",
-      "category": "重大新闻",
-      "title": "晚间公告｜9月14日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 39732 昨天 19:15",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103363751.html",
-      "published_at": "2026-09-15",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-101c81fac33f936c",
-      "category": "重大新闻",
-      "title": "美联储、日本央行加息在即，港股逆势站稳｜市场观察 加息如何影响港股？ 13878 昨天 19:10",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103363754.html",
-      "published_at": "2026-09-15",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bab76f08ff67060a",
-      "category": "重大新闻",
-      "title": "人形机器人IPO审核收紧？投行：更重质量，可持续商业化前景是关键 “与一些申报项目还未进入合理商业化循环有关系。” 11460 昨天 20:58",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103363860.html",
-      "published_at": "2026-09-15",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0463c15a0941fd7a",
-      "category": "重大新闻",
-      "title": "晚间公告｜9月14日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 27983 昨天 19:15",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103363751.html",
-      "published_at": "2026-09-15",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-23 00:18:22+08:00",
+  "last_checked_at": "2026-09-23 11:06:03+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 99931,
+    "rows": 101111,
     "covered_stocks": 4792,
     "requested_stocks": 5026,
     "failed_stocks": 234,
     "coverage_rate": 0.9534,
-    "news_symbols_with_items": 5585,
-    "notice_rows": 62408,
-    "stock_news_rows": 37523,
+    "news_symbols_with_items": 5586,
+    "notice_rows": 63537,
+    "stock_news_rows": 37574,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
