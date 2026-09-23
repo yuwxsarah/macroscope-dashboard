@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 173,
-      "started_at": "2026-09-23T23:11:21+08:00",
-      "finished_at": "2026-09-23T23:12:08+08:00",
+      "started_at": "2026-09-23T23:45:24+08:00",
+      "finished_at": "2026-09-23T23:45:59+08:00",
       "latest_date": "202608",
       "total_cached_rows": 173,
       "source_details": {
@@ -43,8 +43,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4988,
-      "started_at": "2026-09-23T23:12:08+08:00",
-      "finished_at": "2026-09-23T23:12:27+08:00",
+      "started_at": "2026-09-23T23:45:59+08:00",
+      "finished_at": "2026-09-23T23:46:17+08:00",
       "latest_date": "20260923",
       "total_cached_rows": 5024,
       "source_details": {
@@ -76,11 +76,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33350,
-      "started_at": "2026-09-23T20:46:56+08:00",
-      "finished_at": "2026-09-23T20:47:09+08:00",
+      "rows": 33359,
+      "started_at": "2026-09-23T23:46:17+08:00",
+      "finished_at": "2026-09-23T23:46:28+08:00",
       "latest_date": "20260923",
-      "total_cached_rows": 33371,
+      "total_cached_rows": 33382,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -114,17 +114,17 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1689,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1689,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1689,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
@@ -134,64 +134,64 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1689,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1689,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1689,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1689,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1689,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1689,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1689,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1689,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1649,
+          "rows": 1648,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1649,
+          "rows": 1648,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33371
+      "cached_rows": 33382
     },
     "global_macro": {
       "status": "partial",
       "rows": 398,
-      "started_at": "2026-09-23T08:43:29+08:00",
-      "finished_at": "2026-09-23T08:44:21+08:00",
+      "started_at": "2026-09-23T23:46:28+08:00",
+      "finished_at": "2026-09-23T23:47:17+08:00",
       "latest_date": "20260921",
-      "total_cached_rows": 30769,
+      "total_cached_rows": 30771,
       "source_details": {
         "DGS2": {
           "status": "success",
@@ -259,14 +259,14 @@
         "US_PMI_MANUFACTURING": {
           "status": "success",
           "rows": 37,
-          "latest_date": "20260801",
+          "latest_date": "20260901",
           "source": "S&P Global / Trading Economics公开图表（公开样本）",
           "coverage_note": "公开图表仅提供有限历史样本，刷新时与本地历史合并保存。"
         },
         "US_PMI_SERVICES": {
           "status": "success",
           "rows": 37,
-          "latest_date": "20260801",
+          "latest_date": "20260901",
           "source": "S&P Global / Trading Economics公开图表（公开样本）",
           "coverage_note": "公开图表仅提供有限历史样本，刷新时与本地历史合并保存。"
         }
@@ -278,17 +278,17 @@
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260916",
         "PCE_YOY": "20260701",
         "FEDFUNDS": "20260801",
-        "US_PMI_MANUFACTURING": "20260801",
-        "US_PMI_SERVICES": "20260801"
+        "US_PMI_MANUFACTURING": "20260901",
+        "US_PMI_SERVICES": "20260901"
       },
       "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15；美国PMI为S&P Global制造业与服务业公开样本。",
-      "cached_rows": 30769
+      "cached_rows": 30771
     },
     "valuation": {
       "status": "success",
       "rows": 28209,
-      "started_at": "2026-09-23T20:47:09+08:00",
-      "finished_at": "2026-09-23T20:47:46+08:00",
+      "started_at": "2026-09-23T23:47:17+08:00",
+      "finished_at": "2026-09-23T23:48:10+08:00",
       "latest_date": "20260923",
       "total_cached_rows": 28319,
       "indices": {
@@ -399,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2130,
-      "started_at": "2026-09-23T20:49:19+08:00",
-      "finished_at": "2026-09-23T20:49:19+08:00",
+      "started_at": "2026-09-23T23:49:54+08:00",
+      "finished_at": "2026-09-23T23:49:54+08:00",
       "latest_date": "20260923",
       "total_cached_rows": 2130,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -441,8 +441,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-09-23T23:12:27+08:00",
-      "finished_at": "2026-09-23T23:12:35+08:00",
+      "started_at": "2026-09-23T23:49:54+08:00",
+      "finished_at": "2026-09-23T23:50:00+08:00",
       "latest_date": "20260917",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -451,8 +451,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-23T20:47:46+08:00",
-      "finished_at": "2026-09-23T20:49:19+08:00",
+      "started_at": "2026-09-23T23:48:10+08:00",
+      "finished_at": "2026-09-23T23:49:54+08:00",
       "latest_date": "20260923",
       "crowding_cached_rows": 101,
       "breadth_cached_rows": 101,
@@ -474,9 +474,9 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20260923",
-      "rows": 101970,
-      "cached_rows": 101970,
+      "latest_date": "20260924",
+      "rows": 94993,
+      "cached_rows": 94993,
       "covered_stocks": 4793,
       "requested_stocks": 5026,
       "failed_stocks": 233,
@@ -504,7 +504,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600687.SH: KeyError('code')；600652.SH: KeyError('code')；600723.SH: KeyError('code')"
+      "error": "600659.SH: KeyError('code')；600656.SH: KeyError('code')；600669.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -515,7 +515,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-23T23:43:38+08:00",
+  "updated_at": "2026-09-24T00:19:23+08:00",
   "overall_status": "partial",
-  "last_update_mode": "evening"
+  "last_update_mode": "all"
 }
