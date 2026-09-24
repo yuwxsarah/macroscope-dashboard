@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 22:18:27+08:00",
+  "updated_at": "2026-09-24 22:50:35+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,7 +111,7 @@
     {
       "id": "auto-yicai-aec191c8a8f707ca",
       "category": "重大新闻",
-      "title": "晚间公告｜9月24日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 23271 3小时前",
+      "title": "晚间公告｜9月24日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 25875 3小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103377751.html",
@@ -125,7 +125,7 @@
     {
       "id": "auto-yicai-b9fa6d31dedbdff8",
       "category": "重大新闻",
-      "title": "硬科技主导A股前三季度IPO，120只新股募资2109亿 长鑫科技和华润新能源合计募资911亿，超去年全年IPO募资总额 4051 3小时前",
+      "title": "硬科技主导A股前三季度IPO，120只新股募资2109亿 长鑫科技和华润新能源合计募资911亿，超去年全年IPO募资总额 4361 4小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103377693.html",
@@ -139,7 +139,7 @@
     {
       "id": "auto-yicai-a99b3413f01f8d79",
       "category": "重大新闻",
-      "title": "龙虎榜丨机构今日买入这19股，卖出中京电子1.25亿元 共33只个股出现了机构的身影。 7895 3小时前",
+      "title": "龙虎榜丨机构今日买入这19股，卖出中京电子1.25亿元 共33只个股出现了机构的身影。 8453 4小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103377709.html",
@@ -153,7 +153,7 @@
     {
       "id": "auto-yicai-7d3f098391cdddda",
       "category": "重大新闻",
-      "title": "观望 1137 5小时前",
+      "title": "观望 1261 5小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103377618.html",
@@ -167,7 +167,7 @@
     {
       "id": "auto-yicai-0fa03fc4c121ecab",
       "category": "重大新闻",
-      "title": "收盘｜沪指跌1.22% 有色金属股集体走低 全市场超4300只个股下跌。 6934 6小时前",
+      "title": "收盘｜沪指跌1.22% 有色金属股集体走低 全市场超4300只个股下跌。 6996 7小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103377340.html",
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-24 22:18:27+08:00",
+  "last_checked_at": "2026-09-24 22:50:35+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 101950,
+    "rows": 101960,
     "covered_stocks": 4793,
     "requested_stocks": 5026,
     "failed_stocks": 233,
     "coverage_rate": 0.9536,
     "news_symbols_with_items": 5586,
-    "notice_rows": 64451,
-    "stock_news_rows": 37499,
+    "notice_rows": 64453,
+    "stock_news_rows": 37507,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
