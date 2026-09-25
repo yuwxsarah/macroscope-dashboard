@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 173,
-      "started_at": "2026-09-25T15:44:34+08:00",
-      "finished_at": "2026-09-25T15:45:04+08:00",
+      "started_at": "2026-09-25T23:32:07+08:00",
+      "finished_at": "2026-09-25T23:33:07+08:00",
       "latest_date": "202608",
       "total_cached_rows": 173,
       "source_details": {
@@ -43,8 +43,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4989,
-      "started_at": "2026-09-25T15:45:04+08:00",
-      "finished_at": "2026-09-25T15:45:21+08:00",
+      "started_at": "2026-09-25T23:33:07+08:00",
+      "finished_at": "2026-09-25T23:33:26+08:00",
       "latest_date": "20260924",
       "total_cached_rows": 5025,
       "source_details": {
@@ -441,8 +441,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-09-25T00:02:55+08:00",
-      "finished_at": "2026-09-25T00:03:05+08:00",
+      "started_at": "2026-09-25T23:33:26+08:00",
+      "finished_at": "2026-09-25T23:33:31+08:00",
       "latest_date": "20260921",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -475,8 +475,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260925",
-      "rows": 95038,
-      "cached_rows": 95038,
+      "rows": 95040,
+      "cached_rows": 95040,
       "covered_stocks": 4793,
       "requested_stocks": 5026,
       "failed_stocks": 233,
@@ -504,7 +504,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600669.SH: KeyError('code')；600656.SH: KeyError('code')；600659.SH: KeyError('code')"
+      "error": "600762.SH: KeyError('code')；600772.SH: KeyError('code')；600767.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -515,7 +515,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-25T23:10:07+08:00",
+  "updated_at": "2026-09-25T23:58:30+08:00",
   "overall_status": "partial",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
