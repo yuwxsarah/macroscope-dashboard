@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25 15:45:38+08:00",
+  "updated_at": "2026-09-25 17:06:40+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,7 +357,7 @@
     "summary": {
       "market_score": 43.9,
       "market_score_before_gate": 43.9,
-      "risk_score": 64.5,
+      "risk_score": 64.1,
       "risk_level": "红色",
       "market_phase": "防御期 / 红色预警",
       "base_position_pct": 30.0,
@@ -555,11 +555,11 @@
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 6.3,
-        "raw_risk": 42.1,
+        "risk": 5.9,
+        "raw_risk": 39.6,
         "level": "中",
         "basis": [
-          "两融/总市值 2.35%，历史分位 83%",
+          "两融/总市值 2.34%，历史分位 78%",
           "交易拥挤度历史分位 1%"
         ]
       },
@@ -603,7 +603,7 @@
       "total_amount_trillion": 1.653,
       "broad_turnover_pct": 1.465,
       "crowding_pct": 41.99,
-      "margin_to_market_cap_pct": 2.346,
+      "margin_to_market_cap_pct": 2.338,
       "index_momentum_20d_pct": -3.85,
       "dgs10_pct": 5.11
     }
