@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25 00:31:02+08:00",
+  "updated_at": "2026-09-25 11:11:48+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-aec191c8a8f707ca",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月24日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 36167 昨天 18:55",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103377751.html",
+      "published_at": "2026-09-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b9fa6d31dedbdff8",
+      "category": "重大新闻",
+      "title": "硬科技主导A股前三季度IPO，120只新股募资2109亿 长鑫科技和华润新能源合计募资911亿，超去年全年IPO募资总额 9538 昨天 18:28",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103377693.html",
+      "published_at": "2026-09-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a99b3413f01f8d79",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这19股，卖出中京电子1.25亿元 共33只个股出现了机构的身影。 14064 昨天 18:26",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103377709.html",
+      "published_at": "2026-09-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7d3f098391cdddda",
+      "category": "重大新闻",
+      "title": "观望 2377 昨天 17:15",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103377618.html",
+      "published_at": "2026-09-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0fa03fc4c121ecab",
+      "category": "重大新闻",
+      "title": "收盘｜沪指跌1.22% 有色金属股集体走低 全市场超4300只个股下跌。 8329 昨天 15:18",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103377340.html",
+      "published_at": "2026-09-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-aec191c8a8f707ca",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a7ea4d57ac64b86a",
-      "category": "重大新闻",
-      "title": "东兴证券0.2折转让不良债权，券商屡现甩卖房产 1.58亿元的债权，转让底价仅343.06万元，折扣低至0.217折。 2811 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103367685.html",
-      "published_at": "2026-09-17",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e3901be004730bbf",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，电力、海运板块逆势走强 盘面上，黄金、油气、石化、有色金属、覆铜板板块调整。 1943 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103367588.html",
-      "published_at": "2026-09-17",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1c9ca9cd756935d4",
-      "category": "重大新闻",
-      "title": "携程集团港股收涨超3.8%、美股涨3%，全球业务成集团增长重要动力 第二季度，携程国际平台收入同比增长超过50%，入境游收入在此前较高基数上继续实现同比高双位数",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103367470.html",
-      "published_at": "2026-09-17",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3c23e158c0a4f795",
-      "category": "重大新闻",
-      "title": "盘前必读丨美联储时隔三年多首次加息；宁德时代将回应车企换供应商传闻 机构认为，美联储加息落地后，A股市场大概率出现向上的拐点。 7 36446 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103367463.html",
-      "published_at": "2026-09-17",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4806ed8174a2ad95",
-      "category": "重大新闻",
-      "title": "超500亿新钱涌入“固收+”，策略标签化、赛道化争议升温 当“固收+”长出标签：透明化能否换来信任？ 6 9321 昨天 19:55",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103367073.html",
-      "published_at": "2026-09-17",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-25 00:31:02+08:00",
+  "last_checked_at": "2026-09-25 11:11:48+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 88322,
+    "rows": 88274,
     "covered_stocks": 4793,
     "requested_stocks": 5026,
     "failed_stocks": 233,
     "coverage_rate": 0.9536,
-    "news_symbols_with_items": 5563,
-    "notice_rows": 52487,
-    "stock_news_rows": 35835,
+    "news_symbols_with_items": 5568,
+    "notice_rows": 52434,
+    "stock_news_rows": 35840,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
