@@ -76,9 +76,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 33387,
-      "started_at": "2026-09-25T00:01:15+08:00",
-      "finished_at": "2026-09-25T00:01:26+08:00",
+      "rows": 33379,
+      "started_at": "2026-09-25T08:37:17+08:00",
+      "finished_at": "2026-09-25T08:37:27+08:00",
       "latest_date": "20260924",
       "total_cached_rows": 33400,
       "symbols": {
@@ -134,42 +134,42 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
@@ -188,15 +188,15 @@
     "global_macro": {
       "status": "partial",
       "rows": 398,
-      "started_at": "2026-09-25T00:01:26+08:00",
-      "finished_at": "2026-09-25T00:02:15+08:00",
-      "latest_date": "20260922",
-      "total_cached_rows": 30773,
+      "started_at": "2026-09-25T08:37:27+08:00",
+      "finished_at": "2026-09-25T08:38:16+08:00",
+      "latest_date": "20260923",
+      "total_cached_rows": 30777,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260922",
+          "latest_date": "20260923",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -205,7 +205,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260922",
+          "latest_date": "20260923",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -214,14 +214,14 @@
         "USD_LIQUIDITY": {
           "status": "success",
           "rows": 2,
-          "latest_date": "20260916",
+          "latest_date": "20260923",
           "source": "美联储H.4.1 / 纽约联储逆回购API（FRED备用）",
           "formula": "SOMA口径=WSHOSHO-WDTGAL-RRPONTSYD；总资产口径=WALCL-WDTGAL-RRPONTSYD；统一换算为万亿美元",
           "input_latest_dates": {
-            "WSHOSHO": "20260916",
-            "WALCL": "20260916",
-            "WDTGAL": "20260916",
-            "RRPONTSYD": "20260923"
+            "WSHOSHO": "20260923",
+            "WALCL": "20260923",
+            "WDTGAL": "20260923",
+            "RRPONTSYD": "20260924"
           },
           "input_sources": {
             "WSHOSHO": "Federal Reserve H.4.1 fallback",
@@ -272,17 +272,17 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260922",
-        "DGS10": "20260922",
-        "NET_USD_LIQUIDITY_SOMA": "20260916",
-        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260916",
+        "DGS2": "20260923",
+        "DGS10": "20260923",
+        "NET_USD_LIQUIDITY_SOMA": "20260923",
+        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260923",
         "PCE_YOY": "20260701",
         "FEDFUNDS": "20260801",
         "US_PMI_MANUFACTURING": "20260901",
         "US_PMI_SERVICES": "20260901"
       },
       "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15；美国PMI为S&P Global制造业与服务业公开样本。",
-      "cached_rows": 30773
+      "cached_rows": 30777
     },
     "valuation": {
       "status": "success",
@@ -399,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2130,
-      "started_at": "2026-09-25T00:02:55+08:00",
-      "finished_at": "2026-09-25T00:02:55+08:00",
+      "started_at": "2026-09-25T08:38:16+08:00",
+      "finished_at": "2026-09-25T08:38:16+08:00",
       "latest_date": "20260924",
       "total_cached_rows": 2130,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -508,7 +508,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-25T00:32:14+08:00",
+  "updated_at": "2026-09-25T08:38:28+08:00",
   "overall_status": "partial",
-  "last_update_mode": "all"
+  "last_update_mode": "global"
 }
