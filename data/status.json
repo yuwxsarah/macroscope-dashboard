@@ -75,10 +75,10 @@
       "cached_rows": 5025
     },
     "market": {
-      "status": "success",
-      "rows": 33395,
-      "started_at": "2026-09-26T08:41:37+08:00",
-      "finished_at": "2026-09-26T08:41:46+08:00",
+      "status": "partial",
+      "rows": 31769,
+      "started_at": "2026-09-27T08:43:24+08:00",
+      "finished_at": "2026-09-27T08:43:59+08:00",
       "latest_date": "20260925",
       "total_cached_rows": 33412,
       "symbols": {
@@ -108,9 +108,8 @@
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
-          "status": "success",
-          "rows": 1634,
-          "source": "中证指数官网 / AKShare"
+          "status": "failed",
+          "error": "DataFetchError(\"指数行情失败: 中证指数官网 / AKShare: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 东方财富指数日线 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))) | 东方财富指数历史 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))\")"
         },
         "^IXIC": {
           "status": "success",
@@ -134,42 +133,42 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
@@ -187,9 +186,9 @@
     },
     "global_macro": {
       "status": "partial",
-      "rows": 78,
-      "started_at": "2026-09-26T08:41:46+08:00",
-      "finished_at": "2026-09-26T08:42:35+08:00",
+      "rows": 398,
+      "started_at": "2026-09-27T08:43:59+08:00",
+      "finished_at": "2026-09-27T08:44:48+08:00",
       "latest_date": "20260924",
       "total_cached_rows": 30779,
       "source_details": {
@@ -248,11 +247,13 @@
         },
         "PCE_YOY": {
           "status": "failed",
-          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"HTTPError(\\'500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
+          "error": "HTTPError('500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps')"
         },
         "FEDFUNDS": {
-          "status": "failed",
-          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"HTTPError(\\'500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
+          "status": "success",
+          "rows": 320,
+          "latest_date": "20260801",
+          "source": "美联储H.15月度数据包"
         },
         "US_PMI_MANUFACTURING": {
           "status": "success",
@@ -397,8 +398,8 @@
     "deviation": {
       "status": "success",
       "rows": 2130,
-      "started_at": "2026-09-26T08:42:35+08:00",
-      "finished_at": "2026-09-26T08:42:35+08:00",
+      "started_at": "2026-09-27T08:44:48+08:00",
+      "finished_at": "2026-09-27T08:44:48+08:00",
       "latest_date": "20260924",
       "total_cached_rows": 2130,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -506,7 +507,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-26T23:12:08+08:00",
+  "updated_at": "2026-09-27T08:45:07+08:00",
   "overall_status": "partial",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
