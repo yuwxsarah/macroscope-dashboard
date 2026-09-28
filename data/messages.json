@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28 23:59:17+08:00",
+  "updated_at": "2026-09-29 01:17:42+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,6 +111,76 @@
     {
       "id": "auto-yicai-deb6efb2f92d3b36",
       "category": "重大新闻",
+      "title": "多因素共振下A股调整，机构称节后修复反弹可期 多位券商分析师认为，节后市场大概率走出修复反弹行情。 5167 昨天 20:48",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380273.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9ad012f711d54e57",
+      "category": "重大新闻",
+      "title": "26只“固收+”解锁Y份额，养老基金货架新增“中间档” 谁领走首批入场券？个人养老金货架新增“中间档” 1912 昨天 20:38",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380261.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-58fec9ac8db1389b",
+      "category": "重大新闻",
+      "title": "邹迎光出任中信证券董事长，张佑君到龄退休 张佑君于1992年加入中信集团，参与了中信证券的筹备设立，并于1995年中信证券成立时加入，先后担任襄理、副总经理、总",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380090.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e76785b11b936ae5",
+      "category": "重大新闻",
+      "title": "产业链公司加速扩产，光通信“量增价跌”博弈加剧 这批项目的建设周期普遍在一到三年，投产时间与下一代产品的放量窗口能否重合，决定了它们最终是护城河，还是折旧压力。",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380061.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c18d7f561fc04d26",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5 36787 昨天 18:53",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380078.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-deb6efb2f92d3b36",
+      "category": "重大新闻",
       "title": "多因素共振下A股调整，机构称节后修复反弹可期 多位券商分析师认为，节后市场大概率走出修复反弹行情。 4671 3小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
@@ -129,34 +199,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103380261.html",
-      "published_at": "2026-09-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-58fec9ac8db1389b",
-      "category": "重大新闻",
-      "title": "邹迎光出任中信证券董事长，张佑君到龄退休 张佑君于1992年加入中信集团，参与了中信证券的筹备设立，并于1995年中信证券成立时加入，先后担任襄理、副总经理、总",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103380090.html",
-      "published_at": "2026-09-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e76785b11b936ae5",
-      "category": "重大新闻",
-      "title": "产业链公司加速扩产，光通信“量增价跌”博弈加剧 这批项目的建设周期普遍在一到三年，投产时间与下一代产品的放量窗口能否重合，决定了它们最终是护城河，还是折旧压力。",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103380061.html",
       "published_at": "2026-09-28",
       "symbols": [
         "A股"
@@ -1745,48 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e40f0870cb50ea43",
-      "category": "重大新闻",
-      "title": "59只深跌基金回血超30%，小微盘再获资金追捧 新主线空窗期，资金为何流向微盘“小池塘” 11553 昨天 19:14",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103371410.html",
-      "published_at": "2026-09-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9310519a5e95dcc6",
-      "category": "重大新闻",
-      "title": "首批18只主动ETF获批在即，公募基金运营大考在上市后 “最快下周见分晓” 7027 昨天 19:13",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103371393.html",
-      "published_at": "2026-09-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e40f0870cb50ea43",
-      "category": "重大新闻",
-      "title": "59只深跌基金回血超30%，小微盘再获资金追捧 新主线空窗期，资金为何流向微盘“小池塘” 3648 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103371410.html",
-      "published_at": "2026-09-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-28 23:59:17+08:00",
+  "last_checked_at": "2026-09-29 01:17:42+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 69330,
+    "rows": 65110,
     "covered_stocks": 4793,
     "requested_stocks": 5026,
     "failed_stocks": 233,
     "coverage_rate": 0.9536,
-    "news_symbols_with_items": 5512,
-    "notice_rows": 38134,
-    "stock_news_rows": 31196,
+    "news_symbols_with_items": 5509,
+    "notice_rows": 34793,
+    "stock_news_rows": 30317,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
