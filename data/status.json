@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 173,
-      "started_at": "2026-09-29T02:15:45+08:00",
-      "finished_at": "2026-09-29T02:16:09+08:00",
+      "started_at": "2026-09-29T02:34:54+08:00",
+      "finished_at": "2026-09-29T02:35:17+08:00",
       "latest_date": "202608",
       "total_cached_rows": 173,
       "source_details": {
@@ -43,8 +43,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4990,
-      "started_at": "2026-09-29T02:16:09+08:00",
-      "finished_at": "2026-09-29T02:16:25+08:00",
+      "started_at": "2026-09-29T02:35:17+08:00",
+      "finished_at": "2026-09-29T02:35:33+08:00",
       "latest_date": "20260928",
       "total_cached_rows": 5026,
       "source_details": {
@@ -77,8 +77,8 @@
     "market": {
       "status": "success",
       "rows": 33423,
-      "started_at": "2026-09-29T00:59:59+08:00",
-      "finished_at": "2026-09-29T01:00:09+08:00",
+      "started_at": "2026-09-29T02:35:33+08:00",
+      "finished_at": "2026-09-29T02:35:43+08:00",
       "latest_date": "20260928",
       "total_cached_rows": 33432,
       "symbols": {
@@ -188,8 +188,8 @@
     "global_macro": {
       "status": "partial",
       "rows": 398,
-      "started_at": "2026-09-28T08:55:09+08:00",
-      "finished_at": "2026-09-28T08:55:58+08:00",
+      "started_at": "2026-09-29T02:35:43+08:00",
+      "finished_at": "2026-09-29T02:36:32+08:00",
       "latest_date": "20260924",
       "total_cached_rows": 30779,
       "source_details": {
@@ -221,7 +221,7 @@
             "WSHOSHO": "20260923",
             "WALCL": "20260923",
             "WDTGAL": "20260923",
-            "RRPONTSYD": "20260925"
+            "RRPONTSYD": "20260928"
           },
           "input_sources": {
             "WSHOSHO": "Federal Reserve H.4.1 fallback",
@@ -287,8 +287,8 @@
     "valuation": {
       "status": "success",
       "rows": 28223,
-      "started_at": "2026-09-29T01:00:09+08:00",
-      "finished_at": "2026-09-29T01:00:40+08:00",
+      "started_at": "2026-09-29T02:36:32+08:00",
+      "finished_at": "2026-09-29T02:37:52+08:00",
       "latest_date": "20260928",
       "total_cached_rows": 28333,
       "indices": {
@@ -399,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2135,
-      "started_at": "2026-09-29T01:00:40+08:00",
-      "finished_at": "2026-09-29T01:00:40+08:00",
+      "started_at": "2026-09-29T02:37:53+08:00",
+      "finished_at": "2026-09-29T02:37:53+08:00",
       "latest_date": "20260928",
       "total_cached_rows": 2135,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -441,8 +441,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-09-29T02:16:25+08:00",
-      "finished_at": "2026-09-29T02:16:31+08:00",
+      "started_at": "2026-09-29T02:37:53+08:00",
+      "finished_at": "2026-09-29T02:37:59+08:00",
       "latest_date": "20260922",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -451,8 +451,8 @@
     "sentiment": {
       "status": "partial",
       "rows": 0,
-      "started_at": "2026-09-29T01:00:40+08:00",
-      "finished_at": "2026-09-29T01:00:40+08:00",
+      "started_at": "2026-09-29T02:37:52+08:00",
+      "finished_at": "2026-09-29T02:37:53+08:00",
       "latest_date": "20260928",
       "total_cached_rows": 103,
       "skipped": true,
@@ -468,8 +468,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260929",
-      "rows": 65111,
-      "cached_rows": 65111,
+      "rows": 65115,
+      "cached_rows": 65115,
       "covered_stocks": 4793,
       "requested_stocks": 5026,
       "failed_stocks": 233,
@@ -497,7 +497,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600687.SH: KeyError('code')；600672.SH: KeyError('code')；600670.SH: KeyError('code')"
+      "error": "600659.SH: KeyError('code')；600670.SH: KeyError('code')；600669.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -508,7 +508,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-29T02:33:02+08:00",
+  "updated_at": "2026-09-29T02:55:59+08:00",
   "overall_status": "partial",
-  "last_update_mode": "evening"
+  "last_update_mode": "all"
 }
