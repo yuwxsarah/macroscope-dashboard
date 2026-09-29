@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 22:33:10+08:00",
+  "updated_at": "2026-09-29 23:30:53+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,7 +357,7 @@
     "summary": {
       "market_score": 44.1,
       "market_score_before_gate": 44.1,
-      "risk_score": 63.4,
+      "risk_score": 62.3,
       "risk_level": "红色",
       "market_phase": "防御期 / 红色预警",
       "base_position_pct": 30.0,
@@ -485,7 +485,7 @@
         "status": "中性偏强",
         "basis": [
           "上涨家数占比 62.46%",
-          "A股成交额/总市值 3.32%",
+          "A股成交额/总市值 1.27%",
           "交易拥挤度 42.24%"
         ],
         "blueprint": [
@@ -555,11 +555,11 @@
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 7.6,
-        "raw_risk": 51.0,
-        "level": "偏高",
+        "risk": 6.5,
+        "raw_risk": 43.2,
+        "level": "中",
         "basis": [
-          "两融/总市值 6.14%，历史分位 100%",
+          "两融/总市值 2.35%，历史分位 84%",
           "交易拥挤度历史分位 2%"
         ]
       },
@@ -567,11 +567,11 @@
         "name": "跨资产压力",
         "weight": 10,
         "risk": 7.1,
-        "raw_risk": 70.6,
+        "raw_risk": 70.5,
         "level": "高",
         "basis": [
           "美国10年期国债 5.17%",
-          "纳斯达克20日动量 1.67%",
+          "纳斯达克20日动量 1.74%",
           "美元净流动性 5.52万亿美元"
         ]
       },
@@ -601,9 +601,9 @@
     "signals": {
       "up_ratio_pct": 62.46,
       "total_amount_trillion": 1.408,
-      "broad_turnover_pct": 3.321,
+      "broad_turnover_pct": 1.274,
       "crowding_pct": 42.24,
-      "margin_to_market_cap_pct": 6.136,
+      "margin_to_market_cap_pct": 2.354,
       "index_momentum_20d_pct": -6.35,
       "dgs10_pct": 5.17
     }
