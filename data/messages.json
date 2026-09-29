@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 11:54:19+08:00",
+  "updated_at": "2026-09-29 22:31:45+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-1d4aac2de41e3b06",
+      "category": "重大新闻",
+      "title": "想让闲钱“上班”过假期？上百只基金节前限流 长假未到先“上锁”，上百只基金提前限单。 1757 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103381837.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2e8e8ea04f13297a",
+      "category": "重大新闻",
+      "title": "前三季度123只新股登场：10股单股浮盈超10万元，“大肉签”扎堆科创板 122只新股首日无一破发，平均涨幅约274%，其中19股在“首秀”之日收涨超500%。",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103381834.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4b77536419397274",
+      "category": "重大新闻",
+      "title": "港股打新退潮：折价30%发行仍破发，新股供给量大幅攀升 从 \"稀缺溢价\" 到 \"审美疲劳\"，港股今年的新股上市数量创8年新高。 2718 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103381611.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7cac89eaa896c075",
+      "category": "重大新闻",
+      "title": "三季度A股剧震与再平衡：AI“拉锯”持续，机构聚焦盈利验证 “未来市场大概率呈现震荡上行、结构为主的格局，而非单边快速拉升。” 5 7709 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103381535.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d7021b1cfb494fcd",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月29日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 8 29378 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103381585.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-61cce9f3abd6d065",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7537a3a5b35d65f9",
-      "category": "重大新闻",
-      "title": "盘前必读丨纳指涨超2%创收盘新高；星帅尔跨界收购PCB刀具设备企业 机构认为，市场积极因子增强，国庆节前大盘或延续反弹走势。 5 26092 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103373154.html",
-      "published_at": "2026-09-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-45e9c57820681c6e",
-      "category": "重大新闻",
-      "title": "港交所开启第二阶段咨询，拟优化上市公司交易、分拆上市规则 就优化上市公司须遵守的有须予公布的交易、关联交易及分拆上市规定向市场征询意见，咨询截止时间为2026年",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103372916.html",
-      "published_at": "2026-09-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5e5d060d78bc0c90",
-      "category": "重大新闻",
-      "title": "创新药ETF再“包场”涨幅榜，是高低切换还是拐点已至？ 创新药ETF霸榜的一天：这次是真涨还是又一次昙花一现？ 6717 昨天 20:55",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103372706.html",
-      "published_at": "2026-09-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d871d91f356d96f6",
-      "category": "重大新闻",
-      "title": "无偿捐出总股本11.21%股份、上市七年零减持：兑吧创始人把公司“分给”员工 创始人在公司上市七年后的第一笔大额股权动作，不是减持套现，而是无偿赠予。这笔不摊薄",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103372791.html",
-      "published_at": "2026-09-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5e5d060d78bc0c90",
-      "category": "重大新闻",
-      "title": "创新药ETF再“包场”涨幅榜，是高低切换还是拐点已至？ 创新药ETF霸榜的一天：这次是真涨还是又一次昙花一现？ 2501 昨天 20:55",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103372706.html",
-      "published_at": "2026-09-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-29 11:54:19+08:00",
+  "last_checked_at": "2026-09-29 22:31:45+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 63774,
+    "rows": 64437,
     "covered_stocks": 4793,
     "requested_stocks": 5026,
     "failed_stocks": 233,
     "coverage_rate": 0.9536,
-    "news_symbols_with_items": 5495,
-    "notice_rows": 33364,
-    "stock_news_rows": 30410,
+    "news_symbols_with_items": 5508,
+    "notice_rows": 33509,
+    "stock_news_rows": 30928,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
