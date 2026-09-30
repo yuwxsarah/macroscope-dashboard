@@ -5,7 +5,7 @@
   "warnings": [],
   "data": {
     "macro.csv": {
-      "rows": 173,
+      "rows": 174,
       "columns": [
         "month",
         "cpi_mom_pct",
@@ -30,7 +30,7 @@
       "status": "ok"
     },
     "liquidity.csv": {
-      "rows": 5027,
+      "rows": 5028,
       "columns": [
         "trade_date",
         "dr001_pct",
