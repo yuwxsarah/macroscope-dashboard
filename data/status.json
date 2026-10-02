@@ -75,12 +75,12 @@
       "cached_rows": 5028
     },
     "market": {
-      "status": "success",
-      "rows": 33475,
-      "started_at": "2026-10-02T01:30:07+08:00",
-      "finished_at": "2026-10-02T01:30:14+08:00",
-      "latest_date": "20261001",
-      "total_cached_rows": 33486,
+      "status": "partial",
+      "rows": 31783,
+      "started_at": "2026-10-02T09:43:54+08:00",
+      "finished_at": "2026-10-02T09:44:03+08:00",
+      "latest_date": "20261002",
+      "total_cached_rows": 33488,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -113,9 +113,9 @@
           "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
-          "status": "success",
-          "rows": 1696,
-          "source": "Yahoo Finance / yfinance"
+          "status": "failed",
+          "rows": 0,
+          "source": null
         },
         "^GSPC": {
           "status": "success",
@@ -174,29 +174,29 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1652,
+          "rows": 1654,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1652,
+          "rows": 1654,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33486
+      "cached_rows": 33488
     },
     "global_macro": {
       "status": "partial",
-      "rows": 398,
-      "started_at": "2026-10-02T01:30:14+08:00",
-      "finished_at": "2026-10-02T01:31:03+08:00",
-      "latest_date": "20260929",
-      "total_cached_rows": 30785,
+      "rows": 78,
+      "started_at": "2026-10-02T09:44:03+08:00",
+      "finished_at": "2026-10-02T09:44:54+08:00",
+      "latest_date": "20260930",
+      "total_cached_rows": 30789,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260929",
+          "latest_date": "20260930",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -205,7 +205,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260929",
+          "latest_date": "20260930",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -214,13 +214,13 @@
         "USD_LIQUIDITY": {
           "status": "success",
           "rows": 2,
-          "latest_date": "20260923",
+          "latest_date": "20260930",
           "source": "美联储H.4.1 / 纽约联储逆回购API（FRED备用）",
           "formula": "SOMA口径=WSHOSHO-WDTGAL-RRPONTSYD；总资产口径=WALCL-WDTGAL-RRPONTSYD；统一换算为万亿美元",
           "input_latest_dates": {
-            "WSHOSHO": "20260923",
-            "WALCL": "20260923",
-            "WDTGAL": "20260923",
+            "WSHOSHO": "20260930",
+            "WALCL": "20260930",
+            "WDTGAL": "20260930",
             "RRPONTSYD": "20261001"
           },
           "input_sources": {
@@ -248,13 +248,11 @@
         },
         "PCE_YOY": {
           "status": "failed",
-          "error": "HTTPError('500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps')"
+          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"HTTPError(\\'500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
         },
         "FEDFUNDS": {
-          "status": "success",
-          "rows": 320,
-          "latest_date": "20260801",
-          "source": "美联储H.15月度数据包"
+          "status": "failed",
+          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"HTTPError(\\'500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
         },
         "US_PMI_MANUFACTURING": {
           "status": "success",
@@ -272,17 +270,17 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260929",
-        "DGS10": "20260929",
-        "NET_USD_LIQUIDITY_SOMA": "20260923",
-        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260923",
+        "DGS2": "20260930",
+        "DGS10": "20260930",
+        "NET_USD_LIQUIDITY_SOMA": "20260930",
+        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260930",
         "PCE_YOY": "20260701",
         "FEDFUNDS": "20260801",
         "US_PMI_MANUFACTURING": "20260901",
         "US_PMI_SERVICES": "20260901"
       },
       "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15；美国PMI为S&P Global制造业与服务业公开样本。",
-      "cached_rows": 30785
+      "cached_rows": 30789
     },
     "valuation": {
       "status": "success",
@@ -399,8 +397,8 @@
     "deviation": {
       "status": "success",
       "rows": 2135,
-      "started_at": "2026-10-02T01:31:33+08:00",
-      "finished_at": "2026-10-02T01:31:33+08:00",
+      "started_at": "2026-10-02T09:44:54+08:00",
+      "finished_at": "2026-10-02T09:44:54+08:00",
       "latest_date": "20260930",
       "total_cached_rows": 2135,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -508,7 +506,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-02T01:50:29+08:00",
+  "updated_at": "2026-10-02T09:45:10+08:00",
   "overall_status": "partial",
-  "last_update_mode": "all"
+  "last_update_mode": "global"
 }
