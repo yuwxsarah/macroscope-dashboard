@@ -75,10 +75,10 @@
       "cached_rows": 5028
     },
     "market": {
-      "status": "partial",
-      "rows": 31787,
-      "started_at": "2026-10-03T09:15:15+08:00",
-      "finished_at": "2026-10-03T09:15:23+08:00",
+      "status": "success",
+      "rows": 33491,
+      "started_at": "2026-10-04T08:54:27+08:00",
+      "finished_at": "2026-10-04T08:54:35+08:00",
       "latest_date": "20261002",
       "total_cached_rows": 33500,
       "symbols": {
@@ -134,42 +134,42 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1696,
+          "rows": 1697,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1696,
+          "rows": 1697,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1696,
+          "rows": 1697,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1696,
+          "rows": 1697,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
-          "status": "failed",
-          "rows": 0,
-          "source": null
+          "status": "success",
+          "rows": 1697,
+          "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1696,
+          "rows": 1697,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1696,
+          "rows": 1697,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1696,
+          "rows": 1697,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
@@ -187,9 +187,9 @@
     },
     "global_macro": {
       "status": "partial",
-      "rows": 78,
-      "started_at": "2026-10-03T09:15:23+08:00",
-      "finished_at": "2026-10-03T09:16:13+08:00",
+      "rows": 399,
+      "started_at": "2026-10-04T08:54:35+08:00",
+      "finished_at": "2026-10-04T08:55:23+08:00",
       "latest_date": "20261001",
       "total_cached_rows": 30792,
       "source_details": {
@@ -248,11 +248,13 @@
         },
         "PCE_YOY": {
           "status": "failed",
-          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"HTTPError(\\'500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
+          "error": "HTTPError('500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps')"
         },
         "FEDFUNDS": {
-          "status": "failed",
-          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"HTTPError(\\'500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
+          "status": "success",
+          "rows": 321,
+          "latest_date": "20260901",
+          "source": "美联储H.15月度数据包"
         },
         "US_PMI_MANUFACTURING": {
           "status": "success",
@@ -397,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2135,
-      "started_at": "2026-10-03T09:16:13+08:00",
-      "finished_at": "2026-10-03T09:16:13+08:00",
+      "started_at": "2026-10-04T08:55:23+08:00",
+      "finished_at": "2026-10-04T08:55:23+08:00",
       "latest_date": "20260930",
       "total_cached_rows": 2135,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -506,7 +508,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-03T23:16:16+08:00",
+  "updated_at": "2026-10-04T08:55:43+08:00",
   "overall_status": "partial",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
