@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06 02:27:50+08:00",
+  "updated_at": "2026-10-06 03:39:38+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-b2589ba7ff217e64",
+      "category": "重大新闻",
+      "title": "中际旭创17亿入股落地，中石科技散热业务能否撑起翻倍估值 入股的在跌，被入股的却在涨。市场追逐的并非股权本身，而是产业协同下散热业务放量的预期 32137 10",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103384135.html",
+      "published_at": "2026-10-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4cb7be931e6c002d",
+      "category": "重大新闻",
+      "title": "恒生科技指数连跌一年，累计跌幅近四成｜市场观察 内地假期使得港股缺乏南向资金支撑。 7 37283 10-02 15:08",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103383874.html",
+      "published_at": "2026-10-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-af0b5b12f77389b7",
+      "category": "重大新闻",
+      "title": "晓数点｜一图速览9月A股月报 四大指数9月均累计下跌，近岸蛋白问鼎9月最牛股，源杰科技成新“股王”，主力抛售浪潮信息>> 25906 10-01 17:42",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103383687.html",
+      "published_at": "2026-10-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a40b7cabd95d2c6d",
+      "category": "重大新闻",
+      "title": "晓数点丨券商10月金股出炉，涉及医药、信息技术等领域 药明康德最受机构青睐，共入围了8家券商的推荐名单。 34958 10-01 17:22",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103383683.html",
+      "published_at": "2026-10-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-8bf7a3cf63ac3309",
+      "category": "重大新闻",
+      "title": "独家｜在港机构加码清理内地非法交易，多家收紧部分观望 “在境外机构清理内地客户非法存量业务后，未来通过合法渠道开展境外投资的人将会越来越多。” 44568 10",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103383593.html",
+      "published_at": "2026-10-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-b2589ba7ff217e64",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-54808e0603fafce6",
-      "category": "重大新闻",
-      "title": "盘前必读丨英伟达发布AI安全平台，国际金银大跌 机构认为，全球地缘局势仍存在不确定性，长假前夕部分资金或倾向于观望。 6 27301 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103380562.html",
-      "published_at": "2026-09-29",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-deb6efb2f92d3b36",
-      "category": "重大新闻",
-      "title": "多因素共振下A股调整，机构称节后修复反弹可期 多位券商分析师认为，节后市场大概率走出修复反弹行情。 10 13785 昨天 20:48",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103380273.html",
-      "published_at": "2026-09-29",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9ad012f711d54e57",
-      "category": "重大新闻",
-      "title": "26只“固收+”解锁Y份额，养老基金货架新增“中间档” 谁领走首批入场券？个人养老金货架新增“中间档” 9 4423 昨天 20:38",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103380261.html",
-      "published_at": "2026-09-29",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-58fec9ac8db1389b",
-      "category": "重大新闻",
-      "title": "邹迎光出任中信证券董事长，张佑君到龄退休 张佑君于1992年加入中信集团，参与了中信证券的筹备设立，并于1995年中信证券成立时加入，先后担任襄理、副总经理、总",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103380090.html",
-      "published_at": "2026-09-29",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-deb6efb2f92d3b36",
-      "category": "重大新闻",
-      "title": "多因素共振下A股调整，机构称节后修复反弹可期 多位券商分析师认为，节后市场大概率走出修复反弹行情。 5725 昨天 20:48",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103380273.html",
-      "published_at": "2026-09-29",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-06 02:27:50+08:00",
+  "last_checked_at": "2026-10-06 03:39:38+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 58081,
+    "rows": 58085,
     "covered_stocks": 4793,
     "requested_stocks": 5026,
     "failed_stocks": 233,
     "coverage_rate": 0.9536,
     "news_symbols_with_items": 5430,
     "notice_rows": 29904,
-    "stock_news_rows": 28177,
+    "stock_news_rows": 28181,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
