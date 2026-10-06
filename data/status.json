@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 174,
-      "started_at": "2026-10-07T00:55:52+08:00",
-      "finished_at": "2026-10-07T00:56:27+08:00",
+      "started_at": "2026-10-07T01:21:33+08:00",
+      "finished_at": "2026-10-07T01:21:59+08:00",
       "latest_date": "202609",
       "total_cached_rows": 174,
       "source_details": {
@@ -43,8 +43,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4992,
-      "started_at": "2026-10-07T00:56:27+08:00",
-      "finished_at": "2026-10-07T00:56:46+08:00",
+      "started_at": "2026-10-07T01:21:59+08:00",
+      "finished_at": "2026-10-07T01:22:19+08:00",
       "latest_date": "20260930",
       "total_cached_rows": 5028,
       "source_details": {
@@ -76,9 +76,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 33517,
-      "started_at": "2026-10-06T22:14:26+08:00",
-      "finished_at": "2026-10-06T22:14:35+08:00",
+      "rows": 33515,
+      "started_at": "2026-10-07T01:22:19+08:00",
+      "finished_at": "2026-10-07T01:22:28+08:00",
       "latest_date": "20261006",
       "total_cached_rows": 33527,
       "symbols": {
@@ -174,12 +174,12 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1655,
+          "rows": 1654,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1655,
+          "rows": 1654,
           "source": "Yahoo Finance / yfinance"
         }
       },
@@ -187,9 +187,9 @@
     },
     "global_macro": {
       "status": "partial",
-      "rows": 78,
-      "started_at": "2026-10-06T10:22:08+08:00",
-      "finished_at": "2026-10-06T10:22:59+08:00",
+      "rows": 399,
+      "started_at": "2026-10-07T01:22:28+08:00",
+      "finished_at": "2026-10-07T01:23:17+08:00",
       "latest_date": "20261002",
       "total_cached_rows": 30794,
       "source_details": {
@@ -221,7 +221,7 @@
             "WSHOSHO": "20260930",
             "WALCL": "20260930",
             "WDTGAL": "20260930",
-            "RRPONTSYD": "20261005"
+            "RRPONTSYD": "20261006"
           },
           "input_sources": {
             "WSHOSHO": "Federal Reserve H.4.1 fallback",
@@ -248,11 +248,13 @@
         },
         "PCE_YOY": {
           "status": "failed",
-          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"HTTPError(\\'500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
+          "error": "HTTPError('500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps')"
         },
         "FEDFUNDS": {
-          "status": "failed",
-          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"HTTPError(\\'500 Server Error: Internal Server Error for url: https://apps.bea.gov/iTablecore/data/app/GetSteps\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
+          "status": "success",
+          "rows": 321,
+          "latest_date": "20260901",
+          "source": "美联储H.15月度数据包"
         },
         "US_PMI_MANUFACTURING": {
           "status": "success",
@@ -285,8 +287,8 @@
     "valuation": {
       "status": "success",
       "rows": 28237,
-      "started_at": "2026-10-06T22:14:35+08:00",
-      "finished_at": "2026-10-06T22:15:06+08:00",
+      "started_at": "2026-10-07T01:23:17+08:00",
+      "finished_at": "2026-10-07T01:23:44+08:00",
       "latest_date": "20260930",
       "total_cached_rows": 28347,
       "indices": {
@@ -397,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2135,
-      "started_at": "2026-10-06T22:16:30+08:00",
-      "finished_at": "2026-10-06T22:16:31+08:00",
+      "started_at": "2026-10-07T01:23:44+08:00",
+      "finished_at": "2026-10-07T01:23:44+08:00",
       "latest_date": "20260930",
       "total_cached_rows": 2135,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -439,29 +441,22 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-10-07T00:56:46+08:00",
-      "finished_at": "2026-10-07T00:56:51+08:00",
+      "started_at": "2026-10-07T01:23:44+08:00",
+      "finished_at": "2026-10-07T01:24:15+08:00",
       "latest_date": "20260929",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
     },
     "sentiment": {
-      "status": "success",
-      "rows": 2,
-      "started_at": "2026-10-06T22:15:06+08:00",
-      "finished_at": "2026-10-06T22:16:30+08:00",
+      "status": "partial",
+      "rows": 0,
+      "started_at": "2026-10-07T01:23:44+08:00",
+      "finished_at": "2026-10-07T01:23:44+08:00",
       "latest_date": "20260930",
-      "crowding_cached_rows": 105,
-      "breadth_cached_rows": 105,
-      "leverage": {
-        "status": "success",
-        "rows": 1,
-        "latest_date": "20260929",
-        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
-      },
-      "source": "新浪沪深京A股实时行情 / AKShare",
-      "snapshot_kind": "收盘后快照"
+      "total_cached_rows": 105,
+      "skipped": true,
+      "note": "非A股交易时段，继续展示上一次成功快照。"
     },
     "a_share_universe": {
       "status": "success",
@@ -473,8 +468,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261007",
-      "rows": 51348,
-      "cached_rows": 51348,
+      "rows": 58038,
+      "cached_rows": 58038,
       "covered_stocks": 4793,
       "requested_stocks": 5026,
       "failed_stocks": 233,
@@ -502,7 +497,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600659.SH: KeyError('code')；600652.SH: KeyError('code')；600695.SH: KeyError('code')"
+      "error": "600680.SH: KeyError('code')；600672.SH: KeyError('code')；600669.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -513,7 +508,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-07T01:19:56+08:00",
+  "updated_at": "2026-10-07T01:40:27+08:00",
   "overall_status": "partial",
-  "last_update_mode": "evening"
+  "last_update_mode": "all"
 }

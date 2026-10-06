@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07 01:19:42+08:00",
+  "updated_at": "2026-10-07 01:39:13+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -157,6 +157,20 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103383683.html",
+      "published_at": "2026-10-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-8bf7a3cf63ac3309",
+      "category": "重大新闻",
+      "title": "独家｜在港机构加码清理内地非法交易，多家收紧部分观望 “在境外机构清理内地客户非法存量业务后，未来通过合法渠道开展境外投资的人将会越来越多。” 46924 10",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103383593.html",
       "published_at": "2026-10-07",
       "symbols": [
         "A股"
@@ -1773,20 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7cac89eaa896c075",
-      "category": "重大新闻",
-      "title": "三季度A股剧震与再平衡：AI“拉锯”持续，机构聚焦盈利验证 “未来市场大概率呈现震荡上行、结构为主的格局，而非单边快速拉升。” 5 9476 昨天 18:57",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103381535.html",
-      "published_at": "2026-09-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-07 01:19:42+08:00",
+  "last_checked_at": "2026-10-07 01:39:13+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 51348,
+    "rows": 58038,
     "covered_stocks": 4793,
     "requested_stocks": 5026,
     "failed_stocks": 233,
     "coverage_rate": 0.9536,
-    "news_symbols_with_items": 5352,
-    "notice_rows": 23216,
-    "stock_news_rows": 28132,
+    "news_symbols_with_items": 5428,
+    "notice_rows": 29902,
+    "stock_news_rows": 28136,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
