@@ -30738,7 +30738,7 @@
 20260901,DGS2,美国2年期国债收益率,4.39,%,美联储H.15当前发布页
 20260901,FEDFUNDS,美国有效联邦基金利率,3.75,%,美联储H.15月度数据包
 20260901,US_PMI_MANUFACTURING,美国S&P Global制造业PMI,55.9,点,S&P Global / Trading Economics公开图表（公开样本）
-20260901,US_PMI_SERVICES,美国S&P Global服务业PMI,58.7,点,S&P Global / Trading Economics公开图表（公开样本）
+20260901,US_PMI_SERVICES,美国S&P Global服务业PMI,58.8,点,S&P Global / Trading Economics公开图表（公开样本）
 20260902,DGS10,美国10年期国债收益率,4.79,%,美联储H.15当前发布页
 20260902,DGS2,美国2年期国债收益率,4.39,%,美联储H.15当前发布页
 20260902,NET_USD_LIQUIDITY_SOMA,美元净流动性（SOMA-TGA-RRP）,5.5234,万亿美元,美联储H.4.1 / 纽约联储逆回购API（FRED备用）
@@ -30791,3 +30791,5 @@
 20260930,NET_USD_LIQUIDITY_TOTAL_ASSETS,美元净流动性（总资产-TGA-RRP）,5.7474,万亿美元,美联储H.4.1 / 纽约联储逆回购API（FRED备用）
 20261001,DGS10,美国10年期国债收益率,5.24,%,美联储H.15当前发布页
 20261001,DGS2,美国2年期国债收益率,4.78,%,美联储H.15当前发布页
+20261002,DGS10,美国10年期国债收益率,5.28,%,美联储H.15当前发布页
+20261002,DGS2,美国2年期国债收益率,4.83,%,美联储H.15当前发布页
