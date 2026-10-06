@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07 00:23:18+08:00",
+  "updated_at": "2026-10-07 01:19:42+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-07 00:23:18+08:00",
+  "last_checked_at": "2026-10-07 01:19:42+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 58036,
+    "rows": 51348,
     "covered_stocks": 4793,
     "requested_stocks": 5026,
     "failed_stocks": 233,
     "coverage_rate": 0.9536,
-    "news_symbols_with_items": 5428,
-    "notice_rows": 29902,
-    "stock_news_rows": 28134,
+    "news_symbols_with_items": 5352,
+    "notice_rows": 23216,
+    "stock_news_rows": 28132,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
