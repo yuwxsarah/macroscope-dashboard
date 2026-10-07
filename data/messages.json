@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08 00:07:30+08:00",
+  "updated_at": "2026-10-08 00:31:28+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -125,7 +125,7 @@
     {
       "id": "auto-yicai-0029003f2016ab3c",
       "category": "重大新闻",
-      "title": "连续地量，A股节后行情怎么走 9月29日、30日全市场成交额接连刷新年内新低，上证指数跌破3900点，创业板指与科创50刚刚经历各自历史上最差的一个季度 755",
+      "title": "连续地量，A股节后行情怎么走 9月29日、30日全市场成交额接连刷新年内新低，上证指数跌破3900点，创业板指与科创50刚刚经历各自历史上最差的一个季度 820",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103385138.html",
@@ -157,6 +157,34 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103385095.html",
+      "published_at": "2026-10-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-33dca7013fd6e81d",
+      "category": "重大新闻",
+      "title": "晚间公告｜10月7日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 26960 昨天 18:28",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103385094.html",
+      "published_at": "2026-10-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0029003f2016ab3c",
+      "category": "重大新闻",
+      "title": "连续地量，A股节后行情怎么走 9月29日、30日全市场成交额接连刷新年内新低，上证指数跌破3900点，创业板指与科创50刚刚经历各自历史上最差的一个季度 755",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103385138.html",
       "published_at": "2026-10-08",
       "symbols": [
         "A股"
@@ -1759,34 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b4b1c59f9f0aef0f",
-      "category": "重大新闻",
-      "title": "规模连创11个月新高，私募“玩家”为何越来越少？ “现在行业开始深耕精品化路线，不再是过去的单纯求量。” 8050 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383220.html",
-      "published_at": "2026-09-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-75895b2b5514709f",
-      "category": "重大新闻",
-      "title": "晓数点｜9月十大牛熊股出炉 一图速览>> 2749 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383267.html",
-      "published_at": "2026-09-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-08 00:07:30+08:00",
+  "last_checked_at": "2026-10-08 00:31:28+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 58073,
+    "rows": 57070,
     "covered_stocks": 4793,
     "requested_stocks": 5026,
     "failed_stocks": 233,
     "coverage_rate": 0.9536,
-    "news_symbols_with_items": 5428,
-    "notice_rows": 29902,
-    "stock_news_rows": 28171,
+    "news_symbols_with_items": 5413,
+    "notice_rows": 29686,
+    "stock_news_rows": 27384,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
