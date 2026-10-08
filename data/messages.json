@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09 00:13:56+08:00",
+  "updated_at": "2026-10-09 00:34:31+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,7 +111,7 @@
     {
       "id": "auto-yicai-314fb779859d4c93",
       "category": "重大新闻",
-      "title": "上市券商竞速“出海”：17家排队加码，跨境业务成业绩新引擎 在机构看来，跨境业务已成为券商继自营、财富管理之后的核心增长曲线。 486 昨天 23:15",
+      "title": "上市券商竞速“出海”：17家排队加码，跨境业务成业绩新引擎 在机构看来，跨境业务已成为券商继自营、财富管理之后的核心增长曲线。 920 昨天 23:15",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103386511.html",
@@ -167,7 +167,7 @@
     {
       "id": "auto-yicai-455018f185477dd0",
       "category": "重大新闻",
-      "title": "晚间公告｜10月8日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 45312 昨天 18:22",
+      "title": "晚间公告｜10月8日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 46397 昨天 18:22",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103386413.html",
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-09 00:13:56+08:00",
+  "last_checked_at": "2026-10-09 00:34:31+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 54379,
-    "covered_stocks": 4793,
+    "rows": 57445,
+    "covered_stocks": 4792,
     "requested_stocks": 5026,
-    "failed_stocks": 233,
-    "coverage_rate": 0.9536,
-    "news_symbols_with_items": 5393,
-    "notice_rows": 26747,
-    "stock_news_rows": 27632,
+    "failed_stocks": 234,
+    "coverage_rate": 0.9534,
+    "news_symbols_with_items": 5417,
+    "notice_rows": 29816,
+    "stock_news_rows": 27629,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }

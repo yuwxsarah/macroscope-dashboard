@@ -76,9 +76,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 33549,
-      "started_at": "2026-10-08T23:51:27+08:00",
-      "finished_at": "2026-10-08T23:51:37+08:00",
+      "rows": 33551,
+      "started_at": "2026-10-08T22:37:26+08:00",
+      "finished_at": "2026-10-08T22:37:34+08:00",
       "latest_date": "20261008",
       "total_cached_rows": 33561,
       "symbols": {
@@ -174,12 +174,12 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1657,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1657,
           "source": "Yahoo Finance / yfinance"
         }
       },
@@ -285,8 +285,8 @@
     "valuation": {
       "status": "success",
       "rows": 28244,
-      "started_at": "2026-10-08T23:51:37+08:00",
-      "finished_at": "2026-10-08T23:52:19+08:00",
+      "started_at": "2026-10-08T22:37:34+08:00",
+      "finished_at": "2026-10-08T22:38:26+08:00",
       "latest_date": "20261008",
       "total_cached_rows": 28354,
       "indices": {
@@ -397,8 +397,8 @@
     "deviation": {
       "status": "success",
       "rows": 2145,
-      "started_at": "2026-10-08T23:54:11+08:00",
-      "finished_at": "2026-10-08T23:54:11+08:00",
+      "started_at": "2026-10-08T22:40:08+08:00",
+      "finished_at": "2026-10-08T22:40:08+08:00",
       "latest_date": "20261008",
       "total_cached_rows": 2145,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -449,8 +449,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-10-08T23:52:19+08:00",
-      "finished_at": "2026-10-08T23:54:11+08:00",
+      "started_at": "2026-10-08T22:38:26+08:00",
+      "finished_at": "2026-10-08T22:40:08+08:00",
       "latest_date": "20261008",
       "crowding_cached_rows": 106,
       "breadth_cached_rows": 106,
@@ -473,12 +473,12 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261009",
-      "rows": 54379,
-      "cached_rows": 54379,
-      "covered_stocks": 4793,
+      "rows": 57445,
+      "cached_rows": 57445,
+      "covered_stocks": 4792,
       "requested_stocks": 5026,
-      "failed_stocks": 233,
-      "coverage_rate": 0.9536,
+      "failed_stocks": 234,
+      "coverage_rate": 0.9534,
       "failed_symbols_sample": [
         "000003.SZ",
         "000005.SZ",
@@ -502,7 +502,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600656.SH: KeyError('code')；600701.SH: KeyError('code')；600652.SH: KeyError('code')"
+      "error": "600659.SH: KeyError('code')；600656.SH: KeyError('code')；600652.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -513,7 +513,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-09T00:15:16+08:00",
+  "updated_at": "2026-10-09T00:34:51+08:00",
   "overall_status": "partial",
   "last_update_mode": "close"
 }
