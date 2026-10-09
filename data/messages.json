@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09 02:11:28+08:00",
+  "updated_at": "2026-10-09 12:13:13+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-eb6435eb86529e32",
+      "category": "重大新闻",
+      "title": "滚动更新丨创业板指失守3000点，锂电池概念逆势走强 创业板指跌超3%，鼎泰高科、润泽科技、菲利华、香农芯创、铜冠铜箔、三环集团均下挫9%左右。 8453 1小",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103387190.html",
+      "published_at": "2026-10-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-8d35745af0364028",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，江淮汽车再度跌停 盘面上，光芯片、覆铜板、玻纤板块调整。 6 7585 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103387026.html",
+      "published_at": "2026-10-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f25bbad91bd865b4",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股半导体、存储板块重挫；多家A股公司三季报预增 机构认为，科技仍在寻底，能否企稳看三季报表现及美债拐点。 8 32788 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103386879.html",
+      "published_at": "2026-10-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-314fb779859d4c93",
+      "category": "重大新闻",
+      "title": "上市券商竞速“出海”：17家排队加码，跨境业务成业绩新引擎 在机构看来，跨境业务已成为券商继自营、财富管理之后的核心增长曲线。 8422 昨天 23:15",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103386511.html",
+      "published_at": "2026-10-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0a375cbe03c6dbb2",
+      "category": "重大新闻",
+      "title": "上百只新基金定档10月，四季度钱往哪儿投？ 发行提速与认购降温并行：“量增额减”钱去哪了？ 5880 昨天 20:22",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103386612.html",
+      "published_at": "2026-10-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-314fb779859d4c93",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b4b1c59f9f0aef0f",
-      "category": "重大新闻",
-      "title": "规模连创11个月新高，私募“玩家”为何越来越少？ “现在行业开始深耕精品化路线，不再是过去的单纯求量。” 19830 09-30 19:56",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383220.html",
-      "published_at": "2026-10-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-75895b2b5514709f",
-      "category": "重大新闻",
-      "title": "晓数点｜9月十大牛熊股出炉 一图速览>> 8949 09-30 19:31",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383267.html",
-      "published_at": "2026-10-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-af0b5b12f77389b7",
-      "category": "重大新闻",
-      "title": "晓数点｜一图速览9月A股月报 四大指数9月均累计下跌，近岸蛋白问鼎9月最牛股，源杰科技成新“股王”，主力抛售浪潮信息>> 3493 昨天 17:42",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383687.html",
-      "published_at": "2026-10-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a40b7cabd95d2c6d",
-      "category": "重大新闻",
-      "title": "晓数点丨券商10月金股出炉，涉及医药、信息技术等领域 药明康德最受机构青睐，共入围了8家券商的推荐名单。 4640 昨天 17:22",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383683.html",
-      "published_at": "2026-10-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8bf7a3cf63ac3309",
-      "category": "重大新闻",
-      "title": "独家｜在港机构加码清理内地非法交易，多家收紧部分观望 “在境外机构清理内地客户非法存量业务后，未来通过合法渠道开展境外投资的人将会越来越多。” 22837 昨天",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383593.html",
-      "published_at": "2026-10-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-09 02:11:28+08:00",
+  "last_checked_at": "2026-10-09 12:13:13+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 57449,
+    "rows": 57592,
     "covered_stocks": 4792,
     "requested_stocks": 5026,
     "failed_stocks": 234,
     "coverage_rate": 0.9534,
-    "news_symbols_with_items": 5417,
-    "notice_rows": 29816,
-    "stock_news_rows": 27633,
+    "news_symbols_with_items": 5419,
+    "notice_rows": 29822,
+    "stock_news_rows": 27770,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
