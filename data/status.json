@@ -77,8 +77,8 @@
     "market": {
       "status": "success",
       "rows": 33569,
-      "started_at": "2026-10-09T23:33:54+08:00",
-      "finished_at": "2026-10-09T23:34:07+08:00",
+      "started_at": "2026-10-09T22:24:33+08:00",
+      "finished_at": "2026-10-09T22:24:45+08:00",
       "latest_date": "20261009",
       "total_cached_rows": 33579,
       "symbols": {
@@ -287,8 +287,8 @@
     "valuation": {
       "status": "success",
       "rows": 28251,
-      "started_at": "2026-10-09T23:34:07+08:00",
-      "finished_at": "2026-10-09T23:34:45+08:00",
+      "started_at": "2026-10-09T22:24:45+08:00",
+      "finished_at": "2026-10-09T22:25:19+08:00",
       "latest_date": "20261009",
       "total_cached_rows": 28361,
       "indices": {
@@ -399,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2145,
-      "started_at": "2026-10-09T23:36:20+08:00",
-      "finished_at": "2026-10-09T23:36:20+08:00",
+      "started_at": "2026-10-09T22:26:55+08:00",
+      "finished_at": "2026-10-09T22:26:55+08:00",
       "latest_date": "20261009",
       "total_cached_rows": 2145,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -451,8 +451,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-10-09T23:34:45+08:00",
-      "finished_at": "2026-10-09T23:36:20+08:00",
+      "started_at": "2026-10-09T22:25:19+08:00",
+      "finished_at": "2026-10-09T22:26:55+08:00",
       "latest_date": "20261009",
       "crowding_cached_rows": 107,
       "breadth_cached_rows": 107,
@@ -460,7 +460,7 @@
         "status": "success",
         "rows": 1,
         "latest_date": "20261008",
-        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
+        "source": "深交所融资融券汇总 + 上海两融历史公开表"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
       "snapshot_kind": "收盘后快照"
@@ -474,9 +474,9 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20261009",
-      "rows": 58626,
-      "cached_rows": 58626,
+      "latest_date": "20261010",
+      "rows": 57609,
+      "cached_rows": 57609,
       "covered_stocks": 4792,
       "requested_stocks": 5026,
       "failed_stocks": 234,
@@ -504,7 +504,7 @@
         "000611.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600672.SH: KeyError('code')；600646.SH: KeyError('code')；600652.SH: KeyError('code')"
+      "error": "600672.SH: KeyError('code')；600709.SH: KeyError('code')；600659.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -515,7 +515,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-10T00:00:08+08:00",
+  "updated_at": "2026-10-10T00:20:45+08:00",
   "overall_status": "partial",
   "last_update_mode": "close"
 }
