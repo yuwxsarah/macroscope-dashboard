@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09 22:48:58+08:00",
+  "updated_at": "2026-10-10 00:00:08+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,19 +357,19 @@
     "summary": {
       "market_score": 50.8,
       "market_score_before_gate": 50.8,
-      "risk_score": 50.8,
-      "risk_level": "红色",
-      "market_phase": "震荡期 / 红色预警",
+      "risk_score": 49.6,
+      "risk_level": "橙色",
+      "market_phase": "震荡期 / 橙色降风险",
       "base_position_pct": 50.0,
       "base_position_range": "40%-60%",
-      "risk_discount": 0.6,
-      "risk_discount_range": "50%-70%",
-      "suggested_position_pct": 31.0,
-      "suggested_position_range": "20%-42%",
+      "risk_discount": 0.8,
+      "risk_discount_range": "75%-85%",
+      "suggested_position_pct": 40.5,
+      "suggested_position_range": "30%-51%",
       "single_stock_limit": "15%",
       "industry_limit": "35%",
       "theme_limit": "25%",
-      "risk_action": "系统性降仓",
+      "risk_action": "提前降风险",
       "liquidity_gate": "",
       "concentration_note": "单股上限15%，单行业上限35%，单主题上限25%，以结构性机会为主。",
       "style_signal": "大盘价值占优",
@@ -485,7 +485,7 @@
         "status": "中性偏强",
         "basis": [
           "上涨家数占比 57.22%",
-          "A股成交额/总市值 4.55%",
+          "A股成交额/总市值 1.74%",
           "交易拥挤度 41.80%"
         ],
         "blueprint": [
@@ -555,11 +555,11 @@
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 7.6,
-        "raw_risk": 50.5,
-        "level": "偏高",
+        "risk": 6.4,
+        "raw_risk": 42.4,
+        "level": "中",
         "basis": [
-          "两融/总市值 6.15%，历史分位 100%",
+          "两融/总市值 2.35%，历史分位 84%",
           "交易拥挤度历史分位 1%"
         ]
       },
@@ -571,7 +571,7 @@
         "level": "高",
         "basis": [
           "美国10年期国债 5.28%",
-          "纳斯达克20日动量 3.68%",
+          "纳斯达克20日动量 3.69%",
           "美元净流动性 5.58万亿美元"
         ]
       },
@@ -601,9 +601,9 @@
     "signals": {
       "up_ratio_pct": 57.22,
       "total_amount_trillion": 1.9,
-      "broad_turnover_pct": 4.55,
+      "broad_turnover_pct": 1.74,
       "crowding_pct": 41.8,
-      "margin_to_market_cap_pct": 6.146,
+      "margin_to_market_cap_pct": 2.35,
       "index_momentum_20d_pct": -6.53,
       "dgs10_pct": 5.28
     }
