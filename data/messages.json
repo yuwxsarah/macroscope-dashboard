@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13 01:02:10+08:00",
+  "updated_at": "2026-10-13 02:29:41+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -125,7 +125,7 @@
     {
       "id": "auto-yicai-43f699dcf60b16f0",
       "category": "重大新闻",
-      "title": "新型浮动费率基金迎扩容，首批业绩首尾相差175个百分点 从头部试水到中型扩围，浮动费率基金的\"全面推开\"时刻到了吗？ 2036 昨天 21:21",
+      "title": "新型浮动费率基金迎扩容，首批业绩首尾相差175个百分点 从头部试水到中型扩围，浮动费率基金的\"全面推开\"时刻到了吗？ 2501 昨天 21:21",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103390475.html",
@@ -139,7 +139,7 @@
     {
       "id": "auto-yicai-e281529524984924",
       "category": "重大新闻",
-      "title": "年内新发基金“上量不吸金”，门槛大降75%能否破局？ 逆周期布局获制度支持，业内人士称低位发行不再\"卡在起点\" 2501 昨天 20:57",
+      "title": "年内新发基金“上量不吸金”，门槛大降75%能否破局？ 逆周期布局获制度支持，业内人士称低位发行不再\"卡在起点\" 2966 昨天 20:57",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103390481.html",
@@ -171,6 +171,34 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103390335.html",
+      "published_at": "2026-10-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-43f699dcf60b16f0",
+      "category": "重大新闻",
+      "title": "新型浮动费率基金迎扩容，首批业绩首尾相差175个百分点 从头部试水到中型扩围，浮动费率基金的\"全面推开\"时刻到了吗？ 2036 昨天 21:21",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103390475.html",
+      "published_at": "2026-10-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e281529524984924",
+      "category": "重大新闻",
+      "title": "年内新发基金“上量不吸金”，门槛大降75%能否破局？ 逆周期布局获制度支持，业内人士称低位发行不再\"卡在起点\" 2501 昨天 20:57",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103390481.html",
       "published_at": "2026-10-13",
       "symbols": [
         "A股"
@@ -1759,34 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-af0b5b12f77389b7",
-      "category": "重大新闻",
-      "title": "晓数点｜一图速览9月A股月报 四大指数9月均累计下跌，近岸蛋白问鼎9月最牛股，源杰科技成新“股王”，主力抛售浪潮信息>> 19520 10-01 17:42",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383687.html",
-      "published_at": "2026-10-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a40b7cabd95d2c6d",
-      "category": "重大新闻",
-      "title": "晓数点丨券商10月金股出炉，涉及医药、信息技术等领域 药明康德最受机构青睐，共入围了8家券商的推荐名单。 27735 10-01 17:22",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383683.html",
-      "published_at": "2026-10-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-13 01:02:10+08:00",
+  "last_checked_at": "2026-10-13 02:29:41+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 52817,
+    "rows": 53904,
     "covered_stocks": 4790,
     "requested_stocks": 5026,
     "failed_stocks": 236,
     "coverage_rate": 0.953,
-    "news_symbols_with_items": 5356,
-    "notice_rows": 25525,
-    "stock_news_rows": 27292,
+    "news_symbols_with_items": 5364,
+    "notice_rows": 26609,
+    "stock_news_rows": 27295,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
