@@ -76,11 +76,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33587,
-      "started_at": "2026-10-13T04:17:17+08:00",
-      "finished_at": "2026-10-13T04:17:27+08:00",
-      "latest_date": "20261012",
-      "total_cached_rows": 33600,
+      "rows": 33589,
+      "started_at": "2026-10-13T11:05:34+08:00",
+      "finished_at": "2026-10-13T11:05:44+08:00",
+      "latest_date": "20261013",
+      "total_cached_rows": 33602,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -174,22 +174,22 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1657,
+          "rows": 1658,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1657,
+          "rows": 1658,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33600
+      "cached_rows": 33602
     },
     "global_macro": {
       "status": "partial",
       "rows": 399,
-      "started_at": "2026-10-13T04:17:27+08:00",
-      "finished_at": "2026-10-13T04:18:14+08:00",
+      "started_at": "2026-10-13T11:05:44+08:00",
+      "finished_at": "2026-10-13T11:06:33+08:00",
       "latest_date": "20261008",
       "total_cached_rows": 30804,
       "source_details": {
@@ -399,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2150,
-      "started_at": "2026-10-13T04:18:47+08:00",
-      "finished_at": "2026-10-13T04:18:47+08:00",
+      "started_at": "2026-10-13T11:06:33+08:00",
+      "finished_at": "2026-10-13T11:06:33+08:00",
       "latest_date": "20261012",
       "total_cached_rows": 2150,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -508,7 +508,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-13T04:34:46+08:00",
+  "updated_at": "2026-10-13T11:06:53+08:00",
   "overall_status": "partial",
-  "last_update_mode": "all"
+  "last_update_mode": "global"
 }
