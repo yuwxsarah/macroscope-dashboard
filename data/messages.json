@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13 23:30:48+08:00",
+  "updated_at": "2026-10-14 00:46:34+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -115,7 +115,63 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103392259.html",
-      "published_at": "2026-10-13",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6ff15ad4cc157923",
+      "category": "重大新闻",
+      "title": "追高科技后低位砍仓，谁是A股近期主力卖盘 “根据我们对资金动向的观察，险资和‘固收+’产品被动赎回是本轮核心卖盘。” 9197 昨天 21:39",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103392207.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4eacfc3d1c7e6144",
+      "category": "重大新闻",
+      "title": "单季4700亿元杠杆资金出逃，两融规模创新低 千亿级的杠杆资金从哪些板块出逃？近一个半月，电子、通信、有色金属是融资资金净流出额最高的三大行业。 3276 昨天",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103392109.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c5d8c6939830db15",
+      "category": "重大新闻",
+      "title": "原油冲高、锂价探底：能源期货上演冰火两重天 在产业逻辑分化之外，传统能源和新能源还共同受到宏观变量的约束。 2408 昨天 20:41",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103392110.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-cbbd4c295d72e2c7",
+      "category": "重大新闻",
+      "title": "科技股深V反攻、沪指再探3741点，双底能否撑起反弹行情？ 中际旭创年内涨幅跑输中国石油。 2501 昨天 20:40",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103392108.html",
+      "published_at": "2026-10-14",
       "symbols": [
         "A股"
       ],
@@ -1731,62 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4cb7be931e6c002d",
-      "category": "重大新闻",
-      "title": "恒生科技指数连跌一年，累计跌幅近四成｜市场观察 内地假期使得港股缺乏南向资金支撑。 7 37283 10-02 15:08",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383874.html",
-      "published_at": "2026-10-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-af0b5b12f77389b7",
-      "category": "重大新闻",
-      "title": "晓数点｜一图速览9月A股月报 四大指数9月均累计下跌，近岸蛋白问鼎9月最牛股，源杰科技成新“股王”，主力抛售浪潮信息>> 25906 10-01 17:42",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383687.html",
-      "published_at": "2026-10-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a40b7cabd95d2c6d",
-      "category": "重大新闻",
-      "title": "晓数点丨券商10月金股出炉，涉及医药、信息技术等领域 药明康德最受机构青睐，共入围了8家券商的推荐名单。 34958 10-01 17:22",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383683.html",
-      "published_at": "2026-10-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8bf7a3cf63ac3309",
-      "category": "重大新闻",
-      "title": "独家｜在港机构加码清理内地非法交易，多家收紧部分观望 “在境外机构清理内地客户非法存量业务后，未来通过合法渠道开展境外投资的人将会越来越多。” 44568 10",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383593.html",
-      "published_at": "2026-10-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-13 23:30:48+08:00",
+  "last_checked_at": "2026-10-14 00:46:34+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 53341,
-    "covered_stocks": 4790,
-    "requested_stocks": 5026,
-    "failed_stocks": 236,
-    "coverage_rate": 0.953,
-    "news_symbols_with_items": 5342,
-    "notice_rows": 25102,
-    "stock_news_rows": 28239,
+    "rows": 59029,
+    "covered_stocks": 5313,
+    "requested_stocks": 5561,
+    "failed_stocks": 248,
+    "coverage_rate": 0.9554,
+    "news_symbols_with_items": 5434,
+    "notice_rows": 27781,
+    "stock_news_rows": 31248,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }

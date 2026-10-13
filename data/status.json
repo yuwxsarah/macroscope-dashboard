@@ -77,8 +77,8 @@
     "market": {
       "status": "success",
       "rows": 33605,
-      "started_at": "2026-10-13T23:06:12+08:00",
-      "finished_at": "2026-10-13T23:06:22+08:00",
+      "started_at": "2026-10-14T00:25:42+08:00",
+      "finished_at": "2026-10-14T00:25:52+08:00",
       "latest_date": "20261013",
       "total_cached_rows": 33620,
       "symbols": {
@@ -287,8 +287,8 @@
     "valuation": {
       "status": "success",
       "rows": 28265,
-      "started_at": "2026-10-13T23:06:22+08:00",
-      "finished_at": "2026-10-13T23:07:03+08:00",
+      "started_at": "2026-10-14T00:25:52+08:00",
+      "finished_at": "2026-10-14T00:26:45+08:00",
       "latest_date": "20261013",
       "total_cached_rows": 28375,
       "indices": {
@@ -341,15 +341,15 @@
     },
     "crowding": {
       "status": "success",
-      "rows": 62,
-      "cached_rows": 62,
-      "total_cached_rows": 62,
+      "rows": 61,
+      "cached_rows": 61,
+      "total_cached_rows": 61,
       "latest_date": "20261013",
       "source_details": {
         "crowding_history": {
           "status": "success",
-          "rows": 62,
-          "date_range": "20260710-20261013",
+          "rows": 61,
+          "date_range": "20260713-20261013",
           "universe_size": 5561,
           "failed_symbols": 0,
           "source": "东方财富历史日线接口 push2his.eastmoney.com",
@@ -359,15 +359,15 @@
     },
     "breadth": {
       "status": "success",
-      "rows": 62,
-      "cached_rows": 62,
-      "total_cached_rows": 62,
+      "rows": 61,
+      "cached_rows": 61,
+      "total_cached_rows": 61,
       "latest_date": "20261013",
       "source_details": {
         "breadth_counts": {
           "status": "success",
-          "rows": 62,
-          "date_range": "20260710-20261013",
+          "rows": 61,
+          "date_range": "20260713-20261013",
           "universe_size": 5561,
           "failed_symbols": 0,
           "source": "东方财富历史日线接口 push2his.eastmoney.com",
@@ -381,9 +381,9 @@
     },
     "leverage": {
       "status": "success",
-      "rows": 61,
-      "cached_rows": 61,
-      "total_cached_rows": 61,
+      "rows": 60,
+      "cached_rows": 60,
+      "total_cached_rows": 60,
       "latest_date": "20261012",
       "source_details": {
         "margin_balance": {
@@ -399,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2150,
-      "started_at": "2026-10-13T23:10:47+08:00",
-      "finished_at": "2026-10-13T23:10:47+08:00",
+      "started_at": "2026-10-14T00:26:45+08:00",
+      "finished_at": "2026-10-14T00:26:45+08:00",
       "latest_date": "20261013",
       "total_cached_rows": 2150,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -449,23 +449,18 @@
       "cached_rows": 300
     },
     "sentiment": {
-      "status": "success",
-      "rows": 2,
-      "started_at": "2026-10-13T23:07:03+08:00",
-      "finished_at": "2026-10-13T23:10:47+08:00",
+      "status": "partial",
+      "rows": 0,
+      "started_at": "2026-10-14T00:26:45+08:00",
+      "finished_at": "2026-10-14T00:26:45+08:00",
       "latest_date": "20261013",
-      "crowding_cached_rows": 62,
-      "breadth_cached_rows": 62,
-      "leverage": {
-        "status": "success",
-        "rows": 1,
-        "latest_date": "20261012",
-        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
-      },
-      "source": "东方财富沪深京A股实时行情 / AKShare",
-      "snapshot_kind": "收盘后快照",
+      "total_cached_rows": 62,
+      "skipped": true,
+      "note": "非A股交易时段，继续展示上一次成功快照。",
+      "crowding_cached_rows": 61,
+      "breadth_cached_rows": 61,
       "breadth_latest_date": "20261013",
-      "leverage_cached_rows": 61,
+      "leverage_cached_rows": 60,
       "leverage_latest_date": "20261012"
     },
     "a_share_universe": {
@@ -477,13 +472,13 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20261013",
-      "rows": 53341,
-      "cached_rows": 53341,
-      "covered_stocks": 4790,
-      "requested_stocks": 5026,
-      "failed_stocks": 236,
-      "coverage_rate": 0.953,
+      "latest_date": "20261014",
+      "rows": 59029,
+      "cached_rows": 59029,
+      "covered_stocks": 5313,
+      "requested_stocks": 5561,
+      "failed_stocks": 248,
+      "coverage_rate": 0.9554,
       "failed_symbols_sample": [
         "000003.SZ",
         "000005.SZ",
@@ -492,33 +487,33 @@
         "000024.SZ",
         "000033.SZ",
         "000046.SZ",
+        "000047.SZ",
+        "000150.SZ",
+        "000405.SZ",
+        "000406.SZ",
+        "000412.SZ",
+        "000416.SZ",
         "000502.SZ",
         "000508.SZ",
         "000515.SZ",
         "000540.SZ",
         "000542.SZ",
         "000562.SZ",
-        "000569.SZ",
-        "000578.SZ",
-        "000583.SZ",
-        "000585.SZ",
-        "000588.SZ",
-        "000606.SZ",
-        "000611.SZ"
+        "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600766.SH: KeyError('code')；600687.SH: KeyError('code')；600695.SH: KeyError('code')"
+      "error": "600680.SH: KeyError('code')；600670.SH: KeyError('code')；600672.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
       "latest_date": "20261013",
-      "rows": 62,
-      "cached_rows": 62,
+      "rows": 61,
+      "cached_rows": 61,
       "source": "由宏观、流动性、估值、A股情绪、两融、全球市场公开数据自动评分",
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-13T23:38:28+08:00",
+  "updated_at": "2026-10-14T00:53:40+08:00",
   "overall_status": "success",
   "last_update_mode": "close"
 }
