@@ -342,9 +342,9 @@
     "crowding": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 108,
+      "cached_rows": 109,
       "total_cached_rows": 64,
-      "latest_date": "20261012",
+      "latest_date": "20261013",
       "source_details": {
         "crowding_history": {
           "status": "success",
@@ -360,9 +360,9 @@
     "breadth": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 108,
+      "cached_rows": 109,
       "total_cached_rows": 64,
-      "latest_date": "20261012",
+      "latest_date": "20261013",
       "source_details": {
         "breadth_counts": {
           "status": "success",
@@ -382,9 +382,9 @@
     "leverage": {
       "status": "success",
       "rows": 63,
-      "cached_rows": 107,
+      "cached_rows": 108,
       "total_cached_rows": 63,
-      "latest_date": "20261009",
+      "latest_date": "20261012",
       "source_details": {
         "margin_balance": {
           "status": "success",
@@ -449,14 +449,21 @@
       "cached_rows": 300
     },
     "sentiment": {
-      "status": "partial",
-      "rows": 0,
-      "started_at": "2026-10-13T04:18:47+08:00",
-      "finished_at": "2026-10-13T04:18:47+08:00",
-      "latest_date": "20261012",
-      "total_cached_rows": 108,
-      "skipped": true,
-      "note": "非A股交易时段，继续展示上一次成功快照。"
+      "status": "success",
+      "rows": 2,
+      "started_at": "2026-10-13T19:03:27+08:00",
+      "finished_at": "2026-10-13T19:06:15+08:00",
+      "latest_date": "20261013",
+      "crowding_cached_rows": 109,
+      "breadth_cached_rows": 109,
+      "leverage": {
+        "status": "success",
+        "rows": 1,
+        "latest_date": "20261012",
+        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
+      },
+      "source": "东方财富沪深京A股实时行情 / AKShare",
+      "snapshot_kind": "收盘后快照"
     },
     "a_share_universe": {
       "status": "success",
@@ -501,14 +508,14 @@
     },
     "market_tracking": {
       "status": "success",
-      "latest_date": "20261012",
-      "rows": 108,
-      "cached_rows": 108,
+      "latest_date": "20261013",
+      "rows": 109,
+      "cached_rows": 109,
       "source": "由宏观、流动性、估值、A股情绪、两融、全球市场公开数据自动评分",
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-13T17:23:33+08:00",
+  "updated_at": "2026-10-13T19:06:34+08:00",
   "overall_status": "success",
-  "last_update_mode": "macro"
+  "last_update_mode": "snapshot"
 }
