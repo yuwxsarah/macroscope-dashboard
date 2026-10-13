@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14 00:46:34+08:00",
+  "updated_at": "2026-10-14 01:13:55+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -125,7 +125,7 @@
     {
       "id": "auto-yicai-6ff15ad4cc157923",
       "category": "重大新闻",
-      "title": "追高科技后低位砍仓，谁是A股近期主力卖盘 “根据我们对资金动向的观察，险资和‘固收+’产品被动赎回是本轮核心卖盘。” 9197 昨天 21:39",
+      "title": "追高科技后低位砍仓，谁是A股近期主力卖盘 “根据我们对资金动向的观察，险资和‘固收+’产品被动赎回是本轮核心卖盘。” 9693 昨天 21:39",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103392207.html",
@@ -139,7 +139,7 @@
     {
       "id": "auto-yicai-4eacfc3d1c7e6144",
       "category": "重大新闻",
-      "title": "单季4700亿元杠杆资金出逃，两融规模创新低 千亿级的杠杆资金从哪些板块出逃？近一个半月，电子、通信、有色金属是融资资金净流出额最高的三大行业。 3276 昨天",
+      "title": "单季4700亿元杠杆资金出逃，两融规模创新低 千亿级的杠杆资金从哪些板块出逃？近一个半月，电子、通信、有色金属是融资资金净流出额最高的三大行业。 3400 昨天",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103392109.html",
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-14 00:46:34+08:00",
+  "last_checked_at": "2026-10-14 01:13:55+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 59029,
+    "rows": 54964,
     "covered_stocks": 5313,
     "requested_stocks": 5561,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
-    "news_symbols_with_items": 5434,
-    "notice_rows": 27781,
-    "stock_news_rows": 31248,
+    "news_symbols_with_items": 5386,
+    "notice_rows": 23717,
+    "stock_news_rows": 31247,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
