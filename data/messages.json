@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14 22:45:36+08:00",
+  "updated_at": "2026-10-14 23:47:08+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-4d7bcea39c1ae232",
+      "category": "重大新闻",
+      "title": "林志辉辞任片仔癀董事长，三年任内市值缩水近千亿 高管动荡叠加业绩承压 2315 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103393845.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-84cc1386787a59b0",
+      "category": "重大新闻",
+      "title": "传媒板块近5日逆势领跑，AI变现存疑、多股涨停背后业绩承压 业内提示称，需要关注AI商业化落地不及预期、IP商业化不及预期、行业竞争加剧等风险。 3028 2小",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103393867.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7cbb3351a97e191f",
+      "category": "重大新闻",
+      "title": "5天5家拟上市企业撤单，创业板“钉子户”在列，IPO终止为何密集出现？ 2家拟IPO企业国庆假期撤单。 2284 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103393641.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6b246be845b5a7c0",
+      "category": "重大新闻",
+      "title": "创业板指近35%回撤背后：拥挤交易退潮，ETF却揽金676亿 从36%到-10.5%：创业板三个月就高台回落，资金在指数端另寻锚点 3958 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103393659.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1d571a150ca0e962",
+      "category": "重大新闻",
+      "title": "晚间公告｜10月14日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 19861 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103393604.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-4d7bcea39c1ae232",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-33dca7013fd6e81d",
-      "category": "重大新闻",
-      "title": "晚间公告｜10月7日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 25999 昨天 18:28",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385094.html",
-      "published_at": "2026-10-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-20117272d44fefa1",
-      "category": "重大新闻",
-      "title": "恒生科技指数成份股将扩容至50只，投资者体验能否改善？ 互联网巨头权重将会降低。 2439 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385141.html",
-      "published_at": "2026-10-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0029003f2016ab3c",
-      "category": "重大新闻",
-      "title": "连续地量，A股节后行情怎么走 9月29日、30日全市场成交额接连刷新年内新低，上证指数跌破3900点，创业板指与科创50刚刚经历各自历史上最差的一个季度 594",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385138.html",
-      "published_at": "2026-10-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5c09ea4649552051",
-      "category": "重大新闻",
-      "title": "年内逾60家企业IPO折戟，创业板“钉子户”博华科技退场 年内北交所终止审核的数量最多，占比达到58%。 2129 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385131.html",
-      "published_at": "2026-10-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0469d8d909dc7610",
-      "category": "重大新闻",
-      "title": "央行托底与加息压制并存，黄金价格等待趋势信号 中国央行已连续第23个月增持黄金，国内假期期间，国际金价险守4100美元关口 6159 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385095.html",
-      "published_at": "2026-10-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-14 22:45:36+08:00",
+  "last_checked_at": "2026-10-14 23:47:08+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 60105,
+    "rows": 60136,
     "covered_stocks": 5314,
     "requested_stocks": 5561,
     "failed_stocks": 247,
     "coverage_rate": 0.9556,
     "news_symbols_with_items": 5444,
     "notice_rows": 28083,
-    "stock_news_rows": 32022,
+    "stock_news_rows": 32053,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
