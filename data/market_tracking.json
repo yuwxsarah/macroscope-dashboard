@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16 21:55:08+08:00",
+  "updated_at": "2026-10-16 22:20:16+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,7 +357,7 @@
     "summary": {
       "market_score": 46.9,
       "market_score_before_gate": 46.9,
-      "risk_score": 58.1,
+      "risk_score": 58.0,
       "risk_level": "红色",
       "market_phase": "防御期 / 红色预警",
       "base_position_pct": 30.0,
@@ -566,12 +566,12 @@
       {
         "name": "跨资产压力",
         "weight": 10,
-        "risk": 6.2,
-        "raw_risk": 61.9,
+        "risk": 6.1,
+        "raw_risk": 60.9,
         "level": "偏高",
         "basis": [
           "美国10年期国债 5.19%",
-          "纳斯达克20日动量 0.51%",
+          "纳斯达克20日动量 1.12%",
           "美元净流动性 5.58万亿美元"
         ]
       },
