@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20 00:29:24+08:00",
+  "updated_at": "2026-10-20 00:57:32+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,7 +111,7 @@
     {
       "id": "auto-yicai-2268ce0c3da00b86",
       "category": "重大新闻",
-      "title": "东兴、信达“最后成绩单”交卷：营收、净利双双下滑，自营收入环比大降 权益市场的持续震荡调整，或许使得当前倚重自营业务和科创跟投收益的券商三季度业绩承压。 262",
+      "title": "东兴、信达“最后成绩单”交卷：营收、净利双双下滑，自营收入环比大降 权益市场的持续震荡调整，或许使得当前倚重自营业务和科创跟投收益的券商三季度业绩承压。 287",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103399323.html",
@@ -167,7 +167,7 @@
     {
       "id": "auto-yicai-f60c52ead68ad302",
       "category": "重大新闻",
-      "title": "晚间公告｜10月19日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 45157 昨天 18:42",
+      "title": "晚间公告｜10月19日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 45653 昨天 18:42",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103399298.html",
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-20 00:29:24+08:00",
+  "last_checked_at": "2026-10-20 00:57:32+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 55730,
+    "rows": 55736,
     "covered_stocks": 5313,
     "requested_stocks": 5561,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
     "news_symbols_with_items": 5389,
     "notice_rows": 24610,
-    "stock_news_rows": 31120,
+    "stock_news_rows": 31126,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
