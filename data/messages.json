@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22 21:30:20+08:00",
+  "updated_at": "2026-10-22 22:43:02+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-ea2cdf35a262747f",
+      "category": "重大新闻",
+      "title": "单周最大回撤超30%，部分私募产品年内收益告负 继7月中旬的回撤后，私募业绩再次遭遇重挫。 4299 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103404824.html",
+      "published_at": "2026-10-22",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b1dd677a9b81a400",
+      "category": "重大新闻",
+      "title": "ETF宽基放量、新品将至、自购跟进，市场调整正待企稳信号 九连跌的创业板与放量的ETF：资金在交换什么筹码？ 1974 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103404821.html",
+      "published_at": "2026-10-22",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4e8569a1deb89fb6",
+      "category": "重大新闻",
+      "title": "近七成港股次新股破发，34只“A+H”股平均破发35% MiniMax上市后首破发行价 港股次新股集体遭遇重定价 6066 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103404754.html",
+      "published_at": "2026-10-22",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-074fcb50533c3a30",
+      "category": "重大新闻",
+      "title": "10月沪市40家公司新增回购增持计划 大额回购频现 累计已回购和增持金额约326亿元，以真金白银向市场传递对公司长期投资价值的认可。 3059 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103404753.html",
+      "published_at": "2026-10-22",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-ef989623e4ff3883",
+      "category": "重大新闻",
+      "title": "沪市已有94家公司披露三季报，超九成实现盈利 头部公司以研发创新驱动增长、提升产业链竞争力的积极成效进一步显现。 1850 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103404751.html",
+      "published_at": "2026-10-22",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-ea2cdf35a262747f",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b8f23a5652a5790a",
-      "category": "重大新闻",
-      "title": "回购+业绩预喜，近20家沪市科技公司集中发布多项利好公告 回购方面，6家沪市科技公司公布最新方案或披露实施进展。 1478 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103395580.html",
-      "published_at": "2026-10-15",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-55ff3539a2593b20",
-      "category": "重大新闻",
-      "title": "“并购六条”实施两周年：沪市主板并购重组向实而行 产业整合激发发展新动能 沪市主板大股东注资项目累计披露35单，其中央国企占比超过七成，已实施完成15单。 16",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103395581.html",
-      "published_at": "2026-10-15",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8653b35bc0d92766",
-      "category": "重大新闻",
-      "title": "上市公司密集官宣回购计划 多家上市公司在盘后密集披露回购计划或最新进展 1509 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103395541.html",
-      "published_at": "2026-10-15",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-43dd2ea098bee6cf",
-      "category": "重大新闻",
-      "title": "A股公司密集发布立案或处罚公告：*ST清越被罚1.72亿，俞发祥再遭立案 部分公司遭立案之际，还面临较大的“保壳”压力。 1788 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103395522.html",
-      "published_at": "2026-10-15",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8653b35bc0d92766",
-      "category": "重大新闻",
-      "title": "上市公司密集官宣回购计划 多家上市公司在盘后密集披露回购计划或最新进展 6分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103395541.html",
-      "published_at": "2026-10-15",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-22 21:30:20+08:00",
+  "last_checked_at": "2026-10-22 22:43:02+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 59374,
+    "rows": 50845,
     "covered_stocks": 5312,
     "requested_stocks": 5561,
     "failed_stocks": 249,
     "coverage_rate": 0.9552,
-    "news_symbols_with_items": 5426,
-    "notice_rows": 26635,
-    "stock_news_rows": 32739,
+    "news_symbols_with_items": 5353,
+    "notice_rows": 18065,
+    "stock_news_rows": 32780,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
