@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22 15:32:53+08:00",
+  "updated_at": "2026-10-22 16:56:21+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -353,11 +353,11 @@
     "风险控制"
   ],
   "tracking": {
-    "trade_date": "20261021",
+    "trade_date": "20261022",
     "summary": {
-      "market_score": 49.7,
-      "market_score_before_gate": 49.7,
-      "risk_score": 62.6,
+      "market_score": 46.3,
+      "market_score_before_gate": 46.3,
+      "risk_score": 66.8,
       "risk_level": "红色",
       "market_phase": "防御期 / 红色预警",
       "base_position_pct": 30.0,
@@ -400,12 +400,12 @@
       {
         "name": "流动性环境",
         "weight": 20,
-        "score": 82.2,
-        "raw_score": 4.1,
-        "weighted_score": 16.4,
-        "status": "明显改善",
+        "score": 65.8,
+        "raw_score": 3.3,
+        "weighted_score": 13.2,
+        "status": "中性偏强",
         "basis": [
-          "DR007 1.32%，历史分位 1%",
+          "DR007 暂无，历史分位 50%",
           "DR007近5期变化 -0.02个百分点",
           "美元净流动性近4期变化 0.11万亿美元"
         ],
@@ -479,14 +479,14 @@
       {
         "name": "市场情绪",
         "weight": 10,
-        "score": 32.6,
-        "raw_score": 1.6,
-        "weighted_score": 3.2,
+        "score": 30.5,
+        "raw_score": 1.5,
+        "weighted_score": 3.0,
         "status": "偏弱",
         "basis": [
-          "上涨家数占比 37.15%",
-          "A股成交额/总市值 3.63%",
-          "交易拥挤度 44.03%"
+          "上涨家数占比 8.58%",
+          "A股成交额/总市值 1.50%",
+          "交易拥挤度 43.86%"
         ],
         "blueprint": [
           "成交活跃度 25%",
@@ -520,47 +520,47 @@
       {
         "name": "市场广度恶化",
         "weight": 20,
-        "risk": 9.3,
-        "raw_risk": 46.4,
-        "level": "中",
+        "risk": 14.7,
+        "raw_risk": 73.5,
+        "level": "高",
         "basis": [
-          "上涨家数占比 37.15%",
-          "近5期上涨家数变化 1024只"
+          "上涨家数占比 8.58%",
+          "近5期上涨家数变化 49只"
         ]
       },
       {
         "name": "量价质量恶化",
         "weight": 20,
-        "risk": 16.0,
-        "raw_risk": 80.1,
+        "risk": 16.8,
+        "raw_risk": 84.1,
         "level": "高",
         "basis": [
           "主要指数20日动量均值 -10.50%",
           "主要指数相对20日均线均值 -7.73%",
-          "成交额近5期变化 0.02万亿元"
+          "成交额近5期变化 -0.10万亿元"
         ]
       },
       {
         "name": "主线健康度下降",
         "weight": 20,
-        "risk": 13.9,
-        "raw_risk": 69.4,
+        "risk": 13.8,
+        "raw_risk": 69.1,
         "level": "偏高",
         "basis": [
           "创业板20日动量 -17.03%",
           "科创50 20日动量 -13.45%",
-          "交易拥挤度 44.03%"
+          "交易拥挤度 43.86%"
         ]
       },
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 9.8,
-        "raw_risk": 65.6,
+        "risk": 7.9,
+        "raw_risk": 52.8,
         "level": "偏高",
         "basis": [
-          "两融/总市值 6.29%，历史分位 98%",
-          "交易拥挤度历史分位 33%"
+          "两融/总市值 2.42%，历史分位 76%",
+          "交易拥挤度历史分位 29%"
         ]
       },
       {
@@ -599,11 +599,11 @@
       }
     ],
     "signals": {
-      "up_ratio_pct": 37.15,
-      "total_amount_trillion": 1.428,
-      "broad_turnover_pct": 3.634,
-      "crowding_pct": 44.03,
-      "margin_to_market_cap_pct": 6.292,
+      "up_ratio_pct": 8.58,
+      "total_amount_trillion": 1.527,
+      "broad_turnover_pct": 1.498,
+      "crowding_pct": 43.86,
+      "margin_to_market_cap_pct": 2.424,
       "index_momentum_20d_pct": -10.5,
       "dgs10_pct": 5.12
     }
