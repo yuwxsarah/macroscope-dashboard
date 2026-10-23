@@ -76,11 +76,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33747,
-      "started_at": "2026-10-23T00:12:59+08:00",
-      "finished_at": "2026-10-23T00:13:06+08:00",
-      "latest_date": "20261022",
-      "total_cached_rows": 33761,
+      "rows": 33743,
+      "started_at": "2026-10-23T08:44:53+08:00",
+      "finished_at": "2026-10-23T08:45:03+08:00",
+      "latest_date": "20261023",
+      "total_cached_rows": 33763,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -134,69 +134,69 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1710,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1710,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1710,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1710,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1710,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1710,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1710,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1710,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1667,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1667,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33761
+      "cached_rows": 33763
     },
     "global_macro": {
       "status": "partial",
       "rows": 399,
-      "started_at": "2026-10-23T00:13:06+08:00",
-      "finished_at": "2026-10-23T00:13:54+08:00",
-      "latest_date": "20261020",
-      "total_cached_rows": 30820,
+      "started_at": "2026-10-23T08:45:03+08:00",
+      "finished_at": "2026-10-23T08:45:51+08:00",
+      "latest_date": "20261021",
+      "total_cached_rows": 30824,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20261020",
+          "latest_date": "20261021",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -205,7 +205,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20261020",
+          "latest_date": "20261021",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -214,14 +214,14 @@
         "USD_LIQUIDITY": {
           "status": "success",
           "rows": 2,
-          "latest_date": "20261014",
+          "latest_date": "20261021",
           "source": "美联储H.4.1 / 纽约联储逆回购API（FRED备用）",
           "formula": "SOMA口径=WSHOSHO-WDTGAL-RRPONTSYD；总资产口径=WALCL-WDTGAL-RRPONTSYD；统一换算为万亿美元",
           "input_latest_dates": {
-            "WSHOSHO": "20261014",
-            "WALCL": "20261014",
-            "WDTGAL": "20261014",
-            "RRPONTSYD": "20261021"
+            "WSHOSHO": "20261021",
+            "WALCL": "20261021",
+            "WDTGAL": "20261021",
+            "RRPONTSYD": "20261022"
           },
           "input_sources": {
             "WSHOSHO": "Federal Reserve H.4.1 fallback",
@@ -272,17 +272,17 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20261020",
-        "DGS10": "20261020",
-        "NET_USD_LIQUIDITY_SOMA": "20261014",
-        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20261014",
+        "DGS2": "20261021",
+        "DGS10": "20261021",
+        "NET_USD_LIQUIDITY_SOMA": "20261021",
+        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20261021",
         "PCE_YOY": "20260701",
         "FEDFUNDS": "20260901",
         "US_PMI_MANUFACTURING": "20260901",
         "US_PMI_SERVICES": "20260901"
       },
       "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15；美国PMI为S&P Global制造业与服务业公开样本。",
-      "cached_rows": 30820
+      "cached_rows": 30824
     },
     "valuation": {
       "status": "success",
@@ -399,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2155,
-      "started_at": "2026-10-23T00:14:39+08:00",
-      "finished_at": "2026-10-23T00:14:39+08:00",
+      "started_at": "2026-10-23T08:45:51+08:00",
+      "finished_at": "2026-10-23T08:45:51+08:00",
       "latest_date": "20261022",
       "total_cached_rows": 2155,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -508,7 +508,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-23T00:42:29+08:00",
+  "updated_at": "2026-10-23T08:45:59+08:00",
   "overall_status": "partial",
-  "last_update_mode": "all"
+  "last_update_mode": "global"
 }
