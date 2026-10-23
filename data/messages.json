@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23 23:46:09+08:00",
+  "updated_at": "2026-10-24 00:15:13+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,11 +111,11 @@
     {
       "id": "auto-yicai-bea4c81967cc0a56",
       "category": "重大新闻",
-      "title": "考验4000美元关口，黄金多空拉锯战持续 沪金期货跌至年内最低 5818 3小时前",
+      "title": "考验4000美元关口，黄金多空拉锯战持续 沪金期货跌至年内最低 5818 昨天 20:33",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103407026.html",
-      "published_at": "2026-10-23",
+      "published_at": "2026-10-24",
       "symbols": [
         "A股"
       ],
@@ -129,7 +129,7 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103407007.html",
-      "published_at": "2026-10-23",
+      "published_at": "2026-10-24",
       "symbols": [
         "A股"
       ],
@@ -139,11 +139,11 @@
     {
       "id": "auto-yicai-5b81c6b0b11d3ba5",
       "category": "重大新闻",
-      "title": "外资券商队伍再“迎新”，花旗证券获准设立 外资券商加速抢滩中国市场。 2656 3小时前",
+      "title": "外资券商队伍再“迎新”，花旗证券获准设立 外资券商加速抢滩中国市场。 2656 昨天 20:19",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103406979.html",
-      "published_at": "2026-10-23",
+      "published_at": "2026-10-24",
       "symbols": [
         "A股"
       ],
@@ -153,11 +153,11 @@
     {
       "id": "auto-yicai-e3dbca29d22a57ff",
       "category": "重大新闻",
-      "title": "晚间公告｜10月23日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5 35640 4小时前",
+      "title": "晚间公告｜10月23日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5 36012 昨天 18:53",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103406847.html",
-      "published_at": "2026-10-23",
+      "published_at": "2026-10-24",
       "symbols": [
         "A股"
       ],
@@ -167,11 +167,11 @@
     {
       "id": "auto-yicai-816f7731fb73c34a",
       "category": "重大新闻",
-      "title": "母基金监管新规出炉，明确分散投资、豁免一层投资层级 母基金投资于其他私募基金份额的金额，不低于其资产净值的80%。 9 3431 5小时前",
+      "title": "母基金监管新规出炉，明确分散投资、豁免一层投资层级 母基金投资于其他私募基金份额的金额，不低于其资产净值的80%。 9 3462 昨天 18:30",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103406762.html",
-      "published_at": "2026-10-23",
+      "published_at": "2026-10-24",
       "symbols": [
         "A股"
       ],
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-23 23:46:09+08:00",
+  "last_checked_at": "2026-10-24 00:15:13+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 60057,
+    "rows": 59213,
     "covered_stocks": 5313,
     "requested_stocks": 5561,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
-    "news_symbols_with_items": 5422,
+    "news_symbols_with_items": 5410,
     "notice_rows": 26758,
-    "stock_news_rows": 33299,
+    "stock_news_rows": 32455,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
