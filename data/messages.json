@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26 23:56:08+08:00",
+  "updated_at": "2026-10-27 00:24:02+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -115,7 +115,63 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103409920.html",
-      "published_at": "2026-10-26",
+      "published_at": "2026-10-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6f3b47b6da3314c9",
+      "category": "重大新闻",
+      "title": "翻倍基从批量出圈到仅剩独苗，主动权益基金年末怎么打 截至10月25日，全市场仅余一只主动权益产品守住100.91%的年内收益。 2501 昨天 20:39",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409922.html",
+      "published_at": "2026-10-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b444fca35c001b58",
+      "category": "重大新闻",
+      "title": "电子通信市值大幅回撤，千亿热门股因何集体滑落 从PCB、光通信到存储，过去两年被AI资本开支叙事推高的硬件环节，正在同步经历泡沫消化。 4082 昨天 20:3",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409919.html",
+      "published_at": "2026-10-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f5565e0d7453b0cf",
+      "category": "重大新闻",
+      "title": "九号公司2026年前三季度实现营收219.43亿元，继续加码研发 九号公司2026年前三季度实现营业收入219.43亿元，同比增长19.32%；归属于上市公司股",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409722.html",
+      "published_at": "2026-10-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-11fafcd2bd4897b6",
+      "category": "重大新闻",
+      "title": "晚间公告｜10月26日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 49125 昨天 18:30",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409671.html",
+      "published_at": "2026-10-27",
       "symbols": [
         "A股"
       ],
@@ -143,20 +199,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103409919.html",
-      "published_at": "2026-10-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f5565e0d7453b0cf",
-      "category": "重大新闻",
-      "title": "九号公司2026年前三季度实现营收219.43亿元，继续加码研发 九号公司2026年前三季度实现营业收入219.43亿元，同比增长19.32%；归属于上市公司股",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103409722.html",
       "published_at": "2026-10-26",
       "symbols": [
         "A股"
@@ -1745,48 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-af408e3a385a0025",
-      "category": "重大新闻",
-      "title": "证监会新规直指违规减持乱象，减持比例超5%、金额超5亿将被重罚 完善违规减持处罚规则，更加精准有效打击违规减持行为。 7399 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103399374.html",
-      "published_at": "2026-10-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-821bccf1f57e9ad8",
-      "category": "重大新闻",
-      "title": "北交所深改方向明确！吴清：稳步推出北证50ETF、新股市值配售 “北交所设立五年来，一批专精特新企业集聚成势。” 15459 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103399319.html",
-      "published_at": "2026-10-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f60c52ead68ad302",
-      "category": "重大新闻",
-      "title": "晚间公告｜10月19日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 41034 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103399298.html",
-      "published_at": "2026-10-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-26 23:56:08+08:00",
+  "last_checked_at": "2026-10-27 00:24:02+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 58662,
+    "rows": 61780,
     "covered_stocks": 5313,
     "requested_stocks": 5561,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
-    "news_symbols_with_items": 5396,
-    "notice_rows": 25580,
-    "stock_news_rows": 33082,
+    "news_symbols_with_items": 5407,
+    "notice_rows": 28721,
+    "stock_news_rows": 33059,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
