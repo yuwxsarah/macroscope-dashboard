@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27 00:24:02+08:00",
+  "updated_at": "2026-10-27 01:14:51+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -139,7 +139,7 @@
     {
       "id": "auto-yicai-b444fca35c001b58",
       "category": "重大新闻",
-      "title": "电子通信市值大幅回撤，千亿热门股因何集体滑落 从PCB、光通信到存储，过去两年被AI资本开支叙事推高的硬件环节，正在同步经历泡沫消化。 4082 昨天 20:3",
+      "title": "电子通信市值大幅回撤，千亿热门股因何集体滑落 从PCB、光通信到存储，过去两年被AI资本开支叙事推高的硬件环节，正在同步经历泡沫消化。 4609 昨天 20:3",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103409919.html",
@@ -157,6 +157,34 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103409722.html",
+      "published_at": "2026-10-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-11fafcd2bd4897b6",
+      "category": "重大新闻",
+      "title": "晚间公告｜10月26日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 51388 昨天 18:30",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409671.html",
+      "published_at": "2026-10-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b444fca35c001b58",
+      "category": "重大新闻",
+      "title": "电子通信市值大幅回撤，千亿热门股因何集体滑落 从PCB、光通信到存储，过去两年被AI资本开支叙事推高的硬件环节，正在同步经历泡沫消化。 4082 昨天 20:3",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409919.html",
       "published_at": "2026-10-27",
       "symbols": [
         "A股"
@@ -1759,34 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2268ce0c3da00b86",
-      "category": "重大新闻",
-      "title": "东兴、信达“最后成绩单”交卷：营收、净利双双下滑，自营收入环比大降 权益市场的持续震荡调整，或许使得当前倚重自营业务和科创跟投收益的券商三季度业绩承压。 110",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103399323.html",
-      "published_at": "2026-10-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b1ea512bead562dd",
-      "category": "重大新闻",
-      "title": "明确支持、鼓励实施先行赔付，证监会发布指导意见 依法、快捷、高效开展先行赔付，更好维护中小投资者合法权益。 2966 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103399378.html",
-      "published_at": "2026-10-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-27 00:24:02+08:00",
+  "last_checked_at": "2026-10-27 01:14:51+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 61780,
+    "rows": 61775,
     "covered_stocks": 5313,
     "requested_stocks": 5561,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
     "news_symbols_with_items": 5407,
-    "notice_rows": 28721,
-    "stock_news_rows": 33059,
+    "notice_rows": 28720,
+    "stock_news_rows": 33055,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
