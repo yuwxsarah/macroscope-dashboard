@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26 10:55:25+08:00",
+  "updated_at": "2026-10-26 22:51:27+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-c97149919db16d69",
+      "category": "重大新闻",
+      "title": "长鑫科技纳入在即，科创综指实施单股15%权重上限 截至10月26日收盘，长鑫科技总市值约为2.9万亿元，科创综指成分股总市值为10.75万亿元，若无权重约束，纳",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409920.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6f3b47b6da3314c9",
+      "category": "重大新闻",
+      "title": "翻倍基从批量出圈到仅剩独苗，主动权益基金年末怎么打 截至10月25日，全市场仅余一只主动权益产品守住100.91%的年内收益。 2160 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409922.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b444fca35c001b58",
+      "category": "重大新闻",
+      "title": "电子通信市值大幅回撤，千亿热门股因何集体滑落 从PCB、光通信到存储，过去两年被AI资本开支叙事推高的硬件环节，正在同步经历泡沫消化。 3431 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409919.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f5565e0d7453b0cf",
+      "category": "重大新闻",
+      "title": "九号公司2026年前三季度实现营收219.43亿元，继续加码研发 九号公司2026年前三季度实现营业收入219.43亿元，同比增长19.32%；归属于上市公司股",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409722.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-11fafcd2bd4897b6",
+      "category": "重大新闻",
+      "title": "晚间公告｜10月26日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 43948 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409671.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-700cac77df44200a",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a6dc9cc34945f4ff",
-      "category": "重大新闻",
-      "title": "尾盘再现百亿资金扫货，宽基ETF动向浮现托底信号 多重托底力量正同步集结。 26464 昨天 21:03",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103398000.html",
-      "published_at": "2026-10-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5862c04e8e82a409",
-      "category": "重大新闻",
-      "title": "158份三季报预告出炉，科技龙头业绩高增换不来股价上涨？ 158 份三季报预告后的科技股筹码之困，谁在借利好兑现？ 11367 昨天 20:46",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103397988.html",
-      "published_at": "2026-10-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a6dc9cc34945f4ff",
-      "category": "重大新闻",
-      "title": "尾盘再现百亿资金扫货，宽基ETF动向浮现托底信号 多重托底力量正同步集结。 4485 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103398000.html",
-      "published_at": "2026-10-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5862c04e8e82a409",
-      "category": "重大新闻",
-      "title": "158份三季报预告出炉，科技龙头业绩高增换不来股价上涨？ 158 份三季报预告后的科技股筹码之困，谁在借利好兑现？ 2098 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103397988.html",
-      "published_at": "2026-10-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8a42465d95070dfb",
-      "category": "重大新闻",
-      "title": "A股公司再掀护盘行动，单周超30亿回购增持 长鑫科技、“易中天”等龙头股密集出手回购。 4051 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103397985.html",
-      "published_at": "2026-10-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-26 10:55:25+08:00",
+  "last_checked_at": "2026-10-26 22:51:27+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 57005,
+    "rows": 57490,
     "covered_stocks": 5313,
     "requested_stocks": 5561,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
-    "news_symbols_with_items": 5371,
-    "notice_rows": 25144,
-    "stock_news_rows": 31861,
+    "news_symbols_with_items": 5387,
+    "notice_rows": 24418,
+    "stock_news_rows": 33072,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }

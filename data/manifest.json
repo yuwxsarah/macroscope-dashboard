@@ -41,7 +41,7 @@
       "status": "ok"
     },
     "market.csv": {
-      "rows": 33784,
+      "rows": 33802,
       "columns": [
         "trade_date",
         "symbol",
@@ -70,7 +70,7 @@
       "status": "ok"
     },
     "valuation.csv": {
-      "rows": 28431,
+      "rows": 28438,
       "columns": [
         "trade_date",
         "index_code",
@@ -126,7 +126,7 @@
       "status": "ok"
     },
     "deviation.csv": {
-      "rows": 2155,
+      "rows": 2160,
       "columns": [
         "trade_date",
         "symbol",
@@ -187,7 +187,7 @@
       "status": "ok"
     },
     "market_messages.csv": {
-      "rows": 57005,
+      "rows": 57490,
       "columns": [
         "published_at",
         "category",
