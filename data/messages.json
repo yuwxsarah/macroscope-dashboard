@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26 22:51:27+08:00",
+  "updated_at": "2026-10-26 23:56:08+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -125,6 +125,62 @@
     {
       "id": "auto-yicai-6f3b47b6da3314c9",
       "category": "重大新闻",
+      "title": "翻倍基从批量出圈到仅剩独苗，主动权益基金年末怎么打 截至10月25日，全市场仅余一只主动权益产品守住100.91%的年内收益。 2501 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409922.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b444fca35c001b58",
+      "category": "重大新闻",
+      "title": "电子通信市值大幅回撤，千亿热门股因何集体滑落 从PCB、光通信到存储，过去两年被AI资本开支叙事推高的硬件环节，正在同步经历泡沫消化。 4082 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409919.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f5565e0d7453b0cf",
+      "category": "重大新闻",
+      "title": "九号公司2026年前三季度实现营收219.43亿元，继续加码研发 九号公司2026年前三季度实现营业收入219.43亿元，同比增长19.32%；归属于上市公司股",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409722.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-11fafcd2bd4897b6",
+      "category": "重大新闻",
+      "title": "晚间公告｜10月26日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 49125 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409671.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6f3b47b6da3314c9",
+      "category": "重大新闻",
       "title": "翻倍基从批量出圈到仅剩独苗，主动权益基金年末怎么打 截至10月25日，全市场仅余一只主动权益产品守住100.91%的年内收益。 2160 2小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
@@ -143,20 +199,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103409919.html",
-      "published_at": "2026-10-26",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f5565e0d7453b0cf",
-      "category": "重大新闻",
-      "title": "九号公司2026年前三季度实现营收219.43亿元，继续加码研发 九号公司2026年前三季度实现营业收入219.43亿元，同比增长19.32%；归属于上市公司股",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103409722.html",
       "published_at": "2026-10-26",
       "symbols": [
         "A股"
@@ -1745,48 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0063bea1270ad702",
-      "category": "重大新闻",
-      "title": "银河证券章俊：经济长期向好基本面稳固，A股核心定价逻辑未改 “持续看好A股中长期表现，建议投资者理性看待海外短期扰动，聚焦新质生产力等核心主线布局。” 2分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103398462.html",
-      "published_at": "2026-10-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8083141ad028d998",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，油气、军工板块表现活跃 盘面上，汽车、油气、军工板块活跃。 2532 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103398246.html",
-      "published_at": "2026-10-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-fa8629a73349900d",
-      "category": "重大新闻",
-      "title": "盘前必读丨日韩股市集体低开；AI产业链公司扎堆预喜 机构认为，宽基ETF持续净申购有望为后市核心指数的企稳修复提供支持。 32013 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103398093.html",
-      "published_at": "2026-10-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-26 22:51:27+08:00",
+  "last_checked_at": "2026-10-26 23:56:08+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 57490,
+    "rows": 58662,
     "covered_stocks": 5313,
     "requested_stocks": 5561,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
-    "news_symbols_with_items": 5387,
-    "notice_rows": 24418,
-    "stock_news_rows": 33072,
+    "news_symbols_with_items": 5396,
+    "notice_rows": 25580,
+    "stock_news_rows": 33082,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
