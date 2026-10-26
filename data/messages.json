@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25 23:04:11+08:00",
+  "updated_at": "2026-10-26 10:55:25+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -109,13 +109,69 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-700cac77df44200a",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，贵金属、影视等板块跌幅居前 市场逾4300股下跌。 3586 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103408666.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d93aa6419bbbae5e",
+      "category": "重大新闻",
+      "title": "盘前必读丨A股指数重要调整今起实施；德明利Q3净利同比增长2903% 机构认为，短期内市场或迎来“风险释放后的修复窗口”。 30463 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103408530.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-673f90ccd2244acd",
       "category": "重大新闻",
       "title": "IPO周报：中科创新、兢强科技二次冲A折戟 10月19日～10月25日当周，沪深北交易所有2家拟IPO企业提交注册，2家终止IPO程序，其中1家终止审核、1家终",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103408299.html",
-      "published_at": "2026-10-25",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9b2a414b2f2d5c4c",
+      "category": "重大新闻",
+      "title": "从“拥抱AI”到“重提风控”，基金经理们震荡季如何调仓 AI投资进入“算账时刻” 8453 昨天 20:28",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103408290.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-25342830fbd2fe2d",
+      "category": "重大新闻",
+      "title": "科技企业集体喊话、成交逼近2万亿，A股探底回升意味着什么 后市如何演绎？ 19272 昨天 20:28",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103408291.html",
+      "published_at": "2026-10-26",
       "symbols": [
         "A股"
       ],
@@ -1731,62 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5a589dda09da6425",
-      "category": "重大新闻",
-      "title": "晚间公告｜10月18日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 6159 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103397955.html",
-      "published_at": "2026-10-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-148d06feb14a0572",
-      "category": "重大新闻",
-      "title": "机构论后市丨A股短期可能见底，关注科技成长短期超跌后的修复机会 A股后市怎么走？看看机构怎么说。 2842 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103397939.html",
-      "published_at": "2026-10-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8e482d08ae3cf319",
-      "category": "重大新闻",
-      "title": "下周关注丨9月经济数据将公布，这些投资机会最靠谱 10月LPR将公布；2026金融街论坛年会开幕在即…… 2687 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103397808.html",
-      "published_at": "2026-10-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c78499a3fe09f20e",
-      "category": "重大新闻",
-      "title": "全球化重构进行时：中国企业从\"产品出海\"迈向\"全球扎根\" 中国企业的全球化，已从单点的产品出口阶段，进入技术、品牌、供应链、标准与治理能力协同推进的新阶段。 6",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103397594.html",
-      "published_at": "2026-10-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-25 23:04:11+08:00",
+  "last_checked_at": "2026-10-26 10:55:25+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 50181,
+    "rows": 57005,
     "covered_stocks": 5313,
     "requested_stocks": 5561,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
-    "news_symbols_with_items": 5317,
-    "notice_rows": 18516,
-    "stock_news_rows": 31665,
+    "news_symbols_with_items": 5371,
+    "notice_rows": 25144,
+    "stock_news_rows": 31861,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
