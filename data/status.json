@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 174,
-      "started_at": "2026-10-27T01:17:56+08:00",
-      "finished_at": "2026-10-27T01:18:22+08:00",
+      "started_at": "2026-10-27T15:47:06+08:00",
+      "finished_at": "2026-10-27T15:47:37+08:00",
       "latest_date": "202609",
       "total_cached_rows": 174,
       "source_details": {
@@ -42,15 +42,15 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 5006,
-      "started_at": "2026-10-27T01:18:22+08:00",
-      "finished_at": "2026-10-27T01:18:37+08:00",
-      "latest_date": "20261026",
-      "total_cached_rows": 5042,
+      "rows": 5007,
+      "started_at": "2026-10-27T15:47:37+08:00",
+      "finished_at": "2026-10-27T15:47:53+08:00",
+      "latest_date": "20261027",
+      "total_cached_rows": 5043,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 5006,
+          "rows": 5007,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -69,10 +69,10 @@
       "latest_by_series": {
         "dr001_pct": "20261026",
         "dr007_pct": "20261026",
-        "shibor_on_pct": "20261026"
+        "shibor_on_pct": "20261027"
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5042
+      "cached_rows": 5043
     },
     "market": {
       "status": "success",
@@ -506,7 +506,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-27T11:25:17+08:00",
-  "overall_status": "partial",
-  "last_update_mode": "global"
+  "updated_at": "2026-10-27T15:48:07+08:00",
+  "overall_status": "success",
+  "last_update_mode": "macro"
 }
