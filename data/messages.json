@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 00:27:12+08:00",
+  "updated_at": "2026-10-28 00:54:05+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,7 +111,7 @@
     {
       "id": "auto-yicai-97585103a58e9e3e",
       "category": "重大新闻",
-      "title": "Anthropic冲刺IPO，A股AI产业链为何“先涨后跌” 后续行情能否升级为基本面重估仍取决于云巨头财报与国产模型迭代的实际表现。 3524 昨天 20:3",
+      "title": "Anthropic冲刺IPO，A股AI产业链为何“先涨后跌” 后续行情能否升级为基本面重估仍取决于云巨头财报与国产模型迭代的实际表现。 4144 昨天 20:3",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103411745.html",
@@ -125,7 +125,7 @@
     {
       "id": "auto-yicai-ec3a5ebd9283a3c4",
       "category": "重大新闻",
-      "title": "资金重回机器人：从“造身体”到“喂大脑”，物理AI新叙事浮现 从硬件本体到数据基建，物理AI浪潮下的逻辑叙事 4330 昨天 20:24",
+      "title": "资金重回机器人：从“造身体”到“喂大脑”，物理AI新叙事浮现 从硬件本体到数据基建，物理AI浪潮下的逻辑叙事 5198 昨天 20:24",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103411729.html",
@@ -167,7 +167,7 @@
     {
       "id": "auto-yicai-9e5007a0304f6d67",
       "category": "重大新闻",
-      "title": "晚间公告｜10月27日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 47141 昨天 18:14",
+      "title": "晚间公告｜10月27日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 48319 昨天 18:14",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103411462.html",
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-28 00:27:12+08:00",
+  "last_checked_at": "2026-10-28 00:54:05+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 67324,
+    "rows": 67328,
     "covered_stocks": 5313,
     "requested_stocks": 5561,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
     "news_symbols_with_items": 5463,
-    "notice_rows": 32904,
-    "stock_news_rows": 34420,
+    "notice_rows": 32905,
+    "stock_news_rows": 34423,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
