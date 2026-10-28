@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 23:52:56+08:00",
+  "updated_at": "2026-10-29 00:18:16+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,11 +111,11 @@
     {
       "id": "auto-yicai-d57baf61cce3971d",
       "category": "重大新闻",
-      "title": "两融余额回撤6200亿，杠杆资金结构性换仓 从3.03万亿到2.41万亿，融资余额已回吐年内全部增量。 4454 2小时前",
+      "title": "两融余额回撤6200亿，杠杆资金结构性换仓 从3.03万亿到2.41万亿，融资余额已回吐年内全部增量。 4919 昨天 21:20",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103413911.html",
-      "published_at": "2026-10-28",
+      "published_at": "2026-10-29",
       "symbols": [
         "A股"
       ],
@@ -125,11 +125,11 @@
     {
       "id": "auto-yicai-1e3fc7feba9aa424",
       "category": "重大新闻",
-      "title": "公募调仓：电子行业被减配，药明康德跃升第三大重仓股 剔除股价变化的影响后，三季度电子行业被主动权益基金减配约为2.77个百分点 3865 2小时前",
+      "title": "公募调仓：电子行业被减配，药明康德跃升第三大重仓股 剔除股价变化的影响后，三季度电子行业被主动权益基金减配约为2.77个百分点 3865 昨天 20:55",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103413689.html",
-      "published_at": "2026-10-28",
+      "published_at": "2026-10-29",
       "symbols": [
         "A股"
       ],
@@ -139,11 +139,11 @@
     {
       "id": "auto-yicai-da07300bdfd7f480",
       "category": "重大新闻",
-      "title": "公募三季报：盈亏反转剧烈，超六成主动权益降仓 一季之内冷暖反转，公募重新权衡攻守 3431 2小时前",
+      "title": "公募三季报：盈亏反转剧烈，超六成主动权益降仓 一季之内冷暖反转，公募重新权衡攻守 3431 昨天 20:54",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103413860.html",
-      "published_at": "2026-10-28",
+      "published_at": "2026-10-29",
       "symbols": [
         "A股"
       ],
@@ -153,11 +153,11 @@
     {
       "id": "auto-yicai-c63c48b0e9594de1",
       "category": "重大新闻",
-      "title": "晚间公告｜10月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 46087 5小时前",
+      "title": "晚间公告｜10月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 46087 昨天 18:48",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103413657.html",
-      "published_at": "2026-10-28",
+      "published_at": "2026-10-29",
       "symbols": [
         "A股"
       ],
@@ -167,11 +167,11 @@
     {
       "id": "auto-yicai-6efa7c6d7cc306a5",
       "category": "重大新闻",
-      "title": "谨慎观望? 3245 5小时前",
+      "title": "谨慎观望? 3245 昨天 18:29",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103413613.html",
-      "published_at": "2026-10-28",
+      "published_at": "2026-10-29",
       "symbols": [
         "A股"
       ],
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-28 23:52:56+08:00",
+  "last_checked_at": "2026-10-29 00:18:16+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 64088,
+    "rows": 67358,
     "covered_stocks": 5313,
     "requested_stocks": 5561,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
-    "news_symbols_with_items": 5462,
-    "notice_rows": 27820,
-    "stock_news_rows": 36268,
+    "news_symbols_with_items": 5504,
+    "notice_rows": 31831,
+    "stock_news_rows": 35527,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
