@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29 22:55:50+08:00",
+  "updated_at": "2026-10-29 23:57:18+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,7 +111,7 @@
     {
       "id": "auto-yicai-fa29f392995c1fc3",
       "category": "重大新闻",
-      "title": "谁是A股业绩“增降王”，三季报披露期机构忙调研 63家公司归母净利润同比增幅超过10倍，54家公司归母净利润降幅超过10倍。 1726 1小时前",
+      "title": "谁是A股业绩“增降王”，三季报披露期机构忙调研 63家公司归母净利润同比增幅超过10倍，54家公司归母净利润降幅超过10倍。 2594 2小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103416068.html",
@@ -129,6 +129,62 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103416017.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6819c8048aff2215",
+      "category": "重大新闻",
+      "title": "三季度净利环比下滑逾六成，佰维存储创近34月最大单日跌幅 备货策略激进，存货在9个月内增加2倍多。 2501 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103416064.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-45feda224659c575",
+      "category": "重大新闻",
+      "title": "天孚通信盘中跌停逼近年内低点，三季度加仓资金或已浮亏 天孚通信盘中跌停，AI硬件行情从业绩兑现走向预期重估 2253 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103416056.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4550fdc9dcb21cab",
+      "category": "重大新闻",
+      "title": "地方产业投资加速布局，产业培育与资本回报寻找平衡 从各地实践来看，地方产业投资已不局限于单一项目的股权投入，还逐步向产业链布局、基金组合以及投后资源整合延伸。 ",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103415781.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fa29f392995c1fc3",
+      "category": "重大新闻",
+      "title": "谁是A股业绩“增降王”，三季报披露期机构忙调研 63家公司归母净利润同比增幅超过10倍，54家公司归母净利润降幅超过10倍。 1726 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103416068.html",
       "published_at": "2026-10-29",
       "symbols": [
         "A股"
@@ -157,20 +213,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103416056.html",
-      "published_at": "2026-10-29",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4550fdc9dcb21cab",
-      "category": "重大新闻",
-      "title": "地方产业投资加速布局，产业培育与资本回报寻找平衡 从各地实践来看，地方产业投资已不局限于单一项目的股权投入，还逐步向产业链布局、基金组合以及投后资源整合延伸。 ",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103415781.html",
       "published_at": "2026-10-29",
       "symbols": [
         "A股"
@@ -1745,48 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-24a703386a321c7b",
-      "category": "重大新闻",
-      "title": "盘前必读丨美股存储、半导体股大反弹；中办、国办发布“两创融合”重要文件 机构认为，市场维持弱势超卖，小市值个股反弹弹性较高。 26929 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103403367.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b64293c4374166e7",
-      "category": "重大新闻",
-      "title": "从重惩处“花式套现”，减持监管再收紧 离婚式减持、“马甲账户”减持、先造假后跑路……各种“花式操作”迎来精准打击。 17257 昨天 21:26",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103403016.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-fc9a1a6c27839854",
-      "category": "重大新闻",
-      "title": "资金扫货限购再现，债基为什么又香了 股债跷跷板再度生效 10437 昨天 20:14",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103402894.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-29 22:55:50+08:00",
+  "last_checked_at": "2026-10-29 23:57:18+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 73952,
+    "rows": 75147,
     "covered_stocks": 5315,
     "requested_stocks": 5561,
     "failed_stocks": 246,
     "coverage_rate": 0.9558,
-    "news_symbols_with_items": 5568,
-    "notice_rows": 36389,
-    "stock_news_rows": 37563,
+    "news_symbols_with_items": 5569,
+    "notice_rows": 37573,
+    "stock_news_rows": 37575,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
