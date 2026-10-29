@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29 01:35:18+08:00",
+  "updated_at": "2026-10-29 12:09:10+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-a5568ea7e5061156",
+      "category": "重大新闻",
+      "title": "以岭药业：盈利质量稳步改善，创新蓄力夯实长期增长根基 以岭药业2026年三季报表现并不激进，但现金流的持续增厚和经营质量的改善，依然透露出公司的健康底色。 14",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103414496.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9d38309595dd0168",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，培育钻石、港口航运板块表现活跃 盘面上，元件、CPO、PEEK材料、人形机器人概念跌幅居前。 4144 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103414327.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0309ec7514fe2f93",
+      "category": "重大新闻",
+      "title": "盘前必读丨美联储宣布维持利率不变；宇树科技上市后首份业绩出炉 机构认为，行情仍偏预期驱动，板块带动效应尚未全面扩散。 31114 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103414157.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d57baf61cce3971d",
+      "category": "重大新闻",
+      "title": "两融余额回撤6200亿，杠杆资金结构性换仓 从3.03万亿到2.41万亿，融资余额已回吐年内全部增量。 22465 昨天 21:20",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413911.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1e3fc7feba9aa424",
+      "category": "重大新闻",
+      "title": "公募调仓：电子行业被减配，药明康德跃升第三大重仓股 剔除股价变化的影响后，三季度电子行业被主动权益基金减配约为2.77个百分点 9662 昨天 20:55",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413689.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-d57baf61cce3971d",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-da124b5c941cba91",
-      "category": "重大新闻",
-      "title": "晚间公告｜10月21日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 28665 昨天 18:52",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103402757.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b64293c4374166e7",
-      "category": "重大新闻",
-      "title": "从重惩处“花式套现”，减持监管再收紧 离婚式减持、“马甲账户”减持、先造假后跑路……各种“花式操作”迎来精准打击。 4640 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103403016.html",
-      "published_at": "2026-10-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-fc9a1a6c27839854",
-      "category": "重大新闻",
-      "title": "资金扫货限购再现，债基为什么又香了 股债跷跷板再度生效 4888 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103402894.html",
-      "published_at": "2026-10-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4bbe349433edf677",
-      "category": "重大新闻",
-      "title": "锦龙股份转型智算告吹，前三季亏损仍拟投资上亿“追光” 此前沉寂两年的智算转型计划突然终止，光模块成为锦龙股份转型的新选项 2129 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103402800.html",
-      "published_at": "2026-10-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9189d81372605396",
-      "category": "重大新闻",
-      "title": "头部企业领跑、金融服务助力，上海ESG发展待“实效破局” ESG正从“要不要做”走向“做得怎么样”？ 2036 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103402768.html",
-      "published_at": "2026-10-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-29 01:35:18+08:00",
+  "last_checked_at": "2026-10-29 12:09:10+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 72415,
+    "rows": 72992,
     "covered_stocks": 5313,
     "requested_stocks": 5561,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
-    "news_symbols_with_items": 5524,
-    "notice_rows": 36891,
-    "stock_news_rows": 35524,
+    "news_symbols_with_items": 5525,
+    "notice_rows": 36905,
+    "stock_news_rows": 36087,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
