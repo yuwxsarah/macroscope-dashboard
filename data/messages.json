@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 00:21:45+08:00",
+  "updated_at": "2026-10-30 01:22:43+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,7 +111,7 @@
     {
       "id": "auto-yicai-fa29f392995c1fc3",
       "category": "重大新闻",
-      "title": "谁是A股业绩“增降王”，三季报披露期机构忙调研 63家公司归母净利润同比增幅超过10倍，54家公司归母净利润降幅超过10倍。 2594 昨天 21:13",
+      "title": "谁是A股业绩“增降王”，三季报披露期机构忙调研 63家公司归母净利润同比增幅超过10倍，54家公司归母净利润降幅超过10倍。 3028 昨天 21:13",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103416068.html",
@@ -129,6 +129,62 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103416017.html",
+      "published_at": "2026-10-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6819c8048aff2215",
+      "category": "重大新闻",
+      "title": "三季度净利环比下滑逾六成，佰维存储创近34月最大单日跌幅 备货策略激进，存货在9个月内增加2倍多。 2997 昨天 21:05",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103416064.html",
+      "published_at": "2026-10-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-45feda224659c575",
+      "category": "重大新闻",
+      "title": "天孚通信盘中跌停逼近年内低点，三季度加仓资金或已浮亏 天孚通信盘中跌停，AI硬件行情从业绩兑现走向预期重估 2687 昨天 21:00",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103416056.html",
+      "published_at": "2026-10-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4550fdc9dcb21cab",
+      "category": "重大新闻",
+      "title": "地方产业投资加速布局，产业培育与资本回报寻找平衡 从各地实践来看，地方产业投资已不局限于单一项目的股权投入，还逐步向产业链布局、基金组合以及投后资源整合延伸。 ",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103415781.html",
+      "published_at": "2026-10-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fa29f392995c1fc3",
+      "category": "重大新闻",
+      "title": "谁是A股业绩“增降王”，三季报披露期机构忙调研 63家公司归母净利润同比增幅超过10倍，54家公司归母净利润降幅超过10倍。 2594 昨天 21:13",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103416068.html",
       "published_at": "2026-10-30",
       "symbols": [
         "A股"
@@ -157,20 +213,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103416056.html",
-      "published_at": "2026-10-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4550fdc9dcb21cab",
-      "category": "重大新闻",
-      "title": "地方产业投资加速布局，产业培育与资本回报寻找平衡 从各地实践来看，地方产业投资已不局限于单一项目的股权投入，还逐步向产业链布局、基金组合以及投后资源整合延伸。 ",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103415781.html",
       "published_at": "2026-10-30",
       "symbols": [
         "A股"
@@ -1745,48 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-074fcb50533c3a30",
-      "category": "重大新闻",
-      "title": "10月沪市40家公司新增回购增持计划 大额回购频现 累计已回购和增持金额约326亿元，以真金白银向市场传递对公司长期投资价值的认可。 1974 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404753.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ef989623e4ff3883",
-      "category": "重大新闻",
-      "title": "沪市已有94家公司披露三季报，超九成实现盈利 头部公司以研发创新驱动增长、提升产业链竞争力的积极成效进一步显现。 1354 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404751.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a326d10bec3abb40",
-      "category": "重大新闻",
-      "title": "A股四大指数开盘表现分化，软件开发、网络安全等板块涨幅居前 盘面上，影视院线、贵金属、文化传媒等板块下挫。 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103403505.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-30 00:21:45+08:00",
+  "last_checked_at": "2026-10-30 01:22:43+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 77700,
+    "rows": 77701,
     "covered_stocks": 5315,
     "requested_stocks": 5561,
     "failed_stocks": 246,
     "coverage_rate": 0.9558,
     "news_symbols_with_items": 5583,
     "notice_rows": 40898,
-    "stock_news_rows": 36802,
+    "stock_news_rows": 36803,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
