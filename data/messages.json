@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 01:42:03+08:00",
+  "updated_at": "2026-10-30 12:08:49+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -109,9 +109,51 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-2c30b25725a2d0b9",
+      "category": "重大新闻",
+      "title": "胜宏科技三季度业绩“失速”，H股破发逾40%、A股回撤超六成 三季度逆势加仓胜宏科技的筹码，已套牢约20%。 1819 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103417721.html",
+      "published_at": "2026-10-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4345fe8851314d8b",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，算力硬件股延续调整 盘面上，半导体、存储芯片、培育钻石、贵金属、人形机器人板块跌幅居前。 5 3028 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103417461.html",
+      "published_at": "2026-10-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-68e9578e4bc59e83",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股收跌谷歌重挫超12%；中际旭创50亿元已回购股份“改道”注销 机构认为，指数调整后短期下探空间有限，短期预期或构建底部箱体形态。 5 28913 ",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103417181.html",
+      "published_at": "2026-10-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-fa29f392995c1fc3",
       "category": "重大新闻",
-      "title": "谁是A股业绩“增降王”，三季报披露期机构忙调研 63家公司归母净利润同比增幅超过10倍，54家公司归母净利润降幅超过10倍。 3214 昨天 21:13",
+      "title": "谁是A股业绩“增降王”，三季报披露期机构忙调研 63家公司归母净利润同比增幅超过10倍，54家公司归母净利润降幅超过10倍。 9538 昨天 21:13",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103416068.html",
@@ -129,6 +171,20 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103416017.html",
+      "published_at": "2026-10-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fa29f392995c1fc3",
+      "category": "重大新闻",
+      "title": "谁是A股业绩“增降王”，三季报披露期机构忙调研 63家公司归母净利润同比增幅超过10倍，54家公司归母净利润降幅超过10倍。 3214 昨天 21:13",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103416068.html",
       "published_at": "2026-10-30",
       "symbols": [
         "A股"
@@ -1731,62 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ef989623e4ff3883",
-      "category": "重大新闻",
-      "title": "沪市已有94家公司披露三季报，超九成实现盈利 头部公司以研发创新驱动增长、提升产业链竞争力的积极成效进一步显现。 2098 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404751.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ea2cdf35a262747f",
-      "category": "重大新闻",
-      "title": "单周最大回撤超30%，部分私募产品年内收益告负 继7月中旬的回撤后，私募业绩再次遭遇重挫。 1323 31分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404824.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b1dd677a9b81a400",
-      "category": "重大新闻",
-      "title": "ETF宽基放量、新品将至、自购跟进，市场调整正待企稳信号 九连跌的创业板与放量的ETF：资金在交换什么筹码？ 920 31分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404821.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4e8569a1deb89fb6",
-      "category": "重大新闻",
-      "title": "近七成港股次新股破发，34只“A+H”股平均破发35% MiniMax上市后首破发行价 港股次新股集体遭遇重定价 4702 51分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404754.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-30 01:42:03+08:00",
+  "last_checked_at": "2026-10-30 12:08:49+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 77700,
+    "rows": 78286,
     "covered_stocks": 5315,
     "requested_stocks": 5561,
     "failed_stocks": 246,
     "coverage_rate": 0.9558,
-    "news_symbols_with_items": 5583,
-    "notice_rows": 40898,
-    "stock_news_rows": 36802,
+    "news_symbols_with_items": 5584,
+    "notice_rows": 40912,
+    "stock_news_rows": 37374,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
