@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31 01:11:35+08:00",
+  "updated_at": "2026-10-31 01:36:01+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,7 +111,7 @@
     {
       "id": "auto-yicai-70ded0b81dcc6376",
       "category": "重大新闻",
-      "title": "A股三季报风云丨2026年前三季度谁最吸金？ 一图速览>> 1044 昨天 23:35",
+      "title": "A股三季报风云丨2026年前三季度谁最吸金？ 一图速览>> 1230 昨天 23:35",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103419200.html",
@@ -125,7 +125,7 @@
     {
       "id": "auto-yicai-b265fe917c0fa92b",
       "category": "重大新闻",
-      "title": "A股三季报风云丨2026年前三季度谁营收最高？ 一图速览>> 1075 昨天 23:10",
+      "title": "A股三季报风云丨2026年前三季度谁营收最高？ 一图速览>> 1168 昨天 23:10",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103419173.html",
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-31 01:11:35+08:00",
+  "last_checked_at": "2026-10-31 01:36:01+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 79783,
+    "rows": 78603,
     "covered_stocks": 5315,
     "requested_stocks": 5561,
     "failed_stocks": 246,
     "coverage_rate": 0.9558,
     "news_symbols_with_items": 5596,
-    "notice_rows": 42196,
-    "stock_news_rows": 37587,
+    "notice_rows": 41019,
+    "stock_news_rows": 37584,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
