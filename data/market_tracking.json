@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 01:43:12+08:00",
+  "updated_at": "2026-10-30 10:03:29+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,9 +355,9 @@
   "tracking": {
     "trade_date": "20261029",
     "summary": {
-      "market_score": 46.7,
-      "market_score_before_gate": 46.7,
-      "risk_score": 60.9,
+      "market_score": 45.9,
+      "market_score_before_gate": 45.9,
+      "risk_score": 61.3,
       "risk_level": "红色",
       "market_phase": "防御期 / 红色预警",
       "base_position_pct": 30.0,
@@ -400,14 +400,14 @@
       {
         "name": "流动性环境",
         "weight": 20,
-        "score": 63.6,
-        "raw_score": 3.2,
-        "weighted_score": 12.8,
+        "score": 60.9,
+        "raw_score": 3.0,
+        "weighted_score": 12.0,
         "status": "中性偏强",
         "basis": [
           "DR007 1.34%，历史分位 2%",
           "DR007近5期变化 0.02个百分点",
-          "美元净流动性近4期变化 0.00万亿美元"
+          "美元净流动性近4期变化 -0.02万亿美元"
         ],
         "blueprint": [
           "货币流动性 30%：央行态度、DR007、MLF、逆回购",
@@ -566,13 +566,13 @@
       {
         "name": "跨资产压力",
         "weight": 10,
-        "risk": 5.4,
-        "raw_risk": 53.8,
+        "risk": 5.8,
+        "raw_risk": 57.9,
         "level": "偏高",
         "basis": [
-          "美国10年期国债 4.99%",
-          "纳斯达克20日动量 -2.61%",
-          "美元净流动性 5.52万亿美元"
+          "美国10年期国债 5.05%",
+          "纳斯达克20日动量 -2.56%",
+          "美元净流动性 5.45万亿美元"
         ]
       },
       {
@@ -605,7 +605,7 @@
       "crowding_pct": 42.27,
       "margin_to_market_cap_pct": 2.375,
       "index_momentum_20d_pct": -17.33,
-      "dgs10_pct": 4.99
+      "dgs10_pct": 5.05
     }
   },
   "method_note": "大盘机会评分按七大模块0-5原始分折算为100分；风险领先预警分越高越需要降仓。该模型用于仓位管理与风控，不直接预测指数点位，不构成投资建议。"
