@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01 00:23:20+08:00",
+  "updated_at": "2026-11-01 11:58:59+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-f4b36428c574e97d",
+      "category": "重大新闻",
+      "title": "下周关注｜多个重磅会议活动将举行，这些投资机会最靠谱 2026年世界互联网大会乌镇峰会将举行；美国中期选举投票即将举行...... 16544 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103420004.html",
+      "published_at": "2026-11-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f4f2bbc84af3b615",
+      "category": "重大新闻",
+      "title": "A股三季报风云丨2026年前三季度谁研发投入最高？ 一图速览>> 8794 昨天 19:21",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103419741.html",
+      "published_at": "2026-11-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5b756d30c8867683",
+      "category": "重大新闻",
+      "title": "晓数点｜一图速览10月A股月报 四大指数10月均累计下跌，海洋王问鼎10月最牛股，贵州茅台股价重回A股第一，主力抛售新易盛>> 5632 昨天 18:44",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103419705.html",
+      "published_at": "2026-11-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7a1b679003cce9cb",
+      "category": "重大新闻",
+      "title": "从解决“在场”到回答“能力”，公募出海提速写下新叙事 公募国际化仍处“起跑段”：没有统一模板，只有适配基因 4082 昨天 18:05",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103419639.html",
+      "published_at": "2026-11-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-00f49bcb48e66eef",
+      "category": "重大新闻",
+      "title": "A股三季报风云丨2026年第三季度谁“发红包”最壕？ 一图速览>> 5849 昨天 16:06",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103419608.html",
+      "published_at": "2026-11-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-f4f2bbc84af3b615",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5b81c6b0b11d3ba5",
-      "category": "重大新闻",
-      "title": "外资券商队伍再“迎新”，花旗证券获准设立 外资券商加速抢滩中国市场。 2656 昨天 20:19",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406979.html",
-      "published_at": "2026-10-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e3dbca29d22a57ff",
-      "category": "重大新闻",
-      "title": "晚间公告｜10月23日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5 36012 昨天 18:53",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406847.html",
-      "published_at": "2026-10-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-816f7731fb73c34a",
-      "category": "重大新闻",
-      "title": "母基金监管新规出炉，明确分散投资、豁免一层投资层级 母基金投资于其他私募基金份额的金额，不低于其资产净值的80%。 9 3462 昨天 18:30",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406762.html",
-      "published_at": "2026-10-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bea4c81967cc0a56",
-      "category": "重大新闻",
-      "title": "考验4000美元关口，黄金多空拉锯战持续 沪金期货跌至年内最低 4764 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103407026.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5b81c6b0b11d3ba5",
-      "category": "重大新闻",
-      "title": "外资券商队伍再“迎新”，花旗证券获准设立 外资券商加速抢滩中国市场。 2098 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406979.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-01 00:23:20+08:00",
+  "last_checked_at": "2026-11-01 11:58:59+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 79996,
+    "rows": 79286,
     "covered_stocks": 5315,
     "requested_stocks": 5561,
     "failed_stocks": 246,
     "coverage_rate": 0.9558,
     "news_symbols_with_items": 5596,
-    "notice_rows": 42202,
-    "stock_news_rows": 37794,
+    "notice_rows": 41486,
+    "stock_news_rows": 37800,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
