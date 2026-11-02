@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 12:00:51+08:00",
+  "updated_at": "2026-11-03 01:25:05+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-2273b0e0bc26994e",
+      "category": "重大新闻",
+      "title": "火线解读｜政策“组合拳”打出，机构看好A股估值修复 “信心提振情绪，资金面面临改善，市场修复在路上。” 7864 昨天 22:17",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103422216.html",
+      "published_at": "2026-11-03",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5e0e506b51be5131",
+      "category": "重大新闻",
+      "title": "1800亿后还有增量？国新、诚通迎低成本“子弹” “中国国新、中国诚通是国务院国资委监管的中央企业，发挥国有资本运营平台的重要功能。两家公司相继宣布使用800亿",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103422214.html",
+      "published_at": "2026-11-03",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-28e9fa3c6bcdb7a8",
+      "category": "重大新闻",
+      "title": "金融部门稳市“组合拳”来了！多路增量资金已集结 受金融部门稳市座谈会消息提振，A股市场11月2日全线反弹。 晚间，中国人民银行发布消息称，会同金融监管总局、证监",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103422146.html",
+      "published_at": "2026-11-03",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-8f64508e971ca30f",
+      "category": "重大新闻",
+      "title": "证监会力推“护盘式回购”，这些个股可重点关注 今年前10月A股市场132只新股中，20余股存在IPO超募。 9383 昨天 21:55",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103422139.html",
+      "published_at": "2026-11-03",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-48ea1370bae468c0",
+      "category": "重大新闻",
+      "title": "回购增持贷款转为长期制度安排，国新、诚通两大平台有望加仓哪些方向？ 从三季度持仓来看，能源板块在两大平台的持仓中扮演“压舱石”的角色 10003 昨天 21:5",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103422135.html",
+      "published_at": "2026-11-03",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-9a0ecf84b05146e5",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-901b3569f39296e2",
-      "category": "重大新闻",
-      "title": "晚间公告｜10月25日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 33160 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103408231.html",
-      "published_at": "2026-10-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5e5b81ea55c8ec7a",
-      "category": "重大新闻",
-      "title": "机构论后市丨阶段性反弹有望开 建议把握三条主线 A股后市怎么走？看看机构怎么说。 4888 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103408229.html",
-      "published_at": "2026-10-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a13115ba73260245",
-      "category": "重大新闻",
-      "title": "下周关注丨10月PMI数据将公布，这些投资机会最靠谱 成品油将迎新一轮调价窗口；美联储、欧洲央行、日本央行等利率决议将至；谷歌、微软等美股重磅科技股将披露财报。",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103408068.html",
-      "published_at": "2026-10-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b9cb7b8b19dfaeb9",
-      "category": "重大新闻",
-      "title": "18只主动ETF首发吸金约150亿元，3只“一日售罄” 首批18只公募主动ETF开售首日，3只产品提前结募并启动比例配售，多家基金公司同步宣布合计15亿元的自购",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103407713.html",
-      "published_at": "2026-10-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-6bbe977037729137",
-      "category": "重大新闻",
-      "title": "歌尔股份前三季度毛利率13.68%，营收净利齐升，垂直整合能力持续兑现 4981 昨天 11:14",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103407649.html",
-      "published_at": "2026-10-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-02 12:00:51+08:00",
+  "last_checked_at": "2026-11-03 01:25:05+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 79789,
+    "rows": 81904,
     "covered_stocks": 5314,
     "requested_stocks": 5561,
     "failed_stocks": 247,
     "coverage_rate": 0.9556,
-    "news_symbols_with_items": 5596,
-    "notice_rows": 41650,
-    "stock_news_rows": 38139,
+    "news_symbols_with_items": 5597,
+    "notice_rows": 43224,
+    "stock_news_rows": 38680,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
