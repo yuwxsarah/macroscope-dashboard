@@ -468,12 +468,12 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261102",
-      "rows": 79510,
-      "cached_rows": 79510,
-      "covered_stocks": 5315,
+      "rows": 79789,
+      "cached_rows": 79789,
+      "covered_stocks": 5314,
       "requested_stocks": 5561,
-      "failed_stocks": 246,
-      "coverage_rate": 0.9558,
+      "failed_stocks": 247,
+      "coverage_rate": 0.9556,
       "failed_symbols_sample": [
         "000003.SZ",
         "000005.SZ",
@@ -497,7 +497,7 @@
         "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600677.SH: KeyError('code')；600672.SH: KeyError('code')；600687.SH: KeyError('code')"
+      "error": "600672.SH: KeyError('code')；600677.SH: KeyError('code')；600695.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -508,7 +508,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-02T09:37:14+08:00",
+  "updated_at": "2026-11-02T12:00:58+08:00",
   "overall_status": "partial",
   "last_update_mode": "global"
 }

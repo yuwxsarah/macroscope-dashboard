@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 01:12:27+08:00",
+  "updated_at": "2026-11-02 12:00:51+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-9a0ecf84b05146e5",
+      "category": "重大新闻",
+      "title": "滚动更新丨创业板指半日涨超3%，全市场近4800股上涨 盘面上，人形机器人板块探底回弹，银行、黄金、煤炭板块调整。 6 8546 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103420730.html",
+      "published_at": "2026-11-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0927c273fa4ec180",
+      "category": "重大新闻",
+      "title": "盘前必读丨金融监管部门今日将召开两场会议；中国稀土拟重大资产重组 机构认为，以时间换空间的震荡轮动格局或仍是阶段性特征。 8 36198 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103420562.html",
+      "published_at": "2026-11-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-bdeead867603b33f",
+      "category": "重大新闻",
+      "title": "晓数点丨券商11月金股出炉，涉及家电、医药等领域 美的集团、药明康德最受机构青睐，均入围了3家券商的推荐名单。 8949 昨天 21:35",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103420269.html",
+      "published_at": "2026-11-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3f90da94bfe905ac",
+      "category": "重大新闻",
+      "title": "全球资产遭遇洗盘，国内市场迎来两场重磅会议 在业内看来，上述会议的召开将给国内市场带来积极信号。 53279 昨天 21:11",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103420264.html",
+      "published_at": "2026-11-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-02ada7bef1612d8a",
+      "category": "重大新闻",
+      "title": "从“越赚越赎”到“亏了敢买”，主动权益基金净赎回环比收窄66% “只要不卖就不算亏”：震荡市下投资者权益申赎画像反转。 9724 昨天 20:43",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103420246.html",
+      "published_at": "2026-11-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-bdeead867603b33f",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bea4c81967cc0a56",
-      "category": "重大新闻",
-      "title": "考验4000美元关口，黄金多空拉锯战持续 沪金期货跌至年内最低 9 25007 10-23 20:33",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103407026.html",
-      "published_at": "2026-10-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b55441dc9717f5ae",
-      "category": "重大新闻",
-      "title": "基金业协会披露私募登记备案典型案例，涉及基金清算、股东出资等问题 《动态》披露的典型案例，涉及私募基金投资运作、嵌套以及业绩报酬收取、私募基金管理人股东出资情况",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103407007.html",
-      "published_at": "2026-10-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-6bbe977037729137",
-      "category": "重大新闻",
-      "title": "歌尔股份前三季度毛利率13.68%，营收净利齐升，垂直整合能力持续兑现 3183 11小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103407649.html",
-      "published_at": "2026-10-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bea4c81967cc0a56",
-      "category": "重大新闻",
-      "title": "考验4000美元关口，黄金多空拉锯战持续 沪金期货跌至年内最低 9 21194 昨天 20:33",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103407026.html",
-      "published_at": "2026-10-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5b81c6b0b11d3ba5",
-      "category": "重大新闻",
-      "title": "外资券商队伍再“迎新”，花旗证券获准设立 外资券商加速抢滩中国市场。 6 8174 昨天 20:19",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406979.html",
-      "published_at": "2026-10-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-02 01:12:27+08:00",
+  "last_checked_at": "2026-11-02 12:00:51+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 79510,
-    "covered_stocks": 5315,
+    "rows": 79789,
+    "covered_stocks": 5314,
     "requested_stocks": 5561,
-    "failed_stocks": 246,
-    "coverage_rate": 0.9558,
+    "failed_stocks": 247,
+    "coverage_rate": 0.9556,
     "news_symbols_with_items": 5596,
-    "notice_rows": 41629,
-    "stock_news_rows": 37881,
+    "notice_rows": 41650,
+    "stock_news_rows": 38139,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
