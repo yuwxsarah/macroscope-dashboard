@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03 23:56:37+08:00",
+  "updated_at": "2026-11-04 00:56:30+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-2f91ad22b5e15233",
+      "category": "重大新闻",
+      "title": "8个交易日17只售罄，主动ETF加快建仓迎“透明时代” “主动ETF持仓每日公开，建仓期本身就是一次公开的建仓，节奏就是信号。” 5632 昨天 20:41",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103424075.html",
+      "published_at": "2026-11-04",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5c5e841d83727043",
+      "category": "重大新闻",
+      "title": "AI硬件融资盘凶猛撤退，“茅宁”组合时隔六年仍是香饽饽？ 短线抄底AI硬件的融资客再度被套。 5167 昨天 20:41",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103424076.html",
+      "published_at": "2026-11-04",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-51cbad3b6d7ffe25",
+      "category": "重大新闻",
+      "title": "自营再成券商“胜负手”，“牛市旗手”重仓股曝光 成也自营，败也自营？ 6903 昨天 20:30",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103424053.html",
+      "published_at": "2026-11-04",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4c52f2a31ce99423",
+      "category": "重大新闻",
+      "title": "多家券商中标，央行第三批互换便利操作落地 包括国泰海通、招商证券、国金证券、国联民生、东吴证券等。 5 4299 昨天 20:15",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103423932.html",
+      "published_at": "2026-11-04",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d2592af13a6909da",
+      "category": "重大新闻",
+      "title": "仓位上升 2191 昨天 18:22",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103423835.html",
+      "published_at": "2026-11-04",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-2f91ad22b5e15233",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b444fca35c001b58",
-      "category": "重大新闻",
-      "title": "电子通信市值大幅回撤，千亿热门股因何集体滑落 从PCB、光通信到存储，过去两年被AI资本开支叙事推高的硬件环节，正在同步经历泡沫消化。 8422 昨天 20:3",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103409919.html",
-      "published_at": "2026-10-27",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-6f3b47b6da3314c9",
-      "category": "重大新闻",
-      "title": "翻倍基从批量出圈到仅剩独苗，主动权益基金年末怎么打 截至10月25日，全市场仅余一只主动权益产品守住100.91%的年内收益。 2501 昨天 20:39",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103409922.html",
-      "published_at": "2026-10-27",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b444fca35c001b58",
-      "category": "重大新闻",
-      "title": "电子通信市值大幅回撤，千亿热门股因何集体滑落 从PCB、光通信到存储，过去两年被AI资本开支叙事推高的硬件环节，正在同步经历泡沫消化。 4671 昨天 20:3",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103409919.html",
-      "published_at": "2026-10-27",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f5565e0d7453b0cf",
-      "category": "重大新闻",
-      "title": "九号公司2026年前三季度实现营收219.43亿元，继续加码研发 九号公司2026年前三季度实现营业收入219.43亿元，同比增长19.32%；归属于上市公司股",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103409722.html",
-      "published_at": "2026-10-27",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-11fafcd2bd4897b6",
-      "category": "重大新闻",
-      "title": "晚间公告｜10月26日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 51481 昨天 18:30",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103409671.html",
-      "published_at": "2026-10-27",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-03 23:56:37+08:00",
+  "last_checked_at": "2026-11-04 00:56:30+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 83078,
+    "rows": 80614,
     "covered_stocks": 5315,
     "requested_stocks": 5562,
     "failed_stocks": 247,
     "coverage_rate": 0.9556,
-    "news_symbols_with_items": 5597,
-    "notice_rows": 43635,
-    "stock_news_rows": 39443,
+    "news_symbols_with_items": 5594,
+    "notice_rows": 41179,
+    "stock_news_rows": 39435,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
