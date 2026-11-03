@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 174,
-      "started_at": "2026-11-04T02:03:03+08:00",
-      "finished_at": "2026-11-04T02:03:27+08:00",
+      "started_at": "2026-11-04T02:24:51+08:00",
+      "finished_at": "2026-11-04T02:25:16+08:00",
       "latest_date": "202609",
       "total_cached_rows": 174,
       "source_details": {
@@ -43,8 +43,8 @@
     "liquidity": {
       "status": "success",
       "rows": 5012,
-      "started_at": "2026-11-04T02:03:27+08:00",
-      "finished_at": "2026-11-04T02:03:42+08:00",
+      "started_at": "2026-11-04T02:25:16+08:00",
+      "finished_at": "2026-11-04T02:25:33+08:00",
       "latest_date": "20261103",
       "total_cached_rows": 5048,
       "source_details": {
@@ -77,8 +77,8 @@
     "market": {
       "status": "success",
       "rows": 33907,
-      "started_at": "2026-11-03T23:13:32+08:00",
-      "finished_at": "2026-11-03T23:13:43+08:00",
+      "started_at": "2026-11-04T02:25:33+08:00",
+      "finished_at": "2026-11-04T02:25:42+08:00",
       "latest_date": "20261103",
       "total_cached_rows": 33923,
       "symbols": {
@@ -187,11 +187,11 @@
     },
     "global_macro": {
       "status": "partial",
-      "rows": 78,
-      "started_at": "2026-11-03T11:31:44+08:00",
-      "finished_at": "2026-11-03T11:32:34+08:00",
+      "rows": 400,
+      "started_at": "2026-11-04T02:25:42+08:00",
+      "finished_at": "2026-11-04T02:26:30+08:00",
       "latest_date": "20261030",
-      "total_cached_rows": 30842,
+      "total_cached_rows": 30843,
       "source_details": {
         "DGS2": {
           "status": "success",
@@ -221,7 +221,7 @@
             "WSHOSHO": "20261028",
             "WALCL": "20261028",
             "WDTGAL": "20261028",
-            "RRPONTSYD": "20261102"
+            "RRPONTSYD": "20261103"
           },
           "input_sources": {
             "WSHOSHO": "Federal Reserve H.4.1 fallback",
@@ -248,11 +248,13 @@
         },
         "PCE_YOY": {
           "status": "failed",
-          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"JSONDecodeError(\\'Expecting value: line 1 column 1 (char 0)\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
+          "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
         },
         "FEDFUNDS": {
-          "status": "failed",
-          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"JSONDecodeError(\\'Expecting value: line 1 column 1 (char 0)\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
+          "status": "success",
+          "rows": 322,
+          "latest_date": "20261001",
+          "source": "美联储H.15月度数据包"
         },
         "US_PMI_MANUFACTURING": {
           "status": "success",
@@ -275,18 +277,18 @@
         "NET_USD_LIQUIDITY_SOMA": "20261028",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20261028",
         "PCE_YOY": "20260701",
-        "FEDFUNDS": "20260901",
+        "FEDFUNDS": "20261001",
         "US_PMI_MANUFACTURING": "20261001",
         "US_PMI_SERVICES": "20261001"
       },
       "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15；美国PMI为S&P Global制造业与服务业公开样本。",
-      "cached_rows": 30842
+      "cached_rows": 30843
     },
     "valuation": {
       "status": "success",
       "rows": 28370,
-      "started_at": "2026-11-03T23:13:43+08:00",
-      "finished_at": "2026-11-03T23:14:18+08:00",
+      "started_at": "2026-11-04T02:26:30+08:00",
+      "finished_at": "2026-11-04T02:27:07+08:00",
       "latest_date": "20261103",
       "total_cached_rows": 28480,
       "indices": {
@@ -397,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2170,
-      "started_at": "2026-11-03T23:17:59+08:00",
-      "finished_at": "2026-11-03T23:17:59+08:00",
+      "started_at": "2026-11-04T02:27:07+08:00",
+      "finished_at": "2026-11-04T02:27:07+08:00",
       "latest_date": "20261103",
       "total_cached_rows": 2170,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -439,32 +441,22 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-11-04T02:03:42+08:00",
-      "finished_at": "2026-11-04T02:03:46+08:00",
+      "started_at": "2026-11-04T02:27:07+08:00",
+      "finished_at": "2026-11-04T02:27:12+08:00",
       "latest_date": "20261027",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
     },
     "sentiment": {
-      "status": "success",
-      "rows": 2,
-      "started_at": "2026-11-03T23:14:18+08:00",
-      "finished_at": "2026-11-03T23:17:59+08:00",
+      "status": "partial",
+      "rows": 0,
+      "started_at": "2026-11-04T02:27:07+08:00",
+      "finished_at": "2026-11-04T02:27:07+08:00",
       "latest_date": "20261103",
-      "crowding_cached_rows": 62,
-      "breadth_cached_rows": 62,
-      "leverage": {
-        "status": "success",
-        "rows": 1,
-        "latest_date": "20261102",
-        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
-      },
-      "source": "东方财富沪深京A股实时行情 / AKShare",
-      "snapshot_kind": "收盘后快照",
-      "breadth_latest_date": "20261103",
-      "leverage_cached_rows": 61,
-      "leverage_latest_date": "20261102"
+      "total_cached_rows": 62,
+      "skipped": true,
+      "note": "非A股交易时段，继续展示上一次成功快照。"
     },
     "a_share_universe": {
       "status": "success",
@@ -476,8 +468,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261104",
-      "rows": 83792,
-      "cached_rows": 83792,
+      "rows": 83793,
+      "cached_rows": 83793,
       "covered_stocks": 5315,
       "requested_stocks": 5562,
       "failed_stocks": 247,
@@ -505,7 +497,7 @@
         "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600687.SH: KeyError('code')；600680.SH: KeyError('code')；600677.SH: KeyError('code')"
+      "error": "600680.SH: KeyError('code')；600677.SH: KeyError('code')；600687.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -516,7 +508,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-04T02:20:02+08:00",
+  "updated_at": "2026-11-04T03:07:22+08:00",
   "overall_status": "partial",
-  "last_update_mode": "evening"
+  "last_update_mode": "all"
 }
