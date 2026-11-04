@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 00:08:11+08:00",
+  "updated_at": "2026-11-05 01:03:42+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -143,6 +143,34 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103426221.html",
+      "published_at": "2026-11-05",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b0be1c95cc4f11bb",
+      "category": "重大新闻",
+      "title": "A股迎来“大奇迹日”，后市怎么看｜市场观察 在第一财经记者采访的业内人士看来，本周陆续出台的救市政策“组合拳”在周三终于引发质变，下午市场大幅反弹。 8794 ",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103426268.html",
+      "published_at": "2026-11-05",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5fdcb7323e56adec",
+      "category": "重大新闻",
+      "title": "羊字辈概念炒作退潮，个股批量跌停背后游资击鼓传花 一个谐音与生肖，撑起一波概念炒作。 7368 昨天 21:10",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103426220.html",
       "published_at": "2026-11-05",
       "symbols": [
         "A股"
@@ -1759,34 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3817b57a64a3d104",
-      "category": "重大新闻",
-      "title": "探底？ 4547 昨天 18:50",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103411480.html",
-      "published_at": "2026-10-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-97585103a58e9e3e",
-      "category": "重大新闻",
-      "title": "Anthropic冲刺IPO，A股AI产业链为何“先涨后跌” 后续行情能否升级为基本面重估仍取决于云巨头财报与国产模型迭代的实际表现。 4144 昨天 20:3",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103411745.html",
-      "published_at": "2026-10-28",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-05 00:08:11+08:00",
+  "last_checked_at": "2026-11-05 01:03:42+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 79758,
+    "rows": 84861,
     "covered_stocks": 5315,
     "requested_stocks": 5562,
     "failed_stocks": 247,
     "coverage_rate": 0.9556,
-    "news_symbols_with_items": 5584,
-    "notice_rows": 39635,
-    "stock_news_rows": 40123,
+    "news_symbols_with_items": 5597,
+    "notice_rows": 44752,
+    "stock_news_rows": 40109,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
