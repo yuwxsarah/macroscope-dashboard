@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06 02:34:41+08:00",
+  "updated_at": "2026-11-06 02:59:07+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,7 +111,7 @@
     {
       "id": "auto-yicai-e63b0bc00e2a3fb5",
       "category": "重大新闻",
-      "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效 助力上市公司更好运用并购重组工具，实现提质增效。 3090 昨天 20:57",
+      "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效 助力上市公司更好运用并购重组工具，实现提质增效。 3121 昨天 20:57",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103428152.html",
@@ -171,6 +171,20 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103427952.html",
+      "published_at": "2026-11-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e63b0bc00e2a3fb5",
+      "category": "重大新闻",
+      "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效 助力上市公司更好运用并购重组工具，实现提质增效。 3090 昨天 20:57",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103428152.html",
       "published_at": "2026-11-06",
       "symbols": [
         "A股"
@@ -1773,20 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d57baf61cce3971d",
-      "category": "重大新闻",
-      "title": "两融余额回撤6200亿，杠杆资金结构性换仓 从3.03万亿到2.41万亿，融资余额已回吐年内全部增量。 22465 昨天 21:20",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103413911.html",
-      "published_at": "2026-10-29",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-06 02:34:41+08:00",
+  "last_checked_at": "2026-11-06 02:59:07+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 87136,
+    "rows": 87139,
     "covered_stocks": 5315,
     "requested_stocks": 5562,
     "failed_stocks": 247,
     "coverage_rate": 0.9556,
     "news_symbols_with_items": 5597,
     "notice_rows": 46500,
-    "stock_news_rows": 40636,
+    "stock_news_rows": 40639,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
