@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06 23:46:23+08:00",
+  "updated_at": "2026-11-07 00:50:40+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,7 +357,7 @@
     "summary": {
       "market_score": 43.2,
       "market_score_before_gate": 43.2,
-      "risk_score": 62.4,
+      "risk_score": 62.5,
       "risk_level": "红色",
       "market_phase": "防御期 / 红色预警",
       "base_position_pct": 30.0,
@@ -555,12 +555,12 @@
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 4.0,
-        "raw_risk": 26.8,
+        "risk": 4.1,
+        "raw_risk": 27.2,
         "level": "偏低",
         "basis": [
           "两融/总市值 2.23%，历史分位 8%",
-          "交易拥挤度历史分位 45%"
+          "交易拥挤度历史分位 46%"
         ]
       },
       {
@@ -571,7 +571,7 @@
         "level": "偏高",
         "basis": [
           "美国10年期国债 4.90%",
-          "纳斯达克20日动量 -9.78%",
+          "纳斯达克20日动量 -9.94%",
           "美元净流动性 5.53万亿美元"
         ]
       },
