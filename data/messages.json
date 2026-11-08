@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08 12:06:18+08:00",
+  "updated_at": "2026-11-09 01:09:22+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-88138afe10fbc65a",
+      "category": "重大新闻",
+      "title": "A股公司密集实施回购，超10亿回购资金集中入场 回购接力赛还在继续。 5725 昨天 21:32",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103431404.html",
+      "published_at": "2026-11-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3a4769f6857b5d85",
+      "category": "重大新闻",
+      "title": "双重付费时代要翻篇？T类份额把投顾收入拉回“服务费” 同样买基金，凭啥投顾账户要多付一份钱？T类份额说：不用了。 10158 昨天 19:49",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103431365.html",
+      "published_at": "2026-11-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9e6ad2385545aaf8",
+      "category": "重大新闻",
+      "title": "港股AI产业链新股密集“破发”，中际旭创基石投资者浮亏超百亿 从光模块到PCB，港股AI硬件次新股批量破发，中际旭创单家账面浮亏逾百亿，基石投资人与产业资本双双",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103431322.html",
+      "published_at": "2026-11-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fa1994462d945ed9",
+      "category": "重大新闻",
+      "title": "机构论后市丨A股在指数层面将迎来量价温和回升的反弹 A股后市怎么走？看看机构怎么说。 3152 昨天 18:20",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103431318.html",
+      "published_at": "2026-11-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4645d36bd199696f",
+      "category": "重大新闻",
+      "title": "晚间公告丨11月8日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 25255 昨天 17:45",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103431310.html",
+      "published_at": "2026-11-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-907ad7573c1f9ba2",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-70ded0b81dcc6376",
-      "category": "重大新闻",
-      "title": "A股三季报风云丨2026年前三季度谁最吸金？ 一图速览>> 6469 昨天 23:35",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419200.html",
-      "published_at": "2026-10-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b265fe917c0fa92b",
-      "category": "重大新闻",
-      "title": "A股三季报风云丨2026年前三季度谁营收最高？ 一图速览>> 5632 昨天 23:10",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419173.html",
-      "published_at": "2026-10-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2b7b8dfdce4516e1",
-      "category": "重大新闻",
-      "title": "美年健康2026年前三季度净利润同比增长85.90% 加速“AI+健管”布局 2811 昨天 21:52",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419061.html",
-      "published_at": "2026-10-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0b77372f4659d5ce",
-      "category": "重大新闻",
-      "title": "私募净值回撤压力持续：有产品四个月跌超八成，逾18亿元自购能否提振信心 多位受访者表示，短期市场可能仍将震荡，后续需重点关注成交量、企业盈利预期及科技板块走势等",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103418931.html",
-      "published_at": "2026-10-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9efaf9210b673a2f",
-      "category": "重大新闻",
-      "title": "看涨率下跌 2656 昨天 19:29",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103418759.html",
-      "published_at": "2026-10-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-08 12:06:18+08:00",
+  "last_checked_at": "2026-11-09 01:09:22+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 82824,
+    "rows": 85145,
     "covered_stocks": 5315,
     "requested_stocks": 5562,
     "failed_stocks": 247,
     "coverage_rate": 0.9556,
-    "news_symbols_with_items": 5558,
-    "notice_rows": 42500,
-    "stock_news_rows": 40324,
+    "news_symbols_with_items": 5596,
+    "notice_rows": 45396,
+    "stock_news_rows": 39749,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
