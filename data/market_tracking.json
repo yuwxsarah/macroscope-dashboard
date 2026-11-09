@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10 01:59:55+08:00",
+  "updated_at": "2026-11-10 03:26:53+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,7 +357,7 @@
     "summary": {
       "market_score": 43.8,
       "market_score_before_gate": 43.8,
-      "risk_score": 64.1,
+      "risk_score": 64.4,
       "risk_level": "红色",
       "market_phase": "防御期 / 红色预警",
       "base_position_pct": 30.0,
@@ -479,14 +479,14 @@
       {
         "name": "市场情绪",
         "weight": 10,
-        "score": 38.2,
+        "score": 37.5,
         "raw_score": 1.9,
         "weighted_score": 3.8,
         "status": "偏弱",
         "basis": [
-          "上涨家数占比 39.66%",
+          "上涨家数占比 39.16%",
           "A股成交额/总市值 1.27%",
-          "交易拥挤度 42.23%"
+          "交易拥挤度 42.27%"
         ],
         "blueprint": [
           "成交活跃度 25%",
@@ -520,12 +520,12 @@
       {
         "name": "市场广度恶化",
         "weight": 20,
-        "risk": 18.4,
-        "raw_risk": 92.2,
+        "risk": 18.6,
+        "raw_risk": 93.1,
         "level": "高",
         "basis": [
-          "上涨家数占比 39.66%",
-          "近5期上涨家数变化 -2251只"
+          "上涨家数占比 39.16%",
+          "近5期上涨家数变化 -2337只"
         ]
       },
       {
@@ -549,18 +549,18 @@
         "basis": [
           "创业板20日动量 -17.05%",
           "科创50 20日动量 -11.90%",
-          "交易拥挤度 42.23%"
+          "交易拥挤度 42.27%"
         ]
       },
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 1.9,
-        "raw_risk": 12.4,
+        "risk": 2.0,
+        "raw_risk": 13.2,
         "level": "低",
         "basis": [
           "两融/总市值 1.96%，历史分位 3%",
-          "交易拥挤度历史分位 21%"
+          "交易拥挤度历史分位 23%"
         ]
       },
       {
@@ -571,7 +571,7 @@
         "level": "偏高",
         "basis": [
           "美国10年期国债 4.84%",
-          "纳斯达克20日动量 -7.36%",
+          "纳斯达克20日动量 -7.41%",
           "美元净流动性 5.53万亿美元"
         ]
       },
@@ -599,10 +599,10 @@
       }
     ],
     "signals": {
-      "up_ratio_pct": 39.66,
+      "up_ratio_pct": 39.16,
       "total_amount_trillion": 1.482,
       "broad_turnover_pct": 1.269,
-      "crowding_pct": 42.23,
+      "crowding_pct": 42.27,
       "margin_to_market_cap_pct": 1.961,
       "index_momentum_20d_pct": -9.49,
       "dgs10_pct": 4.84

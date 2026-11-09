@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10 01:52:37+08:00",
+  "updated_at": "2026-11-10 03:22:02+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-91322eb75d12fd1c",
+      "category": "重大新闻",
+      "title": "超32万户抢筹、16只净值已动，主动ETF迎来“明牌”考验 首批主动ETF进入建仓观察期，基金经理即将住进“玻璃房” 3028 昨天 22:37",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103433078.html",
+      "published_at": "2026-11-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d357d223f71e236f",
+      "category": "重大新闻",
+      "title": "猪价创10年新低，资金博弈周期拐点 供给压力与生产效率提升仍在制约猪肉价格反弹空间。 5942 昨天 22:22",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103433180.html",
+      "published_at": "2026-11-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-06936dabc7053025",
+      "category": "重大新闻",
+      "title": "天算量化旗下产品及员工遭上期所处罚，公司回应称系测试操作失误 天算量化称，该笔交易有且仅有一笔、单边1手，成交金额50580元 3307 昨天 21:41",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103433129.html",
+      "published_at": "2026-11-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-ffa4fefacb36ce6d",
+      "category": "重大新闻",
+      "title": "上交所新增6家协议回购出资人，首秀可接受机构间REITs质押出资名单 对外展示的协议回购出资人由22家扩展至28家。 5 3679 昨天 19:09",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103432820.html",
+      "published_at": "2026-11-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-03516638d914f066",
+      "category": "重大新闻",
+      "title": "晚间公告丨11月9日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5 39453 昨天 18:40",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103432780.html",
+      "published_at": "2026-11-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-91322eb75d12fd1c",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3f90da94bfe905ac",
-      "category": "重大新闻",
-      "title": "全球资产遭遇洗盘，国内市场迎来两场重磅会议 在业内看来，上述会议的召开将给国内市场带来积极信号。 5601 昨天 21:11",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103420264.html",
-      "published_at": "2026-11-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-02ada7bef1612d8a",
-      "category": "重大新闻",
-      "title": "从“越赚越赎”到“亏了敢买”，主动权益基金净赎回环比收窄66% “只要不卖就不算亏”：震荡市下投资者权益申赎画像反转。 2749 昨天 20:43",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103420246.html",
-      "published_at": "2026-11-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c17fc7d54209643c",
-      "category": "重大新闻",
-      "title": "A股三季报全景：银行撑总量、AI贡献增量，热门赛道环比表现引关注 2926家A股公司前三季度归母净利润同比下滑，占总数52.51% 季报风云 5 3927 昨天",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103420217.html",
-      "published_at": "2026-11-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-578f75318c71262a",
-      "category": "重大新闻",
-      "title": "事关资本市场，金融监管部门将开会；韩国半导体出口狂飙……周末重磅消息来了！ 金融监管部门明日将召开两个座谈会，会议在央行举行；沪深上市公司净利润超5万亿元，创四",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103420223.html",
-      "published_at": "2026-11-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f4b36428c574e97d",
-      "category": "重大新闻",
-      "title": "下周关注｜多个重磅会议活动将举行，这些投资机会最靠谱 2026年世界互联网大会乌镇峰会将举行；美国中期选举投票即将举行...... 16544 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103420004.html",
-      "published_at": "2026-11-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-10 01:52:37+08:00",
+  "last_checked_at": "2026-11-10 03:22:02+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 86164,
-    "covered_stocks": 5314,
+    "rows": 86165,
+    "covered_stocks": 5312,
     "requested_stocks": 5562,
-    "failed_stocks": 248,
-    "coverage_rate": 0.9554,
+    "failed_stocks": 250,
+    "coverage_rate": 0.9551,
     "news_symbols_with_items": 5597,
     "notice_rows": 45745,
-    "stock_news_rows": 40419,
+    "stock_news_rows": 40420,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }

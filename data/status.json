@@ -77,8 +77,8 @@
     "market": {
       "status": "success",
       "rows": 33987,
-      "started_at": "2026-11-10T01:35:02+08:00",
-      "finished_at": "2026-11-10T01:35:12+08:00",
+      "started_at": "2026-11-10T03:06:15+08:00",
+      "finished_at": "2026-11-10T03:06:23+08:00",
       "latest_date": "20261109",
       "total_cached_rows": 34004,
       "symbols": {
@@ -286,9 +286,9 @@
     },
     "valuation": {
       "status": "success",
-      "rows": 28396,
-      "started_at": "2026-11-10T01:35:12+08:00",
-      "finished_at": "2026-11-10T01:35:38+08:00",
+      "rows": 28398,
+      "started_at": "2026-11-10T03:06:23+08:00",
+      "finished_at": "2026-11-10T03:06:49+08:00",
       "latest_date": "20261109",
       "total_cached_rows": 28508,
       "indices": {
@@ -319,12 +319,12 @@
         },
         "000300.SH": {
           "status": "success",
-          "rows": 5548,
+          "rows": 5549,
           "source": "中证指数官网 / AKShare"
         },
         "000905.SH": {
           "status": "success",
-          "rows": 5307,
+          "rows": 5308,
           "source": "中证指数官网 / AKShare"
         }
       },
@@ -351,7 +351,7 @@
           "rows": 61,
           "date_range": "20260807-20261109",
           "universe_size": 5562,
-          "failed_symbols": 154,
+          "failed_symbols": 0,
           "source": "东方财富历史日线接口 push2his.eastmoney.com",
           "method": "每日成交额前5%股票成交额合计 ÷ 当日A股全部股票成交额。"
         }
@@ -369,7 +369,7 @@
           "rows": 61,
           "date_range": "20260807-20261109",
           "universe_size": 5562,
-          "failed_symbols": 154,
+          "failed_symbols": 0,
           "source": "东方财富历史日线接口 push2his.eastmoney.com",
           "method": "逐只股票取日线涨跌幅；>0上涨，<0下跌，=0平盘；停牌无日线者不计入当日总数。"
         },
@@ -399,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-10T01:35:38+08:00",
-      "finished_at": "2026-11-10T01:35:38+08:00",
+      "started_at": "2026-11-10T03:06:49+08:00",
+      "finished_at": "2026-11-10T03:06:49+08:00",
       "latest_date": "20261109",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -451,10 +451,10 @@
     "sentiment": {
       "status": "partial",
       "rows": 0,
-      "started_at": "2026-11-10T01:35:38+08:00",
-      "finished_at": "2026-11-10T01:35:38+08:00",
+      "started_at": "2026-11-10T03:06:49+08:00",
+      "finished_at": "2026-11-10T03:06:49+08:00",
       "latest_date": "20261109",
-      "total_cached_rows": 64,
+      "total_cached_rows": 61,
       "skipped": true,
       "note": "非A股交易时段，继续展示上一次成功快照。",
       "crowding_cached_rows": 61,
@@ -473,12 +473,12 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261110",
-      "rows": 86164,
-      "cached_rows": 86164,
-      "covered_stocks": 5314,
+      "rows": 86165,
+      "cached_rows": 86165,
+      "covered_stocks": 5312,
       "requested_stocks": 5562,
-      "failed_stocks": 248,
-      "coverage_rate": 0.9554,
+      "failed_stocks": 250,
+      "coverage_rate": 0.9551,
       "failed_symbols_sample": [
         "000003.SZ",
         "000005.SZ",
@@ -502,7 +502,7 @@
         "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600687.SH: KeyError('code')；600680.SH: KeyError('code')；600677.SH: KeyError('code')"
+      "error": "600680.SH: KeyError('code')；600670.SH: KeyError('code')；600687.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -513,7 +513,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-10T01:59:55+08:00",
+  "updated_at": "2026-11-10T03:26:53+08:00",
   "overall_status": "success",
   "last_update_mode": "close"
 }
