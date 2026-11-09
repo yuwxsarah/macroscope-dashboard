@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 12:15:52+08:00",
+  "updated_at": "2026-11-10 01:52:37+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-91322eb75d12fd1c",
+      "category": "重大新闻",
+      "title": "超32万户抢筹、16只净值已动，主动ETF迎来“明牌”考验 首批主动ETF进入建仓观察期，基金经理即将住进“玻璃房” 2408 昨天 22:37",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103433078.html",
+      "published_at": "2026-11-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d357d223f71e236f",
+      "category": "重大新闻",
+      "title": "猪价创10年新低，资金博弈周期拐点 供给压力与生产效率提升仍在制约猪肉价格反弹空间。 5043 昨天 22:22",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103433180.html",
+      "published_at": "2026-11-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-06936dabc7053025",
+      "category": "重大新闻",
+      "title": "天算量化旗下产品及员工遭上期所处罚，公司回应称系测试操作失误 天算量化称，该笔交易有且仅有一笔、单边1手，成交金额50580元 2718 昨天 21:41",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103433129.html",
+      "published_at": "2026-11-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-ffa4fefacb36ce6d",
+      "category": "重大新闻",
+      "title": "上交所新增6家协议回购出资人，首秀可接受机构间REITs质押出资名单 对外展示的协议回购出资人由22家扩展至28家。 5 3462 昨天 19:09",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103432820.html",
+      "published_at": "2026-11-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-03516638d914f066",
+      "category": "重大新闻",
+      "title": "晚间公告丨11月9日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5 38740 昨天 18:40",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103432780.html",
+      "published_at": "2026-11-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-39262982b2ecac7c",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f4f2bbc84af3b615",
-      "category": "重大新闻",
-      "title": "A股三季报风云丨2026年前三季度谁研发投入最高？ 一图速览>> 8794 昨天 19:21",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419741.html",
-      "published_at": "2026-11-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5b756d30c8867683",
-      "category": "重大新闻",
-      "title": "晓数点｜一图速览10月A股月报 四大指数10月均累计下跌，海洋王问鼎10月最牛股，贵州茅台股价重回A股第一，主力抛售新易盛>> 5632 昨天 18:44",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419705.html",
-      "published_at": "2026-11-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7a1b679003cce9cb",
-      "category": "重大新闻",
-      "title": "从解决“在场”到回答“能力”，公募出海提速写下新叙事 公募国际化仍处“起跑段”：没有统一模板，只有适配基因 4082 昨天 18:05",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419639.html",
-      "published_at": "2026-11-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-00f49bcb48e66eef",
-      "category": "重大新闻",
-      "title": "A股三季报风云丨2026年第三季度谁“发红包”最壕？ 一图速览>> 5849 昨天 16:06",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419608.html",
-      "published_at": "2026-11-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f4f2bbc84af3b615",
-      "category": "重大新闻",
-      "title": "A股三季报风云丨2026年前三季度谁研发投入最高？ 一图速览>> 3617 昨天 19:21",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419741.html",
-      "published_at": "2026-11-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-09 12:15:52+08:00",
+  "last_checked_at": "2026-11-10 01:52:37+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 85340,
+    "rows": 86164,
     "covered_stocks": 5314,
     "requested_stocks": 5562,
     "failed_stocks": 248,
     "coverage_rate": 0.9554,
-    "news_symbols_with_items": 5596,
-    "notice_rows": 45413,
-    "stock_news_rows": 39927,
+    "news_symbols_with_items": 5597,
+    "notice_rows": 45745,
+    "stock_news_rows": 40419,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
