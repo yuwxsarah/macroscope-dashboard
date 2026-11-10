@@ -41,7 +41,7 @@
       "status": "ok"
     },
     "market.csv": {
-      "rows": 34004,
+      "rows": 34006,
       "columns": [
         "trade_date",
         "symbol",

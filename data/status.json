@@ -76,11 +76,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33987,
-      "started_at": "2026-11-10T05:25:41+08:00",
-      "finished_at": "2026-11-10T05:25:50+08:00",
-      "latest_date": "20261109",
-      "total_cached_rows": 34004,
+      "rows": 33991,
+      "started_at": "2026-11-10T12:12:45+08:00",
+      "finished_at": "2026-11-10T12:12:53+08:00",
+      "latest_date": "20261110",
+      "total_cached_rows": 34006,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -174,22 +174,22 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1677,
+          "rows": 1679,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1677,
+          "rows": 1679,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 34004
+      "cached_rows": 34006
     },
     "global_macro": {
       "status": "partial",
-      "rows": 78,
-      "started_at": "2026-11-10T05:25:50+08:00",
-      "finished_at": "2026-11-10T05:26:39+08:00",
+      "rows": 400,
+      "started_at": "2026-11-10T12:12:53+08:00",
+      "finished_at": "2026-11-10T12:13:41+08:00",
       "latest_date": "20261106",
       "total_cached_rows": 30855,
       "source_details": {
@@ -248,11 +248,13 @@
         },
         "PCE_YOY": {
           "status": "failed",
-          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"JSONDecodeError(\\'Expecting value: line 1 column 1 (char 0)\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
+          "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
         },
         "FEDFUNDS": {
-          "status": "failed",
-          "error": "DataFetchError('PCE与联邦基金利率均抓取失败: {\\'PCE_YOY\\': {\\'status\\': \\'failed\\', \\'error\\': \"JSONDecodeError(\\'Expecting value: line 1 column 1 (char 0)\\')\"}, \\'FEDFUNDS\\': {\\'status\\': \\'failed\\', \\'error\\': \"DataFetchError(\\'美联储H.15没有返回CSV\\')\"}}')"
+          "status": "success",
+          "rows": 322,
+          "latest_date": "20261001",
+          "source": "美联储H.15月度数据包"
         },
         "US_PMI_MANUFACTURING": {
           "status": "success",
@@ -397,8 +399,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-10T05:27:10+08:00",
-      "finished_at": "2026-11-10T05:27:10+08:00",
+      "started_at": "2026-11-10T12:13:41+08:00",
+      "finished_at": "2026-11-10T12:13:41+08:00",
       "latest_date": "20261109",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -511,7 +513,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-10T05:50:28+08:00",
-  "overall_status": "success",
-  "last_update_mode": "all"
+  "updated_at": "2026-11-10T12:13:53+08:00",
+  "overall_status": "partial",
+  "last_update_mode": "global"
 }
