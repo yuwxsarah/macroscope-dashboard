@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 01:33:09+08:00",
+  "updated_at": "2026-11-11 02:32:05+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,8 +355,8 @@
   "tracking": {
     "trade_date": "20261110",
     "summary": {
-      "market_score": 46.6,
-      "market_score_before_gate": 46.6,
+      "market_score": 48.3,
+      "market_score_before_gate": 48.3,
       "risk_score": 44.2,
       "risk_level": "橙色",
       "market_phase": "防御期 / 橙色降风险",
@@ -400,13 +400,13 @@
       {
         "name": "流动性环境",
         "weight": 20,
-        "score": 47.7,
-        "raw_score": 2.4,
-        "weighted_score": 9.6,
+        "score": 57.2,
+        "raw_score": 2.9,
+        "weighted_score": 11.6,
         "status": "中性偏弱",
         "basis": [
-          "DR007 暂无，历史分位 50%",
-          "DR007近5期变化 -0.01个百分点",
+          "DR007 1.35%，历史分位 3%",
+          "DR007近5期变化 0.00个百分点",
           "美元净流动性近4期变化 -0.05万亿美元"
         ],
         "blueprint": [
@@ -419,14 +419,14 @@
       {
         "name": "政策环境",
         "weight": 15,
-        "score": 36.7,
-        "raw_score": 1.8,
-        "weighted_score": 5.4,
+        "score": 33.3,
+        "raw_score": 1.7,
+        "weighted_score": 5.1,
         "status": "偏弱",
         "basis": [
           "公开高频政策指标暂未接入，当前用流动性、信用扩张和经济动能做代理",
           "社融存量同比 7.10%",
-          "DR007近5期变化 -0.01个百分点"
+          "DR007近5期变化 0.00个百分点"
         ],
         "blueprint": [
           "宏观政策 30%",
@@ -594,7 +594,7 @@
         "level": "中",
         "basis": [
           "当前尚未接入政策文本事件库，先用政策代理指标与市场反应判断",
-          "政策环境原始分 1.8/5"
+          "政策环境原始分 1.7/5"
         ]
       }
     ],
