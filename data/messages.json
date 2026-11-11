@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 01:00:33+08:00",
+  "updated_at": "2026-11-12 01:25:44+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,7 +111,7 @@
     {
       "id": "auto-yicai-28cae59fee415853",
       "category": "重大新闻",
-      "title": "福莱新材正股转债齐创历史新高，机器人业务占比不足1% 正股18天9板。 1602 昨天 22:08",
+      "title": "福莱新材正股转债齐创历史新高，机器人业务占比不足1% 正股18天9板。 1695 昨天 22:08",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103436716.html",
@@ -125,7 +125,7 @@
     {
       "id": "auto-yicai-f02beb9646ae2ff4",
       "category": "重大新闻",
-      "title": "全球大类资产波动加剧，外资看好中国资产配置机遇 中国股票、债券与海外资产相关性偏低，所处经济周期、增长动力均存在差异，分散配置效果突出。 6221 昨天 21:",
+      "title": "全球大类资产波动加剧，外资看好中国资产配置机遇 中国股票、债券与海外资产相关性偏低，所处经济周期、增长动力均存在差异，分散配置效果突出。 6376 昨天 21:",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103437033.html",
@@ -139,7 +139,7 @@
     {
       "id": "auto-yicai-6857cf77d5de69b8",
       "category": "重大新闻",
-      "title": "有人转亏有人扭亏，QDII的“全球配置”打法变了吗 同一轮震荡里，有人“回血”，有人“吐血”。账本翻转之后，QDII的配置思路正在被重新调整。 7213 昨天 ",
+      "title": "有人转亏有人扭亏，QDII的“全球配置”打法变了吗 同一轮震荡里，有人“回血”，有人“吐血”。账本翻转之后，QDII的配置思路正在被重新调整。 7461 昨天 ",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103436926.html",
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-12 01:00:33+08:00",
+  "last_checked_at": "2026-11-12 01:25:44+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 77775,
+    "rows": 88351,
     "covered_stocks": 5309,
     "requested_stocks": 5562,
     "failed_stocks": 253,
     "coverage_rate": 0.9545,
-    "news_symbols_with_items": 5573,
-    "notice_rows": 37043,
-    "stock_news_rows": 40732,
+    "news_symbols_with_items": 5598,
+    "notice_rows": 47618,
+    "stock_news_rows": 40733,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
