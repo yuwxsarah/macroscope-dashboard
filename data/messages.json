@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 01:25:44+08:00",
+  "updated_at": "2026-11-12 02:21:02+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -111,6 +111,76 @@
     {
       "id": "auto-yicai-28cae59fee415853",
       "category": "重大新闻",
+      "title": "福莱新材正股转债齐创历史新高，机器人业务占比不足1% 正股18天9板。 1943 昨天 22:08",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436716.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f02beb9646ae2ff4",
+      "category": "重大新闻",
+      "title": "全球大类资产波动加剧，外资看好中国资产配置机遇 中国股票、债券与海外资产相关性偏低，所处经济周期、增长动力均存在差异，分散配置效果突出。 6438 昨天 21:",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103437033.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6857cf77d5de69b8",
+      "category": "重大新闻",
+      "title": "有人转亏有人扭亏，QDII的“全球配置”打法变了吗 同一轮震荡里，有人“回血”，有人“吐血”。账本翻转之后，QDII的配置思路正在被重新调整。 7802 昨天 ",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436926.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0f0f72cded359ee1",
+      "category": "重大新闻",
+      "title": "215万名经纪客户、483个交易单元同步变更，国联民生“双向法切”落地 证券行业首例财富管理业务与自营业务双向法人切换落地。 1726 昨天 20:13",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436749.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-37d4a47974e9878d",
+      "category": "重大新闻",
+      "title": "量价齐升 1664 昨天 19:50",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436830.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-28cae59fee415853",
+      "category": "重大新闻",
       "title": "福莱新材正股转债齐创历史新高，机器人业务占比不足1% 正股18天9板。 1695 昨天 22:08",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
@@ -143,34 +213,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103436926.html",
-      "published_at": "2026-11-12",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0f0f72cded359ee1",
-      "category": "重大新闻",
-      "title": "215万名经纪客户、483个交易单元同步变更，国联民生“双向法切”落地 证券行业首例财富管理业务与自营业务双向法人切换落地。 1726 昨天 20:13",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103436749.html",
-      "published_at": "2026-11-12",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-37d4a47974e9878d",
-      "category": "重大新闻",
-      "title": "量价齐升 1664 昨天 19:50",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103436830.html",
       "published_at": "2026-11-12",
       "symbols": [
         "A股"
@@ -1745,48 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b0be1c95cc4f11bb",
-      "category": "重大新闻",
-      "title": "A股迎来“大奇迹日”，后市怎么看｜市场观察 在第一财经记者采访的业内人士看来，本周陆续出台的救市政策“组合拳”在周三终于引发质变，下午市场大幅反弹。 10189",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103426268.html",
-      "published_at": "2026-11-05",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5fdcb7323e56adec",
-      "category": "重大新闻",
-      "title": "羊字辈概念炒作退潮，个股批量跌停背后游资击鼓传花 一个谐音与生肖，撑起一波概念炒作。 8019 昨天 21:10",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103426220.html",
-      "published_at": "2026-11-05",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e687789fc7f77ba4",
-      "category": "重大新闻",
-      "title": "“专业基民”也扛不住震荡！94亿浮亏下换了哪些持仓 当普通投资者纠结加仓还是观望的时候，有一群“专门买基金的专业玩家”已经悄悄调整了自己的资产篮子。 3958 ",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103426221.html",
-      "published_at": "2026-11-05",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-12 01:25:44+08:00",
+  "last_checked_at": "2026-11-12 02:21:02+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 88351,
+    "rows": 85173,
     "covered_stocks": 5309,
     "requested_stocks": 5562,
     "failed_stocks": 253,
     "coverage_rate": 0.9545,
-    "news_symbols_with_items": 5598,
-    "notice_rows": 47618,
-    "stock_news_rows": 40733,
+    "news_symbols_with_items": 5596,
+    "notice_rows": 44441,
+    "stock_news_rows": 40732,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
