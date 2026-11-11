@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 12:25:20+08:00",
+  "updated_at": "2026-11-11 23:54:44+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-28cae59fee415853",
+      "category": "重大新闻",
+      "title": "福莱新材正股转债齐创历史新高，机器人业务占比不足1% 正股18天9板。 1230 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436716.html",
+      "published_at": "2026-11-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f02beb9646ae2ff4",
+      "category": "重大新闻",
+      "title": "全球大类资产波动加剧，外资看好中国资产配置机遇 中国股票、债券与海外资产相关性偏低，所处经济周期、增长动力均存在差异，分散配置效果突出。 5756 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103437033.html",
+      "published_at": "2026-11-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6857cf77d5de69b8",
+      "category": "重大新闻",
+      "title": "有人转亏有人扭亏，QDII的“全球配置”打法变了吗 同一轮震荡里，有人“回血”，有人“吐血”。账本翻转之后，QDII的配置思路正在被重新调整。 6562 3小时",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436926.html",
+      "published_at": "2026-11-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0f0f72cded359ee1",
+      "category": "重大新闻",
+      "title": "215万名经纪客户、483个交易单元同步变更，国联民生“双向法切”落地 证券行业首例财富管理业务与自营业务双向法人切换落地。 1726 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436749.html",
+      "published_at": "2026-11-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-37d4a47974e9878d",
+      "category": "重大新闻",
+      "title": "量价齐升 1664 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436830.html",
+      "published_at": "2026-11-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-e1250b8c689ae088",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ec11426e2afcf09d",
-      "category": "重大新闻",
-      "title": "滚动更新丨创业板指冲高回落微涨，半导体、物理AI等板块走强 盘面上，短剧游戏、半导体、物理AI、机器人概念股走强，房地产、光模块、化纤化工板块跌幅居前。 5 6",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103424574.html",
-      "published_at": "2026-11-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9398a5d8855da5b8",
-      "category": "重大新闻",
-      "title": "盘前必读丨央行行长潘功胜最新发声；东山精密出手护盘 机构认为，市场反弹酝酿之中，仍需量能确认。 30060 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103424409.html",
-      "published_at": "2026-11-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2f91ad22b5e15233",
-      "category": "重大新闻",
-      "title": "8个交易日17只售罄，主动ETF加快建仓迎“透明时代” “主动ETF持仓每日公开，建仓期本身就是一次公开的建仓，节奏就是信号。” 7 13878 昨天 20:4",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103424075.html",
-      "published_at": "2026-11-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5c5e841d83727043",
-      "category": "重大新闻",
-      "title": "AI硬件融资盘凶猛撤退，“茅宁”组合时隔六年仍是香饽饽？ 短线抄底AI硬件的融资客再度被套。 12855 昨天 20:41",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103424076.html",
-      "published_at": "2026-11-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-51cbad3b6d7ffe25",
-      "category": "重大新闻",
-      "title": "自营再成券商“胜负手”，“牛市旗手”重仓股曝光 成也自营，败也自营？ 9 21039 昨天 20:30",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103424053.html",
-      "published_at": "2026-11-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-11 12:25:20+08:00",
+  "last_checked_at": "2026-11-11 23:54:44+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 87867,
+    "rows": 69726,
     "covered_stocks": 5309,
     "requested_stocks": 5562,
     "failed_stocks": 253,
     "coverage_rate": 0.9545,
-    "news_symbols_with_items": 5598,
-    "notice_rows": 46998,
-    "stock_news_rows": 40869,
+    "news_symbols_with_items": 5537,
+    "notice_rows": 28534,
+    "stock_news_rows": 41192,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
