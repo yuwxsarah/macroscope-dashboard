@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 01:50:59+08:00",
+  "updated_at": "2026-11-13 02:51:22+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-cb9ba20a87bcf9b3",
+      "category": "重大新闻",
+      "title": "A股回报端反超融资端，外资重新定价中国资产 长期配置价值凸显，产业实力成关键考量。 2780 昨天 21:51",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103438819.html",
+      "published_at": "2026-11-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-73d1676ce113f74b",
+      "category": "重大新闻",
+      "title": "科技股频频冲高回落，谁在借反弹离场？ 科技股修复行情仍待验证 14312 昨天 20:47",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103438573.html",
+      "published_at": "2026-11-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-abeba3351d744bb1",
+      "category": "重大新闻",
+      "title": "美股回调溢价难降，跨境ETF“门票”究竟值多少 高溢价“十点半魔咒”难破，一切只为 “买得到”！ 2439 昨天 20:45",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103438695.html",
+      "published_at": "2026-11-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-50f8590f1e602b85",
+      "category": "重大新闻",
+      "title": "A股明年怎么走？多家龙头券商最新研判 “全球流动性环境的宽松，对于市场转牛尤为关键。” 7120 昨天 20:10",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103438650.html",
+      "published_at": "2026-11-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e623e4032617f8bd",
+      "category": "重大新闻",
+      "title": "5.5亿元借款屡次展期，*ST香雪被广州农商行申请重整 7368 昨天 18:58",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103438497.html",
+      "published_at": "2026-11-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-cb9ba20a87bcf9b3",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a9f0f304215099cc",
-      "category": "重大新闻",
-      "title": "盘前必读丨纳指暴跌进入回调区间；百济神州上调全年收入预测 机构认为，超跌反弹看赔率，控制仓位等主线。 6 34028 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428487.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e63b0bc00e2a3fb5",
-      "category": "重大新闻",
-      "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效 助力上市公司更好运用并购重组工具，实现提质增效。 5911 昨天 20:57",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428152.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7f4d64d943abaae0",
-      "category": "重大新闻",
-      "title": "下半年A股新开户逐月降温，前10个月总量仍超去年全年 10月A股新开户数创年内新低。 15552 昨天 20:38",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428113.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-fa664b1d02cdd1c9",
-      "category": "重大新闻",
-      "title": "大额赎回频现、逾400亿撤出ETF，债基这轮“赎回关”过了吗？ 债基再遇“赎回关”，机构反馈:赎回存在但未成潮，配置窗口渐显 13165 昨天 20:38",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428104.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e63b0bc00e2a3fb5",
-      "category": "重大新闻",
-      "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效 助力上市公司更好运用并购重组工具，实现提质增效。 3121 昨天 20:57",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428152.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-13 01:50:59+08:00",
+  "last_checked_at": "2026-11-13 02:51:22+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 88187,
+    "rows": 88188,
     "covered_stocks": 5308,
     "requested_stocks": 5562,
     "failed_stocks": 254,
     "coverage_rate": 0.9543,
     "news_symbols_with_items": 5599,
     "notice_rows": 47744,
-    "stock_news_rows": 40443,
+    "stock_news_rows": 40444,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
