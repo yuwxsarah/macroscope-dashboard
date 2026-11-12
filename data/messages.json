@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 02:56:17+08:00",
+  "updated_at": "2026-11-12 13:37:53+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-62987159fe252f54",
+      "category": "重大新闻",
+      "title": "A股四大指数开盘表现分化，存储、GPU板块走强 市场逾2300股下跌。 6 6283 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103437447.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-06ee778371a3323e",
+      "category": "重大新闻",
+      "title": "美国中期选举如何影响A股？外资称中国AI发展将受益 “中期选举结果可能引发中国市场更具选择性的轮动。” 7 9817 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103437295.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b351741b5ae94e51",
+      "category": "重大新闻",
+      "title": "盘前必读丨信息量巨大！央行发布重要报告；中国船舶子公司签下超170亿元大单 机构认为，指数二次探底蓄力，不改反弹未完预期。 5 36260 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103437273.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-28cae59fee415853",
+      "category": "重大新闻",
+      "title": "福莱新材正股转债齐创历史新高，机器人业务占比不足1% 正股18天9板。 4702 昨天 22:08",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436716.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f02beb9646ae2ff4",
+      "category": "重大新闻",
+      "title": "全球大类资产波动加剧，外资看好中国资产配置机遇 中国股票、债券与海外资产相关性偏低，所处经济周期、增长动力均存在差异，分散配置效果突出。 13320 昨天 21",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103437033.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-28cae59fee415853",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e63b0bc00e2a3fb5",
-      "category": "重大新闻",
-      "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效 助力上市公司更好运用并购重组工具，实现提质增效。 2656 昨天 20:57",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428152.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7f4d64d943abaae0",
-      "category": "重大新闻",
-      "title": "下半年A股新开户逐月降温，前10个月总量仍超去年全年 10月A股新开户数创年内新低。 3896 昨天 20:38",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428113.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-fa664b1d02cdd1c9",
-      "category": "重大新闻",
-      "title": "大额赎回频现、逾400亿撤出ETF，债基这轮“赎回关”过了吗？ 债基再遇“赎回关”，机构反馈:赎回存在但未成潮，配置窗口渐显 4237 昨天 20:38",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428104.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7f156739b23de94e",
-      "category": "重大新闻",
-      "title": "滚动更新丨创业板指、科创综指半日均涨超1%，光伏、锂电池板块携手大涨 盘面上，油气、光通信板块调整。 9414 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103426670.html",
-      "published_at": "2026-11-05",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7fd6b6fe3f96d875",
-      "category": "重大新闻",
-      "title": "盘前必读丨美股收涨国际油价大幅下挫；亨通光电抛出护盘“组合拳” 机构认为，指数短期已站上10日线，后续若量能维持，反弹目标可看至20日线。 32354 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103426517.html",
-      "published_at": "2026-11-05",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-12 02:56:17+08:00",
+  "last_checked_at": "2026-11-12 13:37:53+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 82681,
-    "covered_stocks": 5309,
+    "rows": 88519,
+    "covered_stocks": 5308,
     "requested_stocks": 5562,
-    "failed_stocks": 253,
-    "coverage_rate": 0.9545,
-    "news_symbols_with_items": 5587,
-    "notice_rows": 41948,
-    "stock_news_rows": 40733,
+    "failed_stocks": 254,
+    "coverage_rate": 0.9543,
+    "news_symbols_with_items": 5598,
+    "notice_rows": 47645,
+    "stock_news_rows": 40874,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
