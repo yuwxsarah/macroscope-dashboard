@@ -5,7 +5,7 @@
   "warnings": [],
   "data": {
     "macro.csv": {
-      "rows": 174,
+      "rows": 175,
       "columns": [
         "month",
         "cpi_mom_pct",
