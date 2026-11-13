@@ -2,23 +2,23 @@
   "app_version": "7.2.0",
   "datasets": {
     "macro": {
-      "status": "success",
+      "status": "partial",
       "rows": 175,
-      "started_at": "2026-11-13T17:28:56+08:00",
-      "finished_at": "2026-11-13T17:29:47+08:00",
+      "started_at": "2026-11-14T02:02:26+08:00",
+      "finished_at": "2026-11-14T02:02:51+08:00",
       "latest_date": "202610",
       "total_cached_rows": 175,
       "source_details": {
         "components": {
           "money_supply": {
-            "status": "success",
-            "rows": 171,
-            "source": "东方财富 / AKShare"
+            "status": "failed",
+            "error": "所有货币供应量源均失败"
           },
           "social_financing": {
             "status": "success",
-            "rows": 103,
-            "source": "商务数据中心 / AKShare"
+            "rows": 14,
+            "source": "中国人民银行金融统计数据报告",
+            "note": "月度增量由年内累计值按月差分得到"
           },
           "social_financing_stock": {
             "status": "success",
@@ -36,28 +36,33 @@
             "source": "东方财富 / AKShare"
           }
         },
-        "messages": []
+        "messages": [
+          "货币供应量: AttributeError(\"module 'akshare' has no attribute 'macro_china_money_supply'\")",
+          "M2同比备用源: AttributeError(\"module 'akshare' has no attribute 'macro_china_m2_yearly'\")",
+          "社会融资规模: AttributeError(\"module 'akshare' has no attribute 'macro_china_shrzgm'\")"
+        ]
       },
       "cached_rows": 175
     },
     "liquidity": {
-      "status": "partial",
-      "rows": 63,
-      "started_at": "2026-11-13T17:29:47+08:00",
-      "finished_at": "2026-11-13T17:30:24+08:00",
-      "latest_date": "20261112",
-      "total_cached_rows": 5055,
+      "status": "success",
+      "rows": 5020,
+      "started_at": "2026-11-14T02:02:51+08:00",
+      "finished_at": "2026-11-14T02:03:06+08:00",
+      "latest_date": "20261113",
+      "total_cached_rows": 5056,
       "source_details": {
         "shibor_on": {
-          "status": "failed",
-          "error": "ChunkedEncodingError(ProtocolError('Response ended prematurely'))"
+          "status": "success",
+          "rows": 5020,
+          "source": "中国货币网 / AKShare"
         },
         "dr": {
           "status": "success",
           "rows": 63,
-          "latest_date": "20261112",
-          "dr001_pct": 1.3256,
-          "dr007_pct": 1.396,
+          "latest_date": "20261113",
+          "dr001_pct": 1.2926,
+          "dr007_pct": 1.3723,
           "urls_used": [
             "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/currency/prr-chrt.csv"
           ],
@@ -66,12 +71,12 @@
         }
       },
       "latest_by_series": {
-        "dr001_pct": "20261112",
-        "dr007_pct": "20261112",
-        "shibor_on_pct": "20261112"
+        "dr001_pct": "20261113",
+        "dr007_pct": "20261113",
+        "shibor_on_pct": "20261113"
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5055
+      "cached_rows": 5056
     },
     "market": {
       "status": "success",
@@ -440,8 +445,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-11-13T02:55:09+08:00",
-      "finished_at": "2026-11-13T02:57:32+08:00",
+      "started_at": "2026-11-14T02:03:06+08:00",
+      "finished_at": "2026-11-14T02:03:10+08:00",
       "latest_date": "20261105",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -503,7 +508,7 @@
         "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600672.SH: KeyError('code')；600656.SH: KeyError('code')；600659.SH: KeyError('code')"
+      "error": "600680.SH: KeyError('code')；600705.SH: KeyError('code')；600677.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -514,7 +519,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-14T01:36:04+08:00",
+  "updated_at": "2026-11-14T02:22:58+08:00",
   "overall_status": "partial",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
