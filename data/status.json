@@ -4,8 +4,8 @@
     "macro": {
       "status": "partial",
       "rows": 175,
-      "started_at": "2026-11-14T02:02:26+08:00",
-      "finished_at": "2026-11-14T02:02:51+08:00",
+      "started_at": "2026-11-14T02:29:58+08:00",
+      "finished_at": "2026-11-14T02:30:21+08:00",
       "latest_date": "202610",
       "total_cached_rows": 175,
       "source_details": {
@@ -47,8 +47,8 @@
     "liquidity": {
       "status": "success",
       "rows": 5020,
-      "started_at": "2026-11-14T02:02:51+08:00",
-      "finished_at": "2026-11-14T02:03:06+08:00",
+      "started_at": "2026-11-14T02:30:21+08:00",
+      "finished_at": "2026-11-14T02:30:38+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 5056,
       "source_details": {
@@ -81,8 +81,8 @@
     "market": {
       "status": "success",
       "rows": 34065,
-      "started_at": "2026-11-13T23:26:59+08:00",
-      "finished_at": "2026-11-13T23:27:10+08:00",
+      "started_at": "2026-11-14T02:30:38+08:00",
+      "finished_at": "2026-11-14T02:30:50+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 34082,
       "symbols": {
@@ -192,8 +192,8 @@
     "global_macro": {
       "status": "partial",
       "rows": 400,
-      "started_at": "2026-11-13T10:42:48+08:00",
-      "finished_at": "2026-11-13T10:43:37+08:00",
+      "started_at": "2026-11-14T02:30:50+08:00",
+      "finished_at": "2026-11-14T02:31:38+08:00",
       "latest_date": "20261111",
       "total_cached_rows": 30861,
       "source_details": {
@@ -225,7 +225,7 @@
             "WSHOSHO": "20261111",
             "WALCL": "20261111",
             "WDTGAL": "20261111",
-            "RRPONTSYD": "20261112"
+            "RRPONTSYD": "20261113"
           },
           "input_sources": {
             "WSHOSHO": "Federal Reserve H.4.1 fallback",
@@ -291,8 +291,8 @@
     "valuation": {
       "status": "success",
       "rows": 28416,
-      "started_at": "2026-11-13T23:27:10+08:00",
-      "finished_at": "2026-11-13T23:27:54+08:00",
+      "started_at": "2026-11-14T02:31:38+08:00",
+      "finished_at": "2026-11-14T02:32:38+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 28526,
       "indices": {
@@ -403,8 +403,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-13T23:29:02+08:00",
-      "finished_at": "2026-11-13T23:29:02+08:00",
+      "started_at": "2026-11-14T02:32:38+08:00",
+      "finished_at": "2026-11-14T02:32:38+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -445,29 +445,22 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-11-14T02:03:06+08:00",
-      "finished_at": "2026-11-14T02:03:10+08:00",
+      "started_at": "2026-11-14T02:32:38+08:00",
+      "finished_at": "2026-11-14T02:33:46+08:00",
       "latest_date": "20261105",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
     },
     "sentiment": {
-      "status": "success",
-      "rows": 2,
-      "started_at": "2026-11-13T23:27:54+08:00",
-      "finished_at": "2026-11-13T23:29:02+08:00",
+      "status": "partial",
+      "rows": 0,
+      "started_at": "2026-11-14T02:32:38+08:00",
+      "finished_at": "2026-11-14T02:32:38+08:00",
       "latest_date": "20261113",
-      "crowding_cached_rows": 64,
-      "breadth_cached_rows": 64,
-      "leverage": {
-        "status": "success",
-        "rows": 1,
-        "latest_date": "20261112",
-        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
-      },
-      "source": "新浪沪深京A股实时行情 / AKShare",
-      "snapshot_kind": "收盘后快照"
+      "total_cached_rows": 64,
+      "skipped": true,
+      "note": "非A股交易时段，继续展示上一次成功快照。"
     },
     "a_share_universe": {
       "status": "success",
@@ -479,8 +472,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261114",
-      "rows": 88742,
-      "cached_rows": 88742,
+      "rows": 86710,
+      "cached_rows": 86710,
       "covered_stocks": 5308,
       "requested_stocks": 5562,
       "failed_stocks": 254,
@@ -508,7 +501,7 @@
         "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600680.SH: KeyError('code')；600705.SH: KeyError('code')；600677.SH: KeyError('code')"
+      "error": "600687.SH: KeyError('code')；600680.SH: KeyError('code')；600677.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -519,7 +512,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-14T02:22:58+08:00",
+  "updated_at": "2026-11-14T02:53:00+08:00",
   "overall_status": "partial",
-  "last_update_mode": "evening"
+  "last_update_mode": "all"
 }
