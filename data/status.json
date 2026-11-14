@@ -4,8 +4,8 @@
     "macro": {
       "status": "partial",
       "rows": 175,
-      "started_at": "2026-11-14T02:29:58+08:00",
-      "finished_at": "2026-11-14T02:30:21+08:00",
+      "started_at": "2026-11-14T16:56:14+08:00",
+      "finished_at": "2026-11-14T16:56:50+08:00",
       "latest_date": "202610",
       "total_cached_rows": 175,
       "source_details": {
@@ -47,8 +47,8 @@
     "liquidity": {
       "status": "success",
       "rows": 5020,
-      "started_at": "2026-11-14T02:30:21+08:00",
-      "finished_at": "2026-11-14T02:30:38+08:00",
+      "started_at": "2026-11-14T16:56:50+08:00",
+      "finished_at": "2026-11-14T16:57:11+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 5056,
       "source_details": {
@@ -510,7 +510,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-14T12:53:43+08:00",
+  "updated_at": "2026-11-14T16:57:17+08:00",
   "overall_status": "partial",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
