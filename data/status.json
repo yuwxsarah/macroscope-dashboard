@@ -4,8 +4,8 @@
     "macro": {
       "status": "partial",
       "rows": 175,
-      "started_at": "2026-11-14T16:56:14+08:00",
-      "finished_at": "2026-11-14T16:56:50+08:00",
+      "started_at": "2026-11-15T00:43:49+08:00",
+      "finished_at": "2026-11-15T00:44:23+08:00",
       "latest_date": "202610",
       "total_cached_rows": 175,
       "source_details": {
@@ -37,25 +37,24 @@
           }
         },
         "messages": [
-          "货币供应量: AttributeError(\"module 'akshare' has no attribute 'macro_china_money_supply'\")",
-          "M2同比备用源: AttributeError(\"module 'akshare' has no attribute 'macro_china_m2_yearly'\")",
-          "社会融资规模: AttributeError(\"module 'akshare' has no attribute 'macro_china_shrzgm'\")"
+          "货币供应量: AttributeError('macro_china_money_supply 已在 1.20.42 更名为 macro_china_money_supply_em，请改用 ak.macro_china_money_supply_em；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_china_money_supply_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename')",
+          "M2同比备用源: AttributeError('macro_china_m2_yearly 已在 1.20.42 移除，原因与替代接口见更新日志 https://akshare.akfamily.xyz/changelog.html#v1-20-42')",
+          "社会融资规模: AttributeError('macro_china_shrzgm 已在 1.20.42 更名为 macro_china_social_financing，请改用 ak.macro_china_social_financing；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_china_social_financing\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename')"
         ]
       },
       "cached_rows": 175
     },
     "liquidity": {
-      "status": "success",
-      "rows": 5020,
-      "started_at": "2026-11-14T16:56:50+08:00",
-      "finished_at": "2026-11-14T16:57:11+08:00",
+      "status": "partial",
+      "rows": 63,
+      "started_at": "2026-11-15T00:44:23+08:00",
+      "finished_at": "2026-11-15T00:44:24+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 5056,
       "source_details": {
         "shibor_on": {
-          "status": "success",
-          "rows": 5020,
-          "source": "中国货币网 / AKShare"
+          "status": "failed",
+          "error": "AttributeError('rate_interbank 已在 1.20.45 更名为 interest_rate_interbank_em，请改用 ak.interest_rate_interbank_em；参数与返回的列也可能有调整，用 ak.interface_info(\"interest_rate_interbank_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename')"
         },
         "dr": {
           "status": "success",
@@ -443,8 +442,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-11-14T02:32:38+08:00",
-      "finished_at": "2026-11-14T02:33:46+08:00",
+      "started_at": "2026-11-15T00:44:24+08:00",
+      "finished_at": "2026-11-15T00:44:27+08:00",
       "latest_date": "20261105",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -469,9 +468,9 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20261114",
-      "rows": 83084,
-      "cached_rows": 83084,
+      "latest_date": "20261115",
+      "rows": 85668,
+      "cached_rows": 85668,
       "covered_stocks": 5308,
       "requested_stocks": 5562,
       "failed_stocks": 254,
@@ -499,7 +498,7 @@
         "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600705.SH: KeyError('code')；600669.SH: KeyError('code')；600723.SH: KeyError('code')"
+      "error": "600669.SH: KeyError('code')；600772.SH: KeyError('code')；600687.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -510,7 +509,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-14T16:57:17+08:00",
+  "updated_at": "2026-11-15T01:09:18+08:00",
   "overall_status": "partial",
-  "last_update_mode": "macro"
+  "last_update_mode": "evening"
 }
