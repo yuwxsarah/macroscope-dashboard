@@ -45,15 +45,15 @@
       "columns": [
         "trade_date",
         "symbol",
-        "name",
-        "market",
-        "close",
-        "pct_change",
-        "volume",
         "amount",
-        "source",
+        "asset_group",
+        "close",
         "currency",
-        "asset_group"
+        "market",
+        "name",
+        "pct_change",
+        "source",
+        "volume"
       ],
       "status": "ok"
     },
