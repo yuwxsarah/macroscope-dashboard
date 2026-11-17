@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 14:32:15+08:00",
+  "updated_at": "2026-11-18 01:25:13+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-7d6ca05d32457f16",
+      "category": "重大新闻",
+      "title": "A股低价股增至107只，面值退市预警拉响 低价股数量连续数月抬升，变化轨迹与指数回调、量能收缩基本同步。 7399 昨天 21:20",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444184.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-587e3b3ef39b8b0d",
+      "category": "重大新闻",
+      "title": "电网建设需求释放 海外市场拓展提速 沪市电力设备企业经营发展亮点纷呈 一批产业链龙头企业经营业绩稳步增长，部分公司盈利增速进一步提升。 3927 昨天 21:0",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444147.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f7df071a4da6bb91",
+      "category": "重大新闻",
+      "title": "主动ETF挂牌上市在即 创新产品为“长钱”入市再添载体 首批18只产品全部触及20亿元募集规模上限并提前结束募集。 2966 昨天 20:37",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444118.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-38f76ae55b2818fb",
+      "category": "重大新闻",
+      "title": "华尔街下调金价预期： 3850美元是底吗？ 行业人士称，官方储备的结构性买入与交易型仓位的收缩并行，导致当前金价“跌而不崩、反弹乏力”格局。 14343 昨天 ",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444083.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-ec75fe36de9b3aef",
+      "category": "重大新闻",
+      "title": "展望2027年生物医药投资，内外资券商看好三条主线 “目前重点看好的投资方向是生物科技、CRO、AI制药。” 4547 昨天 19:17",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103443985.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-7548da11dd425196",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-005c03428c166e31",
-      "category": "重大新闻",
-      "title": "晚间公告丨11月10日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 7 34338 昨天 18:38",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103434692.html",
-      "published_at": "2026-11-11",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-60e571bb5ecfe9a0",
-      "category": "重大新闻",
-      "title": "龙虎榜丨机构今日买入这24股，卖出北化股份6940万元 共35只个股出现了机构的身影。 8 10623 昨天 18:13",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103434647.html",
-      "published_at": "2026-11-11",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-adc81ed7ba203b42",
-      "category": "重大新闻",
-      "title": "前三季度亏损逾6000万元、经营现金流转负，艾罗能源缘何拟派现5亿 截至11月10日收盘，艾罗能源股价较年内高点已下跌超七成。 2005 昨天 20:53",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103434969.html",
-      "published_at": "2026-11-11",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f0d062af3df88b19",
-      "category": "重大新闻",
-      "title": "近500只“固收+”由盈转亏，四季度赎回压力待考 “固收+”遭遇净值阵痛：稳健幻觉露出权益底色。 5694 昨天 20:52",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103434968.html",
-      "published_at": "2026-11-11",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f3d3481fc0c1bdeb",
-      "category": "重大新闻",
-      "title": "重磅策略会｜近600家上市公司、800余场交流，申万宏源看多明年下半年A股 申万宏源研究所预判2027年中国实际GDP增速有望保持平稳增长。 8360 昨天 1",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103434751.html",
-      "published_at": "2026-11-11",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-17 14:32:15+08:00",
+  "last_checked_at": "2026-11-18 01:25:13+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 84633,
+    "rows": 88420,
     "covered_stocks": 5308,
     "requested_stocks": 5562,
     "failed_stocks": 254,
     "coverage_rate": 0.9543,
-    "news_symbols_with_items": 5593,
-    "notice_rows": 44583,
-    "stock_news_rows": 40050,
+    "news_symbols_with_items": 5599,
+    "notice_rows": 48032,
+    "stock_news_rows": 40388,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
