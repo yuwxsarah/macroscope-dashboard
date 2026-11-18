@@ -79,11 +79,11 @@
     },
     "market": {
       "status": "partial",
-      "rows": 24116,
-      "started_at": "2026-11-18T03:47:04+08:00",
-      "finished_at": "2026-11-18T03:47:26+08:00",
-      "latest_date": "20261117",
-      "total_cached_rows": 34111,
+      "rows": 24120,
+      "started_at": "2026-11-18T11:45:36+08:00",
+      "finished_at": "2026-11-18T11:45:58+08:00",
+      "latest_date": "20261118",
+      "total_cached_rows": 34113,
       "symbols": {
         "000001.SH": {
           "status": "failed",
@@ -171,29 +171,29 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1683,
+          "rows": 1685,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1683,
+          "rows": 1685,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 34111
+      "cached_rows": 34113
     },
     "global_macro": {
       "status": "partial",
       "rows": 400,
-      "started_at": "2026-11-18T03:47:26+08:00",
-      "finished_at": "2026-11-18T03:48:14+08:00",
-      "latest_date": "20261113",
-      "total_cached_rows": 30865,
+      "started_at": "2026-11-18T11:45:58+08:00",
+      "finished_at": "2026-11-18T11:46:46+08:00",
+      "latest_date": "20261116",
+      "total_cached_rows": 30867,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20261113",
+          "latest_date": "20261116",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -202,7 +202,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20261113",
+          "latest_date": "20261116",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -269,8 +269,8 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20261113",
-        "DGS10": "20261113",
+        "DGS2": "20261116",
+        "DGS10": "20261116",
         "NET_USD_LIQUIDITY_SOMA": "20261111",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20261111",
         "PCE_YOY": "20260701",
@@ -279,7 +279,7 @@
         "US_PMI_SERVICES": "20261001"
       },
       "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15；美国PMI为S&P Global制造业与服务业公开样本。",
-      "cached_rows": 30865
+      "cached_rows": 30867
     },
     "valuation": {
       "status": "success",
@@ -396,8 +396,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-18T03:48:52+08:00",
-      "finished_at": "2026-11-18T03:48:52+08:00",
+      "started_at": "2026-11-18T11:46:46+08:00",
+      "finished_at": "2026-11-18T11:46:46+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -510,7 +510,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-18T04:12:04+08:00",
-  "overall_status": "success",
-  "last_update_mode": "all"
+  "updated_at": "2026-11-18T11:46:55+08:00",
+  "overall_status": "partial",
+  "last_update_mode": "global"
 }
