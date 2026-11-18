@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 04:05:36+08:00",
+  "updated_at": "2026-11-18 13:48:00+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-085ae34768526081",
+      "category": "重大新闻",
+      "title": "北交所“万里行”｜一财走进宏远股份：堆高技术壁垒，持续发力海外市场 一家主营电磁线的传统产业领域企业，如何成为“单项冠军”？敬请跟随第一财经走进宏远股份，对话董",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444770.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6091c69ba5023a19",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，市场逾3300股上涨 盘面上，覆铜板、6G、服务器、存储器板块走强。传媒、黄金板块调整。 3927 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444548.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a3e131f8b551fe14",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股全线下挫道指跌近850点；荣盛发展、*ST华幸拉响退市警报 机构认为，降温避险期，投资者可以稳底仓，觅成长。 30215 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444382.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7d6ca05d32457f16",
+      "category": "重大新闻",
+      "title": "A股低价股增至107只，面值退市预警拉响 低价股数量连续数月抬升，变化轨迹与指数回调、量能收缩基本同步。 19613 昨天 21:20",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444184.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-587e3b3ef39b8b0d",
+      "category": "重大新闻",
+      "title": "电网建设需求释放 海外市场拓展提速 沪市电力设备企业经营发展亮点纷呈 一批产业链龙头企业经营业绩稳步增长，部分公司盈利增速进一步提升。 7337 昨天 21:0",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444147.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-7d6ca05d32457f16",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-37d4a47974e9878d",
-      "category": "重大新闻",
-      "title": "量价齐升 1664 昨天 19:50",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103436830.html",
-      "published_at": "2026-11-12",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-28cae59fee415853",
-      "category": "重大新闻",
-      "title": "福莱新材正股转债齐创历史新高，机器人业务占比不足1% 正股18天9板。 1943 昨天 22:08",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103436716.html",
-      "published_at": "2026-11-12",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f02beb9646ae2ff4",
-      "category": "重大新闻",
-      "title": "全球大类资产波动加剧，外资看好中国资产配置机遇 中国股票、债券与海外资产相关性偏低，所处经济周期、增长动力均存在差异，分散配置效果突出。 6438 昨天 21:",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103437033.html",
-      "published_at": "2026-11-12",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-6857cf77d5de69b8",
-      "category": "重大新闻",
-      "title": "有人转亏有人扭亏，QDII的“全球配置”打法变了吗 同一轮震荡里，有人“回血”，有人“吐血”。账本翻转之后，QDII的配置思路正在被重新调整。 7802 昨天 ",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103436926.html",
-      "published_at": "2026-11-12",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0f0f72cded359ee1",
-      "category": "重大新闻",
-      "title": "215万名经纪客户、483个交易单元同步变更，国联民生“双向法切”落地 证券行业首例财富管理业务与自营业务双向法人切换落地。 1726 昨天 20:13",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103436749.html",
-      "published_at": "2026-11-12",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-18 04:05:36+08:00",
+  "last_checked_at": "2026-11-18 13:48:00+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 88422,
+    "rows": 82931,
     "covered_stocks": 5309,
     "requested_stocks": 5563,
     "failed_stocks": 254,
     "coverage_rate": 0.9543,
-    "news_symbols_with_items": 5599,
-    "notice_rows": 48032,
-    "stock_news_rows": 40390,
+    "news_symbols_with_items": 5591,
+    "notice_rows": 42373,
+    "stock_news_rows": 40558,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
