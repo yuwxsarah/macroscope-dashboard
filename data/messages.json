@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 13:46:06+08:00",
+  "updated_at": "2026-11-20 01:04:27+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-e88bcaac793e2009",
+      "category": "重大新闻",
+      "title": "五年三度跨界并购未果，金利华电股价创逾19个月新低 主营业务成长空间受限，或是金利华电频频寻求跨界的主因 2532 昨天 20:28",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103447069.html",
+      "published_at": "2026-11-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-12589b35af69348d",
+      "category": "重大新闻",
+      "title": "地天板、天地板轮番上演，九阳股份暴涨逾2倍后多空极致拉锯 连续3个交易日，该公司股价在涨停与跌停之间拉锯。 3183 昨天 20:24",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103447056.html",
+      "published_at": "2026-11-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-605e60b2f83eef98",
+      "category": "重大新闻",
+      "title": "多股拉响“面值退”警报：有公司紧急回购，多只ST股面临“双压” 有公司紧急召开董事会会议审议回购预案。 3679 昨天 20:05",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103447011.html",
+      "published_at": "2026-11-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-def90c940fff32ec",
+      "category": "重大新闻",
+      "title": "按兵不动 1757 昨天 18:54",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103446935.html",
+      "published_at": "2026-11-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2ec27625589bb0e8",
+      "category": "重大新闻",
+      "title": "晚间公告丨11月19日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 21628 昨天 18:53",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103446928.html",
+      "published_at": "2026-11-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-b5d7cffa7d52b84c",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9b2c496bf6233a7c",
-      "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共38只个股涨停 这只汽车零部件股4连板 机器人板块北纬科技收获3连板。一图速览今日连板股>> 4175 7小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103440076.html",
-      "published_at": "2026-11-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bd40c5e4f50612aa",
-      "category": "重大新闻",
-      "title": "收盘｜创业板指跌3.32% 银行板块逆势拉升 沪深两市成交额1.66万亿，较上一个交易日缩量2764亿。 15025 8小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103439927.html",
-      "published_at": "2026-11-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8a1f4bbed9304452",
-      "category": "重大新闻",
-      "title": "北交所“万里行”｜一财走进龙辰科技：BOPP薄膜何以撑起“单项冠军” 北交所万里行，行至湖北黄冈。一家主营BOPP薄膜材料的企业，如何成为“单项冠军”？敬请跟随",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103439531.html",
-      "published_at": "2026-11-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-79d4c8d057924b6c",
-      "category": "重大新闻",
-      "title": "锚定单项冠军样本研究，第一财经上线“2026北交所 新三板万里行”年度调研专题 观察中国专精特新企业向上生长的实践图景。 2346 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103439468.html",
-      "published_at": "2026-11-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-32363d2b3246de69",
-      "category": "重大新闻",
-      "title": "A股四大指数集体高开，半导体、通信设备等板块走强 市场逾2700股上涨。 6159 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103439205.html",
-      "published_at": "2026-11-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-19 13:46:06+08:00",
+  "last_checked_at": "2026-11-20 01:04:27+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 89310,
-    "covered_stocks": 5309,
+    "rows": 88888,
+    "covered_stocks": 5310,
     "requested_stocks": 5563,
-    "failed_stocks": 254,
-    "coverage_rate": 0.9543,
-    "news_symbols_with_items": 5597,
-    "notice_rows": 49016,
-    "stock_news_rows": 40294,
+    "failed_stocks": 253,
+    "coverage_rate": 0.9545,
+    "news_symbols_with_items": 5598,
+    "notice_rows": 48887,
+    "stock_news_rows": 40001,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
