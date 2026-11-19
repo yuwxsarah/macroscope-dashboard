@@ -41,7 +41,7 @@
       "status": "ok"
     },
     "market.csv": {
-      "rows": 34125,
+      "rows": 34127,
       "columns": [
         "trade_date",
         "symbol",
@@ -58,7 +58,7 @@
       "status": "ok"
     },
     "global_macro.csv": {
-      "rows": 30867,
+      "rows": 30869,
       "columns": [
         "trade_date",
         "series",
