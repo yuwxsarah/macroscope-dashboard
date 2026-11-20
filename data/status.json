@@ -80,8 +80,8 @@
     "market": {
       "status": "partial",
       "rows": 24158,
-      "started_at": "2026-11-21T00:12:26+08:00",
-      "finished_at": "2026-11-21T00:12:50+08:00",
+      "started_at": "2026-11-21T01:15:15+08:00",
+      "finished_at": "2026-11-21T01:15:38+08:00",
       "latest_date": "20261120",
       "total_cached_rows": 34153,
       "symbols": {
@@ -282,8 +282,8 @@
     "valuation": {
       "status": "success",
       "rows": 9738,
-      "started_at": "2026-11-21T00:12:50+08:00",
-      "finished_at": "2026-11-21T00:13:24+08:00",
+      "started_at": "2026-11-21T01:15:38+08:00",
+      "finished_at": "2026-11-21T01:16:38+08:00",
       "latest_date": "20261120",
       "total_cached_rows": 28565,
       "indices": {
@@ -394,8 +394,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-21T00:13:24+08:00",
-      "finished_at": "2026-11-21T00:13:25+08:00",
+      "started_at": "2026-11-21T01:16:38+08:00",
+      "finished_at": "2026-11-21T01:16:39+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -446,8 +446,8 @@
     "sentiment": {
       "status": "partial",
       "rows": 0,
-      "started_at": "2026-11-21T00:13:24+08:00",
-      "finished_at": "2026-11-21T00:13:24+08:00",
+      "started_at": "2026-11-21T01:16:38+08:00",
+      "finished_at": "2026-11-21T01:16:38+08:00",
       "latest_date": "20261117",
       "total_cached_rows": 61,
       "skipped": true,
@@ -463,12 +463,12 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261121",
-      "rows": 87808,
-      "cached_rows": 87808,
-      "covered_stocks": 5309,
+      "rows": 88175,
+      "cached_rows": 88175,
+      "covered_stocks": 5310,
       "requested_stocks": 5563,
-      "failed_stocks": 254,
-      "coverage_rate": 0.9543,
+      "failed_stocks": 253,
+      "coverage_rate": 0.9545,
       "failed_symbols_sample": [
         "000003.SZ",
         "000005.SZ",
@@ -492,7 +492,7 @@
         "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600762.SH: KeyError('code')；600670.SH: KeyError('code')；600669.SH: KeyError('code')"
+      "error": "600672.SH: KeyError('code')；600677.SH: KeyError('code')；600670.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -503,7 +503,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-21T00:41:47+08:00",
+  "updated_at": "2026-11-21T01:38:46+08:00",
   "overall_status": "partial",
   "last_update_mode": "close"
 }
