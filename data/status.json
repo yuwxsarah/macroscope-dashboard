@@ -80,8 +80,8 @@
     "market": {
       "status": "partial",
       "rows": 24160,
-      "started_at": "2026-11-21T11:17:58+08:00",
-      "finished_at": "2026-11-21T11:18:21+08:00",
+      "started_at": "2026-11-22T10:22:13+08:00",
+      "finished_at": "2026-11-22T10:22:36+08:00",
       "latest_date": "20261120",
       "total_cached_rows": 34153,
       "symbols": {
@@ -185,8 +185,8 @@
     "global_macro": {
       "status": "partial",
       "rows": 400,
-      "started_at": "2026-11-21T11:18:21+08:00",
-      "finished_at": "2026-11-21T11:19:10+08:00",
+      "started_at": "2026-11-22T10:22:36+08:00",
+      "finished_at": "2026-11-22T10:23:24+08:00",
       "latest_date": "20261119",
       "total_cached_rows": 30875,
       "source_details": {
@@ -396,8 +396,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-21T11:19:10+08:00",
-      "finished_at": "2026-11-21T11:19:10+08:00",
+      "started_at": "2026-11-22T10:23:24+08:00",
+      "finished_at": "2026-11-22T10:23:24+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -505,7 +505,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-22T02:20:03+08:00",
+  "updated_at": "2026-11-22T10:23:30+08:00",
   "overall_status": "partial",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
