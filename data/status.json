@@ -79,11 +79,11 @@
     },
     "market": {
       "status": "partial",
-      "rows": 24163,
-      "started_at": "2026-11-23T10:55:45+08:00",
-      "finished_at": "2026-11-23T10:56:07+08:00",
+      "rows": 24172,
+      "started_at": "2026-11-24T03:17:11+08:00",
+      "finished_at": "2026-11-24T03:17:34+08:00",
       "latest_date": "20261123",
-      "total_cached_rows": 34156,
+      "total_cached_rows": 34168,
       "symbols": {
         "000001.SH": {
           "status": "failed",
@@ -111,17 +111,17 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1732,
+          "rows": 1733,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1732,
+          "rows": 1733,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1732,
+          "rows": 1733,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
@@ -131,56 +131,56 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1732,
+          "rows": 1733,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1732,
+          "rows": 1733,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1732,
+          "rows": 1733,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1732,
+          "rows": 1733,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1732,
+          "rows": 1733,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1732,
+          "rows": 1733,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1732,
+          "rows": 1733,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1732,
+          "rows": 1733,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1687,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1688,
+          "rows": 1687,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 34156
+      "cached_rows": 34168
     },
     "global_macro": {
       "status": "partial",
@@ -283,30 +283,30 @@
     },
     "valuation": {
       "status": "success",
-      "rows": 9738,
-      "started_at": "2026-11-21T03:07:59+08:00",
-      "finished_at": "2026-11-21T03:08:43+08:00",
-      "latest_date": "20261120",
-      "total_cached_rows": 28565,
+      "rows": 9742,
+      "started_at": "2026-11-24T03:17:34+08:00",
+      "finished_at": "2026-11-24T03:18:15+08:00",
+      "latest_date": "20261123",
+      "total_cached_rows": 28572,
       "indices": {
         "000001.SH": {
           "status": "success",
-          "rows": 2399,
+          "rows": 2400,
           "source": "东方财富估值分析公开接口"
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 2399,
+          "rows": 2400,
           "source": "东方财富估值分析公开接口"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 2399,
+          "rows": 2400,
           "source": "东方财富估值分析公开接口"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1779,
+          "rows": 1780,
           "source": "东方财富估值分析公开接口"
         },
         "000016.SH": {
@@ -326,15 +326,15 @@
         }
       },
       "latest_by_index": {
-        "000001.SH": "20261120",
-        "399001.SZ": "20261120",
-        "399006.SZ": "20261120",
-        "000688.SH": "20261120",
-        "000016.SH": "20261120",
-        "000300.SH": "20261120",
-        "000905.SH": "20261120"
+        "000001.SH": "20261123",
+        "399001.SZ": "20261123",
+        "399006.SZ": "20261123",
+        "000688.SH": "20261123",
+        "000016.SH": "20261123",
+        "000300.SH": "20261123",
+        "000905.SH": "20261123"
       },
-      "cached_rows": 28565
+      "cached_rows": 28572
     },
     "crowding": {
       "status": "success",
@@ -396,8 +396,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-23T10:56:57+08:00",
-      "finished_at": "2026-11-23T10:56:57+08:00",
+      "started_at": "2026-11-24T03:18:15+08:00",
+      "finished_at": "2026-11-24T03:18:15+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -446,11 +446,14 @@
       "cached_rows": 300
     },
     "sentiment": {
-      "status": "failed",
+      "status": "partial",
       "rows": 0,
-      "started_at": "2026-11-23T21:36:36+08:00",
-      "finished_at": "2026-11-23T21:37:26+08:00",
-      "error": "DataFetchError(\"A股实时行情失败: 东方财富沪深京A股实时行情: Push2RateLimitError('东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。') | 新浪沪深京A股实时行情: 当前AKShare版本无此接口 | 东方财富沪深A股分市场行情: DataFetchError('数据源返回空表')\")"
+      "started_at": "2026-11-24T03:18:15+08:00",
+      "finished_at": "2026-11-24T03:18:15+08:00",
+      "latest_date": "20261117",
+      "total_cached_rows": 61,
+      "skipped": true,
+      "note": "非A股交易时段，继续展示上一次成功快照。"
     },
     "a_share_universe": {
       "status": "success",
@@ -461,13 +464,13 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20261123",
-      "rows": 85066,
-      "cached_rows": 85066,
-      "covered_stocks": 5310,
+      "latest_date": "20261124",
+      "rows": 85428,
+      "cached_rows": 85428,
+      "covered_stocks": 5309,
       "requested_stocks": 5563,
-      "failed_stocks": 253,
-      "coverage_rate": 0.9545,
+      "failed_stocks": 254,
+      "coverage_rate": 0.9543,
       "failed_symbols_sample": [
         "000003.SZ",
         "000005.SZ",
@@ -491,7 +494,7 @@
         "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600659.SH: KeyError('code')；600752.SH: KeyError('code')；600705.SH: KeyError('code')"
+      "error": "600695.SH: KeyError('code')；600687.SH: KeyError('code')；600680.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -502,7 +505,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-23T21:37:38+08:00",
+  "updated_at": "2026-11-24T03:33:19+08:00",
   "overall_status": "partial",
-  "last_update_mode": "snapshot"
+  "last_update_mode": "close"
 }
