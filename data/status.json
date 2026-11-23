@@ -79,11 +79,11 @@
     },
     "market": {
       "status": "partial",
-      "rows": 24160,
-      "started_at": "2026-11-22T10:22:13+08:00",
-      "finished_at": "2026-11-22T10:22:36+08:00",
-      "latest_date": "20261120",
-      "total_cached_rows": 34153,
+      "rows": 24163,
+      "started_at": "2026-11-23T10:55:45+08:00",
+      "finished_at": "2026-11-23T10:56:07+08:00",
+      "latest_date": "20261123",
+      "total_cached_rows": 34156,
       "symbols": {
         "000001.SH": {
           "status": "failed",
@@ -126,7 +126,7 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1734,
+          "rows": 1735,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -171,22 +171,22 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1687,
+          "rows": 1688,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1687,
+          "rows": 1688,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 34153
+      "cached_rows": 34156
     },
     "global_macro": {
       "status": "partial",
       "rows": 400,
-      "started_at": "2026-11-22T10:22:36+08:00",
-      "finished_at": "2026-11-22T10:23:24+08:00",
+      "started_at": "2026-11-23T10:56:07+08:00",
+      "finished_at": "2026-11-23T10:56:57+08:00",
       "latest_date": "20261119",
       "total_cached_rows": 30875,
       "source_details": {
@@ -396,8 +396,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-22T10:23:24+08:00",
-      "finished_at": "2026-11-22T10:23:24+08:00",
+      "started_at": "2026-11-23T10:56:57+08:00",
+      "finished_at": "2026-11-23T10:56:57+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -505,7 +505,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-23T02:17:21+08:00",
+  "updated_at": "2026-11-23T10:57:08+08:00",
   "overall_status": "partial",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
