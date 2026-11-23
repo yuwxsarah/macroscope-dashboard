@@ -80,8 +80,8 @@
     "market": {
       "status": "partial",
       "rows": 24172,
-      "started_at": "2026-11-24T03:17:11+08:00",
-      "finished_at": "2026-11-24T03:17:34+08:00",
+      "started_at": "2026-11-24T04:31:40+08:00",
+      "finished_at": "2026-11-24T04:32:02+08:00",
       "latest_date": "20261123",
       "total_cached_rows": 34168,
       "symbols": {
@@ -284,8 +284,8 @@
     "valuation": {
       "status": "success",
       "rows": 9742,
-      "started_at": "2026-11-24T03:17:34+08:00",
-      "finished_at": "2026-11-24T03:18:15+08:00",
+      "started_at": "2026-11-24T04:32:02+08:00",
+      "finished_at": "2026-11-24T04:33:14+08:00",
       "latest_date": "20261123",
       "total_cached_rows": 28572,
       "indices": {
@@ -396,8 +396,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-24T03:18:15+08:00",
-      "finished_at": "2026-11-24T03:18:15+08:00",
+      "started_at": "2026-11-24T04:33:14+08:00",
+      "finished_at": "2026-11-24T04:33:14+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -448,8 +448,8 @@
     "sentiment": {
       "status": "partial",
       "rows": 0,
-      "started_at": "2026-11-24T03:18:15+08:00",
-      "finished_at": "2026-11-24T03:18:15+08:00",
+      "started_at": "2026-11-24T04:33:14+08:00",
+      "finished_at": "2026-11-24T04:33:14+08:00",
       "latest_date": "20261117",
       "total_cached_rows": 61,
       "skipped": true,
@@ -465,8 +465,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261124",
-      "rows": 85428,
-      "cached_rows": 85428,
+      "rows": 85423,
+      "cached_rows": 85423,
       "covered_stocks": 5309,
       "requested_stocks": 5563,
       "failed_stocks": 254,
@@ -505,7 +505,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-24T03:33:19+08:00",
+  "updated_at": "2026-11-24T04:48:10+08:00",
   "overall_status": "partial",
   "last_update_mode": "close"
 }
