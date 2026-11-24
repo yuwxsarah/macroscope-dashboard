@@ -80,8 +80,8 @@
     "market": {
       "status": "partial",
       "rows": 24186,
-      "started_at": "2026-11-25T02:56:27+08:00",
-      "finished_at": "2026-11-25T02:56:49+08:00",
+      "started_at": "2026-11-25T03:42:27+08:00",
+      "finished_at": "2026-11-25T03:42:48+08:00",
       "latest_date": "20261124",
       "total_cached_rows": 34182,
       "symbols": {
@@ -284,8 +284,8 @@
     "valuation": {
       "status": "success",
       "rows": 9746,
-      "started_at": "2026-11-25T02:56:49+08:00",
-      "finished_at": "2026-11-25T02:57:29+08:00",
+      "started_at": "2026-11-25T03:42:48+08:00",
+      "finished_at": "2026-11-25T03:43:25+08:00",
       "latest_date": "20261124",
       "total_cached_rows": 28579,
       "indices": {
@@ -396,8 +396,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-25T02:57:29+08:00",
-      "finished_at": "2026-11-25T02:57:29+08:00",
+      "started_at": "2026-11-25T03:43:25+08:00",
+      "finished_at": "2026-11-25T03:43:25+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -448,8 +448,8 @@
     "sentiment": {
       "status": "partial",
       "rows": 0,
-      "started_at": "2026-11-25T02:57:29+08:00",
-      "finished_at": "2026-11-25T02:57:29+08:00",
+      "started_at": "2026-11-25T03:43:25+08:00",
+      "finished_at": "2026-11-25T03:43:25+08:00",
       "latest_date": "20261117",
       "total_cached_rows": 61,
       "skipped": true,
@@ -465,8 +465,8 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261125",
-      "rows": 87255,
-      "cached_rows": 87255,
+      "rows": 87259,
+      "cached_rows": 87259,
       "covered_stocks": 5309,
       "requested_stocks": 5563,
       "failed_stocks": 254,
@@ -494,7 +494,7 @@
         "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600695.SH: KeyError('code')；600687.SH: KeyError('code')；600680.SH: KeyError('code')"
+      "error": "600695.SH: KeyError('code')；600680.SH: KeyError('code')；600687.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -505,7 +505,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-25T03:14:37+08:00",
+  "updated_at": "2026-11-25T04:01:06+08:00",
   "overall_status": "partial",
   "last_update_mode": "close"
 }
