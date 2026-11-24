@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 06:50:27+08:00",
+  "updated_at": "2026-11-24 16:14:44+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-2b14ceb6e530b1aa",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共64只个股涨停 这只PCB概念股4连板 猪肉板块金新农3连板，小家电板块九阳股份2连板。一图速览今日连板股>> 5分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103452229.html",
+      "published_at": "2026-11-24",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2574269a28fbee24",
+      "category": "重大新闻",
+      "title": "对话摩根大通黄培皓：AI仍是投资主线之一，国际投资者不再“单一押注” “今年港股市场上最大的投资主题是AI，国际长线资金在配置中国资产的过程中，以及对港股IPO",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103452176.html",
+      "published_at": "2026-11-24",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-48a8e0c2bc85f956",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨0.27% 半导体设备板块盘中活跃 沪深两市成交额1.66万亿，较上一个交易日放量1022亿。 2656 57分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103452112.html",
+      "published_at": "2026-11-24",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b9d993c50a7a02e5",
+      "category": "重大新闻",
+      "title": "滚动更新丨创业板指高开低走尾盘翻绿，半导体、银行等板块表现活跃 沪深两市成交额1.66万亿，较上一个交易日放量1022亿。 8 11925 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103451466.html",
+      "published_at": "2026-11-24",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a1d0260c4b034384",
+      "category": "重大新闻",
+      "title": "黄仁勋复职英伟达，A股产业链叙事修复 在第一财经采访的业内人士看来，相关事件出现戏剧性变化，消除了AI产业发展的不确定因素，将会促进A股科技股中级反弹行情来临，",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103451317.html",
+      "published_at": "2026-11-24",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-7ac6e6db4a1962b8",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-38f76ae55b2818fb",
-      "category": "重大新闻",
-      "title": "华尔街下调金价预期： 3850美元是底吗？ 行业人士称，官方储备的结构性买入与交易型仓位的收缩并行，导致当前金价“跌而不崩、反弹乏力”格局。 15211 昨天 ",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103444083.html",
-      "published_at": "2026-11-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ec75fe36de9b3aef",
-      "category": "重大新闻",
-      "title": "展望2027年生物医药投资，内外资券商看好三条主线 “目前重点看好的投资方向是生物科技、CRO、AI制药。” 4888 昨天 19:17",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103443985.html",
-      "published_at": "2026-11-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7d6ca05d32457f16",
-      "category": "重大新闻",
-      "title": "A股低价股增至107只，面值退市预警拉响 低价股数量连续数月抬升，变化轨迹与指数回调、量能收缩基本同步。 7988 昨天 21:20",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103444184.html",
-      "published_at": "2026-11-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-587e3b3ef39b8b0d",
-      "category": "重大新闻",
-      "title": "电网建设需求释放 海外市场拓展提速 沪市电力设备企业经营发展亮点纷呈 一批产业链龙头企业经营业绩稳步增长，部分公司盈利增速进一步提升。 4175 昨天 21:0",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103444147.html",
-      "published_at": "2026-11-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f7df071a4da6bb91",
-      "category": "重大新闻",
-      "title": "主动ETF挂牌上市在即 创新产品为“长钱”入市再添载体 首批18只产品全部触及20亿元募集规模上限并提前结束募集。 3462 昨天 20:37",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103444118.html",
-      "published_at": "2026-11-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-24 06:50:27+08:00",
+  "last_checked_at": "2026-11-24 16:14:44+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 85424,
+    "rows": 85616,
     "covered_stocks": 5309,
     "requested_stocks": 5563,
     "failed_stocks": 254,
     "coverage_rate": 0.9543,
     "news_symbols_with_items": 5584,
-    "notice_rows": 46292,
-    "stock_news_rows": 39132,
+    "notice_rows": 46326,
+    "stock_news_rows": 39290,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
