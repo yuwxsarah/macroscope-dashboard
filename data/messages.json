@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 04:27:29+08:00",
+  "updated_at": "2026-11-26 04:45:55+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -139,7 +139,7 @@
     {
       "id": "auto-yicai-3daa907e735f62ca",
       "category": "重大新闻",
-      "title": "四天8家A股公司“戴帽”！有的“摘帽”仅4个月再被ST 多家公司被叠加实施风险警示。 5849 昨天 21:19",
+      "title": "四天8家A股公司“戴帽”！有的“摘帽”仅4个月再被ST 多家公司被叠加实施风险警示。 5911 昨天 21:19",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103454326.html",
@@ -153,7 +153,7 @@
     {
       "id": "auto-yicai-269b5d216cabe461",
       "category": "重大新闻",
-      "title": "流片不确定性升温，国产GPU四小龙股价集体重挫 流片环节的能见度，正成为影响定价的新变量。 14591 昨天 20:32",
+      "title": "流片不确定性升温，国产GPU四小龙股价集体重挫 流片环节的能见度，正成为影响定价的新变量。 14808 昨天 20:32",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103454246.html",
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-26 04:27:29+08:00",
+  "last_checked_at": "2026-11-26 04:45:55+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 86153,
+    "rows": 87402,
     "covered_stocks": 5309,
     "requested_stocks": 5563,
     "failed_stocks": 254,
     "coverage_rate": 0.9543,
-    "news_symbols_with_items": 5579,
-    "notice_rows": 46709,
-    "stock_news_rows": 39444,
+    "news_symbols_with_items": 5581,
+    "notice_rows": 47963,
+    "stock_news_rows": 39439,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
