@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 05:24:26+08:00",
+  "updated_at": "2026-11-25 14:58:10+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-5c560be5846be495",
+      "category": "重大新闻",
+      "title": "北交所“万里行”｜一财走进同力股份：发力新能源、无人驾驶新赛道，让矿车业务扬帆出海 作为北交所首批上市企业的同力股份，如何布局新能源、无人驾驶矿车领域，又如何扩",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103453301.html",
+      "published_at": "2026-11-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2e79c05ce13137b9",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，半导体、通信设备等板块回调明显 煤炭、银行等板块相对抗跌。 5 4113 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103453116.html",
+      "published_at": "2026-11-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-8eec3f3ec00e7bd0",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股科技股全线下跌；工业富联再推百亿现金分红方案 机构认为，指数震荡筑底，市场逐步企稳。 26929 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103452997.html",
+      "published_at": "2026-11-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c6f0cb3e75c28f4a",
+      "category": "重大新闻",
+      "title": "全球风险偏好回升，AI进入“算细账”时刻 市场分析人士认为，后市主线仍在AI，但逻辑正从资本开支扩张转向回报、融资与执行能力。 20853 昨天 21:19",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103452743.html",
+      "published_at": "2026-11-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d8bc13ad21263309",
+      "category": "重大新闻",
+      "title": "A股光模块冲高回落，产业链确定性是否修复仍待验证 人事变动并未带来新的AI基建的技术、需求或产品迭代 7678 昨天 20:35",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103452664.html",
+      "published_at": "2026-11-25",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-c6f0cb3e75c28f4a",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a885a5f03779f558",
-      "category": "重大新闻",
-      "title": "概念炒作退潮：从连板涨停到连续跌停，谁在“倒V”行情中博弈 机构席位“边买边卖”，游资上演“最后疯狂”。 5322 昨天 20:56",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103445616.html",
-      "published_at": "2026-11-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3b4416726799450d",
-      "category": "重大新闻",
-      "title": "证监会回应“公募上报AI敞口”传闻，资本市场多措施围堵虚假信息 资本市场对政策导向的极端敏感性，使得“借监管之名”的小作文更容易扰动市场 20698 昨天 19",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103445509.html",
-      "published_at": "2026-11-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-70fbf4bb59f10ce9",
-      "category": "重大新闻",
-      "title": "晚间公告丨11月18日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 37717 昨天 19:07",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103445468.html",
-      "published_at": "2026-11-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1aeda749a8e2ab05",
-      "category": "重大新闻",
-      "title": "龙虎榜丨机构今日买入这22股，卖出协创数据1亿元 共43只个股出现了机构的身影。 8391 昨天 17:48",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103445386.html",
-      "published_at": "2026-11-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a5c8e23c621460eb",
-      "category": "重大新闻",
-      "title": "上市次日股价便跌停，多只次新股累计跌幅超四成 在A股市场回调背景下，多只次新股的股价涨势持续性较差。 6376 昨天 20:58",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103445621.html",
-      "published_at": "2026-11-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-25 05:24:26+08:00",
+  "last_checked_at": "2026-11-25 14:58:10+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 87255,
+    "rows": 78283,
     "covered_stocks": 5309,
     "requested_stocks": 5563,
     "failed_stocks": 254,
     "coverage_rate": 0.9543,
-    "news_symbols_with_items": 5586,
-    "notice_rows": 47681,
-    "stock_news_rows": 39574,
+    "news_symbols_with_items": 5564,
+    "notice_rows": 38526,
+    "stock_news_rows": 39757,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
