@@ -187,7 +187,7 @@
       "status": "ok"
     },
     "market_messages.csv": {
-      "rows": 85070,
+      "rows": 85071,
       "columns": [
         "published_at",
         "category",
