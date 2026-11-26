@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 14:49:17+08:00",
+  "updated_at": "2026-11-27 02:04:59+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-804f4f24f608b752",
+      "category": "重大新闻",
+      "title": "融资保证金比例下调倒计时，券商陆续启动调整 近期，监管部门发布一揽子稳市举措，调整融资保证金比例是举措之一。 4826 昨天 21:01",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103455917.html",
+      "published_at": "2026-11-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-942d09a5c48e3027",
+      "category": "重大新闻",
+      "title": "透视A股并购“爆雷”：大多栽在业绩对赌，风险埋在交割之后 业绩对赌未完成及补偿履行问题、交割后财务造假、标的公司失控、交割前披露问题、其他合同纠纷或违规情形，这",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103455951.html",
+      "published_at": "2026-11-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b8621dfeb6c0cfa8",
+      "category": "重大新闻",
+      "title": "弱现实压制，锂价与锂电股同步创新低 宁德时代再创阶段新低，远期供给预期主导板块定价。 3121 昨天 20:55",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103455936.html",
+      "published_at": "2026-11-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a32f8b1c2a5c4f72",
+      "category": "重大新闻",
+      "title": "让标尺更长，让成长更久：“未来20·中国A股上市公司成长力调研”终评会举办 2687 昨天 20:01",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103455886.html",
+      "published_at": "2026-11-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-31f36c1f5c14d4bd",
+      "category": "重大新闻",
+      "title": "晚间公告丨11月26日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 24697 昨天 19:11",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103455802.html",
+      "published_at": "2026-11-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-76d10d22d89ebadd",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2ec27625589bb0e8",
-      "category": "重大新闻",
-      "title": "晚间公告丨11月19日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 21783 昨天 18:53",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103446928.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e88bcaac793e2009",
-      "category": "重大新闻",
-      "title": "五年三度跨界并购未果，金利华电股价创逾19个月新低 主营业务成长空间受限，或是金利华电频频寻求跨界的主因 2532 昨天 20:28",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103447069.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-12589b35af69348d",
-      "category": "重大新闻",
-      "title": "地天板、天地板轮番上演，九阳股份暴涨逾2倍后多空极致拉锯 连续3个交易日，该公司股价在涨停与跌停之间拉锯。 3183 昨天 20:24",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103447056.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2ec27625589bb0e8",
-      "category": "重大新闻",
-      "title": "晚间公告丨11月19日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 21628 昨天 18:53",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103446928.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b5d7cffa7d52b84c",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，燃气、电信板块逆势活跃 盘面上，基本金属、传媒、光通信板块调整。 3989 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103446006.html",
-      "published_at": "2026-11-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-26 14:49:17+08:00",
+  "last_checked_at": "2026-11-27 02:04:59+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 79011,
+    "rows": 85070,
     "covered_stocks": 5309,
     "requested_stocks": 5563,
     "failed_stocks": 254,
     "coverage_rate": 0.9543,
-    "news_symbols_with_items": 5544,
-    "notice_rows": 39421,
-    "stock_news_rows": 39590,
+    "news_symbols_with_items": 5564,
+    "notice_rows": 46040,
+    "stock_news_rows": 39030,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }

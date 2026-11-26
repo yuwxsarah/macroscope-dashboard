@@ -79,11 +79,11 @@
     },
     "market": {
       "status": "partial",
-      "rows": 24204,
-      "started_at": "2026-11-26T12:13:19+08:00",
-      "finished_at": "2026-11-26T12:13:39+08:00",
+      "rows": 24203,
+      "started_at": "2026-11-27T01:45:47+08:00",
+      "finished_at": "2026-11-27T01:46:09+08:00",
       "latest_date": "20261126",
-      "total_cached_rows": 34198,
+      "total_cached_rows": 34199,
       "symbols": {
         "000001.SH": {
           "status": "failed",
@@ -126,7 +126,7 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1737,
+          "rows": 1738,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -171,16 +171,16 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 34198
+      "cached_rows": 34199
     },
     "global_macro": {
       "status": "partial",
@@ -281,30 +281,30 @@
     },
     "valuation": {
       "status": "success",
-      "rows": 9750,
-      "started_at": "2026-11-26T04:30:59+08:00",
-      "finished_at": "2026-11-26T04:31:31+08:00",
-      "latest_date": "20261125",
-      "total_cached_rows": 28586,
+      "rows": 9754,
+      "started_at": "2026-11-27T01:46:09+08:00",
+      "finished_at": "2026-11-27T01:46:52+08:00",
+      "latest_date": "20261126",
+      "total_cached_rows": 28593,
       "indices": {
         "000001.SH": {
           "status": "success",
-          "rows": 2402,
+          "rows": 2403,
           "source": "东方财富估值分析公开接口"
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 2402,
+          "rows": 2403,
           "source": "东方财富估值分析公开接口"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 2402,
+          "rows": 2403,
           "source": "东方财富估值分析公开接口"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1782,
+          "rows": 1783,
           "source": "东方财富估值分析公开接口"
         },
         "000016.SH": {
@@ -324,15 +324,15 @@
         }
       },
       "latest_by_index": {
-        "000001.SH": "20261125",
-        "399001.SZ": "20261125",
-        "399006.SZ": "20261125",
-        "000688.SH": "20261125",
-        "000016.SH": "20261125",
-        "000300.SH": "20261125",
-        "000905.SH": "20261125"
+        "000001.SH": "20261126",
+        "399001.SZ": "20261126",
+        "399006.SZ": "20261126",
+        "000688.SH": "20261126",
+        "000016.SH": "20261126",
+        "000300.SH": "20261126",
+        "000905.SH": "20261126"
       },
-      "cached_rows": 28586
+      "cached_rows": 28593
     },
     "crowding": {
       "status": "success",
@@ -394,8 +394,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-26T12:14:30+08:00",
-      "finished_at": "2026-11-26T12:14:30+08:00",
+      "started_at": "2026-11-27T01:46:52+08:00",
+      "finished_at": "2026-11-27T01:46:52+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -444,11 +444,14 @@
       "cached_rows": 300
     },
     "sentiment": {
-      "status": "failed",
+      "status": "partial",
       "rows": 0,
-      "started_at": "2026-11-26T21:06:36+08:00",
-      "finished_at": "2026-11-26T21:07:45+08:00",
-      "error": "DataFetchError(\"A股实时行情失败: 东方财富沪深京A股实时行情: Push2RateLimitError('东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。') | 新浪沪深京A股实时行情: 当前AKShare版本无此接口 | 东方财富沪深A股分市场行情: DataFetchError('数据源返回空表')\")"
+      "started_at": "2026-11-27T01:46:52+08:00",
+      "finished_at": "2026-11-27T01:46:52+08:00",
+      "latest_date": "20261117",
+      "total_cached_rows": 61,
+      "skipped": true,
+      "note": "非A股交易时段，继续展示上一次成功快照。"
     },
     "a_share_universe": {
       "status": "success",
@@ -459,9 +462,9 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20261126",
-      "rows": 79011,
-      "cached_rows": 79011,
+      "latest_date": "20261127",
+      "rows": 85070,
+      "cached_rows": 85070,
       "covered_stocks": 5309,
       "requested_stocks": 5563,
       "failed_stocks": 254,
@@ -489,7 +492,7 @@
         "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600669.SH: KeyError('code')；600656.SH: KeyError('code')；600701.SH: KeyError('code')"
+      "error": "600677.SH: KeyError('code')；600672.SH: KeyError('code')；600680.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -500,7 +503,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-26T21:07:57+08:00",
+  "updated_at": "2026-11-27T02:06:08+08:00",
   "overall_status": "partial",
-  "last_update_mode": "snapshot"
+  "last_update_mode": "close"
 }
