@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 04:45:55+08:00",
+  "updated_at": "2026-11-26 14:49:17+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -109,9 +109,51 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-76d10d22d89ebadd",
+      "category": "重大新闻",
+      "title": "恒生科指反弹近3%，成交未同步放量｜市场观察 12月将迎来成分股变更，纳斯达克延长交易时间的挑战。 1447 43分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103455186.html",
+      "published_at": "2026-11-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f5b51d97a8b0866c",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，珠免集团、山鹰国际复牌一字涨停 市场逾4400股上涨。 9 3834 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103454772.html",
+      "published_at": "2026-11-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9b4c3071efccb7e8",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股上演“过山车”；保利发展拟发不超200亿公司债券 机构认为，指数C浪末端磨底，耐心等转势信号。 5 27456 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103454581.html",
+      "published_at": "2026-11-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-6389ebee90df95eb",
       "category": "重大新闻",
-      "title": "从2元跌到2毛，网红私募产品暗藏风险多 如果投资决策高度集中于一人，基金经理想加仓、加杠杆或调整止损安排时，谁能提出异议、谁有权否决，就成了需要追问的问题。 1",
+      "title": "从2元跌到2毛，网红私募产品暗藏风险多 如果投资决策高度集中于一人，基金经理想加仓、加杠杆或调整止损安排时，谁能提出异议、谁有权否决，就成了需要追问的问题。 3",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103454269.html",
@@ -129,6 +171,20 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103454352.html",
+      "published_at": "2026-11-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6389ebee90df95eb",
+      "category": "重大新闻",
+      "title": "从2元跌到2毛，网红私募产品暗藏风险多 如果投资决策高度集中于一人，基金经理想加仓、加杠杆或调整止损安排时，谁能提出异议、谁有权否决，就成了需要追问的问题。 1",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103454269.html",
       "published_at": "2026-11-26",
       "symbols": [
         "A股"
@@ -1731,62 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c188465e23421aa9",
-      "category": "重大新闻",
-      "title": "盘前必读丨新一轮国资国企改革全面实施；行云科技再签AI词元跨境“大订单” 机构认为，市场短期情绪与筹码压制，科技左侧磨底仍将延续。 28758 5小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103445857.html",
-      "published_at": "2026-11-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a5c8e23c621460eb",
-      "category": "重大新闻",
-      "title": "上市次日股价便跌停，多只次新股累计跌幅超四成 在A股市场回调背景下，多只次新股的股价涨势持续性较差。 13134 昨天 20:58",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103445621.html",
-      "published_at": "2026-11-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a885a5f03779f558",
-      "category": "重大新闻",
-      "title": "概念炒作退潮：从连板涨停到连续跌停，谁在“倒V”行情中博弈 机构席位“边买边卖”，游资上演“最后疯狂”。 11460 昨天 20:56",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103445616.html",
-      "published_at": "2026-11-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3b4416726799450d",
-      "category": "重大新闻",
-      "title": "证监会回应“公募上报AI敞口”传闻，资本市场多措施围堵虚假信息 资本市场对政策导向的极端敏感性，使得“借监管之名”的小作文更容易扰动市场 30680 昨天 19",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103445509.html",
-      "published_at": "2026-11-19",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-26 04:45:55+08:00",
+  "last_checked_at": "2026-11-26 14:49:17+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 87402,
+    "rows": 79011,
     "covered_stocks": 5309,
     "requested_stocks": 5563,
     "failed_stocks": 254,
     "coverage_rate": 0.9543,
-    "news_symbols_with_items": 5581,
-    "notice_rows": 47963,
-    "stock_news_rows": 39439,
+    "news_symbols_with_items": 5544,
+    "notice_rows": 39421,
+    "stock_news_rows": 39590,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
