@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28 03:53:04+08:00",
+  "updated_at": "2026-11-28 04:17:01+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -357,7 +357,7 @@
     "summary": {
       "market_score": 49.0,
       "market_score_before_gate": 49.0,
-      "risk_score": 42.6,
+      "risk_score": 46.0,
       "risk_level": "橙色",
       "market_phase": "防御期 / 橙色降风险",
       "base_position_pct": 30.0,
@@ -484,7 +484,7 @@
         "weighted_score": 6.6,
         "status": "中性偏强",
         "basis": [
-          "上涨家数占比 96.25%",
+          "上涨家数占比 96.28%",
           "A股成交额/总市值 1.75%",
           "交易拥挤度 44.80%"
         ],
@@ -524,20 +524,20 @@
         "raw_risk": 0.0,
         "level": "低",
         "basis": [
-          "上涨家数占比 96.25%",
-          "近5期上涨家数变化 1643只"
+          "上涨家数占比 96.28%",
+          "近5期上涨家数变化 4727只"
         ]
       },
       {
         "name": "量价质量恶化",
         "weight": 20,
-        "risk": 10.8,
-        "raw_risk": 54.0,
+        "risk": 10.1,
+        "raw_risk": 50.6,
         "level": "偏高",
         "basis": [
           "主要指数20日动量均值 -6.05%",
           "主要指数相对20日均线均值 -1.69%",
-          "成交额近5期变化 0.40万亿元"
+          "成交额近5期变化 0.58万亿元"
         ]
       },
       {
@@ -555,23 +555,23 @@
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 5.3,
-        "raw_risk": 35.5,
-        "level": "中",
+        "risk": 9.5,
+        "raw_risk": 63.1,
+        "level": "偏高",
         "basis": [
-          "两融/总市值 1.86%，历史分位 2%",
-          "交易拥挤度历史分位 69%"
+          "两融/总市值 暂无，历史分位 50%",
+          "交易拥挤度历史分位 76%"
         ]
       },
       {
         "name": "跨资产压力",
         "weight": 10,
-        "risk": 6.5,
-        "raw_risk": 64.6,
+        "risk": 6.4,
+        "raw_risk": 64.3,
         "level": "偏高",
         "basis": [
           "美国10年期国债 4.91%",
-          "纳斯达克20日动量 -8.25%",
+          "纳斯达克20日动量 -7.85%",
           "美元净流动性 5.58万亿美元"
         ]
       },
@@ -599,11 +599,11 @@
       }
     ],
     "signals": {
-      "up_ratio_pct": 96.25,
+      "up_ratio_pct": 96.28,
       "total_amount_trillion": 1.999,
       "broad_turnover_pct": 1.751,
       "crowding_pct": 44.8,
-      "margin_to_market_cap_pct": 1.864,
+      "margin_to_market_cap_pct": null,
       "index_momentum_20d_pct": -6.05,
       "dgs10_pct": 4.91
     }
