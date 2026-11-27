@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 14:27:53+08:00",
+  "updated_at": "2026-11-28 01:50:24+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "06:20",
@@ -108,6 +108,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-f6e6c27437cb2c6f",
+      "category": "重大新闻",
+      "title": "A股重要指数调整，万科A被调出深证100 深圳证券交易所和深圳证券信息有限公司决定于2026年12月14日对深证成指、创业板指、深证100、创业板50等指数实施",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103458410.html",
+      "published_at": "2026-11-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-ca76e3f677a83aa0",
+      "category": "重大新闻",
+      "title": "国际金价徘徊3600美元，如何调整资产组合的“含金量” 将黄金作为资产组合战略底仓，摒弃短线博弈思维 5 6934 昨天 19:54",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103458235.html",
+      "published_at": "2026-11-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e438180dc8cae217",
+      "category": "重大新闻",
+      "title": "上证50、上证180、科创50、科创100等系列指数进行下半年定期调样 此次样本调整后，上证50、上证180指数新经济行业权重提升，更好表征新质生产力发展方向，",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103458217.html",
+      "published_at": "2026-11-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-704ddee5b3461fd6",
+      "category": "重大新闻",
+      "title": "国常会通稿首用“国家队”表述，哪些“增量政策”值得期待？ 对比历次国常会新闻稿有关资本市场的表述，可以看出11月27日的国常会创下至少三个历史“首次”——首次午",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103458128.html",
+      "published_at": "2026-11-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6ca2fa2b44e8ab19",
+      "category": "重大新闻",
+      "title": "晚间公告丨11月27日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 8 38926 昨天 18:37",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103458096.html",
+      "published_at": "2026-11-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-e5a5576ca9dbb212",
       "category": "重大新闻",
@@ -1717,76 +1787,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2dae750156e1e68c",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，光通信、黄金等板块明显调整 市场逾5300股下跌。 6624 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103447489.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-51cfcf3246b4049d",
-      "category": "重大新闻",
-      "title": "盘前必读丨美股三大股指均跌超2%；A股再掀回购增持潮 机构认为，政策底已确认，市场底确认需看到量能持续温和放大及新主线出现。 31114 5小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103447343.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e88bcaac793e2009",
-      "category": "重大新闻",
-      "title": "五年三度跨界并购未果，金利华电股价创逾19个月新低 主营业务成长空间受限，或是金利华电频频寻求跨界的主因 6159 昨天 20:28",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103447069.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-12589b35af69348d",
-      "category": "重大新闻",
-      "title": "地天板、天地板轮番上演，九阳股份暴涨逾2倍后多空极致拉锯 连续3个交易日，该公司股价在涨停与跌停之间拉锯。 9445 昨天 20:24",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103447056.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e88bcaac793e2009",
-      "category": "重大新闻",
-      "title": "五年三度跨界并购未果，金利华电股价创逾19个月新低 主营业务成长空间受限，或是金利华电频频寻求跨界的主因 2966 昨天 20:28",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103447069.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1836,17 +1836,17 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-27 14:27:53+08:00",
+  "last_checked_at": "2026-11-28 01:50:24+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 85299,
+    "rows": 81149,
     "covered_stocks": 5308,
     "requested_stocks": 5563,
     "failed_stocks": 255,
     "coverage_rate": 0.9542,
-    "news_symbols_with_items": 5564,
-    "notice_rows": 46082,
-    "stock_news_rows": 39217,
+    "news_symbols_with_items": 5528,
+    "notice_rows": 43551,
+    "stock_news_rows": 37598,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
