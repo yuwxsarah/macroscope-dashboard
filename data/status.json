@@ -80,8 +80,8 @@
     "market": {
       "status": "partial",
       "rows": 24216,
-      "started_at": "2026-11-28T02:27:08+08:00",
-      "finished_at": "2026-11-28T02:27:30+08:00",
+      "started_at": "2026-11-28T01:30:27+08:00",
+      "finished_at": "2026-11-28T01:30:48+08:00",
       "latest_date": "20261127",
       "total_cached_rows": 34213,
       "symbols": {
@@ -284,8 +284,8 @@
     "valuation": {
       "status": "success",
       "rows": 9758,
-      "started_at": "2026-11-28T02:27:30+08:00",
-      "finished_at": "2026-11-28T02:29:03+08:00",
+      "started_at": "2026-11-28T01:30:48+08:00",
+      "finished_at": "2026-11-28T01:31:31+08:00",
       "latest_date": "20261127",
       "total_cached_rows": 28600,
       "indices": {
@@ -338,16 +338,16 @@
     },
     "crowding": {
       "status": "success",
-      "rows": 63,
-      "cached_rows": 63,
-      "total_cached_rows": 63,
+      "rows": 61,
+      "cached_rows": 62,
+      "total_cached_rows": 61,
       "latest_date": "20261127",
       "source_details": {
         "crowding_history": {
           "status": "success",
-          "rows": 63,
-          "date_range": "20260825-20261127",
-          "universe_size": 5564,
+          "rows": 61,
+          "date_range": "20260817-20261117",
+          "universe_size": 5563,
           "failed_symbols": 0,
           "source": "东方财富历史日线接口 push2his.eastmoney.com",
           "method": "每日成交额前5%股票成交额合计 ÷ 当日A股全部股票成交额。"
@@ -356,16 +356,16 @@
     },
     "breadth": {
       "status": "success",
-      "rows": 63,
-      "cached_rows": 63,
-      "total_cached_rows": 63,
+      "rows": 61,
+      "cached_rows": 62,
+      "total_cached_rows": 61,
       "latest_date": "20261127",
       "source_details": {
         "breadth_counts": {
           "status": "success",
-          "rows": 63,
-          "date_range": "20260825-20261127",
-          "universe_size": 5564,
+          "rows": 61,
+          "date_range": "20260817-20261117",
+          "universe_size": 5563,
           "failed_symbols": 0,
           "source": "东方财富历史日线接口 push2his.eastmoney.com",
           "method": "逐只股票取日线涨跌幅；>0上涨，<0下跌，=0平盘；停牌无日线者不计入当日总数。"
@@ -378,9 +378,9 @@
     },
     "leverage": {
       "status": "success",
-      "rows": 62,
-      "cached_rows": 62,
-      "total_cached_rows": 62,
+      "rows": 60,
+      "cached_rows": 61,
+      "total_cached_rows": 60,
       "latest_date": "20261126",
       "source_details": {
         "margin_balance": {
@@ -396,8 +396,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-28T02:29:03+08:00",
-      "finished_at": "2026-11-28T02:29:03+08:00",
+      "started_at": "2026-11-28T01:31:31+08:00",
+      "finished_at": "2026-11-28T01:31:31+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -448,30 +448,25 @@
     "sentiment": {
       "status": "partial",
       "rows": 0,
-      "started_at": "2026-11-28T02:29:03+08:00",
-      "finished_at": "2026-11-28T02:29:03+08:00",
+      "started_at": "2026-11-28T01:31:31+08:00",
+      "finished_at": "2026-11-28T01:31:31+08:00",
       "latest_date": "20261127",
       "total_cached_rows": 62,
       "skipped": true,
-      "note": "非A股交易时段，继续展示上一次成功快照。",
-      "crowding_cached_rows": 63,
-      "breadth_cached_rows": 63,
-      "breadth_latest_date": "20261127",
-      "leverage_cached_rows": 62,
-      "leverage_latest_date": "20261126"
+      "note": "非A股交易时段，继续展示上一次成功快照。"
     },
     "a_share_universe": {
       "status": "success",
-      "rows": 5564,
-      "cached_rows": 5564,
-      "latest_date": "20261127",
+      "rows": 5563,
+      "cached_rows": 5563,
+      "latest_date": "20261117",
       "source": "东方财富行情中心代码列表"
     },
     "messages": {
       "status": "partial",
       "latest_date": "20261128",
-      "rows": 81148,
-      "cached_rows": 81148,
+      "rows": 81151,
+      "cached_rows": 81151,
       "covered_stocks": 5308,
       "requested_stocks": 5563,
       "failed_stocks": 255,
@@ -499,18 +494,18 @@
         "000569.SZ"
       ],
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600695.SH: KeyError('code')；600687.SH: KeyError('code')；600677.SH: KeyError('code')"
+      "error": "600695.SH: KeyError('code')；600687.SH: KeyError('code')；600680.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
       "latest_date": "20261127",
-      "rows": 63,
-      "cached_rows": 63,
+      "rows": 62,
+      "cached_rows": 62,
       "source": "由宏观、流动性、估值、A股情绪、两融、全球市场公开数据自动评分",
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-28T02:49:06+08:00",
-  "overall_status": "success",
+  "updated_at": "2026-11-28T03:07:23+08:00",
+  "overall_status": "partial",
   "last_update_mode": "close"
 }
