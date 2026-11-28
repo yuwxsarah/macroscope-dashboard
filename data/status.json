@@ -79,9 +79,9 @@
     },
     "market": {
       "status": "partial",
-      "rows": 24216,
-      "started_at": "2026-11-28T03:55:18+08:00",
-      "finished_at": "2026-11-28T03:55:40+08:00",
+      "rows": 24218,
+      "started_at": "2026-11-28T12:01:13+08:00",
+      "finished_at": "2026-11-28T12:01:35+08:00",
       "latest_date": "20261127",
       "total_cached_rows": 34213,
       "symbols": {
@@ -171,12 +171,12 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         }
       },
@@ -185,15 +185,15 @@
     "global_macro": {
       "status": "partial",
       "rows": 400,
-      "started_at": "2026-11-28T03:55:40+08:00",
-      "finished_at": "2026-11-28T03:56:28+08:00",
-      "latest_date": "20261124",
-      "total_cached_rows": 30883,
+      "started_at": "2026-11-28T12:01:35+08:00",
+      "finished_at": "2026-11-28T12:02:24+08:00",
+      "latest_date": "20261125",
+      "total_cached_rows": 30887,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20261124",
+          "latest_date": "20261125",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -202,7 +202,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20261124",
+          "latest_date": "20261125",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)\"))"
@@ -211,13 +211,13 @@
         "USD_LIQUIDITY": {
           "status": "success",
           "rows": 2,
-          "latest_date": "20261118",
+          "latest_date": "20261125",
           "source": "美联储H.4.1 / 纽约联储逆回购API（FRED备用）",
           "formula": "SOMA口径=WSHOSHO-WDTGAL-RRPONTSYD；总资产口径=WALCL-WDTGAL-RRPONTSYD；统一换算为万亿美元",
           "input_latest_dates": {
-            "WSHOSHO": "20261118",
-            "WALCL": "20261118",
-            "WDTGAL": "20261118",
+            "WSHOSHO": "20261125",
+            "WALCL": "20261125",
+            "WDTGAL": "20261125",
             "RRPONTSYD": "20261127"
           },
           "input_sources": {
@@ -269,17 +269,17 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20261124",
-        "DGS10": "20261124",
-        "NET_USD_LIQUIDITY_SOMA": "20261118",
-        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20261118",
+        "DGS2": "20261125",
+        "DGS10": "20261125",
+        "NET_USD_LIQUIDITY_SOMA": "20261125",
+        "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20261125",
         "PCE_YOY": "20260701",
         "FEDFUNDS": "20261001",
         "US_PMI_MANUFACTURING": "20261101",
         "US_PMI_SERVICES": "20261101"
       },
       "note": "DGS2/DGS10独立抓取；美元净流动性支持官方备用源；PCE同比来自BEA NIPA 2.8.4，联邦基金利率来自美联储H.15；美国PMI为S&P Global制造业与服务业公开样本。",
-      "cached_rows": 30883
+      "cached_rows": 30887
     },
     "valuation": {
       "status": "success",
@@ -396,8 +396,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-28T03:57:11+08:00",
-      "finished_at": "2026-11-28T03:57:11+08:00",
+      "started_at": "2026-11-28T12:02:24+08:00",
+      "finished_at": "2026-11-28T12:02:24+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -510,7 +510,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-28T04:17:01+08:00",
-  "overall_status": "success",
-  "last_update_mode": "all"
+  "updated_at": "2026-11-28T12:02:36+08:00",
+  "overall_status": "partial",
+  "last_update_mode": "global"
 }
